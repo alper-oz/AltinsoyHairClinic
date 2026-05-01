@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "altinsoy-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "preview", "-l", "3456", "--no-clipboard"],
+      "port": 3456
+    },
+    {
+      "name": "dashboard-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "dashboard", "run", "dev"],
+      "port": 3000
+    }
+  ]
+}

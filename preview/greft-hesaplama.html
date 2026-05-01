@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Greft Hesaplama Aracı | Saç Ekimi Tahmini — Altınsoy Hair Clinic</title>
+<meta name="description" content="Saç ekiminde kaç greft gerekli? Norwood/Ludwig skalanıza göre tahmini greft sayısı hesaplayın. 60 saniyelik interaktif araç."/>
+<meta name="keywords" content="greft hesaplama, saç ekimi kaç greft, norwood greft sayısı, ludwig greft, saç ekimi tahmini, greft sayısı hesap"/>
+<link rel="canonical" href="https://altinsoy.com/greft-hesaplama/"/>
+
+<!-- OpenGraph -->
+<meta property="og:title" content="Greft Hesaplama Aracı | Altınsoy Hair Clinic"/>
+<meta property="og:description" content="Dökülme seviyenize göre tahmini greft sayısı hesaplayın. 60 saniyede sonuç."/>
+<meta property="og:type" content="website"/>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200;300;400;500;600;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Greft Hesaplama Aracı",
+  "description": "Norwood/Ludwig skalasına göre tahmini greft sayısı hesaplama",
+  "provider": {"@type": "MedicalClinic", "name": "Altınsoy Hair Clinic"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Tahmini greft sayısı nasıl hesaplanır?",
+  "step": [
+    {"@type": "HowToStep", "name": "Alan seçimi", "text": "Saç, sakal veya kaş için hangi bölge için hesaplama yapılacak belirleyin."},
+    {"@type": "HowToStep", "name": "Dökülme seviyesi", "text": "Size en yakın Norwood (erkek) veya Ludwig (kadın) evresini seçin."},
+    {"@type": "HowToStep", "name": "Hedef yoğunluk", "text": "İstediğiniz yoğunluk seviyesini seçin — doğal, orta veya yüksek."},
+    {"@type": "HowToStep", "name": "Sonuç", "text": "Tahmini greft aralığı ve tavsiye edilen paket gösterilir."}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Kaç greft gerekli?", "acceptedAnswer": {"@type": "Answer", "text": "Norwood II: 1500-2500 greft, Norwood III: 2500-3500 greft, Norwood IV: 3500-4500 greft, Norwood V: 4500-5500 greft, Norwood VI: 5500-7000 greft. Kesin sayı uzman değerlendirmesi ile belirlenir."}},
+    {"@type": "Question", "name": "Bir greft kaç saç içerir?", "acceptedAnswer": {"@type": "Answer", "text": "Bir greft (folliküler ünit) ortalama 2-3 saç teli içerir. Yani 3000 greft yaklaşık 6000-9000 saç teli demektir."}},
+    {"@type": "Question", "name": "Maksimum kaç greft ekilebilir?", "acceptedAnswer": {"@type": "Answer", "text": "Tek seansta güvenli üst sınır 4500-5500 grefttir. Ömür boyu donor kapasitesi 8000-10000 greft civarındadır."}}
+  ]
+}
+</script>
+
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "outline-variant": "#4e4639",
+        "surface-container": "#201f1f",
+        "surface-container-low": "#1c1b1b",
+        "surface-container-high": "#2a2a2a",
+        "surface-container-highest": "#353534",
+        "surface-container-lowest": "#0e0e0e",
+        "on-background": "#e5e2e1",
+        "on-primary": "#412d00",
+        "background": "#131313",
+        "primary": "#e9c176",
+        "primary-container": "#c5a059",
+        "surface": "#131313",
+        "on-surface": "#e5e2e1",
+        "on-surface-variant": "#d1c5b4",
+      },
+      fontFamily: { "headline": ["Noto Serif"], "body": ["Manrope"], "label": ["Manrope"] }
+    }
+  }
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+body { font-family: 'Manrope', sans-serif; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+
+.step { display: none; opacity: 0; transform: translateY(12px); }
+.step.active { display: block; animation: fadeUp 0.5s cubic-bezier(0.22,1,0.36,1) forwards; }
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+.opt-card { transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+.opt-card:hover { border-color: rgba(233,193,118,0.4); transform: translateY(-2px); }
+.opt-card.selected { border-color: rgba(233,193,118,0.6); background: rgba(233,193,118,0.05); }
+.opt-card.selected .opt-icon { color: rgba(233,193,118,0.9); }
+.opt-card.selected .opt-check { opacity: 1; }
+
+.norwood-svg { transition: all 0.4s ease; }
+.opt-card:hover .norwood-svg { filter: drop-shadow(0 0 8px rgba(233,193,118,0.2)); }
+.opt-card.selected .norwood-svg { filter: drop-shadow(0 0 12px rgba(233,193,118,0.4)); }
+
+.btn-primary { background: linear-gradient(135deg,#e9c176,#c5a059); transition: all 0.3s; }
+.btn-primary:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(233,193,118,0.35); }
+.btn-primary:disabled { opacity: 0.35; cursor: not-allowed; background: rgba(233,193,118,0.2); }
+
+.counter-num { font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; }
+
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height .4s ease, padding .4s ease; }
+.faq-item.open .faq-answer { max-height: 300px; padding-top: 16px; }
+.faq-item.open .faq-icon { transform: rotate(45deg); }
+</style>
+</head>
+
+<body class="bg-background text-on-surface font-body">
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-outline-variant/10 relative">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 py-5">
+  <a href="index.html" class="text-xl font-headline tracking-tighter text-primary">ALTINSOY</a>
+  <div class="hidden md:flex items-center gap-8 text-sm">
+    <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary transition-colors">Teknikler</a>
+    <a href="oncesi-sonrasi.html" class="text-on-surface-variant hover:text-primary transition-colors">Sonuçlar</a>
+    <a href="fiyat.html" class="text-on-surface-variant hover:text-primary transition-colors">Fiyat</a>
+    <a href="iletisim.html" class="text-on-surface-variant hover:text-primary transition-colors">İletişim</a>
+  </div>
+  <button onclick="const m=document.getElementById('mobile-menu');m.classList.toggle('hidden');m.classList.toggle('flex');" class="md:hidden text-primary p-2 flex items-center justify-center" aria-label="Menü" style="font-family:'Material Symbols Outlined'"><span class="material-symbols-outlined">menu</span></button>
+  <a href="sac-analizi.html" class="bg-primary text-on-primary px-6 py-2.5 text-xs font-label uppercase tracking-widest rounded-sm hover:bg-primary-container transition-all">Ücretsiz Analiz</a>
+</div>
+
+<!-- Mobile Menu Panel -->
+<div id="mobile-menu" class="md:hidden hidden flex-col bg-background/95 backdrop-blur-xl border-t border-outline-variant/10 absolute top-full left-0 right-0 p-6 gap-4 text-sm">
+  <a href="index.html" class="text-on-surface-variant hover:text-primary py-2">Ana Sayfa</a>
+  <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary py-2">Teknikler</a>
+  <a href="oncesi-sonrasi.html" class="text-on-surface-variant hover:text-primary py-2">Sonuçlar</a>
+  <a href="fiyat.html" class="text-on-surface-variant hover:text-primary py-2">Fiyat</a>
+  <a href="iletisim.html" class="text-on-surface-variant hover:text-primary py-2">İletişim</a>
+  <a href="sac-analizi.html" class="bg-primary text-on-primary px-6 py-3 text-xs font-label uppercase tracking-widest rounded-sm text-center mt-2">Ücretsiz Analiz</a>
+</div>
+
+</nav>
+
+<main class="pt-28 pb-24 px-6">
+<div class="max-w-4xl mx-auto">
+
+<!-- HERO -->
+<section class="mb-12">
+  <nav class="text-xs text-on-surface-variant mb-6 tracking-wider">
+    <a href="index.html" class="hover:text-primary transition-colors">Ana Sayfa</a>
+    <span class="mx-2">›</span>
+    <a href="sac-ekimi.html" class="hover:text-primary transition-colors">Saç Ekimi</a>
+    <span class="mx-2">›</span>
+    <span class="text-on-surface">Greft Hesaplama</span>
+  </nav>
+  <span class="text-primary font-label text-[11px] tracking-[0.3em] uppercase block mb-4">İNTERAKTİF ARAÇ</span>
+  <h1 class="font-headline text-4xl md:text-6xl leading-tight mb-6">Kaç greft gerekli? <span class="italic text-primary/80">Tahmini öğrenin.</span></h1>
+  <p class="text-on-surface/70 text-lg leading-relaxed max-w-2xl">Dökülme seviyenize göre tahmini greft aralığını 4 adımda hesaplayın. Bu araç kaba bir tahmin sunar; kesin sayı yalnızca uzman hekim değerlendirmesi ile belirlenir.</p>
+</section>
+
+<!-- PROGRESS -->
+<div class="flex items-center gap-3 mb-10">
+  <div class="flex-1 h-1 rounded-full bg-surface-container-high overflow-hidden">
+    <div id="progress-fill" class="h-full bg-primary rounded-full transition-all duration-500" style="width: 25%"></div>
+  </div>
+  <span id="step-label" class="text-[10px] uppercase tracking-widest text-on-surface/60 w-24 text-right">Adım 1/4</span>
+</div>
+
+<!-- CALCULATOR -->
+<div class="bg-surface-container-low rounded-sm p-8 md:p-12 relative overflow-hidden mb-12">
+  <div class="absolute top-0 right-0 w-80 h-80 bg-primary/5 rounded-full blur-[100px] -mr-40 -mt-40"></div>
+  <div class="relative z-10">
+
+    <!-- STEP 1: ALAN -->
+    <div id="step1" class="step active">
+      <h2 class="font-headline text-2xl md:text-3xl mb-3">Hangi alan için hesaplama yapalım?</h2>
+      <p class="text-on-surface-variant text-sm mb-10 opacity-70">Hesap yapılacak bölgeyi seçin.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-7 rounded-sm flex flex-col items-center text-center" onclick="selectArea(this, 'sac')">
+          <span class="opt-icon material-symbols-outlined text-4xl text-primary/40 mb-4">face</span>
+          <h3 class="font-headline text-lg mb-2">Saç</h3>
+          <p class="text-xs text-on-surface/60">Saç çizgisi, tepe bölgesi, genel seyrelme</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-7 rounded-sm flex flex-col items-center text-center" onclick="selectArea(this, 'sakal')">
+          <span class="opt-icon material-symbols-outlined text-4xl text-primary/40 mb-4">face_6</span>
+          <h3 class="font-headline text-lg mb-2">Sakal</h3>
+          <p class="text-xs text-on-surface/60">Çene, yanak, bıyık yoğunlaştırma</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-7 rounded-sm flex flex-col items-center text-center" onclick="selectArea(this, 'kas')">
+          <span class="opt-icon material-symbols-outlined text-4xl text-primary/40 mb-4">visibility</span>
+          <h3 class="font-headline text-lg mb-2">Kaş</h3>
+          <p class="text-xs text-on-surface/60">Kavis, simetri, yoğunluk artırma</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>
+      </div>
+
+      <div class="flex justify-end mt-10 pt-6 border-t border-outline-variant/10">
+        <button id="btn-step1" class="btn-primary text-on-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase rounded-sm" disabled onclick="goStep(2)">Devam Et →</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: SEVİYE (Saç için Norwood/Ludwig, Sakal/Kaş için farklı) -->
+    <div id="step2" class="step">
+      <div id="step2-saç">
+        <h2 class="font-headline text-2xl md:text-3xl mb-3">Dökülme seviyenizi seçin</h2>
+        <p class="text-on-surface-variant text-sm mb-3 opacity-70">Size en yakın görseli seçin. <span id="scale-label">Norwood (Erkek)</span> skalası kullanılıyor.</p>
+
+        <!-- Cinsiyet seçimi -->
+        <div class="flex gap-2 mb-8">
+          <button id="gender-male" class="opt-card bg-primary/5 border border-primary/40 px-5 py-2 rounded-sm text-xs uppercase tracking-widest text-primary" onclick="setGender('male')">
+            <span class="material-symbols-outlined text-[14px] align-middle mr-1">male</span>Erkek (Norwood)
+          </button>
+          <button id="gender-female" class="opt-card border border-outline-variant/20 px-5 py-2 rounded-sm text-xs uppercase tracking-widest text-on-surface/60 hover:border-primary/40" onclick="setGender('female')">
+            <span class="material-symbols-outlined text-[14px] align-middle mr-1">female</span>Kadın (Ludwig)
+          </button>
+        </div>
+
+        <!-- Norwood Grid (Erkek) -->
+        <div id="norwood-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'n2')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M22 45 Q50 32 78 45" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/><path d="M28 42 L32 38 M68 42 L72 38" stroke="currentColor" stroke-width="1" class="text-primary/40"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Norwood II</p>
+            <p class="font-headline text-sm">Erken Geri Çekilme</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Saç çizgisi hafif geri çekilmiş</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'n3')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M22 48 Q30 42 40 44 L40 36 Q50 32 60 36 L60 44 Q70 42 78 48" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Norwood III</p>
+            <p class="font-headline text-sm">Belirgin Körfez</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">İki yandan M şeklinde çekilme</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'n4')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M22 48 L40 46 L40 34 Q50 30 60 34 L60 46 L78 48" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/><ellipse cx="50" cy="50" rx="10" ry="5" fill="currentColor" class="text-on-surface/20"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Norwood IV</p>
+            <p class="font-headline text-sm">Tepe Kaybı Başlangıç</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Ön + tepe birleşmeye yakın</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'n5')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M22 50 L40 48 L42 40 Q50 38 58 40 L60 48 L78 50" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/><ellipse cx="50" cy="48" rx="16" ry="7" fill="currentColor" class="text-on-surface/25"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Norwood V</p>
+            <p class="font-headline text-sm">Geniş Alan Kaybı</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Ön ve tepe arası ince şerit</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'n6')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M22 52 Q28 50 32 50 M68 50 Q72 50 78 52" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/><ellipse cx="50" cy="46" rx="22" ry="10" fill="currentColor" class="text-on-surface/30"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Norwood VI</p>
+            <p class="font-headline text-sm">İleri Dökülme</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Sadece yan bantlar kaldı</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'n7')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M25 58 Q28 56 30 56 M70 56 Q72 56 75 58" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/><ellipse cx="50" cy="48" rx="25" ry="12" fill="currentColor" class="text-on-surface/35"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Norwood VII</p>
+            <p class="font-headline text-sm">Maksimum Dökülme</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Donor alanı değerlendirilmeli</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+        </div>
+
+        <!-- Ludwig Grid (Kadın) - hidden by default -->
+        <div id="ludwig-grid" class="hidden grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'l1')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M32 40 Q50 35 68 40" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/><line x1="50" y1="36" x2="50" y2="48" stroke="currentColor" stroke-width="0.8" class="text-on-surface/30"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Ludwig I</p>
+            <p class="font-headline text-sm">Hafif Seyrelme</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Saç ayrımı genişlemiş</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'l2')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M30 40 Q50 36 70 40" stroke="currentColor" stroke-width="1.5" class="text-primary/70" fill="none"/><ellipse cx="50" cy="44" rx="8" ry="5" fill="currentColor" class="text-on-surface/25"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Ludwig II</p>
+            <p class="font-headline text-sm">Belirgin Seyrelme</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Tepe alanı görünür</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+          <div class="opt-card cursor-pointer border border-outline-variant/20 p-5 rounded-sm text-center" onclick="selectLevel(this, 'l3')">
+            <svg class="norwood-svg w-full h-24 mb-3" viewBox="0 0 100 80" fill="none"><ellipse cx="50" cy="55" rx="28" ry="22" stroke="currentColor" stroke-width="1" class="text-on-surface/30"/><path d="M28 42 Q50 38 72 42" stroke="currentColor" stroke-width="1" class="text-primary/40" fill="none" stroke-dasharray="2 2"/><ellipse cx="50" cy="44" rx="14" ry="7" fill="currentColor" class="text-on-surface/30"/></svg>
+            <p class="text-[10px] uppercase tracking-widest text-primary/70 mb-1">Ludwig III</p>
+            <p class="font-headline text-sm">İleri Seyrelme</p>
+            <p class="text-[10px] text-on-surface/50 mt-1">Görünür geniş seyrek alan</p>
+            <span class="opt-check material-symbols-outlined text-primary text-[14px] mt-2 opacity-0">check_circle</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sakal/Kaş için farklı soru -->
+      <div id="step2-beard-brow" class="hidden">
+        <h2 class="font-headline text-2xl md:text-3xl mb-3" id="bb-title">Hangi alan?</h2>
+        <p class="text-on-surface-variant text-sm mb-10 opacity-70">Hedef bölgeyi seçin.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5" id="bb-options">
+          <!-- JS ile doldurulur -->
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center mt-10 pt-6 border-t border-outline-variant/10">
+        <button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="goStep(1)">
+          <span class="material-symbols-outlined text-xs">arrow_back</span> Önceki
+        </button>
+        <button id="btn-step2" class="btn-primary text-on-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase rounded-sm" disabled onclick="goStep(3)">Devam Et →</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: YOĞUNLUK -->
+    <div id="step3" class="step">
+      <h2 class="font-headline text-2xl md:text-3xl mb-3">Hedef yoğunluk nedir?</h2>
+      <p class="text-on-surface-variant text-sm mb-10 opacity-70">İstediğiniz yoğunluk seviyesi. Yüksek yoğunluk daha fazla greft ve donor kapasitesi gerektirir.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectDensity(this, 'natural')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">grain</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-2">Doğal</h3>
+          <p class="text-xs text-on-surface/60 mb-3">~40 folikül/cm²</p>
+          <p class="text-[11px] text-on-surface/70 leading-relaxed">Doğal görünüm, dökülmeyi kapatır. Donor alanı koruyucu.</p>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectDensity(this, 'medium')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">density_medium</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-2">Orta Yoğunluk</h3>
+          <p class="text-xs text-on-surface/60 mb-3">~50 folikül/cm²</p>
+          <p class="text-[11px] text-on-surface/70 leading-relaxed">Dolgun görünüm. En çok tercih edilen seviye.</p>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectDensity(this, 'high')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">density_small</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-2">Yüksek</h3>
+          <p class="text-xs text-on-surface/60 mb-3">~60+ folikül/cm²</p>
+          <p class="text-[11px] text-on-surface/70 leading-relaxed">Maksimum yoğunluk. Geniş donor alanı gerekir.</p>
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center mt-10 pt-6 border-t border-outline-variant/10">
+        <button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="goStep(2)">
+          <span class="material-symbols-outlined text-xs">arrow_back</span> Önceki
+        </button>
+        <button id="btn-step3" class="btn-primary text-on-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase rounded-sm" disabled onclick="calculate()">Hesapla →</button>
+      </div>
+    </div>
+
+    <!-- STEP 4: SONUÇ -->
+    <div id="step4" class="step">
+      <div class="text-center mb-10">
+        <span class="material-symbols-outlined text-primary text-3xl mb-3">calculate</span>
+        <h2 class="font-headline text-2xl md:text-3xl mb-3">Tahmini greft aralığınız</h2>
+        <p class="text-on-surface-variant text-sm opacity-70 max-w-md mx-auto">Aşağıda seçimlerinize göre yaklaşık hesap. Kesin sayı konsültasyonda belirlenir.</p>
+      </div>
+
+      <!-- Sonuç kartı -->
+      <div class="bg-surface-container-high border border-primary/20 rounded-sm p-8 md:p-10 mb-6 text-center">
+        <p class="text-[11px] uppercase tracking-[0.3em] text-primary/70 mb-4">Tahmini Greft Sayısı</p>
+        <div class="counter-num font-headline text-5xl md:text-7xl text-primary mb-4">
+          <span id="result-min">-</span> <span class="text-primary/50">–</span> <span id="result-max">-</span>
+        </div>
+        <p class="text-sm text-on-surface/60 mb-6">follikül ünitesi</p>
+        <div class="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest text-on-surface/50">
+          <span class="material-symbols-outlined text-[14px]">info</span>
+          <span id="result-scale">—</span>
+        </div>
+      </div>
+
+      <!-- Seçim özeti -->
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-6">
+        <div class="bg-surface-container-low p-4 rounded-sm">
+          <p class="text-[10px] uppercase tracking-widest text-on-surface/50 mb-1">Alan</p>
+          <p id="summary-area" class="text-sm font-medium">-</p>
+        </div>
+        <div class="bg-surface-container-low p-4 rounded-sm">
+          <p class="text-[10px] uppercase tracking-widest text-on-surface/50 mb-1">Seviye</p>
+          <p id="summary-level" class="text-sm font-medium">-</p>
+        </div>
+        <div class="bg-surface-container-low p-4 rounded-sm">
+          <p class="text-[10px] uppercase tracking-widest text-on-surface/50 mb-1">Yoğunluk</p>
+          <p id="summary-density" class="text-sm font-medium">-</p>
+        </div>
+      </div>
+
+      <!-- Paket önerisi -->
+      <div id="package-suggestion" class="bg-primary/5 border-l-2 border-primary rounded-sm p-6 mb-8">
+        <p class="text-[11px] uppercase tracking-widest text-primary mb-2">Önerilen Paket</p>
+        <p id="package-name" class="font-headline text-xl mb-2">—</p>
+        <p id="package-desc" class="text-sm text-on-surface/70 leading-relaxed">—</p>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="bg-surface-container-low border border-outline-variant/10 rounded-sm p-5 mb-8">
+        <div class="flex items-start gap-3">
+          <span class="material-symbols-outlined text-on-surface/50 text-[18px] mt-0.5 flex-shrink-0">info</span>
+          <div>
+            <p class="text-[11px] uppercase tracking-widest text-on-surface/60 mb-2">Önemli</p>
+            <p class="text-[12px] text-on-surface/60 leading-relaxed">Bu hesap; dökülme seviyenizi, alan büyüklüğünü ve hedef yoğunluğu referans alan kaba bir tahmindir. Kesin greft ihtiyacınız; donor alan kapasitesi, saç kalınlığı, cilt yapısı ve kişisel değerlendirme sonrası uzman hekim tarafından belirlenir. <strong>Bu bir tıbbi teşhis değildir.</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mb-6">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="sac-analizi.html" class="btn-primary text-on-primary px-10 py-4 text-xs font-bold tracking-widest uppercase rounded-sm inline-block">Ücretsiz Uzman Değerlendirmesi</a>
+          <a href="fiyat-hesaplama.html" class="border border-primary/40 text-primary px-10 py-4 text-xs font-bold tracking-widest uppercase rounded-sm hover:bg-primary/10 transition-all">Fiyat Hesapla</a>
+          <a href="https://wa.me/905539784242?text=Merhaba%2C%20greft%20hesaplamas%C4%B1%20yapt%C4%B1m%20konsultasyon%20istiyorum." class="border border-outline-variant/30 text-on-surface/80 px-10 py-4 text-xs font-bold tracking-widest uppercase rounded-sm hover:border-primary/40 hover:text-primary transition-all">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="resetCalc()">
+          <span class="material-symbols-outlined text-xs">refresh</span> Yeniden Hesapla
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BİLGİ BÖLÜMÜ (AEO) -->
+<section class="mt-16 max-w-4xl mx-auto">
+  <h2 class="font-headline text-3xl mb-10">Greft sayısı nasıl hesaplanır?</h2>
+
+  <div class="space-y-8 text-on-surface/80 leading-relaxed">
+    <div>
+      <h3 class="font-headline text-xl mb-3 text-primary/90">Kaç greft gerekli?</h3>
+      <p class="text-sm mb-4">Greft ihtiyacı üç ana faktöre bağlıdır: <strong>kayıp alanın büyüklüğü</strong>, <strong>hedef yoğunluk</strong> ve <strong>donor alan kapasitesi</strong>. Genel olarak bir cm² alan için 40-60 folikül ünit (greft) kullanılır.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm min-w-[500px]">
+          <thead>
+            <tr class="border-b border-outline-variant/20 text-left">
+              <th class="py-3 pr-4 text-primary font-label uppercase tracking-wider text-xs">Norwood Seviyesi</th>
+              <th class="py-3 pr-4 text-primary font-label uppercase tracking-wider text-xs">Alan (~cm²)</th>
+              <th class="py-3 text-primary font-label uppercase tracking-wider text-xs">Tahmini Greft</th>
+            </tr>
+          </thead>
+          <tbody class="text-on-surface/75">
+            <tr class="border-b border-outline-variant/10"><td class="py-3 pr-4">Norwood II</td><td class="py-3 pr-4">20-30 cm²</td><td class="py-3">1.500 – 2.500</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="py-3 pr-4">Norwood III</td><td class="py-3 pr-4">40-60 cm²</td><td class="py-3">2.500 – 3.500</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="py-3 pr-4">Norwood IV</td><td class="py-3 pr-4">60-85 cm²</td><td class="py-3">3.500 – 4.500</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="py-3 pr-4">Norwood V</td><td class="py-3 pr-4">85-110 cm²</td><td class="py-3">4.500 – 5.500</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="py-3 pr-4">Norwood VI</td><td class="py-3 pr-4">110-140 cm²</td><td class="py-3">5.500 – 7.000</td></tr>
+            <tr><td class="py-3 pr-4">Norwood VII</td><td class="py-3 pr-4">150+ cm²</td><td class="py-3">7.000+ *</td></tr>
+          </tbody>
+        </table>
+        <p class="text-[10px] text-on-surface/40 mt-2">* Norwood VII seviyesinde donor kapasitesi sınırlayıcı olabilir.</p>
+      </div>
+    </div>
+
+    <div class="faq-item open cursor-pointer border-b border-outline-variant/10 pb-6" onclick="this.classList.toggle('open')">
+      <div class="flex justify-between items-center gap-4">
+        <h3 class="text-sm font-medium">Bir greft kaç saç içerir?</h3>
+        <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+      </div>
+      <div class="faq-answer text-sm text-on-surface/75 leading-relaxed">Bir greft (folliküler ünit) ortalama 2-3 saç teli içerir. Yani 3.000 greft yaklaşık 6.000-9.000 saç teli anlamına gelir. Bu oran kişisel folikül yapısına göre değişebilir.</div>
+    </div>
+
+    <div class="faq-item cursor-pointer border-b border-outline-variant/10 pb-6" onclick="this.classList.toggle('open')">
+      <div class="flex justify-between items-center gap-4">
+        <h3 class="text-sm font-medium">Tek seansta maksimum kaç greft ekilebilir?</h3>
+        <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+      </div>
+      <div class="faq-answer text-sm text-on-surface/75 leading-relaxed">Güvenli üst sınır 4.500-5.500 grefttir. Daha fazlası greft yaşam oranını düşürebilir. Büyük ihtiyaçlarda iki ayrı seans önerilir (6-12 ay ara ile).</div>
+    </div>
+
+    <div class="faq-item cursor-pointer pb-6" onclick="this.classList.toggle('open')">
+      <div class="flex justify-between items-center gap-4">
+        <h3 class="text-sm font-medium">Donor alanı neden sınırlıdır?</h3>
+        <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+      </div>
+      <div class="faq-answer text-sm text-on-surface/75 leading-relaxed">Saç ekimi, genetik olarak dökülmeye dirençli ense bölgesindeki mevcut folikülleri kayıp alanlara taşıma prensibine dayanır. Yeni saç üretilmez, sadece yeniden dağıtılır. Ömür boyu alınabilecek greft 8.000-10.000 civarındadır.</div>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM DISCLAIMER -->
+<div class="max-w-2xl mx-auto mt-16 text-center">
+  <p class="text-[11px] text-on-surface/50 leading-relaxed">Bu araç bilgilendirme amaçlıdır ve tıbbi teşhis yerine geçmez. Sağlıklı ve kesin bir değerlendirme için uzman hekim konsültasyonu gereklidir. Bireysel sonuçlar değişkenlik gösterebilir.</p>
+</div>
+
+</div>
+</main>
+
+<!-- FOOTER -->
+
+<!-- Medical Disclaimer -->
+<div class="px-6 py-8 text-center border-t border-outline-variant/10">
+  <p class="text-[10px] text-on-surface/50 leading-relaxed max-w-3xl mx-auto">
+    Bu web sitesindeki içerik genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Kişisel durumunuza uygun değerlendirme ancak uzman hekim konsültasyonu ile yapılabilir. Bireysel sonuçlar değişkenlik gösterebilir.
+  </p>
+</div>
+
+<footer class="bg-[#0e0e0e] border-t border-outline-variant/10 py-12 px-6">
+<div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+  <a href="index.html" class="text-primary font-headline text-lg">ALTINSOY HAIR CLINIC</a>
+  <div class="flex gap-6 text-xs text-on-surface-variant flex-wrap justify-center">
+    <a href="sac-ekimi.html" class="hover:text-primary transition-colors">Teknikler</a>
+    <a href="oncesi-sonrasi.html" class="hover:text-primary transition-colors">Sonuçlar</a>
+    <a href="fiyat.html" class="hover:text-primary transition-colors">Fiyat</a>
+    <a href="uygun-degil.html" class="hover:text-primary transition-colors">Uygunluk</a>
+    <a href="iletisim.html" class="hover:text-primary transition-colors">İletişim</a>
+  </div>
+  <span class="text-on-surface-variant/60 text-[10px] tracking-widest uppercase">© 2026 Altınsoy Hair Clinic</span>
+</div>
+</footer>
+
+<!-- CALC LOGIC -->
+<script>
+const state = { area: null, gender: 'male', level: null, density: null };
+
+// Greft tahmin tablosu (min-max) — trichologist verisiyle
+const graftEstimates = {
+  // Norwood
+  n2: { min: 1500, max: 2500, label: 'Norwood II — Erken Geri Çekilme' },
+  n3: { min: 2500, max: 3500, label: 'Norwood III — Belirgin Körfez' },
+  n4: { min: 3500, max: 4500, label: 'Norwood IV — Tepe Kaybı Başlangıç' },
+  n5: { min: 4500, max: 5500, label: 'Norwood V — Geniş Alan Kaybı' },
+  n6: { min: 5500, max: 7000, label: 'Norwood VI — İleri Dökülme' },
+  n7: { min: 7000, max: 8000, label: 'Norwood VII — Maksimum' },
+  // Ludwig (kadın)
+  l1: { min: 1500, max: 2500, label: 'Ludwig I — Hafif Seyrelme' },
+  l2: { min: 2500, max: 3500, label: 'Ludwig II — Belirgin Seyrelme' },
+  l3: { min: 3500, max: 4500, label: 'Ludwig III — İleri Seyrelme' },
+  // Sakal
+  sakal_cene: { min: 800, max: 1500, label: 'Sakal — Çene Bölgesi' },
+  sakal_yanak: { min: 400, max: 800, label: 'Sakal — Yanak' },
+  sakal_full: { min: 1500, max: 2500, label: 'Sakal — Tam Sakal' },
+  sakal_biyik: { min: 300, max: 600, label: 'Sakal — Bıyık' },
+  // Kaş
+  kas_tam: { min: 300, max: 500, label: 'Kaş — Tam Restorasyon (Çift)' },
+  kas_simetri: { min: 150, max: 300, label: 'Kaş — Simetri Düzeltme' },
+};
+
+// Yoğunluk çarpanı (sadece saç için ana etki; sakal/kaş zaten hedef yoğun)
+const densityMultiplier = {
+  natural: 0.85,
+  medium: 1.0,
+  high: 1.20,
+};
+
+// Alan adları
+const areaNames = { sac: 'Saç', sakal: 'Sakal', kas: 'Kaş' };
+
+function enableBtn(id) {
+  const btn = document.getElementById(id);
+  btn.disabled = false;
+}
+function disableBtn(id) {
+  const btn = document.getElementById(id);
+  btn.disabled = true;
+}
+
+function selectArea(el, area) {
+  document.querySelectorAll('#step1 .opt-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  state.area = area;
+  enableBtn('btn-step1');
+
+  // Step 2 hazırla
+  if (area === 'sac') {
+    document.getElementById('step2-saç').classList.remove('hidden');
+    document.getElementById('step2-beard-brow').classList.add('hidden');
+  } else {
+    document.getElementById('step2-saç').classList.add('hidden');
+    document.getElementById('step2-beard-brow').classList.remove('hidden');
+
+    const title = document.getElementById('bb-title');
+    const options = document.getElementById('bb-options');
+    if (area === 'sakal') {
+      title.textContent = 'Sakal için hangi alan?';
+      options.innerHTML = `
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectLevel(this, 'sakal_cene')">
+          <span class="opt-icon material-symbols-outlined text-2xl text-primary/40 mb-3 block">face_6</span>
+          <h3 class="font-headline text-lg mb-1">Çene Bölgesi</h3>
+          <p class="text-xs text-on-surface/60">Çene hattı yoğunlaştırma</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectLevel(this, 'sakal_yanak')">
+          <span class="opt-icon material-symbols-outlined text-2xl text-primary/40 mb-3 block">face_3</span>
+          <h3 class="font-headline text-lg mb-1">Yanak</h3>
+          <p class="text-xs text-on-surface/60">Yanak dolgunlaştırma</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectLevel(this, 'sakal_biyik')">
+          <span class="opt-icon material-symbols-outlined text-2xl text-primary/40 mb-3 block">face_retouching_natural</span>
+          <h3 class="font-headline text-lg mb-1">Bıyık</h3>
+          <p class="text-xs text-on-surface/60">Bıyık bölgesi</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectLevel(this, 'sakal_full')">
+          <span class="opt-icon material-symbols-outlined text-2xl text-primary/40 mb-3 block">face</span>
+          <h3 class="font-headline text-lg mb-1">Tam Sakal</h3>
+          <p class="text-xs text-on-surface/60">Çene + yanak + bıyık</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>`;
+    } else {
+      title.textContent = 'Kaş için hangi seviye?';
+      options.innerHTML = `
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectLevel(this, 'kas_tam')">
+          <span class="opt-icon material-symbols-outlined text-2xl text-primary/40 mb-3 block">visibility</span>
+          <h3 class="font-headline text-lg mb-1">Tam Restorasyon (Çift)</h3>
+          <p class="text-xs text-on-surface/60">Her iki kaşta belirgin eksiklik</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectLevel(this, 'kas_simetri')">
+          <span class="opt-icon material-symbols-outlined text-2xl text-primary/40 mb-3 block">architecture</span>
+          <h3 class="font-headline text-lg mb-1">Simetri / Şekil Düzeltme</h3>
+          <p class="text-xs text-on-surface/60">Boşluk doldurma, hat düzeltme</p>
+          <span class="opt-check material-symbols-outlined text-primary text-sm mt-3 opacity-0">check_circle</span>
+        </div>`;
+    }
+  }
+}
+
+function setGender(g) {
+  state.gender = g;
+  document.getElementById('gender-male').classList.toggle('bg-primary/5', g === 'male');
+  document.getElementById('gender-male').classList.toggle('border-primary/40', g === 'male');
+  document.getElementById('gender-male').classList.toggle('text-primary', g === 'male');
+  document.getElementById('gender-male').classList.toggle('border-outline-variant/20', g !== 'male');
+  document.getElementById('gender-male').classList.toggle('text-on-surface/60', g !== 'male');
+
+  document.getElementById('gender-female').classList.toggle('bg-primary/5', g === 'female');
+  document.getElementById('gender-female').classList.toggle('border-primary/40', g === 'female');
+  document.getElementById('gender-female').classList.toggle('text-primary', g === 'female');
+  document.getElementById('gender-female').classList.toggle('border-outline-variant/20', g !== 'female');
+  document.getElementById('gender-female').classList.toggle('text-on-surface/60', g !== 'female');
+
+  // Grid değiştir
+  document.getElementById('norwood-grid').classList.toggle('hidden', g !== 'male');
+  document.getElementById('norwood-grid').classList.toggle('grid', g === 'male');
+  document.getElementById('ludwig-grid').classList.toggle('hidden', g !== 'female');
+  document.getElementById('ludwig-grid').classList.toggle('grid', g === 'female');
+
+  document.getElementById('scale-label').textContent = g === 'male' ? 'Norwood (Erkek)' : 'Ludwig (Kadın)';
+
+  // Reset level
+  state.level = null;
+  document.querySelectorAll('#step2 .opt-card').forEach(c => c.classList.remove('selected'));
+  disableBtn('btn-step2');
+}
+
+function selectLevel(el, level) {
+  const container = el.closest('#step2-saç') || el.closest('#step2-beard-brow');
+  container.querySelectorAll('.opt-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  state.level = level;
+  enableBtn('btn-step2');
+}
+
+function selectDensity(el, density) {
+  document.querySelectorAll('#step3 .opt-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  state.density = density;
+  enableBtn('btn-step3');
+}
+
+function goStep(n) {
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  document.getElementById('step' + n).classList.add('active');
+  document.getElementById('progress-fill').style.width = (n * 25) + '%';
+  document.getElementById('step-label').textContent = 'Adım ' + n + '/4';
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function calculate() {
+  const base = graftEstimates[state.level];
+  if (!base) return;
+
+  // Yoğunluk çarpanı sadece saç için anlamlı etki
+  const mult = state.area === 'sac' ? densityMultiplier[state.density] : 1;
+
+  const min = Math.round(base.min * mult / 100) * 100;
+  const max = Math.round(base.max * mult / 100) * 100;
+
+  // Sonuç göster
+  document.getElementById('result-min').textContent = min.toLocaleString('tr-TR');
+  document.getElementById('result-max').textContent = max.toLocaleString('tr-TR');
+  document.getElementById('result-scale').textContent = base.label;
+
+  // Özet
+  document.getElementById('summary-area').textContent = areaNames[state.area];
+  document.getElementById('summary-level').textContent = base.label.split(' — ')[0];
+  document.getElementById('summary-density').textContent = state.area === 'sac'
+    ? { natural: 'Doğal', medium: 'Orta', high: 'Yüksek' }[state.density]
+    : 'Bölgeye özel';
+
+  // Paket önerisi
+  let pkg, desc;
+  if (max <= 3500) {
+    pkg = 'Standart Paket';
+    desc = 'Tahmini greft ihtiyacınız standart paket kapsamında yer alır. Operasyon, anestezi, ilk yıkama, bakım seti ve kontrol randevusu dahildir.';
+  } else if (max <= 5000) {
+    pkg = 'Premium Paket';
+    desc = 'Tahmini greft ihtiyacınız premium paket ile uyumludur. Operasyona ek olarak konaklama, transfer ve PRP takviyesi dahildir.';
+  } else {
+    pkg = 'Uluslararası Paket veya Çoklu Seans';
+    desc = 'Yüksek greft ihtiyacı; tek seansla ya da 6-12 ay ara ile iki seansla planlanabilir. Uluslararası paket tam kapsam sunar. Kesin plan konsültasyonda belirlenir.';
+  }
+  document.getElementById('package-name').textContent = pkg;
+  document.getElementById('package-desc').textContent = desc;
+
+  goStep(4);
+}
+
+function resetCalc() {
+  state.area = null;
+  state.level = null;
+  state.density = null;
+  document.querySelectorAll('.opt-card').forEach(c => c.classList.remove('selected'));
+  disableBtn('btn-step1');
+  disableBtn('btn-step2');
+  disableBtn('btn-step3');
+  goStep(1);
+}
+
+// Init
+document.addEventListener('DOMContentLoaded', () => {
+  disableBtn('btn-step1');
+  disableBtn('btn-step2');
+  disableBtn('btn-step3');
+});
+</script>
+
+
+<!-- WhatsApp Float Button -->
+<style>.wa-float{position:fixed;bottom:28px;right:28px;z-index:999;width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#e9c176,#c5a059);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 24px rgba(233,193,118,.35);transition:all .3s;border:1px solid rgba(233,193,118,.2)}.wa-float:hover{transform:scale(1.08);box-shadow:0 6px 32px rgba(233,193,118,.5)}.wa-float svg{width:26px;height:26px;fill:#fff}</style>
+<a href="https://wa.me/905539784242?text=Merhaba%2C%20sa%C3%A7%20ekimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="wa-float" title="WhatsApp ile yazın" aria-label="WhatsApp ile iletişime geçin"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg></a>
+
+</body></html>

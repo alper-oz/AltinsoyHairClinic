@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "outline": "#9a8f80",
+            "surface-container-high": "#2a2a2a",
+            "on-primary-container": "#4e3700",
+            "on-tertiary-container": "#3c3b3b",
+            "primary": "#e9c176",
+            "primary-fixed-dim": "#e9c176",
+            "tertiary": "#c9c6c5",
+            "surface-container-lowest": "#0e0e0e",
+            "secondary-container": "#484a46",
+            "surface-tint": "#e9c176",
+            "on-background": "#e5e2e1",
+            "surface-dim": "#131313",
+            "on-secondary-fixed-variant": "#454744",
+            "on-tertiary-fixed-variant": "#474646",
+            "on-secondary": "#2f312e",
+            "tertiary-fixed-dim": "#c9c6c5",
+            "surface-container-highest": "#353534",
+            "on-secondary-container": "#b8b9b4",
+            "secondary-fixed-dim": "#c6c7c2",
+            "inverse-primary": "#775a19",
+            "on-error": "#690005",
+            "tertiary-container": "#a7a5a4",
+            "on-primary-fixed": "#261900",
+            "on-secondary-fixed": "#1a1c19",
+            "surface-container-low": "#1c1b1b",
+            "on-tertiary": "#313030",
+            "secondary": "#c6c7c2",
+            "on-surface": "#e5e2e1",
+            "on-tertiary-fixed": "#1c1b1b",
+            "error": "#ffb4ab",
+            "error-container": "#93000a",
+            "surface": "#131313",
+            "surface-bright": "#3a3939",
+            "on-primary": "#412d00",
+            "outline-variant": "#4e4639",
+            "on-primary-fixed-variant": "#5d4201",
+            "surface-variant": "#353534",
+            "primary-container": "#c5a059",
+            "on-error-container": "#ffdad6",
+            "background": "#131313",
+            "on-surface-variant": "#d1c5b4",
+            "primary-fixed": "#ffdea5",
+            "inverse-on-surface": "#313030",
+            "secondary-fixed": "#e3e3de",
+            "inverse-surface": "#e5e2e1",
+            "surface-container": "#201f1f",
+            "tertiary-fixed": "#e5e2e1"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "fontFamily": {
+            "headline": ["Noto Serif"],
+            "body": ["Manrope"],
+            "label": ["Manrope"]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body { font-family: 'Manrope', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+    }
+    .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #131313; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #e9c176; }
+  </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- Shared TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-neutral-900/70 backdrop-blur-xl shadow-[0px_0px_40px_rgba(233,193,118,0.06)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-12 py-6">
+<div class="text-2xl font-serif tracking-widest text-[#E9C176] uppercase">ALTINSOY</div>
+<div class="hidden md:flex gap-10">
+<a class="text-neutral-400 hover:text-neutral-200 transition-colors font-serif tracking-tight text-lg" href="#">Analysis</a>
+<a class="text-neutral-400 hover:text-neutral-200 transition-colors font-serif tracking-tight text-lg" href="#">Results</a>
+<a class="text-neutral-400 hover:text-neutral-200 transition-colors font-serif tracking-tight text-lg" href="#">Philosophy</a>
+<a class="text-[#E9C176] border-b-2 border-[#E9C176] pb-1 font-serif tracking-tight text-lg" href="#">Recovery</a>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-2 text-xs font-bold tracking-widest uppercase rounded-lg hover:scale-95 duration-200 ease-in-out">
+        Book Consultation
+      </button>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<header class="max-w-7xl mx-auto px-12 mb-24 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7">
+<p class="text-primary font-label text-sm tracking-[0.3em] uppercase mb-6">Patient Care &amp; Recovery Hub</p>
+<h1 class="text-6xl md:text-8xl font-headline tracking-tighter leading-none mb-8">
+          The Journey to <br/><span class="italic text-primary">Full Restoration</span>
+</h1>
+<p class="text-on-surface-variant text-lg max-w-xl leading-relaxed font-body">
+          Recovery is an art form. At Altınsoy, we provide a curated aftercare experience designed to nurture your follicles and ensure the most natural, dense results through meticulous clinical guidance.
+        </p>
+</div>
+<div class="md:col-span-5 relative">
+<div class="aspect-[4/5] bg-surface-container-high rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Modern minimalist clinical interior with warm lighting, marble surfaces, and a sense of calm luxury and sterile precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAA8-Ktm9r0bmHZ6-IXwL_bFXDetKVNAyiANdS_aHjUraD49QJAeLzjx7oDQcOHILI64umb0t9uXXEv6nu93VGabWFYS5j3rZh4yz8wnPpqlq0RCiDcP9DAMSrlFNYHTJy0JXvgLIpkj9uN9FdMGbCkOtqU1V8SXou2KTk0XPe280H0EyErVxQMtA_do97MxBvryrbnzsubilkhyoYW3PSmcxXqlVNNS6Hp0e34gD2AsF0581eART5UB4E7EZc09qBoGyroDNrFmeQ"/>
+</div>
+<div class="absolute -bottom-8 -left-8 bg-surface-container-highest p-8 rounded-lg shadow-2xl backdrop-blur-md border border-white/5 max-w-xs">
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="clinical_notes">clinical_notes</span>
+<p class="font-headline text-xl mb-2">Bespoke Guidance</p>
+<p class="text-on-surface-variant text-sm font-body">Every patient receives a personalized recovery protocol tailored to their unique skin biology.</p>
+</div>
+</div>
+</header>
+<!-- 1. Recovery Timeline Section -->
+<section class="bg-surface-container-lowest py-32 overflow-hidden">
+<div class="max-w-7xl mx-auto px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+<div>
+<h2 class="text-5xl font-headline mb-4 tracking-tight">The Growth Narrative</h2>
+<p class="text-on-surface-variant max-w-md">Your transformation unfolds over twelve months. Each phase is a critical milestone in your architectural restoration.</p>
+</div>
+<div class="flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-primary" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="relative">
+<!-- Horizontal Line -->
+<div class="absolute top-1/2 left-0 w-full h-[1px] bg-outline-variant -translate-y-1/2 hidden md:block"></div>
+<div class="flex flex-col md:flex-row gap-12 relative z-10">
+<!-- Phase 1 -->
+<div class="flex-1 group">
+<div class="mb-12 hidden md:block aspect-square rounded-lg overflow-hidden bg-surface-container-high grayscale group-hover:grayscale-0 transition-all duration-500">
+<img class="w-full h-full object-cover" data-alt="Microscopic close-up of healthy skin texture and clean hair follicles representing clinical precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8VQQmhRR0d-sDPCoHVlLb-ZdMjQoHWJVRiCbyyjKG_iezl94M85Ra0gi2rPk469eOQJ3uETUyf-HeeBA-RkMpl87DjO8mQ_nVPN_krDviML560MjhnWZ1S45BbgWVwUZsKpJSzzx22aNaNifaDz4amo7PkGpbRCZG2-3IaORZaU_kkzFVVPYuvnj9RzIq_Naftdx-kGuRSrXZ_ZWgP1mVbpNrdkVJ2rkqYJXfM7DQu_esbaEwknus6WEHxxHHtLqGSn6YQTXJo3c"/>
+</div>
+<div class="relative md:text-center">
+<div class="w-4 h-4 bg-primary rounded-full absolute -left-6 top-1 md:left-1/2 md:-top-[2.3rem] md:-translate-x-1/2 shadow-[0_0_15px_rgba(233,193,118,0.6)]"></div>
+<h3 class="text-primary font-label text-sm uppercase tracking-widest mb-2">Day 1 - 7</h3>
+<h4 class="text-2xl font-headline mb-4">Initial Healing</h4>
+<p class="text-on-surface-variant text-sm font-body">The grafts anchor. Redness subsides. Focus remains on hydration and zero-contact protocols.</p>
+</div>
+</div>
+<!-- Phase 2 -->
+<div class="flex-1 group md:mt-24">
+<div class="mb-12 hidden md:block aspect-square rounded-lg overflow-hidden bg-surface-container-high grayscale group-hover:grayscale-0 transition-all duration-500">
+<img class="w-full h-full object-cover" data-alt="Soft morning light through a sheer curtain reflecting off a smooth surface representing rest and recovery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdfqUuikVAX2jCN0vAQWZ3mShEEIEQ8U3fggvT7Ow-JL73chxOPYD-ZJD3r6fzuN-rT2CdLG62aSkvYY6F8xCi_xoiVvCOzX_LoxNs9gGKzo5QHiPWK7eLuTOXkVmjywXHrVFwwB-7LMgJjtLEXvtJINfTXnWABlQmGtSPS5Schs4uCapCQB3YnH7nfLIMNNuxrajiES9-M13z3zUU-0Oz1XbdNWiXS4X1n616pSoPM9Pc_PSRtk_v7lpNGCSfbFk3DnIYdr_qdys"/>
+</div>
+<div class="relative md:text-center">
+<div class="w-4 h-4 bg-outline-variant group-hover:bg-primary rounded-full absolute -left-6 top-1 md:left-1/2 md:-top-[2.3rem] md:-translate-x-1/2 transition-colors"></div>
+<h3 class="text-on-surface-variant font-label text-sm uppercase tracking-widest mb-2">Month 1 - 3</h3>
+<h4 class="text-2xl font-headline mb-4">The Shedding</h4>
+<p class="text-on-surface-variant text-sm font-body">A natural phase where transplanted hair sheds to make way for robust new growth.</p>
+</div>
+</div>
+<!-- Phase 3 -->
+<div class="flex-1 group">
+<div class="mb-12 hidden md:block aspect-square rounded-lg overflow-hidden bg-surface-container-high grayscale group-hover:grayscale-0 transition-all duration-500">
+<img class="w-full h-full object-cover" data-alt="Sprouts of green plants emerging from dark soil in morning mist representing growth and renewal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAcWbqBLEJabmnpjMgnY1ID7T2huZl06pRS8PfEGj1GmLehoVMz5jLBPyamcjZGRQ8rIPBVp3ljJyH3q1Twd3bKvVw4OSjgnYYYhxFy8kDVOWKE9sD0RiHxYkYyzuThWoVtxBLamtTIORwnR0xQ-OaX3C7jH90hjfVIVbSmEc8PYEpkqtD8YtsPpR2hb1bokrtSbBDSKEmB0GzekU9eJ8ufXSqyhSZMByXh-I0RM_Y2HPEAzf61cvwiykH9KLHs_C7B3qkyeUi8YQ"/>
+</div>
+<div class="relative md:text-center">
+<div class="w-4 h-4 bg-outline-variant group-hover:bg-primary rounded-full absolute -left-6 top-1 md:left-1/2 md:-top-[2.3rem] md:-translate-x-1/2 transition-colors"></div>
+<h3 class="text-on-surface-variant font-label text-sm uppercase tracking-widest mb-2">Month 4 - 8</h3>
+<h4 class="text-2xl font-headline mb-4">Growth Surge</h4>
+<p class="text-on-surface-variant text-sm font-body">Follicles activate. You will see initial texture and density appearing across the recipient site.</p>
+</div>
+</div>
+<!-- Phase 4 -->
+<div class="flex-1 group md:mt-24">
+<div class="mb-12 hidden md:block aspect-square rounded-lg overflow-hidden bg-surface-container-high grayscale group-hover:grayscale-0 transition-all duration-500">
+<img class="w-full h-full object-cover" data-alt="Portrait of a person with thick healthy hair in dramatic shadow and light highlighting texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU7U34Hb1yXKPs4yiuHsQcfmWM8IPNJ1Xh3783C3yTbTNSjMVGj-U1U7KKcYM9GGKProxksBYxKeWJSXOvzV7dxfGglOpeWccmL6QSKx9DAGgluf4giNzo61anyvJvYHvKI1klQyBQadwLSuqumInJy0y1gXA6ugwk5kH0R_rQpD6BV1a9D36FrZSjixXfeRm5sqorg7E7gx15-bOsJ0wlLIA31klPnB9YSxa-lsbw73dgtH88zQuVpAa--wbLmGl_fXuOzqKER6g"/>
+</div>
+<div class="relative md:text-center">
+<div class="w-4 h-4 bg-outline-variant group-hover:bg-primary rounded-full absolute -left-6 top-1 md:left-1/2 md:-top-[2.3rem] md:-translate-x-1/2 transition-colors"></div>
+<h3 class="text-on-surface-variant font-label text-sm uppercase tracking-widest mb-2">Month 12</h3>
+<h4 class="text-2xl font-headline mb-4">The Masterpiece</h4>
+<p class="text-on-surface-variant text-sm font-body">Full maturation achieved. The hair is now permanent, dense, and perfectly integrated.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Bespoke Hair Care Section -->
+<section class="py-32 max-w-7xl mx-auto px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-20">
+<div class="lg:col-span-4">
+<h2 class="text-5xl font-headline mb-8 tracking-tight">Clinical <br/>Aftercare</h2>
+<div class="space-y-8">
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded">
+<span class="material-symbols-outlined text-primary" data-icon="sanitizer">sanitizer</span>
+</div>
+<div>
+<p class="font-headline text-lg mb-1">Medical Washing</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Specific pH-balanced solutions provided by our atelier to preserve scalp integrity.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded">
+<span class="material-symbols-outlined text-primary" data-icon="pill">pill</span>
+</div>
+<div>
+<p class="font-headline text-lg mb-1">Biotin Integration</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Custom supplement plans to accelerate cell turnover and graft maturation.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-primary/10 p-3 rounded">
+<span class="material-symbols-outlined text-primary" data-icon="night_shelter">night_shelter</span>
+</div>
+<div>
+<p class="font-headline text-lg mb-1">Sleep Protocol</p>
+<p class="text-on-surface-variant text-sm leading-relaxed">Elevation strategies to prevent swelling and protect the recipient architectural site.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-8">
+<div class="bg-surface-container-high rounded-lg p-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-[100px] -mr-32 -mt-32"></div>
+<h3 class="text-3xl font-headline mb-12">The Golden Rules of Longevity</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="p-8 bg-surface-container-highest rounded border-l-2 border-primary">
+<span class="text-primary font-label text-4xl font-light opacity-30 mb-4 block">01.</span>
+<h4 class="text-xl font-headline mb-3">Zero Contact</h4>
+<p class="text-on-surface-variant text-sm">Strictly avoid touching or scratching the graft area for the first 10 days. Let the architecture settle undisturbed.</p>
+</div>
+<div class="p-8 bg-surface-container-highest rounded border-l-2 border-primary">
+<span class="text-primary font-label text-4xl font-light opacity-30 mb-4 block">02.</span>
+<h4 class="text-xl font-headline mb-3">Hydration Therapy</h4>
+<p class="text-on-surface-variant text-sm">Apply the clinical spray every 30 minutes during waking hours to maintain optimal moisture levels for the follicles.</p>
+</div>
+<div class="p-8 bg-surface-container-highest rounded border-l-2 border-primary">
+<span class="text-primary font-label text-4xl font-light opacity-30 mb-4 block">03.</span>
+<h4 class="text-xl font-headline mb-3">UV Guard</h4>
+<p class="text-on-surface-variant text-sm">Sunlight is the enemy of healing tissue. Wear our provided medical-grade headwear for 4 weeks post-op.</p>
+</div>
+<div class="p-8 bg-surface-container-highest rounded border-l-2 border-primary">
+<span class="text-primary font-label text-4xl font-light opacity-30 mb-4 block">04.</span>
+<h4 class="text-xl font-headline mb-3">Vascular Health</h4>
+<p class="text-on-surface-variant text-sm">Avoid nicotine and heavy caffeine for 14 days to ensure maximum blood flow to the newly transplanted roots.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Aftercare Instructions (Asymmetric Layout) -->
+<section class="bg-surface-container-lowest py-32">
+<div class="max-w-7xl mx-auto px-12 grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+<div class="order-2 md:order-1">
+<div class="relative">
+<div class="aspect-[3/4] bg-surface rounded shadow-2xl overflow-hidden transform rotate-3">
+<img class="w-full h-full object-cover" data-alt="Luxury skincare bottles on a dark stone tray with soft gold accents and minimal aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgRK1agjykLKJTnbffZpnUjk-eKLU7KADjAQUkcELCD39tzVlNrIqn6NvXmBJUhkhKqJdACOOw-GyEIOmw-zMtVykFhwJauodXo3Hqht-xJa-JZgBSWnBgNPQKEzfj5f8t0oty90qz9kgFggleXWTqMGpbhh0KHmmMkQOAG4oOcHUkh5rigvIFP7Ulwh_rVo9D8NX_XAPeXtCIceVQ_YT7RCRRGKah6G_DLSYmBB7MALOqNO9LUoT2VZrXTAXF6UyRXjJc1uNHiPg"/>
+</div>
+<div class="absolute -top-10 -right-10 w-48 h-48 bg-primary/10 rounded-full blur-3xl"></div>
+</div>
+</div>
+<div class="order-1 md:order-2">
+<h2 class="text-5xl font-headline mb-10 leading-tight">Post-Surgical <br/>Precision</h2>
+<div class="space-y-12">
+<div class="relative pl-12">
+<div class="absolute left-0 top-1 text-primary font-headline text-2xl italic">01</div>
+<h4 class="text-xl font-headline mb-2">First 48 Hours</h4>
+<p class="text-on-surface-variant font-body">Absolute rest. Maintain head elevation at 45 degrees. Use only the provided saline spray for hydration. Avoid all physical exertion.</p>
+</div>
+<div class="relative pl-12">
+<div class="absolute left-0 top-1 text-primary font-headline text-2xl italic">02</div>
+<h4 class="text-xl font-headline mb-2">Week One</h4>
+<p class="text-on-surface-variant font-body">Begin gentle clinical washing. No direct shower pressure. Pat dry with sterile gauze only. Avoid wearing hats or helmets.</p>
+</div>
+<div class="relative pl-12">
+<div class="absolute left-0 top-1 text-primary font-headline text-2xl italic">03</div>
+<h4 class="text-xl font-headline mb-2">Two Weeks Onward</h4>
+<p class="text-on-surface-variant font-body">Normal hair washing can resume. Scabs should naturally fall away. Light cardiovascular exercise may be reintroduced gradually.</p>
+</div>
+<button class="flex items-center gap-4 text-primary group">
+<span class="font-label text-sm uppercase tracking-widest border-b border-primary/30 pb-1 group-hover:border-primary transition-all">Download Full Protocol (PDF)</span>
+<span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" data-icon="download">download</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. FAQ / AEO Section -->
+<section class="py-32 max-w-4xl mx-auto px-12">
+<h2 class="text-4xl font-headline text-center mb-16 italic">Recovery Inquiries</h2>
+<div class="space-y-4">
+<!-- FAQ 1 -->
+<div class="bg-surface-container-low rounded-lg p-8 hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-headline">How long until I can wash my hair normally?</h3>
+<span class="material-symbols-outlined text-primary group-hover:rotate-45 transition-transform" data-icon="add">add</span>
+</div>
+<div class="mt-6 pt-6 border-t border-outline-variant/30 text-on-surface-variant leading-relaxed">
+            While gentle washing begins on Day 3, you can resume normal shower pressure and massage techniques after Day 14, once the grafts are securely integrated into the dermal layer.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-surface-container-low rounded-lg p-8 hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-headline">When will I see the final aesthetic results?</h3>
+<span class="material-symbols-outlined text-primary group-hover:rotate-45 transition-transform" data-icon="add">add</span>
+</div>
+<div class="mt-6 pt-6 border-t border-outline-variant/30 text-on-surface-variant leading-relaxed">
+            The masterpiece takes time. Initial growth appears by Month 4, but full density and hair shaft maturation are typically reached at the 12-month mark.
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-surface-container-low rounded-lg p-8 hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-headline">When is it safe to resume heavy exercise?</h3>
+<span class="material-symbols-outlined text-primary group-hover:rotate-45 transition-transform" data-icon="add">add</span>
+</div>
+<div class="mt-6 pt-6 border-t border-outline-variant/30 text-on-surface-variant leading-relaxed">
+            Light cardio is acceptable after 14 days. However, heavy weightlifting and contact sports should be avoided for 4 weeks to prevent blood pressure spikes that could impact graft health.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-surface-container-low rounded-lg p-8 hover:bg-surface-container transition-colors cursor-pointer group">
+<div class="flex justify-between items-center">
+<h3 class="text-xl font-headline">Is the 'shedding phase' a cause for concern?</h3>
+<span class="material-symbols-outlined text-primary group-hover:rotate-45 transition-transform" data-icon="add">add</span>
+</div>
+<div class="mt-6 pt-6 border-t border-outline-variant/30 text-on-surface-variant leading-relaxed">
+            Not at all. The "Shock Loss" phase between Week 2 and Month 2 is a sign of a healthy follicular cycle. The hair falls out, but the living root remains to produce permanent, stronger hair.
+          </div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="max-w-7xl mx-auto px-12 pb-32">
+<div class="bg-gradient-to-br from-surface-container-high to-surface-container-low rounded-xl p-20 text-center relative overflow-hidden border border-white/5">
+<div class="relative z-10">
+<h2 class="text-5xl font-headline mb-8">Personalized Recovery <br/>Support</h2>
+<p class="text-on-surface-variant max-w-xl mx-auto mb-12 text-lg">Our clinical team is available 24/7 for our patients. If you have any concerns regarding your healing process, we are a message away.</p>
+<div class="flex flex-col md:flex-row gap-6 justify-center">
+<button class="bg-primary text-on-primary px-10 py-4 font-bold tracking-widest uppercase rounded-lg shadow-xl shadow-primary/10">Contact Atelier</button>
+<button class="border border-primary/20 text-primary px-10 py-4 font-bold tracking-widest uppercase rounded-lg backdrop-blur-sm hover:bg-primary/5 transition-colors">Patient Portal</button>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-30"></div>
+</div>
+</section>
+</main>
+<!-- Shared Footer -->
+<footer class="w-full border-t border-white/5 bg-[#0E0E0E]">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 py-16 w-full max-w-7xl mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="font-serif text-lg text-[#E9C176] mb-2 uppercase tracking-widest">ALTINSOY</div>
+<p class="font-sans text-sm tracking-wide text-neutral-500 max-w-xs text-center md:text-left">
+          Crafting architectural hairlines through medical excellence and artistic vision.
+        </p>
+</div>
+<div class="flex flex-wrap justify-center gap-10 mb-8 md:mb-0">
+<a class="text-neutral-500 hover:text-white transition-colors font-sans text-sm tracking-wide" href="#">Privacy Policy</a>
+<a class="text-neutral-500 hover:text-white transition-colors font-sans text-sm tracking-wide" href="#">Terms of Service</a>
+<a class="text-neutral-500 hover:text-white transition-colors font-sans text-sm tracking-wide" href="#">Clinical Standards</a>
+<a class="text-neutral-500 hover:text-white transition-colors font-sans text-sm tracking-wide" href="#">Contact</a>
+</div>
+<div class="text-neutral-500 font-sans text-xs tracking-widest opacity-80">
+        © 2024 Altınsoy Clinical Atelier. All rights reserved.
+      </div>
+</div>
+</footer>
+</body></html>

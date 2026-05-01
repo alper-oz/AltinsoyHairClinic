@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ücretsiz Saç Analizi | Altınsoy Hair Clinic</title>
+<meta name="description" content="60 saniyede ücretsiz online saç analizi. Dökülme seviyenizi belirleyin, kişisel tedavi planınızı alın. Bağlayıcı değil, tamamen ücretsiz."/>
+<meta name="keywords" content="ücretsiz saç analizi, online saç ekimi konsültasyonu, saç dökülme testi, saç ekimi değerlendirme"/>
+<link rel="canonical" href="https://altinsoy.com/sac-analizi/"/>
+<!-- OpenGraph -->
+<meta property="og:title" content="Ücretsiz Saç Analizi — 60 Saniyede"/>
+<meta property="og:description" content="Dökülme seviyenizi belirleyin, kişisel tedavi planınızı alın. Bağlayıcı değil."/>
+<meta property="og:url" content="https://altinsoy.com/sac-analizi/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Altınsoy Hair Clinic"/>
+<meta property="og:locale" content="tr_TR"/>
+<meta property="og:image" content="https://altinsoy.com/og-image.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Ücretsiz Saç Analizi — 60 Saniyede"/>
+<meta name="twitter:description" content="Dökülme seviyenizi belirleyin, kişisel tedavi planınızı alın. Bağlayıcı değil."/>
+<meta name="twitter:image" content="https://altinsoy.com/og-image.jpg"/>
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<link rel="apple-touch-icon" href="favicon.svg"/>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200;300;400;500;600;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Ücretsiz Saç Analizi",
+  "description": "Online saç dökülme ön değerlendirmesi ve kişisel tedavi planı",
+  "provider": {
+    "@type": "MedicalClinic",
+    "name": "Altınsoy Hair Clinic",
+    "telephone": "+905539784242"
+  }
+}
+</script>
+
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "outline-variant": "#4e4639",
+        "surface-variant": "#353534",
+        "surface-bright": "#3a3939",
+        "surface-container": "#201f1f",
+        "secondary": "#c8c8b0",
+        "surface-container-low": "#1c1b1b",
+        "surface-container-high": "#2a2a2a",
+        "surface-container-highest": "#353534",
+        "surface-container-lowest": "#0e0e0e",
+        "on-background": "#e5e2e1",
+        "on-primary": "#412d00",
+        "background": "#131313",
+        "primary": "#e9c176",
+        "primary-container": "#c5a059",
+        "outline": "#9a8f80",
+        "surface": "#131313",
+        "on-surface": "#e5e2e1",
+        "on-surface-variant": "#d1c5b4",
+      },
+      fontFamily: { "headline": ["Noto Serif"], "body": ["Manrope"], "label": ["Manrope"] }
+    }
+  }
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+body { font-family: 'Manrope', sans-serif; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+
+/* Glass panel — DESIGN.md */
+.glass-panel { background: rgba(19, 19, 19, 0.7); backdrop-filter: blur(24px); }
+
+/* Steps */
+.step { display: none; opacity: 0; transform: translateY(12px); }
+.step.active { display: block; animation: fadeUp 0.5s ease forwards; }
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+/* Cards */
+.area-card { transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
+.area-card.selected { border-color: rgba(233,193,118,0.6); background: rgba(233,193,118,0.05); }
+.area-card.selected .card-icon { color: #e9c176; font-variation-settings: 'FILL' 1, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+.area-card.selected .card-check { opacity: 1; }
+.area-card.selected .card-label { color: #e9c176; }
+
+.profile-card { transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
+.profile-card.selected { border-color: rgba(233,193,118,0.6); background: rgba(233,193,118,0.05); }
+.profile-card.selected .profile-icon { color: rgba(233,193,118,0.8); }
+.profile-card.selected .profile-check { opacity: 1; }
+
+/* Sidebar progress */
+.sidebar-step { transition: opacity 0.4s ease; }
+.sidebar-step.active-step { opacity: 1 !important; }
+.sidebar-step.active-step .step-bar { transform: scaleY(1); }
+
+/* Cinematic loading */
+.loading-ring { animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: 0.3; } 75%,100% { transform: scale(1.6); opacity: 0; } }
+
+/* CTA gradient — DESIGN.md signature */
+.cta-gold { background: linear-gradient(135deg, #e9c176, #c5a059); }
+.cta-gold:hover { box-shadow: 0 0 25px rgba(233,193,118,0.2); transform: translateY(-2px); }
+</style>
+</head>
+
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+
+<!-- NAV — Glass panel per DESIGN.md -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/70 backdrop-blur-3xl shadow-[0_8px_32px_0_rgba(229,226,225,0.04)]">
+<div class="flex justify-between items-center w-full px-6 md:px-12 py-6 max-w-[1920px] mx-auto">
+  <a href="index.html" class="text-2xl font-headline tracking-widest text-primary">ALTINSOY</a>
+  <div class="hidden md:flex items-center gap-10">
+    <a class="font-headline tracking-tight text-sm uppercase text-[#e5e2e1]/60 hover:text-primary transition-all duration-700" href="sac-ekimi.html">Teknikler</a>
+    <a class="font-headline tracking-tight text-sm uppercase text-[#e5e2e1]/60 hover:text-primary transition-all duration-700" href="index.html#sonuclar">Sonuçlar</a>
+    <span class="font-headline tracking-tight text-sm uppercase text-primary border-b border-primary/30 pb-1">Analiz</span>
+    <a class="font-headline tracking-tight text-sm uppercase text-[#e5e2e1]/60 hover:text-primary transition-all duration-700" href="index.html#iletisim">İletişim</a>
+    <div class="flex items-center gap-2 border-l border-outline-variant/30 pl-8">
+      <button class="text-[10px] font-bold tracking-widest text-primary">TR</button>
+      <span class="text-[10px] text-outline-variant">/</span>
+      <button class="text-[10px] font-bold tracking-widest text-[#e5e2e1]/60 hover:text-[#e5e2e1] transition-colors">EN</button>
+    </div>
+  </div>
+  <a href="index.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors md:hidden">← Ana Sayfa</a>
+</div>
+</nav>
+
+<main class="pt-32 pb-24 min-h-screen">
+
+<!-- HERO — Editorial header per DESIGN.md -->
+<section class="px-6 md:px-12 max-w-7xl mx-auto mb-16 text-center md:text-left">
+  <div class="inline-flex items-center gap-2 mb-6 opacity-60">
+    <span class="w-12 h-[1px] bg-primary"></span>
+    <span id="hero-step-label" class="text-xs uppercase tracking-[0.3em] font-medium">Adım 01 / 03</span>
+  </div>
+  <h1 class="font-headline text-5xl md:text-7xl mb-8 tracking-tighter leading-tight">
+    Kişisel saç analizinizi<br/>
+    <span class="italic text-primary/80">başlatın.</span>
+  </h1>
+  <p class="max-w-xl text-on-surface-variant leading-relaxed opacity-80 text-lg">
+    Dökülme durumunuzu belirleyin, fotoğrafınızı paylaşın. 24 saat içinde uzman ekibimiz size özel tedavi planınızla dönüş yapsın.
+  </p>
+  <!-- Trust signals -->
+  <div class="flex flex-wrap gap-6 mt-8 text-[11px] tracking-wider uppercase text-on-surface/70">
+    <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary/90">check_circle</span>Ücretsiz</span>
+    <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary/90">check_circle</span>Bağlayıcı değil</span>
+    <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary/90">check_circle</span>24 saat dönüş</span>
+  </div>
+</section>
+
+<!-- MAIN CANVAS -->
+<section class="px-6 md:px-12 max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+
+  <!-- SIDEBAR — Stitch progress nav (desktop only) -->
+  <div class="lg:col-span-3 sticky top-32 hidden lg:block">
+    <div class="space-y-8">
+      <div id="side-1" class="sidebar-step active-step relative pl-8 border-l border-outline-variant/30">
+        <div class="step-bar absolute left-[-1px] top-0 h-full w-[1px] bg-primary origin-top transition-transform duration-500 scale-y-100"></div>
+        <span class="block text-[10px] uppercase tracking-widest text-primary mb-1">Aktif</span>
+        <h3 class="text-sm font-bold uppercase tracking-wider">İlgi Alanı</h3>
+      </div>
+      <div id="side-2" class="sidebar-step opacity-40 relative pl-8 border-l border-outline-variant/30">
+        <div class="step-bar absolute left-[-1px] top-0 h-full w-[1px] bg-primary origin-top transition-transform duration-500 scale-y-0"></div>
+        <span class="block text-[10px] uppercase tracking-widest mb-1">Sıradaki</span>
+        <h3 class="text-sm font-bold uppercase tracking-wider">Dökülme Profili</h3>
+      </div>
+      <div id="side-3" class="sidebar-step opacity-40 relative pl-8 border-l border-outline-variant/30">
+        <div class="step-bar absolute left-[-1px] top-0 h-full w-[1px] bg-primary origin-top transition-transform duration-500 scale-y-0"></div>
+        <span class="block text-[10px] uppercase tracking-widest mb-1">Sıradaki</span>
+        <h3 class="text-sm font-bold uppercase tracking-wider">İletişim & Fotoğraf</h3>
+      </div>
+    </div>
+
+    <!-- Micro trust — sidebar bottom -->
+    <div class="mt-16 space-y-3 text-[10px] text-on-surface/40">
+      <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[14px]">lock</span>SSL şifreli bağlantı</div>
+      <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[14px]">verified_user</span>KVKK uyumlu</div>
+      <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[14px]">shield</span>Verileriniz satılmaz</div>
+    </div>
+  </div>
+
+  <!-- FORM CANVAS — Tonal layering per DESIGN.md -->
+  <div class="lg:col-span-9">
+    <div class="bg-surface-container-low p-8 md:p-16 rounded-sm shadow-[0_0_40px_rgba(233,193,118,0.03)] relative overflow-hidden">
+      <!-- Decorative glow -->
+      <div class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px] -mr-48 -mt-48"></div>
+
+      <div class="relative z-10">
+
+        <!-- STEP 1: İLGİ ALANI -->
+        <div id="step1" class="step active">
+          <h2 class="font-headline text-3xl mb-3">Hangi alan için değerlendirme istiyorsunuz?</h2>
+          <p class="text-on-surface-variant text-sm mb-12 opacity-70">Birini seçin.</p>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="area-card cursor-pointer border border-outline-variant/20 p-8 flex flex-col justify-between aspect-square hover:border-primary/50" onclick="selectArea(this, 'sac')">
+              <div>
+                <span class="card-icon material-symbols-outlined text-4xl text-primary/30 mb-4">face</span>
+                <h3 class="text-lg font-bold tracking-tight">Saç</h3>
+                <p class="text-xs text-on-surface-variant mt-2 opacity-70">Saç çizgisi, tepe bölgesi ve genel yoğunluk restorasyonu.</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="card-label text-[10px] uppercase tracking-widest opacity-50">Alan Seç</p>
+                <span class="card-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+              </div>
+            </div>
+            <div class="area-card cursor-pointer border border-outline-variant/20 p-8 flex flex-col justify-between aspect-square hover:border-primary/50" onclick="selectArea(this, 'sakal')">
+              <div>
+                <span class="card-icon material-symbols-outlined text-4xl text-primary/30 mb-4">face_6</span>
+                <h3 class="text-lg font-bold tracking-tight">Sakal</h3>
+                <p class="text-xs text-on-surface-variant mt-2 opacity-70">Çene, yanak, bıyık yoğunlaştırma ve simetri.</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="card-label text-[10px] uppercase tracking-widest opacity-50">Alan Seç</p>
+                <span class="card-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+              </div>
+            </div>
+            <div class="area-card cursor-pointer border border-outline-variant/20 p-8 flex flex-col justify-between aspect-square hover:border-primary/50" onclick="selectArea(this, 'kas')">
+              <div>
+                <span class="card-icon material-symbols-outlined text-4xl text-primary/30 mb-4">visibility</span>
+                <h3 class="text-lg font-bold tracking-tight">Kaş</h3>
+                <p class="text-xs text-on-surface-variant mt-2 opacity-70">Kavis ve yoğunluk iyileştirmesi, simetri düzeltme.</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <p class="card-label text-[10px] uppercase tracking-widest opacity-50">Alan Seç</p>
+                <span class="card-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-end mt-12 pt-8 border-t border-outline-variant/10">
+            <button id="btn-step1" class="bg-primary/20 text-on-surface/40 px-12 py-4 text-xs font-bold tracking-widest uppercase rounded-sm cursor-not-allowed transition-all duration-500" disabled onclick="goStep(2)">
+              Devam Et
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 2: DÖKÜLME PROFİLİ -->
+        <div id="step2" class="step">
+          <h2 class="font-headline text-3xl mb-3">Mevcut durumunuzu tanımlayın.</h2>
+          <p class="text-on-surface-variant text-sm mb-12 opacity-70">En yakın olanı seçin. Kesin olması gerekmiyor — uzman değerlendirmesi ayrıca yapılacak.</p>
+
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="profile-card cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 bg-surface/40 relative" onclick="selectProfile(this, 'light')">
+              <div class="w-full h-32 opacity-80 group-hover:opacity-100 transition-opacity">
+                <div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center rounded">
+                  <span class="profile-icon material-symbols-outlined text-4xl text-primary/20">texture</span>
+                </div>
+              </div>
+              <div>
+                <p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">Seviye I</p>
+                <p class="text-sm font-bold tracking-tight">Hafif Seyrelme</p>
+              </div>
+              <span class="profile-check absolute top-3 right-3 material-symbols-outlined text-primary text-[16px] opacity-0">check_circle</span>
+            </div>
+            <div class="profile-card cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 bg-surface/40 relative" onclick="selectProfile(this, 'moderate')">
+              <div class="w-full h-32">
+                <div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center rounded">
+                  <span class="profile-icon material-symbols-outlined text-4xl text-primary/20">blur_on</span>
+                </div>
+              </div>
+              <div>
+                <p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">Seviye II</p>
+                <p class="text-sm font-bold tracking-tight">Orta Seviye</p>
+              </div>
+              <span class="profile-check absolute top-3 right-3 material-symbols-outlined text-primary text-[16px] opacity-0">check_circle</span>
+            </div>
+            <div class="profile-card cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 bg-surface/40 relative" onclick="selectProfile(this, 'advanced')">
+              <div class="w-full h-32">
+                <div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center rounded">
+                  <span class="profile-icon material-symbols-outlined text-4xl text-primary/20">grain</span>
+                </div>
+              </div>
+              <div>
+                <p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">Seviye III</p>
+                <p class="text-sm font-bold tracking-tight">İleri Seviye</p>
+              </div>
+              <span class="profile-check absolute top-3 right-3 material-symbols-outlined text-primary text-[16px] opacity-0">check_circle</span>
+            </div>
+            <div class="profile-card cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 bg-surface/40 relative" onclick="selectProfile(this, 'unsure')">
+              <div class="w-full h-32">
+                <div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center rounded">
+                  <span class="profile-icon material-symbols-outlined text-4xl text-primary/20">help_outline</span>
+                </div>
+              </div>
+              <div>
+                <p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">—</p>
+                <p class="text-sm font-bold tracking-tight">Emin Değilim</p>
+              </div>
+              <span class="profile-check absolute top-3 right-3 material-symbols-outlined text-primary text-[16px] opacity-0">check_circle</span>
+            </div>
+          </div>
+
+          <div class="flex justify-between items-center mt-12 pt-8 border-t border-outline-variant/10">
+            <button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="goStep(1)">
+              <span class="material-symbols-outlined text-xs">arrow_back</span> Önceki Adım
+            </button>
+            <button id="btn-step2" class="bg-primary/20 text-on-surface/40 px-12 py-4 text-xs font-bold tracking-widest uppercase rounded-sm cursor-not-allowed transition-all duration-500" disabled onclick="goStep(3)">
+              Devam Et
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 3: İLETİŞİM + FOTOĞRAF -->
+        <div id="step3" class="step">
+          <h2 class="font-headline text-3xl mb-3">Son adım — size nasıl ulaşalım?</h2>
+          <p class="text-on-surface-variant text-sm mb-12 opacity-70">Bilgilerinizi bırakın, uzman ekibimiz kişisel tedavi planınızla dönüş yapsın.</p>
+
+          <form id="analysis-form" onsubmit="submitForm(event)" class="space-y-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <label class="block text-xs uppercase tracking-widest mb-3 opacity-60">Adınız *</label>
+                <input type="text" required class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/20 focus:ring-0 focus:border-primary transition-all px-4 py-4 text-sm rounded-sm placeholder:text-on-surface/30" placeholder="Adınız ve soyadınız"/>
+              </div>
+              <div>
+                <label class="block text-xs uppercase tracking-widest mb-3 opacity-60">Telefon / WhatsApp *</label>
+                <input type="tel" required class="w-full bg-surface-container-lowest border-0 border-b border-outline-variant/20 focus:ring-0 focus:border-primary transition-all px-4 py-4 text-sm rounded-sm placeholder:text-on-surface/30" placeholder="+90 5XX XXX XX XX"/>
+              </div>
+            </div>
+
+            <!-- FOTOĞRAF YÜKLEME — Stitch görsel + bizim KVKK uyumu -->
+            <div>
+              <div class="flex justify-between items-end mb-3">
+                <label class="text-xs uppercase tracking-widest opacity-60">Fotoğraf <span class="text-on-surface/30">(opsiyonel ama önerilir)</span></label>
+                <span class="text-[10px] uppercase tracking-widest opacity-30 flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">lock</span>Şifreli iletim</span>
+              </div>
+              <div class="relative border-2 border-dashed border-outline-variant/15 rounded-sm p-10 flex flex-col items-center justify-center text-center bg-surface/20 group hover:border-primary/30 transition-all duration-700 cursor-pointer" onclick="document.getElementById('photo-input').click()">
+                <span class="material-symbols-outlined text-5xl text-primary mb-4 opacity-20 group-hover:opacity-40 group-hover:scale-110 transition-all duration-700">add_a_photo</span>
+                <p class="text-sm font-bold uppercase tracking-widest mb-2">Fotoğraf Ekleyin</p>
+                <p class="text-xs text-on-surface-variant max-w-xs mb-6 opacity-60">Dökülme bölgesinin ön, üst ve arka açılardan fotoğrafları daha doğru değerlendirme sağlar.</p>
+                <button type="button" class="border border-outline-variant/20 px-8 py-3 text-xs uppercase tracking-widest hover:bg-primary hover:text-on-primary transition-all duration-500 rounded-sm">
+                  Dosya Seçin
+                </button>
+                <input type="file" id="photo-input" accept="image/*" multiple class="hidden"/>
+              </div>
+            </div>
+
+            <!-- KVKK ONAYI -->
+            <div class="flex items-start gap-3 pt-2">
+              <input type="checkbox" required id="kvkk-consent" class="mt-1 rounded-sm border-outline-variant/30 text-primary focus:ring-primary/20 bg-surface-container-lowest"/>
+              <label for="kvkk-consent" class="text-[11px] text-on-surface/60 leading-relaxed">
+                Kişisel verilerimin konsültasyon amacıyla işlenmesini kabul ediyorum.
+                <a href="kvkk-aydinlatma.html" class="text-primary/70 underline hover:text-primary">KVKK Aydınlatma Metni</a> ve
+                <a href="gizlilik-politikasi.html" class="text-primary/70 underline hover:text-primary">Gizlilik Politikası</a>'nı okudum.
+              </label>
+            </div>
+
+            <div class="flex justify-between items-center pt-8 border-t border-outline-variant/10">
+              <button type="button" class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="goStep(2)">
+                <span class="material-symbols-outlined text-xs">arrow_back</span> Önceki Adım
+              </button>
+              <button type="submit" class="cta-gold text-on-primary px-12 py-4 text-xs font-bold tracking-widest uppercase rounded-sm transition-all duration-500">
+                Kişisel Planımı Oluştur
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- CINEMATIC LOADING STATE — Stitch aesthetic -->
+        <div id="step-loading" class="step">
+          <div class="relative overflow-hidden aspect-video bg-surface-container-lowest rounded-sm">
+            <div class="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-transparent"></div>
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-12">
+              <div class="w-20 h-20 mb-10 relative">
+                <div class="absolute inset-0 border border-primary/20 rounded-full loading-ring"></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+                </div>
+              </div>
+              <h2 class="font-headline text-3xl md:text-4xl mb-4 italic">Ön değerlendirmeniz hazırlanıyor</h2>
+              <p class="text-xs uppercase tracking-[0.3em] text-primary/70">Uzman ekibimiz bildirildi</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUCCESS STATE -->
+        <div id="step-success" class="step">
+          <div class="text-center py-8">
+            <div class="w-20 h-20 mx-auto mb-8 rounded-full bg-primary/10 flex items-center justify-center">
+              <span class="material-symbols-outlined text-4xl text-primary">check_circle</span>
+            </div>
+            <h2 class="font-headline text-3xl mb-4">Talebiniz alındı.</h2>
+            <p class="text-on-surface/70 max-w-sm mx-auto mb-10 leading-relaxed">Uzman ekibimiz seçimlerinizi ve fotoğraflarınızı değerlendirecek. En geç <strong class="text-on-surface">24 saat</strong> içinde size özel tedavi planınızla dönüş yapacak.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="index.html" class="border border-outline-variant/20 text-on-surface/70 px-8 py-3 text-xs uppercase tracking-widest rounded-sm hover:border-primary/40 transition-colors">Ana Sayfaya Dön</a>
+              <a href="https://wa.me/905539784242?text=Merhaba%2C%20sa%C3%A7%20analizi%20g%C3%B6nderdim%2C%20bilgi%20almak%20istiyorum." class="cta-gold text-on-primary px-8 py-3 text-xs uppercase tracking-widest rounded-sm transition-all">WhatsApp'tan Sor</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- DISCLAIMER -->
+<div class="max-w-2xl mx-auto px-6 mt-16 text-center">
+  <p class="text-[10px] text-on-surface/40 leading-relaxed">Bu ön değerlendirme formu tıbbi teşhis yerine geçmez. Kesin değerlendirme uzman hekim konsültasyonunda yapılır. Bireysel sonuçlar değişkenlik gösterebilir. Fotoğraflarınız yalnızca konsültasyon amacıyla kullanılır ve üçüncü taraflarla paylaşılmaz.</p>
+</div>
+
+</main>
+
+<!-- FOOTER -->
+
+<!-- Medical Disclaimer -->
+<div class="px-6 py-8 text-center border-t border-outline-variant/10">
+  <p class="text-[10px] text-on-surface/50 leading-relaxed max-w-3xl mx-auto">
+    Bu web sitesindeki içerik genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Kişisel durumunuza uygun değerlendirme ancak uzman hekim konsültasyonu ile yapılabilir. Bireysel sonuçlar değişkenlik gösterebilir.
+  </p>
+</div>
+
+<footer class="bg-[#0e0e0e] w-full py-16 px-6 md:px-12 mt-12">
+<div class="flex flex-col gap-10 max-w-7xl mx-auto">
+  <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+    <a href="index.html" class="text-lg font-headline tracking-widest text-primary">ALTINSOY HAIR CLINIC</a>
+    <div class="flex flex-wrap gap-8">
+      <a class="text-xs tracking-widest uppercase text-[#e5e2e1]/60 hover:text-[#e5e2e1] transition-colors duration-500" href="index.html#sss">SSS</a>
+      <a class="text-xs tracking-widest uppercase text-[#e5e2e1]/60 hover:text-[#e5e2e1] transition-colors duration-500" href="sac-ekimi.html">Teknikler</a>
+      <a class="text-xs tracking-widest uppercase text-[#e5e2e1]/60 hover:text-[#e5e2e1] transition-colors duration-500" href="gizlilik-politikasi.html">Gizlilik</a>
+      <a class="text-xs tracking-widest uppercase text-[#e5e2e1]/60 hover:text-[#e5e2e1] transition-colors duration-500" href="kvkk-aydinlatma.html">KVKK</a>
+    </div>
+  </div>
+  <div class="flex flex-col md:flex-row justify-between items-start md:items-center pt-10 border-t border-on-surface/5 gap-6">
+    <p class="text-xs tracking-widest uppercase text-[#e5e2e1]/40">© 2026 Altınsoy Hair Clinic. Tüm hakları saklıdır.</p>
+  </div>
+</div>
+</footer>
+
+<!-- WIZARD LOGIC -->
+<script>
+let selectedArea = null;
+let selectedProfile = null;
+let currentStep = 1;
+
+function selectArea(el, area) {
+  document.querySelectorAll('.area-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedArea = area;
+  enableBtn('btn-step1');
+}
+
+function selectProfile(el, profile) {
+  document.querySelectorAll('.profile-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedProfile = profile;
+  enableBtn('btn-step2');
+}
+
+function enableBtn(id) {
+  const btn = document.getElementById(id);
+  btn.disabled = false;
+  btn.classList.remove('bg-primary/20', 'text-on-surface/40', 'cursor-not-allowed');
+  btn.classList.add('cta-gold', 'text-on-primary', 'cursor-pointer');
+}
+
+function goStep(n) {
+  currentStep = n;
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  document.getElementById('step' + n).classList.add('active');
+
+  // Update sidebar
+  for (let i = 1; i <= 3; i++) {
+    const side = document.getElementById('side-' + i);
+    if (i <= n) {
+      side.classList.add('active-step');
+      side.classList.remove('opacity-40');
+      side.querySelector('.step-bar').style.transform = 'scaleY(1)';
+      side.querySelector('span').textContent = i < n ? 'Tamamlandı' : 'Aktif';
+    } else {
+      side.classList.remove('active-step');
+      side.classList.add('opacity-40');
+      side.querySelector('.step-bar').style.transform = 'scaleY(0)';
+      side.querySelector('span').textContent = 'Sıradaki';
+    }
+  }
+
+  // Update hero step label
+  document.getElementById('hero-step-label').textContent = 'Adım 0' + n + ' / 03';
+
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function submitForm(e) {
+  e.preventDefault();
+
+  // Show loading
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  document.getElementById('step-loading').classList.add('active');
+  document.getElementById('hero-step-label').textContent = 'İşleniyor...';
+
+  // After 3s show success
+  setTimeout(() => {
+    document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+    document.getElementById('step-success').classList.add('active');
+    document.getElementById('hero-step-label').textContent = 'Tamamlandı';
+
+    // Update all sidebar to complete
+    for (let i = 1; i <= 3; i++) {
+      const side = document.getElementById('side-' + i);
+      side.classList.add('active-step');
+      side.classList.remove('opacity-40');
+      side.querySelector('.step-bar').style.transform = 'scaleY(1)';
+      side.querySelector('span').textContent = 'Tamamlandı';
+    }
+  }, 3000);
+}
+</script>
+
+
+<!-- WhatsApp Float Button -->
+<style>.wa-float{position:fixed;bottom:28px;right:28px;z-index:999;width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#e9c176,#c5a059);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 24px rgba(233,193,118,.35);transition:all .3s;border:1px solid rgba(233,193,118,.2)}.wa-float:hover{transform:scale(1.08);box-shadow:0 6px 32px rgba(233,193,118,.5)}.wa-float svg{width:26px;height:26px;fill:#fff}</style>
+<a href="https://wa.me/905539784242?text=Merhaba%2C%20sa%C3%A7%20ekimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="wa-float" title="WhatsApp ile yazın" aria-label="WhatsApp ile iletişime geçin"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg></a>
+
+</body></html>

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>İletişim & Randevu | Altınsoy Hair Clinic</title>
+<meta name="description" content="Altınsoy Hair Clinic iletişim bilgileri. WhatsApp, telefon, e-posta ve iletişim formu. İstanbul'da 15 yıllık deneyimli saç ekim merkezi."/>
+<meta name="keywords" content="altınsoy iletişim, saç ekimi randevu istanbul, altınsoy whatsapp, saç ekim merkezi iletişim"/>
+<link rel="canonical" href="https://altinsoy.com/iletisim/"/>
+<!-- OpenGraph -->
+<meta property="og:title" content="Altınsoy — İletişim & Randevu"/>
+<meta property="og:description" content="WhatsApp, telefon, e-posta, form. 7/24 ulaşın. İstanbul klinik adresi."/>
+<meta property="og:url" content="https://altinsoy.com/iletisim/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Altınsoy Hair Clinic"/>
+<meta property="og:locale" content="tr_TR"/>
+<meta property="og:image" content="https://altinsoy.com/og-image.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Altınsoy — İletişim & Randevu"/>
+<meta name="twitter:description" content="WhatsApp, telefon, e-posta, form. 7/24 ulaşın. İstanbul klinik adresi."/>
+<meta name="twitter:image" content="https://altinsoy.com/og-image.jpg"/>
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<link rel="apple-touch-icon" href="favicon.svg"/>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200;300;400;500;600;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "MedicalClinic"],
+  "name": "Altınsoy Hair Clinic",
+  "image": "https://altinsoy.com/images/klinik.jpg",
+  "url": "https://altinsoy.com/iletisim/",
+  "telephone": "+905539784242",
+  "email": "info@altinsoy.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[Klinik Adresi]",
+    "addressLocality": "İstanbul",
+    "addressCountry": "TR"
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "17:00"}
+  ],
+  "medicalSpecialty": "DermatologyMedical",
+  "areaServed": "TR"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Ne zaman ulaşabilirim?", "acceptedAnswer": {"@type": "Answer", "text": "Klinik telefon ve e-posta Pazartesi-Cuma 09:00-19:00, Cumartesi 10:00-17:00 arasında yanıtlanır. WhatsApp 7/24 açıktır, mesai dışı mesajlar mesai başında yanıtlanır."}},
+    {"@type": "Question", "name": "Yanıt süreniz nedir?", "acceptedAnswer": {"@type": "Answer", "text": "WhatsApp ortalama 15 dakika, iletişim formu 24 saat, e-posta 24 saat içinde yanıtlanır."}},
+    {"@type": "Question", "name": "Uluslararası hastalar için farklı süreç var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Evet. İngilizce dil desteği, video konsültasyon ve transfer-konaklama koordinasyonu uluslararası hasta ekibimiz tarafından sağlanır."}}
+  ]
+}
+</script>
+
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "outline-variant": "#4e4639",
+        "surface-variant": "#353534",
+        "surface-container": "#201f1f",
+        "surface-container-low": "#1c1b1b",
+        "surface-container-high": "#2a2a2a",
+        "surface-container-highest": "#353534",
+        "surface-container-lowest": "#0e0e0e",
+        "on-background": "#e5e2e1",
+        "on-primary": "#412d00",
+        "background": "#131313",
+        "primary": "#e9c176",
+        "primary-container": "#c5a059",
+        "surface": "#131313",
+        "on-surface": "#e5e2e1",
+        "on-surface-variant": "#d1c5b4",
+      },
+      fontFamily: { "headline": ["Noto Serif"], "body": ["Manrope"], "label": ["Manrope"] }
+    }
+  }
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+body { font-family: 'Manrope', sans-serif; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height .4s ease, padding .4s ease; }
+.faq-item.open .faq-answer { max-height: 300px; padding-top: 16px; }
+.faq-item.open .faq-icon { transform: rotate(45deg); }
+.status-dot { width: 8px; height: 8px; border-radius: 9999px; display: inline-block; }
+.status-open { background-color: #6ee7a0; box-shadow: 0 0 0 4px rgba(110, 231, 160, 0.15); }
+.status-closed { background-color: #e0704f; box-shadow: 0 0 0 4px rgba(224, 112, 79, 0.15); }
+input, select, textarea { background-color: transparent; }
+.photo-preview img { width: 64px; height: 64px; object-fit: cover; border-radius: 4px; }
+</style>
+</head>
+
+<body class="bg-background text-on-surface font-body">
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-outline-variant/10 relative">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 py-5">
+  <a href="index.html" class="text-xl font-headline tracking-tighter text-primary">ALTINSOY</a>
+  <div class="hidden md:flex items-center gap-8 text-sm font-body">
+    <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary transition-colors">Saç Ekimi</a>
+    <a href="sac-ekimi-fue.html" class="text-on-surface-variant hover:text-primary transition-colors">FUE</a>
+    <a href="sac-ekimi-dhi.html" class="text-on-surface-variant hover:text-primary transition-colors">DHI</a>
+    <a href="sac-ekimi-sapphire.html" class="text-on-surface-variant hover:text-primary transition-colors">Sapphire</a>
+    <span class="text-primary border-b border-primary/30 pb-1 font-medium">İletişim</span>
+  </div>
+  <button onclick="const m=document.getElementById('mobile-menu');m.classList.toggle('hidden');m.classList.toggle('flex');" class="md:hidden text-primary p-2 flex items-center justify-center" aria-label="Menü" style="font-family:'Material Symbols Outlined'"><span class="material-symbols-outlined">menu</span></button>
+  <a href="#form" class="bg-primary text-on-primary px-6 py-2.5 text-xs font-label uppercase tracking-widest rounded-sm hover:bg-primary-container transition-all">Randevu Al</a>
+</div>
+
+<!-- Mobile Menu Panel -->
+<div id="mobile-menu" class="md:hidden hidden flex-col bg-background/95 backdrop-blur-xl border-t border-outline-variant/10 absolute top-full left-0 right-0 p-6 gap-4 text-sm">
+  <a href="index.html" class="text-on-surface-variant hover:text-primary py-2">Ana Sayfa</a>
+  <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary py-2">Teknikler</a>
+  <a href="oncesi-sonrasi.html" class="text-on-surface-variant hover:text-primary py-2">Sonuçlar</a>
+  <a href="fiyat.html" class="text-on-surface-variant hover:text-primary py-2">Fiyat</a>
+  <a href="iletisim.html" class="text-on-surface-variant hover:text-primary py-2">İletişim</a>
+  <a href="sac-analizi.html" class="bg-primary text-on-primary px-6 py-3 text-xs font-label uppercase tracking-widest rounded-sm text-center mt-2">Ücretsiz Analiz</a>
+</div>
+
+</nav>
+
+<main class="pt-28">
+
+<!-- HERO -->
+<section class="py-20 px-6">
+<div class="max-w-4xl mx-auto">
+  <nav class="text-xs text-on-surface-variant mb-8 tracking-wider">
+    <a href="index.html" class="hover:text-primary transition-colors">Ana Sayfa</a>
+    <span class="mx-2">›</span>
+    <span class="text-on-surface">İletişim</span>
+  </nav>
+  <span class="text-primary font-label text-[11px] tracking-[0.3em] uppercase block mb-4">İLETİŞİM</span>
+  <h1 class="font-headline text-4xl md:text-6xl leading-tight mb-8">Size nasıl<br/><span class="italic text-primary/80">yardımcı olabiliriz?</span></h1>
+  <p class="text-on-surface/70 text-lg leading-relaxed max-w-2xl">Sorunuz, randevu veya konsültasyon için birden fazla yoldan bize ulaşabilirsiniz. Size en uygun kanalı seçin; kısa süre içinde dönüş yapalım.</p>
+  <div class="mt-8 flex items-center gap-3 text-xs text-on-surface-variant">
+    <span id="statusDot" class="status-dot status-open"></span>
+    <span id="statusText" class="tracking-wider uppercase">Şu an AÇIK</span>
+    <span class="text-on-surface/40">·</span>
+    <span id="statusSub">Pazartesi-Cuma 09:00-19:00</span>
+  </div>
+</div>
+</section>
+
+<!-- CONTACT METHODS -->
+<section class="py-16 px-6 bg-surface-container-low">
+<div class="max-w-5xl mx-auto">
+  <h2 class="font-headline text-3xl mb-10">İletişim Kanalları</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/905539784242?text=Merhaba%2C%20sa%C3%A7%20ekimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." class="group bg-surface-container-high p-8 rounded border-2 border-primary/60 hover:border-primary transition-all relative">
+      <span class="absolute top-4 right-4 text-[10px] tracking-widest uppercase bg-primary text-on-primary px-2 py-1 rounded-sm font-label">En Hızlı</span>
+      <span class="material-symbols-outlined text-primary text-3xl mb-4">chat</span>
+      <h3 class="font-headline text-xl mb-2">WhatsApp</h3>
+      <p class="text-on-surface/70 text-sm leading-relaxed mb-4">Hızlı soru, fotoğraf paylaşımı için ideal. Ortalama 15 dakikada yanıt.</p>
+      <div class="text-primary font-label text-sm tracking-wider">+90 553 978 42 42</div>
+      <div class="mt-5 flex items-center gap-2 text-primary text-xs uppercase tracking-wider group-hover:underline">WhatsApp'ta Yaz <span class="material-symbols-outlined text-[14px]">arrow_forward</span></div>
+    </a>
+
+    <!-- Telefon -->
+    <a href="tel:+905539784242" class="group bg-surface-container-high p-8 rounded border border-transparent hover:border-primary/20 transition-all">
+      <span class="material-symbols-outlined text-primary text-3xl mb-4">call</span>
+      <h3 class="font-headline text-xl mb-2">Telefon</h3>
+      <p class="text-on-surface/70 text-sm leading-relaxed mb-4">Detaylı görüşme ve randevu için.</p>
+      <div class="text-primary font-label text-sm tracking-wider">+90 553 978 42 42</div>
+      <div class="text-[11px] text-on-surface/60 mt-1">Pazartesi-Cumartesi, 09:00-19:00</div>
+      <div class="mt-5 flex items-center gap-2 text-primary text-xs uppercase tracking-wider group-hover:underline">Ara <span class="material-symbols-outlined text-[14px]">arrow_forward</span></div>
+    </a>
+
+    <!-- E-posta -->
+    <a href="mailto:info@altinsoy.com" class="group bg-surface-container-high p-8 rounded border border-transparent hover:border-primary/20 transition-all">
+      <span class="material-symbols-outlined text-primary text-3xl mb-4">mail</span>
+      <h3 class="font-headline text-xl mb-2">E-posta</h3>
+      <p class="text-on-surface/70 text-sm leading-relaxed mb-4">Belge paylaşımı, uluslararası hasta yazışmaları.</p>
+      <div class="text-primary font-label text-sm tracking-wider">info@altinsoy.com</div>
+      <div class="text-[11px] text-on-surface/60 mt-1">24 saat içinde yanıt</div>
+      <div class="mt-5 flex items-center gap-2 text-primary text-xs uppercase tracking-wider group-hover:underline">E-posta Gönder <span class="material-symbols-outlined text-[14px]">arrow_forward</span></div>
+    </a>
+
+    <!-- Klinik Adresi -->
+    <a href="#map" class="group bg-surface-container-high p-8 rounded border border-transparent hover:border-primary/20 transition-all">
+      <span class="material-symbols-outlined text-primary text-3xl mb-4">location_on</span>
+      <h3 class="font-headline text-xl mb-2">Klinik Ziyareti</h3>
+      <p class="text-on-surface/70 text-sm leading-relaxed mb-4">Önceden randevu almanız önerilir.</p>
+      <div class="text-primary font-label text-sm tracking-wider">[Klinik Adresi], İstanbul</div>
+      <div class="text-[11px] text-on-surface/60 mt-1">Randevulu ziyaret</div>
+      <div class="mt-5 flex items-center gap-2 text-primary text-xs uppercase tracking-wider group-hover:underline">Haritada Gör <span class="material-symbols-outlined text-[14px]">arrow_forward</span></div>
+    </a>
+
+  </div>
+</div>
+</section>
+
+<!-- WORKING HOURS -->
+<section class="py-20 px-6">
+<div class="max-w-3xl mx-auto">
+  <h2 class="font-headline text-3xl mb-10">Çalışma Saatleri</h2>
+  <div class="bg-surface-container-high rounded overflow-hidden border border-outline-variant/10">
+    <div class="flex justify-between items-center px-6 py-4 border-b border-outline-variant/10">
+      <span class="text-sm">Pazartesi - Cuma</span>
+      <span class="text-sm text-primary font-label tracking-wider">09:00 — 19:00</span>
+    </div>
+    <div class="flex justify-between items-center px-6 py-4 border-b border-outline-variant/10">
+      <span class="text-sm">Cumartesi</span>
+      <span class="text-sm text-primary font-label tracking-wider">10:00 — 17:00</span>
+    </div>
+    <div class="flex justify-between items-center px-6 py-4">
+      <span class="text-sm">Pazar</span>
+      <span class="text-sm text-on-surface/60 font-label tracking-wider">Kapalı <span class="text-primary/80">(acil için WhatsApp)</span></span>
+    </div>
+  </div>
+  <p class="text-xs text-on-surface/60 mt-4 leading-relaxed">Mesai dışı bize yazılan mesajlar mesai başında yanıtlanır. WhatsApp 7/24 açıktır; acil durumlarda tercih edilir.</p>
+</div>
+</section>
+
+<!-- CONTACT FORM -->
+<section id="form" class="py-20 px-6 bg-surface-container-low">
+<div class="max-w-3xl mx-auto">
+  <h2 class="font-headline text-3xl mb-4">Detaylı İletişim Formu</h2>
+  <p class="text-on-surface/70 mb-10 max-w-xl">Durumunuzu kısaca anlatın, gerekirse fotoğraf ekleyin. Uzman ekibimiz 24 saat içinde dönüş yapacak.</p>
+
+  <form id="contactForm" class="space-y-6" novalidate>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div>
+        <label for="name" class="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">Ad Soyad <span class="text-primary">*</span></label>
+        <input id="name" name="name" type="text" required class="w-full border-0 border-b border-outline-variant/30 focus:border-primary focus:ring-0 text-sm py-2 px-0 text-on-surface"/>
+      </div>
+      <div>
+        <label for="phone" class="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">Telefon / WhatsApp <span class="text-primary">*</span></label>
+        <input id="phone" name="phone" type="tel" required class="w-full border-0 border-b border-outline-variant/30 focus:border-primary focus:ring-0 text-sm py-2 px-0 text-on-surface"/>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <div>
+        <label for="email" class="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">E-posta <span class="text-on-surface/40">(opsiyonel)</span></label>
+        <input id="email" name="email" type="email" class="w-full border-0 border-b border-outline-variant/30 focus:border-primary focus:ring-0 text-sm py-2 px-0 text-on-surface"/>
+      </div>
+      <div>
+        <label for="topic" class="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">İlgi Alanı</label>
+        <select id="topic" name="topic" class="w-full border-0 border-b border-outline-variant/30 focus:border-primary focus:ring-0 text-sm py-2 px-0 text-on-surface bg-transparent">
+          <option class="bg-surface-container-high" value="sac">Saç Ekimi</option>
+          <option class="bg-surface-container-high" value="sakal">Sakal Ekimi</option>
+          <option class="bg-surface-container-high" value="kas">Kaş Ekimi</option>
+          <option class="bg-surface-container-high" value="diger">Diğer</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <label for="message" class="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">Mesajınız</label>
+      <textarea id="message" name="message" rows="5" class="w-full border border-outline-variant/30 focus:border-primary focus:ring-0 text-sm p-4 rounded bg-transparent text-on-surface" placeholder="Durumunuz, beklentileriniz veya sorularınız..."></textarea>
+    </div>
+
+    <div>
+      <label class="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">Fotoğraf Yükle <span class="text-on-surface/40">(opsiyonel, birden fazla)</span></label>
+      <label for="photos" class="flex items-center gap-3 border border-dashed border-outline-variant/40 rounded p-5 cursor-pointer hover:border-primary/50 transition-colors">
+        <span class="material-symbols-outlined text-primary">photo_camera</span>
+        <span class="text-sm text-on-surface/70">Fotoğraf seçmek için tıklayın veya sürükleyin</span>
+        <input id="photos" name="photos" type="file" accept="image/*" multiple class="hidden"/>
+      </label>
+      <div id="photoPreview" class="photo-preview flex flex-wrap gap-3 mt-4"></div>
+    </div>
+
+    <div class="flex items-start gap-3 pt-2">
+      <input id="kvkk" name="kvkk" type="checkbox" required class="mt-1 border-outline-variant/40 text-primary focus:ring-primary rounded-sm bg-transparent"/>
+      <label for="kvkk" class="text-xs text-on-surface/70 leading-relaxed">
+        <span class="text-primary">*</span> Kişisel verilerimin işlenmesine ilişkin <a href="kvkk-aydinlatma.html" class="text-primary underline hover:no-underline">KVKK Aydınlatma Metni</a>'ni ve <a href="gizlilik-politikasi.html" class="text-primary underline hover:no-underline">Gizlilik Politikası</a>'nı okudum, onay veriyorum.
+      </label>
+    </div>
+
+    <div class="pt-4">
+      <button type="submit" class="bg-primary text-on-primary px-10 py-4 font-label uppercase tracking-widest text-xs rounded-sm hover:bg-primary-container transition-all">Mesajı Gönder</button>
+    </div>
+
+    <div id="formSuccess" class="hidden bg-primary/10 border border-primary/30 rounded p-5 text-sm text-on-surface/90 leading-relaxed">
+      <div class="flex items-start gap-3">
+        <span class="material-symbols-outlined text-primary">check_circle</span>
+        <div>
+          <strong class="block mb-1 text-primary">Mesajınız alındı.</strong>
+          En geç 24 saat içinde ekibimiz sizinle iletişime geçecek. Acil durumlar için WhatsApp hattımızı kullanabilirsiniz.
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+</section>
+
+<!-- MAP -->
+<section id="map" class="py-20 px-6">
+<div class="max-w-5xl mx-auto">
+  <h2 class="font-headline text-3xl mb-10">Klinik Konumumuz</h2>
+  <div class="rounded overflow-hidden border border-outline-variant/10 bg-surface-container-high aspect-[16/9] flex items-center justify-center">
+    <!-- Google Maps embed: Aşağıdaki iframe'i gerçek embed kodu ile değiştirin.
+         <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    -->
+    <div class="text-center p-10">
+      <span class="material-symbols-outlined text-primary text-5xl mb-4">map</span>
+      <p class="text-on-surface/70 text-sm">Harita burada gösterilecek (Google Maps embed)</p>
+    </div>
+  </div>
+  <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mt-6">
+    <div>
+      <div class="text-sm text-on-surface font-label tracking-wider">[Klinik Adresi], İstanbul, Türkiye</div>
+      <div class="text-xs text-on-surface/60 mt-1">Metro/otobüs ulaşımı: en yakın durak bilgisi konsültasyonda paylaşılır.</div>
+    </div>
+    <a href="https://maps.google.com/?q=Altinsoy+Hair+Clinic+Istanbul" target="_blank" rel="noopener" class="border border-primary/30 text-primary px-6 py-3 font-label uppercase tracking-widest text-xs rounded-sm hover:bg-primary/5 transition-all inline-flex items-center gap-2">
+      <span class="material-symbols-outlined text-[16px]">directions</span>Yol Tarifi Al
+    </a>
+  </div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section class="py-20 px-6 bg-surface-container-low">
+<div class="max-w-4xl mx-auto">
+  <h2 class="font-headline text-3xl mb-12">Sıkça Sorulan Sorular</h2>
+
+  <div class="faq-item open cursor-pointer border-b border-outline-variant/10 pb-6 mb-6" onclick="this.classList.toggle('open')">
+    <div class="flex justify-between items-center gap-4">
+      <h3 class="text-sm font-medium">Ne zaman ulaşabilirim?</h3>
+      <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+    </div>
+    <div class="faq-answer text-sm text-on-surface/70 leading-relaxed">Klinik telefon ve e-posta Pazartesi-Cuma 09:00-19:00, Cumartesi 10:00-17:00 arasında yanıtlanır. WhatsApp hattımız 7/24 açıktır; mesai dışında yazılan mesajlar mesai başında yanıtlanır. Acil durumlarda WhatsApp tercih edilmelidir.</div>
+  </div>
+
+  <div class="faq-item cursor-pointer border-b border-outline-variant/10 pb-6 mb-6" onclick="this.classList.toggle('open')">
+    <div class="flex justify-between items-center gap-4">
+      <h3 class="text-sm font-medium">Yanıt süreniz nedir?</h3>
+      <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+    </div>
+    <div class="faq-answer text-sm text-on-surface/70 leading-relaxed">WhatsApp üzerinden ortalama 15 dakika içinde dönüş yapıyoruz. İletişim formu ve e-posta mesajlarında hedef süremiz 24 saat. Yoğun dönemlerde bu süre bir miktar uzayabilir — bu durumda aynı gün içinde bir ön bilgi mesajı gönderiyoruz.</div>
+  </div>
+
+  <div class="faq-item cursor-pointer pb-6" onclick="this.classList.toggle('open')">
+    <div class="flex justify-between items-center gap-4">
+      <h3 class="text-sm font-medium">Uluslararası hastalar için farklı süreç var mı?</h3>
+      <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+    </div>
+    <div class="faq-answer text-sm text-on-surface/70 leading-relaxed">Evet. İngilizce dil desteği, video konsültasyon ve transfer-konaklama koordinasyonu uluslararası hasta ekibimiz tarafından yürütülür. Seyahat öncesi tüm süreç uzaktan planlanır; İstanbul'a geldiğinizde sadece işlem ve kontrol randevularınız kalır.</div>
+  </div>
+</div>
+</section>
+
+<!-- Disclaimer -->
+<div class="py-6 px-6 text-center">
+  <p class="text-[11px] text-on-surface/60 max-w-2xl mx-auto">Bu sayfa üzerinden paylaşılan bilgiler KVKK kapsamında korunur ve yalnızca konsültasyon amacıyla kullanılır. Tedavi kararınız için uzman hekim konsültasyonu alınız.</p>
+</div>
+
+</main>
+
+<!-- FOOTER -->
+
+<!-- Medical Disclaimer -->
+<div class="px-6 py-8 text-center border-t border-outline-variant/10">
+  <p class="text-[10px] text-on-surface/50 leading-relaxed max-w-3xl mx-auto">
+    Bu web sitesindeki içerik genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Kişisel durumunuza uygun değerlendirme ancak uzman hekim konsültasyonu ile yapılabilir. Bireysel sonuçlar değişkenlik gösterebilir.
+  </p>
+</div>
+
+<footer class="bg-[#0e0e0e] border-t border-outline-variant/10 py-12 px-6">
+<div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+  <a href="index.html" class="text-primary font-headline text-lg">ALTINSOY HAIR CLINIC</a>
+  <div class="flex gap-6 text-xs text-on-surface-variant">
+    <a href="sac-ekimi-fue.html" class="hover:text-primary transition-colors">FUE</a>
+    <a href="sac-ekimi-dhi.html" class="hover:text-primary transition-colors">DHI</a>
+    <a href="sac-ekimi-sapphire.html" class="hover:text-primary transition-colors">Sapphire</a>
+    <a href="gizlilik-politikasi.html" class="hover:text-primary transition-colors">Gizlilik</a>
+    <a href="kvkk-aydinlatma.html" class="hover:text-primary transition-colors">KVKK</a>
+  </div>
+  <span class="text-on-surface-variant/60 text-[10px] tracking-widest uppercase">© 2026 Altınsoy Hair Clinic</span>
+</div>
+</footer>
+
+<script>
+// Dinamik açık/kapalı durumu
+(function() {
+  var now = new Date();
+  var day = now.getDay(); // 0 Pazar - 6 Cumartesi
+  var hour = now.getHours() + now.getMinutes() / 60;
+  var open = false;
+  var sub = '';
+  if (day >= 1 && day <= 5) {
+    open = hour >= 9 && hour < 19;
+    sub = 'Pazartesi-Cuma 09:00-19:00';
+  } else if (day === 6) {
+    open = hour >= 10 && hour < 17;
+    sub = 'Cumartesi 10:00-17:00';
+  } else {
+    open = false;
+    sub = 'Pazar kapalı — WhatsApp 7/24';
+  }
+  var dot = document.getElementById('statusDot');
+  var txt = document.getElementById('statusText');
+  var subEl = document.getElementById('statusSub');
+  if (open) {
+    dot.className = 'status-dot status-open';
+    txt.textContent = 'Şu an AÇIK';
+  } else {
+    dot.className = 'status-dot status-closed';
+    txt.textContent = 'Şu an KAPALI';
+  }
+  subEl.textContent = sub;
+})();
+
+// Fotoğraf önizleme
+document.getElementById('photos').addEventListener('change', function(e) {
+  var preview = document.getElementById('photoPreview');
+  preview.innerHTML = '';
+  var files = e.target.files;
+  for (var i = 0; i < files.length; i++) {
+    var file = files[i];
+    if (!file.type.startsWith('image/')) continue;
+    var img = document.createElement('img');
+    img.src = URL.createObjectURL(file);
+    preview.appendChild(img);
+  }
+});
+
+// Form submit (demo)
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var name = document.getElementById('name').value.trim();
+  var phone = document.getElementById('phone').value.trim();
+  var kvkk = document.getElementById('kvkk').checked;
+  if (!name || !phone) {
+    alert('Lütfen ad soyad ve telefon alanlarını doldurun.');
+    return;
+  }
+  if (!kvkk) {
+    alert('Formu göndermek için KVKK onayı gereklidir.');
+    return;
+  }
+  document.getElementById('formSuccess').classList.remove('hidden');
+  this.reset();
+  document.getElementById('photoPreview').innerHTML = '';
+  document.getElementById('formSuccess').scrollIntoView({behavior: 'smooth', block: 'center'});
+});
+</script>
+
+
+<!-- WhatsApp Float Button -->
+<style>.wa-float{position:fixed;bottom:28px;right:28px;z-index:999;width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#e9c176,#c5a059);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 24px rgba(233,193,118,.35);transition:all .3s;border:1px solid rgba(233,193,118,.2)}.wa-float:hover{transform:scale(1.08);box-shadow:0 6px 32px rgba(233,193,118,.5)}.wa-float svg{width:26px;height:26px;fill:#fff}</style>
+<a href="https://wa.me/905539784242?text=Merhaba%2C%20sa%C3%A7%20ekimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="wa-float" title="WhatsApp ile yazın" aria-label="WhatsApp ile iletişime geçin"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg></a>
+
+</body></html>

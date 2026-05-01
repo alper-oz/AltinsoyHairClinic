@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Fiyat Hesaplama Aracı | Saç Ekimi Tahmini Fiyat — Altınsoy Hair Clinic</title>
+<meta name="description" content="Saç ekimi fiyat tahminini 4 adımda öğrenin. Teknik, greft sayısı ve pakete göre tahmini aralık. Şeffaf fiyatlandırma, bağlayıcı değil."/>
+<meta name="keywords" content="saç ekimi fiyat hesaplama, saç ekimi maliyet, fue fiyat, dhi fiyat, greft fiyat, saç ekimi tahmini fiyat"/>
+<link rel="canonical" href="https://altinsoy.com/fiyat-hesaplama/"/>
+
+<!-- OpenGraph -->
+<meta property="og:title" content="Fiyat Hesaplama Aracı | Altınsoy Hair Clinic"/>
+<meta property="og:description" content="Şeffaf fiyat tahmini. Teknik, greft ve paket seçerek tahmini fiyat aralığınızı öğrenin."/>
+<meta property="og:type" content="website"/>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200;300;400;500;600;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Fiyat Hesaplama Aracı",
+  "description": "Saç ekimi tahmini fiyat aralığı hesaplayıcı",
+  "provider": {"@type": "MedicalClinic", "name": "Altınsoy Hair Clinic"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Tahmini saç ekimi fiyatı nasıl hesaplanır?",
+  "step": [
+    {"@type": "HowToStep", "name": "Teknik seçimi", "text": "FUE, DHI veya Sapphire FUE tekniklerinden size uygun olanı seçin."},
+    {"@type": "HowToStep", "name": "Greft aralığı", "text": "Tahmini greft aralığınızı seçin. Bilmiyorsanız greft hesaplama aracını kullanabilirsiniz."},
+    {"@type": "HowToStep", "name": "Paket seviyesi", "text": "Standart, Premium veya Uluslararası paketlerden birini seçin."},
+    {"@type": "HowToStep", "name": "Tahmini fiyat", "text": "Seçimlerinize göre tahmini fiyat aralığı gösterilir."}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Saç ekimi fiyatı ne kadar?", "acceptedAnswer": {"@type": "Answer", "text": "Altınsoy paketleri €2.500 ile €5.000 arasında yer alır. Fiyat tekniğe, greft sayısına ve seçilen pakete göre değişir. Kesin fiyat ücretsiz konsültasyon sonrası yazılı teklif olarak paylaşılır."}},
+    {"@type": "Question", "name": "FUE, DHI ve Sapphire fiyat farkı nedir?", "acceptedAnswer": {"@type": "Answer", "text": "FUE standart fiyat aralığında yer alır. Sapphire FUE, safir bıçak nedeniyle yaklaşık %10 daha yüksektir. DHI ise ekipman ve süre nedeniyle yaklaşık %20 daha yüksek fiyatlıdır."}},
+    {"@type": "Question", "name": "Fiyata neler dahil?", "acceptedAnswer": {"@type": "Answer", "text": "Standart paket: operasyon, anestezi, ilk yıkama, bakım seti, kontrol randevusu. Premium paket: buna ek olarak konaklama ve transfer. Uluslararası paket: VIP karşılama, çeviri hizmeti ve uzatılmış takip dahil."}},
+    {"@type": "Question", "name": "Taksit seçeneği var mı?", "acceptedAnswer": {"@type": "Answer", "text": "Kredi kartı ile taksit seçenekleri mevcuttur. Detaylar konsültasyon aşamasında görüşülür."}}
+  ]
+}
+</script>
+
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "outline-variant": "#4e4639",
+        "surface-container": "#201f1f",
+        "surface-container-low": "#1c1b1b",
+        "surface-container-high": "#2a2a2a",
+        "surface-container-highest": "#353534",
+        "surface-container-lowest": "#0e0e0e",
+        "on-background": "#e5e2e1",
+        "on-primary": "#412d00",
+        "background": "#131313",
+        "primary": "#e9c176",
+        "primary-container": "#c5a059",
+        "surface": "#131313",
+        "on-surface": "#e5e2e1",
+        "on-surface-variant": "#d1c5b4",
+      },
+      fontFamily: { "headline": ["Noto Serif"], "body": ["Manrope"], "label": ["Manrope"] }
+    }
+  }
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+body { font-family: 'Manrope', sans-serif; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+
+.step { display: none; opacity: 0; transform: translateY(12px); }
+.step.active { display: block; animation: fadeUp 0.5s cubic-bezier(0.22,1,0.36,1) forwards; }
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+.opt-card { transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
+.opt-card:hover { border-color: rgba(233,193,118,0.4); transform: translateY(-2px); }
+.opt-card.selected { border-color: rgba(233,193,118,0.6); background: rgba(233,193,118,0.05); }
+.opt-card.selected .opt-icon { color: rgba(233,193,118,0.9); }
+.opt-card.selected .opt-check { opacity: 1; }
+
+.btn-primary { background: linear-gradient(135deg,#e9c176,#c5a059); transition: all 0.3s; }
+.btn-primary:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(233,193,118,0.35); }
+.btn-primary:disabled { opacity: 0.35; cursor: not-allowed; background: rgba(233,193,118,0.2); }
+
+.counter-num { font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; }
+
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height .4s ease, padding .4s ease; }
+.faq-item.open .faq-answer { max-height: 300px; padding-top: 16px; }
+.faq-item.open .faq-icon { transform: rotate(45deg); }
+</style>
+</head>
+
+<body class="bg-background text-on-surface font-body">
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-outline-variant/10 relative">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 py-5">
+  <a href="index.html" class="text-xl font-headline tracking-tighter text-primary">ALTINSOY</a>
+  <div class="hidden md:flex items-center gap-8 text-sm">
+    <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary transition-colors">Teknikler</a>
+    <a href="oncesi-sonrasi.html" class="text-on-surface-variant hover:text-primary transition-colors">Sonuçlar</a>
+    <a href="fiyat.html" class="text-on-surface-variant hover:text-primary transition-colors">Fiyat</a>
+    <a href="iletisim.html" class="text-on-surface-variant hover:text-primary transition-colors">İletişim</a>
+  </div>
+  <button onclick="const m=document.getElementById('mobile-menu');m.classList.toggle('hidden');m.classList.toggle('flex');" class="md:hidden text-primary p-2 flex items-center justify-center" aria-label="Menü" style="font-family:'Material Symbols Outlined'"><span class="material-symbols-outlined">menu</span></button>
+  <a href="sac-analizi.html" class="bg-primary text-on-primary px-6 py-2.5 text-xs font-label uppercase tracking-widest rounded-sm hover:bg-primary-container transition-all">Ücretsiz Analiz</a>
+</div>
+
+<!-- Mobile Menu Panel -->
+<div id="mobile-menu" class="md:hidden hidden flex-col bg-background/95 backdrop-blur-xl border-t border-outline-variant/10 absolute top-full left-0 right-0 p-6 gap-4 text-sm">
+  <a href="index.html" class="text-on-surface-variant hover:text-primary py-2">Ana Sayfa</a>
+  <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary py-2">Teknikler</a>
+  <a href="oncesi-sonrasi.html" class="text-on-surface-variant hover:text-primary py-2">Sonuçlar</a>
+  <a href="fiyat.html" class="text-on-surface-variant hover:text-primary py-2">Fiyat</a>
+  <a href="iletisim.html" class="text-on-surface-variant hover:text-primary py-2">İletişim</a>
+  <a href="sac-analizi.html" class="bg-primary text-on-primary px-6 py-3 text-xs font-label uppercase tracking-widest rounded-sm text-center mt-2">Ücretsiz Analiz</a>
+</div>
+
+</nav>
+
+<main class="pt-28 pb-24 px-6">
+<div class="max-w-4xl mx-auto">
+
+<!-- HERO -->
+<section class="mb-12">
+  <nav class="text-xs text-on-surface-variant mb-6 tracking-wider">
+    <a href="index.html" class="hover:text-primary transition-colors">Ana Sayfa</a>
+    <span class="mx-2">›</span>
+    <a href="fiyat.html" class="hover:text-primary transition-colors">Fiyat</a>
+    <span class="mx-2">›</span>
+    <span class="text-on-surface">Hesaplama</span>
+  </nav>
+  <span class="text-primary font-label text-[11px] tracking-[0.3em] uppercase block mb-4">İNTERAKTİF ARAÇ</span>
+  <h1 class="font-headline text-4xl md:text-6xl leading-tight mb-6">Fiyat tahmininiz <span class="italic text-primary/80">4 adımda.</span></h1>
+  <p class="text-on-surface/70 text-lg leading-relaxed max-w-2xl">Teknik, greft sayısı ve paket seviyesine göre tahmini fiyat aralığınızı öğrenin. Bu araç kaba bir tahmin sunar; kesin fiyat ücretsiz konsültasyon sonrası <strong class="text-on-surface">yazılı teklif</strong> olarak paylaşılır.</p>
+
+  <!-- Greft hesaplayıcı bağlantısı -->
+  <div class="mt-8 bg-surface-container-low border-l-2 border-primary/50 rounded-sm p-4 flex items-start gap-3">
+    <span class="material-symbols-outlined text-primary/70 text-[18px] mt-0.5">tips_and_updates</span>
+    <p class="text-xs text-on-surface/70">Greft ihtiyacınızı henüz bilmiyorsanız önce <a href="greft-hesaplama.html" class="text-primary underline hover:no-underline">Greft Hesaplama Aracı'nı</a> kullanabilirsiniz.</p>
+  </div>
+</section>
+
+<!-- PROGRESS -->
+<div class="flex items-center gap-3 mb-10">
+  <div class="flex-1 h-1 rounded-full bg-surface-container-high overflow-hidden">
+    <div id="progress-fill" class="h-full bg-primary rounded-full transition-all duration-500" style="width: 25%"></div>
+  </div>
+  <span id="step-label" class="text-[10px] uppercase tracking-widest text-on-surface/60 w-24 text-right">Adım 1/4</span>
+</div>
+
+<!-- CALCULATOR -->
+<div class="bg-surface-container-low rounded-sm p-8 md:p-12 relative overflow-hidden mb-12">
+  <div class="absolute top-0 right-0 w-80 h-80 bg-primary/5 rounded-full blur-[100px] -mr-40 -mt-40"></div>
+  <div class="relative z-10">
+
+    <!-- STEP 1: TEKNİK -->
+    <div id="step1" class="step active">
+      <h2 class="font-headline text-2xl md:text-3xl mb-3">Hangi teknik?</h2>
+      <p class="text-on-surface-variant text-sm mb-10 opacity-70">Size uygun olduğunu düşündüğünüz tekniği seçin. Bilmiyorsanız <a href="fue-vs-dhi.html" class="text-primary underline">karşılaştırma sayfasına</a> bakabilirsiniz.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectTech(this, 'fue')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">grain</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-2">FUE</h3>
+          <p class="text-xs text-on-surface/60 mb-3">Folliküler Ünite Ekstraksiyonu</p>
+          <p class="text-[11px] text-on-surface/70 leading-relaxed">En çok tercih edilen, en geniş uygulama alanı.</p>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectTech(this, 'sapphire')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">diamond</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-2">Sapphire FUE</h3>
+          <p class="text-xs text-on-surface/60 mb-3">Safir uçlu bıçak</p>
+          <p class="text-[11px] text-on-surface/70 leading-relaxed">Daha küçük kesi, daha hızlı iyileşme.</p>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectTech(this, 'dhi')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">edit</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-2">DHI</h3>
+          <p class="text-xs text-on-surface/60 mb-3">Choi kalemi ile direkt ekim</p>
+          <p class="text-[11px] text-on-surface/70 leading-relaxed">Hassas açı kontrolü, yüksek yoğunluk.</p>
+        </div>
+      </div>
+
+      <div class="flex justify-end mt-10 pt-6 border-t border-outline-variant/10">
+        <button id="btn-step1" class="btn-primary text-on-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase rounded-sm" disabled onclick="goStep(2)">Devam Et →</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: GREFT ARALIĞI -->
+    <div id="step2" class="step">
+      <h2 class="font-headline text-2xl md:text-3xl mb-3">Tahmini greft aralığınız?</h2>
+      <p class="text-on-surface-variant text-sm mb-10 opacity-70">Greft ihtiyacınıza en yakın aralığı seçin. <a href="greft-hesaplama.html" class="text-primary underline">Greft hesaplama aracını</a> kullanarak öğrenebilirsiniz.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectGraft(this, 'small')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">blur_on</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-1">1.500 – 2.500 greft</h3>
+          <p class="text-[11px] text-on-surface/60">Norwood II, hafif seyrelme, küçük alan</p>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectGraft(this, 'medium')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">density_medium</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-1">2.500 – 3.500 greft</h3>
+          <p class="text-[11px] text-on-surface/60">Norwood III, belirgin körfez</p>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectGraft(this, 'large')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">density_small</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-1">3.500 – 4.500 greft</h3>
+          <p class="text-[11px] text-on-surface/60">Norwood IV, tepe + ön birlikte</p>
+        </div>
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectGraft(this, 'xlarge')">
+          <div class="flex justify-between items-start mb-4">
+            <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">grain</span>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+          <h3 class="font-headline text-lg mb-1">4.500+ greft</h3>
+          <p class="text-[11px] text-on-surface/60">Norwood V+, geniş alan veya çoklu seans</p>
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center mt-10 pt-6 border-t border-outline-variant/10">
+        <button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="goStep(1)">
+          <span class="material-symbols-outlined text-xs">arrow_back</span> Önceki
+        </button>
+        <button id="btn-step2" class="btn-primary text-on-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase rounded-sm" disabled onclick="goStep(3)">Devam Et →</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: PAKET -->
+    <div id="step3" class="step">
+      <h2 class="font-headline text-2xl md:text-3xl mb-3">Hangi paket?</h2>
+      <p class="text-on-surface-variant text-sm mb-10 opacity-70">Paket içeriklerinin tümünü <a href="fiyat.html" class="text-primary underline">fiyat sayfasında</a> inceleyebilirsiniz.</p>
+
+      <div class="space-y-4">
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectPackage(this, 'standart')">
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex-1">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">workspace_premium</span>
+                <h3 class="font-headline text-lg">Standart Paket</h3>
+              </div>
+              <p class="text-xs text-on-surface/70 leading-relaxed mb-3">Operasyon, anestezi, ilk yıkama, bakım seti, kontrol randevusu, 12 ay WhatsApp destek.</p>
+              <div class="flex gap-4 text-[10px] uppercase tracking-widest text-on-surface/50">
+                <span>Yurt İçi Odaklı</span>
+                <span>•</span>
+                <span>Konaklama Hariç</span>
+              </div>
+            </div>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+        </div>
+
+        <div class="opt-card cursor-pointer border-2 border-primary/40 p-6 rounded-sm relative" onclick="selectPackage(this, 'premium')">
+          <span class="absolute top-0 right-0 bg-primary text-on-primary text-[9px] tracking-widest uppercase px-3 py-1 rounded-bl-sm rounded-tr-sm font-semibold">En Çok Tercih Edilen</span>
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex-1">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="opt-icon material-symbols-outlined text-2xl text-primary">stars</span>
+                <h3 class="font-headline text-lg">Premium Paket</h3>
+              </div>
+              <p class="text-xs text-on-surface/70 leading-relaxed mb-3">Standart pakete ek olarak: 2 gece 4* konaklama, transfer, PRP takviyesi, öncelikli destek.</p>
+              <div class="flex gap-4 text-[10px] uppercase tracking-widest text-on-surface/50">
+                <span>Konaklama Dahil</span>
+                <span>•</span>
+                <span>Transfer Dahil</span>
+              </div>
+            </div>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+        </div>
+
+        <div class="opt-card cursor-pointer border border-outline-variant/20 p-6 rounded-sm" onclick="selectPackage(this, 'uluslararasi')">
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex-1">
+              <div class="flex items-center gap-3 mb-2">
+                <span class="opt-icon material-symbols-outlined text-2xl text-primary/40">flight</span>
+                <h3 class="font-headline text-lg">Uluslararası Paket</h3>
+              </div>
+              <p class="text-xs text-on-surface/70 leading-relaxed mb-3">Premium pakete ek olarak: 5 gece konaklama, VIP karşılama, çeviri hizmeti, uzatılmış 18 ay takip.</p>
+              <div class="flex gap-4 text-[10px] uppercase tracking-widest text-on-surface/50">
+                <span>Tam Kapsam</span>
+                <span>•</span>
+                <span>Çok Dilli Destek</span>
+              </div>
+            </div>
+            <span class="opt-check material-symbols-outlined text-primary text-sm opacity-0">check_circle</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-between items-center mt-10 pt-6 border-t border-outline-variant/10">
+        <button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="goStep(2)">
+          <span class="material-symbols-outlined text-xs">arrow_back</span> Önceki
+        </button>
+        <button id="btn-step3" class="btn-primary text-on-primary px-10 py-3.5 text-xs font-bold tracking-widest uppercase rounded-sm" disabled onclick="calculate()">Hesapla →</button>
+      </div>
+    </div>
+
+    <!-- STEP 4: SONUÇ -->
+    <div id="step4" class="step">
+      <div class="text-center mb-10">
+        <span class="material-symbols-outlined text-primary text-3xl mb-3">payments</span>
+        <h2 class="font-headline text-2xl md:text-3xl mb-3">Tahmini fiyat aralığınız</h2>
+        <p class="text-on-surface-variant text-sm opacity-70 max-w-md mx-auto">Seçimlerinize göre yaklaşık fiyat. Kesin fiyat konsültasyon sonrası yazılı teklif olarak verilir.</p>
+      </div>
+
+      <!-- Sonuç kartı -->
+      <div class="bg-surface-container-high border border-primary/20 rounded-sm p-8 md:p-10 mb-6 text-center">
+        <p class="text-[11px] uppercase tracking-[0.3em] text-primary/70 mb-4">Tahmini Aralık</p>
+        <div class="counter-num font-headline text-4xl md:text-6xl text-primary mb-4">
+          €<span id="result-min">-</span> <span class="text-primary/50">–</span> €<span id="result-max">-</span>
+        </div>
+        <p class="text-sm text-on-surface/60 mb-6">seçtiğiniz paket ve teknik için</p>
+        <div class="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest text-on-surface/50">
+          <span class="material-symbols-outlined text-[14px]">info</span>
+          <span id="result-scale">—</span>
+        </div>
+      </div>
+
+      <!-- Seçim özeti -->
+      <div class="grid grid-cols-3 gap-3 mb-6">
+        <div class="bg-surface-container-low p-4 rounded-sm">
+          <p class="text-[10px] uppercase tracking-widest text-on-surface/50 mb-1">Teknik</p>
+          <p id="summary-tech" class="text-sm font-medium">-</p>
+        </div>
+        <div class="bg-surface-container-low p-4 rounded-sm">
+          <p class="text-[10px] uppercase tracking-widest text-on-surface/50 mb-1">Greft</p>
+          <p id="summary-graft" class="text-sm font-medium">-</p>
+        </div>
+        <div class="bg-surface-container-low p-4 rounded-sm">
+          <p class="text-[10px] uppercase tracking-widest text-on-surface/50 mb-1">Paket</p>
+          <p id="summary-package" class="text-sm font-medium">-</p>
+        </div>
+      </div>
+
+      <!-- Paket kapsamı -->
+      <div class="bg-primary/5 border-l-2 border-primary rounded-sm p-6 mb-8">
+        <p class="text-[11px] uppercase tracking-widest text-primary mb-3">Pakete dahil</p>
+        <ul id="package-includes" class="space-y-2 text-sm text-on-surface/80">
+        </ul>
+      </div>
+
+      <!-- Ödeme seçenekleri -->
+      <div class="grid md:grid-cols-3 gap-3 mb-8">
+        <div class="bg-surface-container-low p-4 rounded-sm text-center">
+          <span class="material-symbols-outlined text-primary/70 text-[20px] mb-2 block">payments</span>
+          <p class="text-xs font-medium mb-1">Nakit</p>
+          <p class="text-[10px] text-on-surface/60">EUR, USD, TL</p>
+        </div>
+        <div class="bg-surface-container-low p-4 rounded-sm text-center">
+          <span class="material-symbols-outlined text-primary/70 text-[20px] mb-2 block">credit_card</span>
+          <p class="text-xs font-medium mb-1">Kredi Kartı</p>
+          <p class="text-[10px] text-on-surface/60">Taksit seçenekli</p>
+        </div>
+        <div class="bg-surface-container-low p-4 rounded-sm text-center">
+          <span class="material-symbols-outlined text-primary/70 text-[20px] mb-2 block">account_balance</span>
+          <p class="text-xs font-medium mb-1">Transfer</p>
+          <p class="text-[10px] text-on-surface/60">Uluslararası SWIFT</p>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="bg-surface-container-low border border-outline-variant/10 rounded-sm p-5 mb-8">
+        <div class="flex items-start gap-3">
+          <span class="material-symbols-outlined text-on-surface/50 text-[18px] mt-0.5 flex-shrink-0">info</span>
+          <div>
+            <p class="text-[11px] uppercase tracking-widest text-on-surface/60 mb-2">Önemli</p>
+            <p class="text-[12px] text-on-surface/60 leading-relaxed">Yukarıdaki aralık; teknik, greft sayısı ve paket seviyesi esas alınarak oluşturulmuş bir tahmindir. Kesin fiyat; tıbbi değerlendirme, greft ihtiyacı ve paket kapsamı sonrasında <strong>yazılı teklif</strong> olarak sunulur. Teklifte belirtilen tüm hizmetler dahildir; sonradan ek ücret çıkmaz.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mb-6">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="sac-analizi.html" class="btn-primary text-on-primary px-10 py-4 text-xs font-bold tracking-widest uppercase rounded-sm inline-block">Yazılı Teklif Al</a>
+          <a href="https://wa.me/905539784242?text=Merhaba%2C%20fiyat%20hesaplamas%C4%B1%20yapt%C4%B1m%20yazili%20teklif%20istiyorum." class="border border-primary/20 text-primary px-10 py-4 text-xs font-bold tracking-widest uppercase rounded-sm hover:bg-primary/5 transition-all">WhatsApp'tan Sor</a>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2" onclick="resetCalc()">
+          <span class="material-symbols-outlined text-xs">refresh</span> Yeniden Hesapla
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BİLGİ — AEO -->
+<section class="mt-16 max-w-4xl mx-auto">
+  <h2 class="font-headline text-3xl mb-10">Fiyat nasıl belirlenir?</h2>
+
+  <div class="space-y-8 text-on-surface/80 leading-relaxed">
+    <div>
+      <h3 class="font-headline text-xl mb-3 text-primary/90">FUE, DHI ve Sapphire fiyat farkı nedir?</h3>
+      <p class="text-sm mb-4">Fiyat farkı temelde ekipman, süre ve hassasiyet gereksiniminden kaynaklanır:</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm min-w-[500px]">
+          <thead>
+            <tr class="border-b border-outline-variant/20 text-left">
+              <th class="py-3 pr-4 text-primary font-label uppercase tracking-wider text-xs">Teknik</th>
+              <th class="py-3 pr-4 text-primary font-label uppercase tracking-wider text-xs">Fiyat Seviyesi</th>
+              <th class="py-3 text-primary font-label uppercase tracking-wider text-xs">Fark Nedeni</th>
+            </tr>
+          </thead>
+          <tbody class="text-on-surface/75">
+            <tr class="border-b border-outline-variant/10"><td class="py-3 pr-4">FUE</td><td class="py-3 pr-4">Standart</td><td class="py-3">Referans teknik</td></tr>
+            <tr class="border-b border-outline-variant/10"><td class="py-3 pr-4">Sapphire FUE</td><td class="py-3 pr-4">FUE + ~%10</td><td class="py-3">Safir bıçak ekipmanı</td></tr>
+            <tr><td class="py-3 pr-4">DHI</td><td class="py-3 pr-4">FUE + ~%20</td><td class="py-3">Choi kalemi + süre</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="faq-item open cursor-pointer border-b border-outline-variant/10 pb-6" onclick="this.classList.toggle('open')">
+      <div class="flex justify-between items-center gap-4">
+        <h3 class="text-sm font-medium">Yazılı teklifte neler yer alır?</h3>
+        <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+      </div>
+      <div class="faq-answer text-sm text-on-surface/75 leading-relaxed">Konsültasyon sonrası verilen yazılı teklifte: uygulanacak teknik, tahmini greft sayısı, pakete dahil tüm hizmetler, toplam fiyat ve geçerlilik süresi net olarak belirtilir. Teklifte belirtilen dışında ek ücret çıkmaz.</div>
+    </div>
+
+    <div class="faq-item cursor-pointer border-b border-outline-variant/10 pb-6" onclick="this.classList.toggle('open')">
+      <div class="flex justify-between items-center gap-4">
+        <h3 class="text-sm font-medium">Fiyatlar neden aralık olarak verilir?</h3>
+        <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+      </div>
+      <div class="faq-answer text-sm text-on-surface/75 leading-relaxed">Saç ekimi fiyatı; greft sayısına, uygulanan tekniğe ve seçilen paket kapsamına göre belirlendiği için kişiden kişiye değişir. Bu nedenle bilgi amaçlı sayfalarda aralık sunulur. Kişisel fiyat konsültasyon sonrası kesinleşir.</div>
+    </div>
+
+    <div class="faq-item cursor-pointer pb-6" onclick="this.classList.toggle('open')">
+      <div class="flex justify-between items-center gap-4">
+        <h3 class="text-sm font-medium">Taksit seçeneği var mı?</h3>
+        <span class="faq-icon transition-transform duration-300 text-primary text-lg">+</span>
+      </div>
+      <div class="faq-answer text-sm text-on-surface/75 leading-relaxed">Kredi kartı ile taksit seçenekleri mevcuttur. Taksit sayısı ve koşulları banka politikalarına bağlı olarak değişir. Detaylar konsültasyon aşamasında görüşülür.</div>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM DISCLAIMER -->
+<div class="max-w-2xl mx-auto mt-16 text-center">
+  <p class="text-[11px] text-on-surface/50 leading-relaxed">Bu araç bilgilendirme amaçlıdır. Fiyat aralıkları genel pakete dayalı tahminlerdir. Kişisel fiyat; uzman değerlendirmesi, greft ihtiyacı ve paket kapsamı sonrasında yazılı teklif olarak belirlenir.</p>
+</div>
+
+</div>
+</main>
+
+<!-- FOOTER -->
+
+<!-- Medical Disclaimer -->
+<div class="px-6 py-8 text-center border-t border-outline-variant/10">
+  <p class="text-[10px] text-on-surface/50 leading-relaxed max-w-3xl mx-auto">
+    Bu web sitesindeki içerik genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Kişisel durumunuza uygun değerlendirme ancak uzman hekim konsültasyonu ile yapılabilir. Bireysel sonuçlar değişkenlik gösterebilir.
+  </p>
+</div>
+
+<footer class="bg-[#0e0e0e] border-t border-outline-variant/10 py-12 px-6">
+<div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+  <a href="index.html" class="text-primary font-headline text-lg">ALTINSOY HAIR CLINIC</a>
+  <div class="flex gap-6 text-xs text-on-surface-variant flex-wrap justify-center">
+    <a href="sac-ekimi.html" class="hover:text-primary transition-colors">Teknikler</a>
+    <a href="greft-hesaplama.html" class="hover:text-primary transition-colors">Greft Hesap</a>
+    <a href="fiyat.html" class="hover:text-primary transition-colors">Fiyat</a>
+    <a href="iletisim.html" class="hover:text-primary transition-colors">İletişim</a>
+  </div>
+  <span class="text-on-surface-variant/60 text-[10px] tracking-widest uppercase">© 2026 Altınsoy Hair Clinic</span>
+</div>
+</footer>
+
+<!-- CALC LOGIC -->
+<script>
+const state = { tech: null, graft: null, pkg: null };
+
+// Baz fiyat matrisi (EUR) — fiyat sayfasıyla uyumlu (€2.500–€5.000)
+// [min, max] — teknik + greft aralığı + paket kombinasyonu
+const pricing = {
+  // Teknik çarpanları
+  techMultiplier: { fue: 1.0, sapphire: 1.10, dhi: 1.20 },
+
+  // Paket baz fiyat aralığı (FUE + 2500-3500 greft için referans)
+  packages: {
+    standart:     { base_min: 2500, base_max: 3000,
+                    name: 'Standart',
+                    includes: ['Operasyon', 'Lokal anestezi', 'İlk yıkama', 'Bakım seti', 'Reçeteli ilaçlar', 'Kontrol randevusu', '12 ay WhatsApp destek'] },
+    premium:      { base_min: 3500, base_max: 4000,
+                    name: 'Premium',
+                    includes: ['Standart paketteki her şey', '2 gece 4* otel konaklama', 'Havalimanı-otel-klinik transferleri', 'PRP takviyesi (1 seans)', '2 kontrol randevusu', 'Öncelikli WhatsApp destek'] },
+    uluslararasi: { base_min: 4500, base_max: 4800,
+                    name: 'Uluslararası',
+                    includes: ['Premium paketteki her şey', '5 gece 4* konaklama', 'VIP havalimanı karşılama', 'Çeviri hizmeti (İng/Ar/De/Ru)', 'Online video konsültasyon', 'Uzatılmış 18 ay bakım takibi'] }
+  },
+
+  // Greft aralığı çarpanları (baz 2500-3500 için 1.0)
+  graftMultiplier: {
+    small:  0.90,  // 1.500 – 2.500 greft
+    medium: 1.00,  // 2.500 – 3.500 greft (baz)
+    large:  1.10,  // 3.500 – 4.500 greft
+    xlarge: 1.15   // 4.500+ greft (çoklu seans dahil değil)
+  }
+};
+
+const techNames = { fue: 'FUE', sapphire: 'Sapphire FUE', dhi: 'DHI' };
+const graftNames = {
+  small: '1.500–2.500',
+  medium: '2.500–3.500',
+  large: '3.500–4.500',
+  xlarge: '4.500+'
+};
+
+function enableBtn(id) { document.getElementById(id).disabled = false; }
+function disableBtn(id) { document.getElementById(id).disabled = true; }
+
+function selectTech(el, tech) {
+  document.querySelectorAll('#step1 .opt-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  state.tech = tech;
+  enableBtn('btn-step1');
+}
+
+function selectGraft(el, graft) {
+  document.querySelectorAll('#step2 .opt-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  state.graft = graft;
+  enableBtn('btn-step2');
+}
+
+function selectPackage(el, pkg) {
+  document.querySelectorAll('#step3 .opt-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  state.pkg = pkg;
+  enableBtn('btn-step3');
+}
+
+function goStep(n) {
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  document.getElementById('step' + n).classList.add('active');
+  document.getElementById('progress-fill').style.width = (n * 25) + '%';
+  document.getElementById('step-label').textContent = 'Adım ' + n + '/4';
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+function calculate() {
+  const pkgData = pricing.packages[state.pkg];
+  const techMult = pricing.techMultiplier[state.tech];
+  const graftMult = pricing.graftMultiplier[state.graft];
+
+  let min = Math.round(pkgData.base_min * techMult * graftMult / 50) * 50;
+  let max = Math.round(pkgData.base_max * techMult * graftMult / 50) * 50;
+
+  // Paket üst sınırları (fiyat sayfasıyla tutarlılık)
+  const pkgCap = { standart: 3500, premium: 4500, uluslararasi: 5000 };
+  const cap = pkgCap[state.pkg];
+
+  if (max > cap) max = cap;
+  // Min her zaman max'tan küçük olmalı
+  if (min > max) min = Math.max(max - 500, cap - 1000);
+
+  document.getElementById('result-min').textContent = min.toLocaleString('tr-TR');
+  document.getElementById('result-max').textContent = max.toLocaleString('tr-TR');
+  document.getElementById('result-scale').textContent = `${techNames[state.tech]} · ${graftNames[state.graft]} greft · ${pkgData.name} Paket`;
+
+  document.getElementById('summary-tech').textContent = techNames[state.tech];
+  document.getElementById('summary-graft').textContent = graftNames[state.graft];
+  document.getElementById('summary-package').textContent = pkgData.name;
+
+  const includesList = document.getElementById('package-includes');
+  includesList.innerHTML = pkgData.includes.map(item =>
+    `<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary text-[16px] mt-0.5">check</span>${item}</li>`
+  ).join('');
+
+  goStep(4);
+}
+
+function resetCalc() {
+  state.tech = null; state.graft = null; state.pkg = null;
+  document.querySelectorAll('.opt-card').forEach(c => c.classList.remove('selected'));
+  disableBtn('btn-step1');
+  disableBtn('btn-step2');
+  disableBtn('btn-step3');
+  goStep(1);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  disableBtn('btn-step1');
+  disableBtn('btn-step2');
+  disableBtn('btn-step3');
+});
+</script>
+
+
+<!-- WhatsApp Float Button -->
+<style>.wa-float{position:fixed;bottom:28px;right:28px;z-index:999;width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#e9c176,#c5a059);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 24px rgba(233,193,118,.35);transition:all .3s;border:1px solid rgba(233,193,118,.2)}.wa-float:hover{transform:scale(1.08);box-shadow:0 6px 32px rgba(233,193,118,.5)}.wa-float svg{width:26px;height:26px;fill:#fff}</style>
+<a href="https://wa.me/905539784242?text=Merhaba%2C%20sa%C3%A7%20ekimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="wa-float" title="WhatsApp ile yazın" aria-label="WhatsApp ile iletişime geçin"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg></a>
+
+</body></html>

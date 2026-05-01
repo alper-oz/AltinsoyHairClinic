@@ -1,0 +1,258 @@
+"use client";
+
+import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+
+type FactItem = { label: string; value: string };
+type StepItem = { title: string; body: string };
+type ProsConItem = { title: string; desc: string };
+type TimelineItem = { period: string; body: string };
+type FaqItem = { q: string; a: string };
+
+const TIMELINE_ICONS = ["warning", "psychiatry", "trending_up", "verified", "all_inclusive"];
+
+export default function FuePage() {
+  const t = useTranslations("pages.fue");
+  const [openFaq, setOpenFaq] = useState<number | null>(0);
+
+  const facts = t.raw("what.facts") as FactItem[];
+  const factIcons = ["schedule", "content_cut", "healing", "verified", "calendar_month"];
+  const howSteps = t.raw("how.steps") as StepItem[];
+  const pros = t.raw("prosCons.pros") as ProsConItem[];
+  const cons = t.raw("prosCons.cons") as ProsConItem[];
+  const prosIcons = ["open_with", "content_cut", "hide_source", "face", "cut"];
+  const consIcons = ["route", "healing", "person", "spa"];
+  const timeline = t.raw("timeline.items") as TimelineItem[];
+  const faqItems = t.raw("faq.items") as FaqItem[];
+
+  return (
+    <section className="pt-28">
+      {/* HERO */}
+      <div className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <nav className="text-sm text-on-surface-variant mb-8 tracking-wider">
+            <Link href="/" className="hover:text-primary transition-colors">{t("breadcrumb.home")}</Link>
+            <span className="mx-2">&gt;</span>
+            <Link href="/sac-ekimi" className="hover:text-primary transition-colors">{t("breadcrumb.parent")}</Link>
+            <span className="mx-2">&gt;</span>
+            <span className="text-on-surface">{t("breadcrumb.current")}</span>
+          </nav>
+          <span className="text-primary font-label text-[11px] tracking-[0.3em] uppercase block mb-4">{t("hero.eyebrow")}</span>
+          <h1 className="font-headline text-4xl md:text-6xl leading-tight mb-8">
+            {t("hero.title")}<br />
+            <span className="italic text-primary/80">{t("hero.titleItalic")}</span>
+          </h1>
+          <p className="text-on-surface/70 text-lg leading-relaxed max-w-2xl">
+            {t("hero.lede")}
+          </p>
+        </div>
+      </div>
+
+      {/* FUE NEDİR */}
+      <section className="py-20 px-6 bg-surface-container-low">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-headline text-3xl mb-8">{t("what.title")}</h2>
+          <div className="grid md:grid-cols-2 gap-10">
+            <div>
+              <p className="text-on-surface/70 text-sm leading-relaxed mb-4">{t("what.p1")}</p>
+              <p className="text-on-surface/70 text-sm leading-relaxed mb-4">{t("what.p2")}</p>
+              <p className="text-on-surface/70 text-sm leading-relaxed">{t("what.p3")}</p>
+            </div>
+            <div className="bg-surface-container-high p-8 rounded">
+              <h3 className="font-headline text-lg mb-4 text-primary">{t("what.factsTitle")}</h3>
+              <ul className="space-y-4 text-sm">
+                {facts.map((fact, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="material-symbols-outlined text-primary text-[16px] mt-0.5">{factIcons[i]}</span>
+                    <div><strong className="text-on-surface">{fact.label}:</strong> <span className="text-on-surface/70">{fact.value}</span></div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FUE NASIL YAPILIR */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-headline text-3xl mb-4">{t("how.title")}</h2>
+          <p className="text-on-surface/70 text-sm mb-12 max-w-2xl leading-relaxed">{t("how.lede")}</p>
+          <div className="space-y-0">
+            {howSteps.map((step, i) => {
+              const highlight = i === 2;
+              return (
+                <div key={i} className="flex gap-6 items-start pb-10 relative">
+                  <div className="flex flex-col items-center">
+                    <div
+                      className={`w-10 h-10 rounded-full flex items-center justify-center font-headline text-lg ${
+                        highlight ? "bg-primary text-on-primary" : "bg-primary/10 text-primary"
+                      }`}
+                    >
+                      {i + 1}
+                    </div>
+                    {i < howSteps.length - 1 && (
+                      <div className="w-px flex-1 bg-outline-variant/20 mt-2" />
+                    )}
+                  </div>
+                  <div>
+                    <h3 className="font-headline text-xl mb-2">
+                      {step.title}
+                      {highlight && (
+                        <span className="text-primary text-sm ml-2">{t("how.highlightLabel")}</span>
+                      )}
+                    </h3>
+                    <p className="text-on-surface/70 text-sm leading-relaxed">{step.body}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* AVANTAJLAR VE LİMİTLER */}
+      <section className="py-20 px-6 bg-surface-container-low">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-headline text-3xl mb-4">{t("prosCons.title")}</h2>
+          <p className="text-on-surface/70 mb-10 max-w-2xl text-sm leading-relaxed">{t("prosCons.lede")}</p>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="font-headline text-lg mb-6 text-primary">{t("prosCons.prosTitle")}</h3>
+              <div className="space-y-4">
+                {pros.map((item, i) => (
+                  <div key={i} className="bg-surface-container-high p-5 rounded">
+                    <div className="flex items-start gap-3">
+                      <span className="material-symbols-outlined text-primary text-[18px] mt-0.5">{prosIcons[i]}</span>
+                      <div>
+                        <h4 className="text-sm font-medium mb-1">{item.title}</h4>
+                        <p className="text-on-surface/60 text-sm leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="font-headline text-lg mb-6 text-on-surface/60">{t("prosCons.consTitle")}</h3>
+              <div className="space-y-4">
+                {cons.map((item, i) => (
+                  <div key={i} className="bg-surface-container-high p-5 rounded">
+                    <div className="flex items-start gap-3">
+                      <span className="material-symbols-outlined text-on-surface/50 text-[18px] mt-0.5">{consIcons[i]}</span>
+                      <div>
+                        <h4 className="text-sm font-medium mb-1">{item.title}</h4>
+                        <p className="text-on-surface/60 text-sm leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SONUÇLAR — ZAMAN ÇİZELGESİ */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-headline text-3xl mb-4">{t("timeline.title")}</h2>
+          <p className="text-on-surface/70 mb-12 max-w-2xl text-sm leading-relaxed">{t("timeline.lede")}</p>
+          <div className="grid md:grid-cols-5 gap-4">
+            {timeline.map((card, i) => {
+              const highlight = i === 3;
+              return (
+                <div
+                  key={i}
+                  className={`p-6 rounded text-center ${
+                    highlight ? "bg-primary/10 border border-primary/20" : "bg-surface-container-high"
+                  }`}
+                >
+                  <div
+                    className={`w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 ${
+                      highlight ? "bg-primary text-on-primary" : "bg-primary/10 text-primary"
+                    }`}
+                  >
+                    <span className="material-symbols-outlined">{TIMELINE_ICONS[i]}</span>
+                  </div>
+                  <h3 className={`font-headline text-base mb-2 ${highlight ? "text-primary" : ""}`}>
+                    {card.period}
+                  </h3>
+                  <p className="text-on-surface/60 text-sm leading-relaxed">{card.body}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* SSS */}
+      <section className="py-20 px-6 bg-surface-container-low">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-headline text-3xl mb-12">{t("faq.title")}</h2>
+          {faqItems.map((item, i) => (
+            <div
+              key={i}
+              className={`cursor-pointer border-b border-outline-variant/10 pb-6 mb-6 ${i === faqItems.length - 1 ? "border-b-0" : ""}`}
+              onClick={() => setOpenFaq(openFaq === i ? null : i)}
+            >
+              <div className="flex justify-between items-center gap-4">
+                <h3 className="text-sm font-medium">{item.q}</h3>
+                <span
+                  className="transition-transform duration-300 text-primary text-lg"
+                  style={{ transform: openFaq === i ? "rotate(45deg)" : "rotate(0deg)" }}
+                >
+                  +
+                </span>
+              </div>
+              {openFaq === i && (
+                <div className="text-sm text-on-surface/70 leading-relaxed pt-4">{item.a}</div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 px-6 bg-surface-container-lowest">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="font-headline text-3xl mb-4">{t("cta.title")}</h2>
+          <p className="text-on-surface/70 mb-8">{t("cta.lede")}</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/sac-analizi"
+              className="bg-primary text-on-primary px-10 py-4 font-label uppercase tracking-widest text-sm rounded-sm hover:bg-primary-container transition-all"
+            >
+              {t("cta.primary")}
+            </Link>
+            <a
+              href="https://wa.me/905539784242?text=Merhaba%2C%20FUE%20sa%C3%A7%20ekimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+              className="border border-primary/20 text-primary px-10 py-4 font-label uppercase tracking-widest text-sm rounded-sm hover:bg-primary/5 transition-all"
+            >
+              {t("cta.whatsapp")}
+            </a>
+          </div>
+          <div className="flex gap-6 justify-center mt-6 text-[11px] tracking-wider uppercase text-on-surface/60">
+            <span className="flex items-center gap-1.5">
+              <span className="material-symbols-outlined text-[14px] text-primary/90">check_circle</span>{t("cta.trustFree")}
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="material-symbols-outlined text-[14px] text-primary/90">check_circle</span>{t("cta.trustNonBinding")}
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="material-symbols-outlined text-[14px] text-primary/90">check_circle</span>{t("cta.trust24h")}
+            </span>
+          </div>
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <div className="py-6 px-6 text-center">
+        <p className="text-[11px] text-on-surface/60 max-w-2xl mx-auto">
+          {t("disclaimer")}
+        </p>
+      </div>
+    </section>
+  );
+}

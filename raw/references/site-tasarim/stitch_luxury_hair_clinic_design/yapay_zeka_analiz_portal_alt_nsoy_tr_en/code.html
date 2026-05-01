@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Yapay Zeka Analizi | ALTINSOY</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline-variant": "#4e4639",
+                        "surface-variant": "#353534",
+                        "surface-bright": "#3a3939",
+                        "surface-container": "#201f1f",
+                        "secondary": "#c8c8b0",
+                        "surface-container-lowest": "#0e0e0e",
+                        "surface-dim": "#131313",
+                        "surface-container-low": "#1c1b1b",
+                        "on-background": "#e5e2e1",
+                        "on-primary": "#412d00",
+                        "primary": "#e9c176",
+                        "outline": "#9a8f80",
+                        "surface": "#131313",
+                        "on-surface": "#e5e2e1",
+                        "primary-container": "#c5a059",
+                        "surface-container-high": "#2a2a2a",
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+            font-size: 20px;
+        }
+        .glass-panel {
+            background: rgba(19, 19, 19, 0.7);
+            backdrop-filter: blur(24px);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/70 backdrop-blur-3xl shadow-[0_8px_32px_0_rgba(229,226,225,0.04)]">
+<div class="flex justify-between items-center w-full px-12 py-6 max-w-[1920px] mx-auto">
+<span class="text-2xl font-['Noto_Serif'] tracking-widest text-[#e5e2e1]">ALTINSOY</span>
+<div class="hidden md:flex items-center gap-10">
+<a class="font-['Noto_Serif'] tracking-tight text-sm uppercase text-[#e5e2e1]/60 hover:text-[#e9c176] transition-all duration-700 ease-[cubic-bezier(0.2,0,0,1)]" href="#">Analiz</a>
+<a class="font-['Noto_Serif'] tracking-tight text-sm uppercase text-[#e5e2e1]/60 hover:text-[#e9c176] transition-all duration-700 ease-[cubic-bezier(0.2,0,0,1)]" href="#">Sonuçlar</a>
+<a class="font-['Noto_Serif'] tracking-tight text-sm uppercase text-[#e5e2e1]/60 hover:text-[#e9c176] transition-all duration-700 ease-[cubic-bezier(0.2,0,0,1)]" href="#">Felsefe</a>
+<a class="font-['Noto_Serif'] tracking-tight text-sm uppercase text-[#e5e2e1]/60 hover:text-[#e9c176] transition-all duration-700 ease-[cubic-bezier(0.2,0,0,1)]" href="#">İletişim</a>
+<!-- Language Toggle -->
+<div class="flex items-center gap-2 border-l border-outline-variant/30 pl-8">
+<button class="text-[10px] font-bold tracking-widest text-primary">TR</button>
+<span class="text-[10px] text-outline-variant">/</span>
+<button class="text-[10px] font-bold tracking-widest text-[#e5e2e1]/40 hover:text-[#e5e2e1] transition-colors">EN</button>
+</div>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 text-xs font-bold tracking-widest uppercase rounded-sm hover:bg-primary-container transition-all duration-500 scale-95 active:scale-90">
+            YZ Analizi
+        </button>
+</div>
+</nav>
+<main class="pt-32 pb-24 min-h-screen">
+<!-- Header Section -->
+<section class="px-12 max-w-7xl mx-auto mb-20 text-center md:text-left">
+<div class="inline-flex items-center gap-2 mb-6 opacity-60">
+<span class="w-12 h-[1px] bg-primary"></span>
+<span class="text-xs uppercase tracking-[0.3em] font-medium">Adım 01 / 05</span>
+</div>
+<h1 class="font-headline text-5xl md:text-7xl mb-8 tracking-tighter leading-tight">
+            Dönüşümünüz <br/>
+<span class="italic text-primary/80">verilerle başlar.</span>
+</h1>
+<p class="max-w-xl text-on-surface-variant leading-relaxed opacity-80 text-lg">
+            Altınsoy YZ, folikül yoğunluğunu ve doku sağlığını ölçmek için tıbbi sınıf vizyon modelleri kullanır. Size özel bir restorasyon stratejisi için odak alanınızı seçin.
+        </p>
+</section>
+<!-- Analysis Portal Canvas -->
+<section class="px-12 max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Progress & Navigation (Sidebar Style) -->
+<div class="lg:col-span-3 sticky top-32 hidden lg:block">
+<div class="space-y-8">
+<div class="group relative pl-8 border-l border-outline-variant/30">
+<div class="absolute left-[-1px] top-0 h-full w-[1px] bg-primary scale-y-100 transition-transform origin-top"></div>
+<span class="block text-[10px] uppercase tracking-widest text-primary mb-1">Aktif</span>
+<h3 class="text-sm font-bold uppercase tracking-wider">Analiz Odağı</h3>
+</div>
+<div class="group relative pl-8 border-l border-outline-variant/30 opacity-40">
+<span class="block text-[10px] uppercase tracking-widest mb-1">Sıradaki</span>
+<h3 class="text-sm font-bold uppercase tracking-wider">Sınıflandırma</h3>
+</div>
+<div class="group relative pl-8 border-l border-outline-variant/30 opacity-40">
+<span class="block text-[10px] uppercase tracking-widest mb-1">Sıradaki</span>
+<h3 class="text-sm font-bold uppercase tracking-wider">Görsel Denetim</h3>
+</div>
+<div class="group relative pl-8 border-l border-outline-variant/30 opacity-40">
+<span class="block text-[10px] uppercase tracking-widest mb-1">Sıradaki</span>
+<h3 class="text-sm font-bold uppercase tracking-wider">Aspirasyon</h3>
+</div>
+<div class="group relative pl-8 border-l border-outline-variant/30 opacity-40">
+<span class="block text-[10px] uppercase tracking-widest mb-1">Sıradaki</span>
+<h3 class="text-sm font-bold uppercase tracking-wider">Atölye İncelemesi</h3>
+</div>
+</div>
+</div>
+<!-- Main Form Canvas -->
+<div class="lg:col-span-9">
+<div class="bg-surface-container-low p-8 md:p-16 rounded-sm shadow-2xl relative overflow-hidden">
+<!-- Decorative glow -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[120px] -mr-48 -mt-48"></div>
+<div class="relative z-10">
+<!-- Area Selection -->
+<div class="mb-16">
+<h2 class="font-headline text-3xl mb-12">Analiz odağınızı seçin.</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="group cursor-pointer border border-primary/60 p-8 flex flex-col justify-between aspect-square transition-all duration-500 bg-primary/5">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary mb-4" style="font-variation-settings: 'FILL' 1;">face</span>
+<h3 class="text-lg font-bold tracking-tight">Saç Derisi</h3>
+<p class="text-xs text-on-surface-variant mt-2 opacity-70">Saç çizgisi, tepe bölgesi ve genel yoğunluk restorasyonuna odaklanın.</p>
+</div>
+<div class="flex justify-between items-center">
+<p class="text-[10px] uppercase tracking-widest text-primary">Öncelikli Odak</p>
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span>
+</div>
+</div>
+<div class="group cursor-pointer border border-outline-variant/20 p-8 flex flex-col justify-between aspect-square hover:border-primary/50 transition-all duration-500 bg-surface/40">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary/30 mb-4">face_6</span>
+<h3 class="text-lg font-bold tracking-tight">Sakal ve Çene</h3>
+<p class="text-xs text-on-surface-variant mt-2 opacity-70">Yüz kıllarının kalınlığı ve simetrisinin artırılması.</p>
+</div>
+<p class="text-[10px] uppercase tracking-widest opacity-50">Alan Seç</p>
+</div>
+<div class="group cursor-pointer border border-outline-variant/20 p-8 flex flex-col justify-between aspect-square hover:border-primary/50 transition-all duration-500 bg-surface/40">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary/30 mb-4">visibility</span>
+<h3 class="text-lg font-bold tracking-tight">Kaş</h3>
+<p class="text-xs text-on-surface-variant mt-2 opacity-70">Kavis ve yoğunluk iyileştirmesi için hassas haritalama.</p>
+</div>
+<p class="text-[10px] uppercase tracking-widest opacity-50">Alan Seç</p>
+</div>
+</div>
+</div>
+<!-- Current Profile -->
+<div class="mb-16">
+<h2 class="font-headline text-3xl mb-12">Mevcut profilinizi tanımlayın.</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="group cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 transition-all duration-500 bg-surface/40">
+<div class="w-full h-32 opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary/30">texture</span>
+</div>
+</div>
+<div>
+<p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">Profil I</p>
+<p class="text-sm font-bold tracking-tight">Tam Yoğunluk</p>
+</div>
+</div>
+<div class="group cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 transition-all duration-500 bg-surface/40">
+<div class="w-full h-32 opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary/30" data-weight="fill">texture</span>
+</div>
+</div>
+<div>
+<p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">Profil II</p>
+<p class="text-sm font-bold tracking-tight">Erken Aşama</p>
+</div>
+</div>
+<div class="group cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 transition-all duration-500 bg-surface/40">
+<div class="w-full h-32 opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary/30">blur_on</span>
+</div>
+</div>
+<div>
+<p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">Profil III</p>
+<p class="text-sm font-bold tracking-tight">Orta Düzey Kayıp</p>
+</div>
+</div>
+<div class="group cursor-pointer border border-outline-variant/20 p-6 aspect-[3/4] flex flex-col justify-between hover:border-primary/50 transition-all duration-500 bg-surface/40">
+<div class="w-full h-32 opacity-80 group-hover:opacity-100 transition-opacity">
+<div class="w-full h-full bg-gradient-to-b from-surface-container-high to-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary/30">grain</span>
+</div>
+</div>
+<div>
+<p class="text-[10px] uppercase tracking-widest mb-1 opacity-50">Profil IV</p>
+<p class="text-sm font-bold tracking-tight">İleri Aşama</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Photo Upload Area -->
+<div class="mb-16">
+<div class="flex justify-between items-end mb-8">
+<h2 class="font-headline text-3xl">Görsel Denetim</h2>
+<span class="text-[10px] uppercase tracking-widest opacity-40 mb-2">Şifreli İletim</span>
+</div>
+<div class="relative border-2 border-dashed border-outline-variant/20 rounded-sm p-12 flex flex-col items-center justify-center text-center bg-surface/20 group hover:border-primary/30 transition-all duration-700">
+<span class="material-symbols-outlined text-5xl text-primary mb-6 opacity-30 group-hover:scale-110 transition-transform duration-700">add_a_photo</span>
+<p class="text-sm font-bold uppercase tracking-widest mb-2">Makro Görüntüleri Yükleyin</p>
+<p class="text-xs text-on-surface-variant max-w-xs mb-8">Yüksek çözünürlüklü görüntüler, YZ'mizin folikül sağlığı ve cilt dokusundaki mikro varyasyonları tespit etmesini sağlar.</p>
+<button class="border border-primary/20 px-8 py-3 text-xs uppercase tracking-widest hover:bg-primary hover:text-on-primary transition-all duration-500">
+                                    Dosya Seçin
+                                </button>
+<div class="mt-10 flex gap-4 items-center opacity-40">
+<span class="material-symbols-outlined text-sm">lock</span>
+<span class="text-[10px] uppercase tracking-widest">Uçtan Uca Gizlilik Garantisi</span>
+</div>
+</div>
+</div>
+<!-- Range Selects -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+<div>
+<label class="block text-xs uppercase tracking-widest mb-6 opacity-60">Biyolojik Yaş</label>
+<div class="relative pt-1">
+<input class="w-full h-1 bg-surface-container-high appearance-none cursor-pointer accent-primary" max="80" min="18" type="range"/>
+<div class="flex justify-between text-[10px] uppercase tracking-tighter mt-4 opacity-40">
+<span>18</span>
+<span>40</span>
+<span>80+</span>
+</div>
+</div>
+</div>
+<div>
+<label class="block text-xs uppercase tracking-widest mb-6 opacity-60">Birincil Hedef</label>
+<select class="w-full bg-transparent border-b border-outline-variant/30 py-2 focus:border-primary focus:ring-0 transition-colors appearance-none text-sm uppercase tracking-wider">
+<option>Tam Restorasyon</option>
+<option>Bölgesel Rekonstrüksiyon</option>
+<option>Önleyici Bakım</option>
+<option>Yoğunluk Artırma</option>
+</select>
+</div>
+</div>
+<!-- Navigation Buttons -->
+<div class="flex justify-between items-center pt-8 border-t border-outline-variant/10">
+<button class="text-[10px] uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity flex items-center gap-2">
+<span class="material-symbols-outlined text-xs">arrow_back</span>
+                                Önceki Adım
+                            </button>
+<button class="bg-primary text-on-primary px-12 py-4 text-xs font-bold tracking-widest uppercase rounded-sm hover:scale-[1.02] transition-transform duration-500">
+                                Size Özel Planı Oluştur
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Cinematic Loading State -->
+<section class="mt-32 px-12 max-w-7xl mx-auto opacity-20 pointer-events-none">
+<div class="relative overflow-hidden aspect-[21/9] bg-surface-container-lowest">
+<img alt="Cinematic background" class="w-full h-full object-cover opacity-30 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCM_1uyvYqviqiYJDmpuHZXDEjR0U23bbknMd-CswLEg7i0FiSge3iPWn5k7_jDZIJNr5NhYYaaBDb3XHGVs89Ojk06MkfkIa-ofEhkQf5OUJd3X0__YHPMF-ijlQtEDoSO0QxItN7qIykkYc54Aksc3lChMNPBKW2oznN7aTuaUnY-HJW7QPLy5Vw81gmNMsRYLZVAUymwML-fNQZXOMJG7cyrQYTc4SEZ6xkFGZAAsZZBspCjHLbzVgQ3Nk9rzm-IRK6_gD57txY"/>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center p-12">
+<div class="w-24 h-24 mb-12 relative">
+<div class="absolute inset-0 border border-primary/20 rounded-full animate-ping"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+</div>
+</div>
+<h2 class="font-headline text-4xl mb-4 italic">Size özel restorasyon planınız hesaplanıyor</h2>
+<p class="text-xs uppercase tracking-[0.4em] text-primary">Atölye Zekası 1.400'den fazla veri noktasını analiz ediyor</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0e0e0e] w-full py-20 px-12 bg-gradient-to-t from-[#1c1b1b] to-transparent">
+<div class="flex flex-col gap-12 max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+<span class="text-lg font-['Noto_Serif'] tracking-widest text-[#e5e2e1]">ALTINSOY</span>
+<div class="flex flex-wrap gap-8">
+<a class="font-['Manrope'] text-xs tracking-widest uppercase text-[#e5e2e1]/40 hover:text-[#e5e2e1] transition-colors duration-500" href="#">SSS</a>
+<a class="font-['Manrope'] text-xs tracking-widest uppercase text-[#e5e2e1]/40 hover:text-[#e5e2e1] transition-colors duration-500" href="#">Bilim</a>
+<a class="font-['Manrope'] text-xs tracking-widest uppercase text-[#e5e2e1]/40 hover:text-[#e5e2e1] transition-colors duration-500" href="#">İyileşme</a>
+<a class="font-['Manrope'] text-xs tracking-widest uppercase text-[#e5e2e1]/40 hover:text-[#e5e2e1] transition-colors duration-500" href="#">Gizlilik</a>
+<a class="font-['Manrope'] text-xs tracking-widest uppercase text-[#e5e2e1]/40 hover:text-[#e5e2e1] transition-colors duration-500" href="#">Şartlar</a>
+<a class="font-['Manrope'] text-xs tracking-widest uppercase text-[#e5e2e1]/40 hover:text-[#e5e2e1] transition-colors duration-500" href="#">Kurumsal</a>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center pt-12 border-t border-on-surface/5 gap-6">
+<p class="font-['Manrope'] text-xs tracking-widest uppercase text-[#e5e2e1]/40">© 2024 ALTINSOY. PRESTİJLİ SAÇ RESTORASYONU.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-[#e5e2e1]/20">public</span>
+<span class="material-symbols-outlined text-[#e5e2e1]/20">verified_user</span>
+<span class="material-symbols-outlined text-[#e5e2e1]/20">ac_unit</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- DEPRECATED: Bu dosya eski tasarım. index.html aktif. Search engine'lerden gizli. -->
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="refresh" content="0; url=index.html">
+<link rel="canonical" href="https://altinsoy.com/">
+<title>Altınsoy Hair Clinic</title>
+<meta name="description" content="Yönlendiriliyor...">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════
+   ALTINSOY DESIGN SYSTEM: "Trusted Authority"
+   Premium editorial + trust-driven conversion
+   ═══════════════════════════════════════════ */
+
+:root {
+  /* Colors — warm neutrals + deep accent */
+  --surface: #FAFAF8;
+  --surface-warm: #F5F3EE;
+  --surface-dark: #1A1A1A;
+  --surface-dark-warm: #242220;
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B6560;
+  --text-tertiary: #9B9590;
+  --text-on-dark: #F5F3EE;
+  --text-on-dark-muted: #B8B0A8;
+  --accent: #C8956C;
+  --accent-warm: #D4A373;
+  --accent-deep: #8B6914;
+  --accent-light: rgba(200, 149, 108, 0.08);
+  --accent-glow: rgba(200, 149, 108, 0.15);
+  --trust-green: #3D8B5E;
+  --border: rgba(26, 26, 26, 0.06);
+  --border-dark: rgba(245, 243, 238, 0.08);
+
+  /* Typography */
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  /* Spacing (8px grid) */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+  --space-5xl: 128px;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background: var(--surface);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ═══ UTILITY ═══ */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 var(--space-lg); }
+.container-wide { max-width: 1400px; margin: 0 auto; padding: 0 var(--space-lg); }
+
+/* ═══ NAVIGATION ═══ */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: var(--space-md) 0;
+  transition: all 0.4s ease;
+  background: rgba(250, 250, 248, 0.85);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.nav-logo span { color: var(--accent); }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover { color: var(--text-primary); }
+
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 10px 24px;
+  background: var(--text-primary);
+  color: var(--surface) !important;
+  border-radius: var(--radius-sm);
+  font-weight: 600 !important;
+  font-size: 0.8125rem !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav-cta:hover { background: var(--accent); color: #fff !important; }
+
+.nav-lang {
+  font-size: 0.8125rem;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+}
+
+/* ═══ HERO ═══ */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3xl);
+  align-items: center;
+}
+
+.hero-content { position: relative; z-index: 2; }
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 6px 16px;
+  background: var(--accent-light);
+  border: 1px solid rgba(200, 149, 108, 0.15);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+.hero-badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 5.5vw, 4.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+  margin-bottom: var(--space-lg);
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.hero-sub {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin-bottom: var(--space-xl);
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-md);
+  margin-bottom: var(--space-3xl);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 14px 32px;
+  background: var(--text-primary);
+  color: var(--surface);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover { background: var(--accent); transform: translateY(-1px); }
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 14px 32px;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1.5px solid var(--text-primary);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+.hero-stats {
+  display: flex;
+  gap: var(--space-2xl);
+}
+
+.hero-stat-num {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.hero-stat-label {
+  font-size: 0.8125rem;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+}
+
+.hero-visual {
+  position: relative;
+  height: 600px;
+}
+
+.hero-img-main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--surface-dark-warm) 0%, #2a2520 100%);
+}
+
+.hero-float-card {
+  position: absolute;
+  bottom: 40px;
+  left: -40px;
+  background: white;
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+  max-width: 260px;
+}
+
+.hero-float-stars { color: var(--accent); font-size: 0.875rem; margin-bottom: 4px; }
+.hero-float-text { font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5; }
+.hero-float-source { font-size: 0.75rem; color: var(--text-tertiary); margin-top: 8px; }
+
+/* ═══ TRUST BAR ═══ */
+.trust-bar {
+  padding: var(--space-2xl) 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.trust-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.trust-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.trust-num {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.trust-label {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.trust-divider {
+  width: 1px;
+  height: 48px;
+  background: var(--border);
+}
+
+/* ═══ TECHNIQUES ═══ */
+.techniques {
+  padding: var(--space-5xl) 0;
+  background: var(--surface);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: var(--space-3xl);
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-md);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.section-title em { font-style: italic; color: var(--accent); }
+
+.section-desc {
+  max-width: 400px;
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.tech-card {
+  padding: var(--space-xl);
+  background: var(--surface-warm);
+  border-radius: var(--radius-md);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.06);
+}
+
+.tech-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.4s;
+}
+
+.tech-card:hover::after { transform: scaleX(1); }
+
+.tech-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--accent-light);
+  color: var(--accent);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.tech-name {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.01em;
+}
+
+.tech-desc {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--space-lg);
+}
+
+.tech-meta {
+  display: flex;
+  gap: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border);
+}
+
+.tech-meta-item {
+  font-size: 0.8125rem;
+}
+
+.tech-meta-val {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.tech-meta-label {
+  color: var(--text-tertiary);
+  font-size: 0.75rem;
+}
+
+/* ═══ DARK SECTION — RESULTS ═══ */
+.results {
+  padding: var(--space-5xl) 0;
+  background: var(--surface-dark);
+  color: var(--text-on-dark);
+  position: relative;
+}
+
+.results .section-label { color: var(--accent-warm); }
+.results .section-title { color: var(--text-on-dark); }
+.results .section-desc { color: var(--text-on-dark-muted); }
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+
+.result-card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--surface-dark-warm);
+  transition: transform 0.4s;
+}
+
+.result-card:hover { transform: translateY(-4px); }
+
+.result-img {
+  aspect-ratio: 4/3;
+  background: linear-gradient(135deg, #2a2520, #1a1a1a);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-on-dark-muted);
+  font-size: 0.875rem;
+}
+
+.result-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 10px;
+  background: rgba(200, 149, 108, 0.9);
+  color: #fff;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.04em;
+}
+
+.result-info {
+  padding: var(--space-lg);
+}
+
+.result-technique {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-warm);
+  margin-bottom: var(--space-sm);
+}
+
+.result-detail {
+  font-size: 0.9375rem;
+  color: var(--text-on-dark-muted);
+  line-height: 1.5;
+}
+
+.result-detail strong { color: var(--text-on-dark); }
+
+.results-cta {
+  text-align: center;
+}
+
+.btn-outline-light {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 14px 32px;
+  background: transparent;
+  color: var(--text-on-dark);
+  border: 1.5px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-outline-light:hover { border-color: var(--accent-warm); color: var(--accent-warm); }
+
+/* ═══ DOCTOR ═══ */
+.doctor {
+  padding: var(--space-5xl) 0;
+  background: var(--surface);
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4xl);
+  align-items: center;
+}
+
+.doctor-img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--surface-warm), #e8e4dd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-tertiary);
+}
+
+.doctor-name {
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.02em;
+}
+
+.doctor-title {
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: var(--space-xl);
+}
+
+.doctor-bio {
+  font-size: 1.0625rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--space-xl);
+}
+
+.doctor-credentials {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border);
+}
+
+.credential {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.credential-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.credential-text {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+}
+
+.credential-text strong { color: var(--text-primary); }
+
+/* ═══ PROCESS ═══ */
+.process {
+  padding: var(--space-5xl) 0;
+  background: var(--surface-warm);
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+  margin-top: var(--space-3xl);
+}
+
+.step {
+  position: relative;
+}
+
+.step-num {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  color: var(--accent-light);
+  line-height: 1;
+  margin-bottom: var(--space-md);
+}
+
+.step-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+}
+
+.step-desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.step-time {
+  display: inline-block;
+  margin-top: var(--space-md);
+  padding: 4px 10px;
+  background: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+}
+
+/* ═══ CTA SECTION ═══ */
+.cta-section {
+  padding: var(--space-5xl) 0;
+  background: var(--surface-dark);
+  text-align: center;
+  color: var(--text-on-dark);
+}
+
+.cta-section .section-title { color: var(--text-on-dark); max-width: 600px; margin: 0 auto var(--space-md); }
+.cta-desc { color: var(--text-on-dark-muted); max-width: 500px; margin: 0 auto var(--space-xl); font-size: 1.0625rem; line-height: 1.7; }
+
+.cta-form {
+  display: flex;
+  gap: var(--space-md);
+  max-width: 600px;
+  margin: 0 auto var(--space-xl);
+}
+
+.cta-input {
+  flex: 1;
+  padding: 14px 20px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius-sm);
+  color: var(--text-on-dark);
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.cta-input::placeholder { color: var(--text-on-dark-muted); }
+.cta-input:focus { border-color: var(--accent-warm); }
+
+.btn-accent {
+  padding: 14px 32px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.btn-accent:hover { background: var(--accent-warm); transform: translateY(-1px); }
+
+.cta-trust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xl);
+  font-size: 0.8125rem;
+  color: var(--text-on-dark-muted);
+}
+
+.cta-trust-item { display: flex; align-items: center; gap: var(--space-sm); }
+.cta-trust-icon { color: var(--trust-green); }
+
+/* ═══ FAQ ═══ */
+.faq {
+  padding: var(--space-5xl) 0;
+  background: var(--surface);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--space-4xl);
+}
+
+.faq-list { display: flex; flex-direction: column; gap: var(--space-md); }
+
+.faq-item {
+  padding: var(--space-lg);
+  background: var(--surface-warm);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.faq-item:hover { background: var(--accent-light); }
+
+.faq-q {
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-q::after { content: '+'; font-size: 1.25rem; color: var(--accent); }
+
+.faq-a {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s, margin-top 0.3s;
+}
+
+.faq-item.open .faq-a { max-height: 200px; margin-top: var(--space-md); }
+.faq-item.open .faq-q::after { content: '−'; }
+
+/* ═══ FOOTER ═══ */
+.footer {
+  padding: var(--space-3xl) 0 var(--space-xl);
+  background: var(--surface-dark);
+  color: var(--text-on-dark-muted);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: var(--space-3xl);
+  margin-bottom: var(--space-3xl);
+}
+
+.footer-logo {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--text-on-dark);
+  margin-bottom: var(--space-md);
+}
+
+.footer-logo span { color: var(--accent-warm); }
+
+.footer-desc { font-size: 0.875rem; line-height: 1.7; max-width: 320px; }
+
+.footer-heading {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-on-dark);
+  margin-bottom: var(--space-lg);
+}
+
+.footer-links { list-style: none; display: flex; flex-direction: column; gap: var(--space-sm); }
+.footer-links a { color: var(--text-on-dark-muted); text-decoration: none; font-size: 0.875rem; transition: color 0.3s; }
+.footer-links a:hover { color: var(--accent-warm); }
+
+.footer-bottom {
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border-dark);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8125rem;
+}
+
+/* ═══ FLOATING WHATSAPP ═══ */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.whatsapp-float:hover { transform: scale(1.1); }
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; gap: var(--space-xl); }
+  .hero-visual { height: 400px; }
+  .hero-float-card { left: 20px; bottom: 20px; }
+  .tech-grid { grid-template-columns: 1fr; }
+  .results-grid { grid-template-columns: 1fr; }
+  .doctor-grid { grid-template-columns: 1fr; }
+  .process-steps { grid-template-columns: repeat(2, 1fr); }
+  .faq-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+  .trust-bar-inner { flex-wrap: wrap; gap: var(--space-lg); justify-content: center; }
+  .trust-divider { display: none; }
+  .nav-links { display: none; }
+}
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 2.5rem; }
+  .hero-stats { flex-direction: column; gap: var(--space-lg); }
+  .hero-actions { flex-direction: column; }
+  .btn-primary, .btn-secondary { width: 100%; justify-content: center; }
+  .cta-form { flex-direction: column; }
+  .process-steps { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="container-wide nav-inner">
+    <a href="/" class="nav-logo">altınsoy<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#techniques">Teknikler</a></li>
+      <li><a href="#results">Sonuçlar</a></li>
+      <li><a href="#doctor">Doktorumuz</a></li>
+      <li><a href="#process">Süreç</a></li>
+      <li><a href="#faq">SSS</a></li>
+      <li><span class="nav-lang">TR / EN</span></li>
+      <li><a href="#cta" class="nav-cta">Ücretsiz Analiz →</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">İstanbul, Türkiye</div>
+        <h1>Doğal sonuç,<br><em>kanıtlanmış</em><br>deneyim.</h1>
+        <p class="hero-sub">15 yıllık cerrahi deneyim ve 10.000'den fazla başarılı operasyonla, saç restorasyon cerrahisinde kişiselleştirilmiş tedavi planları sunuyoruz.</p>
+        <div class="hero-actions">
+          <button class="btn-primary">Ücretsiz Saç Analizi →</button>
+          <button class="btn-secondary">Sonuçları Gör</button>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">10.000+</div>
+            <div class="hero-stat-label">Başarılı Operasyon</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">15</div>
+            <div class="hero-stat-label">Yıllık Deneyim</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">42</div>
+            <div class="hero-stat-label">Ülkeden Hasta</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-main" style="display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:0.875rem;">[ Doktor / Klinik Fotoğrafı ]</div>
+        <div class="hero-float-card">
+          <div class="hero-float-stars">★★★★★</div>
+          <div class="hero-float-text">"Sonuç beklediğimden çok daha doğal. Ekip son derece profesyonel."</div>
+          <div class="hero-float-source">— Google Reviews, 4.9/5 (850+ yorum)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-inner">
+      <div class="trust-item">
+        <div class="trust-icon">🏥</div>
+        <div><div class="trust-num">10.247</div><div class="trust-label">Operasyon</div></div>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <div class="trust-icon">⭐</div>
+        <div><div class="trust-num">4.9/5</div><div class="trust-label">Google Rating</div></div>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <div class="trust-icon">🌍</div>
+        <div><div class="trust-num">42</div><div class="trust-label">Ülke</div></div>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item">
+        <div class="trust-icon">📋</div>
+        <div><div class="trust-num">ISHRS</div><div class="trust-label">Sertifikalı</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNIQUES -->
+<section class="techniques" id="techniques">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Tekniklerimiz</div>
+        <h2 class="section-title">Her saça özel<br><em>tedavi planı.</em></h2>
+      </div>
+      <p class="section-desc">Saç tipinize, dökülme seviyenize ve beklentilerinize göre en uygun tekniği birlikte belirliyoruz.</p>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <div class="tech-tag">En Çok Tercih Edilen</div>
+        <h3 class="tech-name">FUE</h3>
+        <p class="tech-desc">Tek tek greft alımı ile iz bırakmayan, hızlı iyileşme sağlayan mikro cerrahi teknik.</p>
+        <div class="tech-meta">
+          <div class="tech-meta-item"><div class="tech-meta-val">4-6 saat</div><div class="tech-meta-label">İşlem Süresi</div></div>
+          <div class="tech-meta-item"><div class="tech-meta-val">7-10 gün</div><div class="tech-meta-label">İyileşme</div></div>
+          <div class="tech-meta-item"><div class="tech-meta-val">12-18 ay</div><div class="tech-meta-label">Tam Sonuç</div></div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-tag">Hassas Açı Kontrolü</div>
+        <h3 class="tech-name">DHI</h3>
+        <p class="tech-desc">Choi kalemiyle direkt implantasyon. Mevcut saçlar arasına ekim için ideal yoğunluk tekniği.</p>
+        <div class="tech-meta">
+          <div class="tech-meta-item"><div class="tech-meta-val">5-7 saat</div><div class="tech-meta-label">İşlem Süresi</div></div>
+          <div class="tech-meta-item"><div class="tech-meta-val">7-10 gün</div><div class="tech-meta-label">İyileşme</div></div>
+          <div class="tech-meta-item"><div class="tech-meta-val">12-18 ay</div><div class="tech-meta-label">Tam Sonuç</div></div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-tag">Minimal Kesi</div>
+        <h3 class="tech-name">Sapphire FUE</h3>
+        <p class="tech-desc">Safir uçlu bıçakla daha küçük kesi ve daha hızlı iyileşme. FUE'nin geliştirilmiş versiyonu.</p>
+        <div class="tech-meta">
+          <div class="tech-meta-item"><div class="tech-meta-val">4-6 saat</div><div class="tech-meta-label">İşlem Süresi</div></div>
+          <div class="tech-meta-item"><div class="tech-meta-val">5-7 gün</div><div class="tech-meta-label">İyileşme</div></div>
+          <div class="tech-meta-item"><div class="tech-meta-val">12-18 ay</div><div class="tech-meta-label">Tam Sonuç</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS (DARK) -->
+<section class="results" id="results">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Sonuçlarımız</div>
+        <h2 class="section-title">Görsel <em>kanıtlar.</em></h2>
+      </div>
+      <p class="section-desc">Gerçek hastalarımızın onaylı sonuçları. Her vaka kişiye özel tedavi planıyla gerçekleştirilmiştir.</p>
+    </div>
+    <div class="results-grid">
+      <div class="result-card">
+        <div class="result-img"><div class="result-badge">12 AY</div>[ Before / After ]</div>
+        <div class="result-info">
+          <div class="result-technique">FUE — 3.200 Greft</div>
+          <div class="result-detail"><strong>Erkek, 34</strong> · Norwood 3 · Ön hat restorasyon</div>
+        </div>
+      </div>
+      <div class="result-card">
+        <div class="result-img"><div class="result-badge">10 AY</div>[ Before / After ]</div>
+        <div class="result-info">
+          <div class="result-technique">DHI — 2.800 Greft</div>
+          <div class="result-detail"><strong>Erkek, 42</strong> · Norwood 4 · Tepe + ön hat</div>
+        </div>
+      </div>
+      <div class="result-card">
+        <div class="result-img"><div class="result-badge">14 AY</div>[ Before / After ]</div>
+        <div class="result-info">
+          <div class="result-technique">Sapphire FUE — 4.100 Greft</div>
+          <div class="result-detail"><strong>Erkek, 29</strong> · Norwood 3V · Tam restorasyon</div>
+        </div>
+      </div>
+    </div>
+    <div class="results-cta">
+      <button class="btn-outline-light">Tüm Sonuçları Gör →</button>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTOR -->
+<section class="doctor" id="doctor">
+  <div class="container">
+    <div class="doctor-grid">
+      <div class="doctor-img">[ Doktor Profesyonel Fotoğraf ]</div>
+      <div>
+        <div class="section-label">Cerrahımız</div>
+        <h2 class="doctor-name">Dr. [İsim Soyisim]</h2>
+        <div class="doctor-title">Saç Restorasyon Cerrahisi Uzmanı</div>
+        <p class="doctor-bio">15 yılı aşkın deneyimiyle 10.000'den fazla saç restorasyon operasyonu gerçekleştirmiştir. FUE ve DHI tekniklerinde uzmanlaşmış olup, her hastaya özel doğal saç çizgisi tasarımı yapmaktadır.</p>
+        <div class="doctor-credentials">
+          <div class="credential">
+            <div class="credential-icon">🎓</div>
+            <div class="credential-text"><strong>ISHRS Üyesi</strong> — International Society of Hair Restoration Surgery</div>
+          </div>
+          <div class="credential">
+            <div class="credential-icon">📜</div>
+            <div class="credential-text"><strong>[Üniversite]</strong> — Tıp Fakültesi Mezunu</div>
+          </div>
+          <div class="credential">
+            <div class="credential-icon">🏆</div>
+            <div class="credential-text"><strong>10.000+</strong> başarılı operasyon deneyimi</div>
+          </div>
+          <div class="credential">
+            <div class="credential-icon">📝</div>
+            <div class="credential-text"><strong>[X] bilimsel yayın</strong> — uluslararası dergilerde</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">Nasıl Çalışır</div>
+        <h2 class="section-title">Dört adımda<br><em>doğal sonuç.</em></h2>
+      </div>
+    </div>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3 class="step-title">Ücretsiz Analiz</h3>
+        <p class="step-desc">Fotoğraflarınızı gönderin, doktorumuz saç tipinizi ve dökülme seviyenizi değerlendirsin. Online veya yüz yüze.</p>
+        <span class="step-time">15 dakika</span>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3 class="step-title">Kişisel Plan</h3>
+        <p class="step-desc">Greft sayısı, teknik seçimi ve beklenen sonuç — size özel detaylı tedavi planı hazırlanır.</p>
+        <span class="step-time">24 saat içinde</span>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3 class="step-title">Operasyon</h3>
+        <p class="step-desc">Lokal anestezi ile konforlu süreç. Operasyon boyunca bilinçlisiniz, ağrı hissetmezsiniz.</p>
+        <span class="step-time">4-7 saat</span>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h3 class="step-title">Takip & Sonuç</h3>
+        <p class="step-desc">Operasyon sonrası düzenli takip. İlk sonuçlar 3-4 ayda, tam sonuç 12-18 ayda görülür.</p>
+        <span class="step-time">12-18 ay</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="cta">
+  <div class="container">
+    <div class="section-label" style="color: var(--accent-warm);">İlk Adım</div>
+    <h2 class="section-title" style="color: var(--text-on-dark);">60 saniyede kişisel<br><em>saç analizinizi</em> başlatın.</h2>
+    <p class="cta-desc">Adınızı ve telefon numaranızı bırakın, uzman ekibimiz 24 saat içinde sizinle iletişime geçsin. Ücretsiz, bağlayıcı değil.</p>
+    <div class="cta-form">
+      <input type="text" class="cta-input" placeholder="Adınız">
+      <input type="tel" class="cta-input" placeholder="Telefon / WhatsApp">
+      <button class="btn-accent">Gönder →</button>
+    </div>
+    <div class="cta-trust">
+      <div class="cta-trust-item"><span class="cta-trust-icon">✓</span> Ücretsiz</div>
+      <div class="cta-trust-item"><span class="cta-trust-icon">✓</span> Bağlayıcı değil</div>
+      <div class="cta-trust-item"><span class="cta-trust-icon">✓</span> 24 saat içinde dönüş</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div>
+        <div class="section-label">Sıkça Sorulan</div>
+        <h2 class="section-title">Merak<br><em>edilenler.</em></h2>
+        <p class="section-desc" style="margin-top: var(--space-lg);">Aklınıza takılan başka sorular için bize WhatsApp'tan ulaşabilirsiniz.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item open">
+          <div class="faq-q">Saç ekimi ağrılı mı?</div>
+          <div class="faq-a">Operasyon lokal anestezi altında yapılır. Anestezi uygulaması sırasında kısa süreli bir rahatsızlık hissedilebilir, ancak işlem boyunca ağrı hissetmezsiniz. Operasyon sonrası hafif bir gerginlik hissi normal olup birkaç gün içinde geçer.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Sonuçlar ne zaman görülür?</div>
+          <div class="faq-a">Ekilen saçlar ilk 2-4 haftada dökülür (şok dökülmesi — normaldir). Yeni saçlar 3-4 ayda çıkmaya başlar. Tam sonuç 12-18 ayda görülür. Bireysel sonuçlar değişkenlik gösterebilir.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Kaç greft gerekli?</div>
+          <div class="faq-a">Greft sayısı dökülme seviyenize, donor alanınızın kapasitesine ve beklentilerinize göre belirlenir. Ücretsiz saç analizimizde size özel greft planı çıkarılır.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Yurt dışından geliyorum, süreç nasıl işliyor?</div>
+          <div class="faq-a">Havalimanı transferi, otel konaklaması ve klinik ulaşımı dahil paketlerimiz mevcuttur. Online konsültasyon ile ön değerlendirme yapılır, İstanbul'da 2-3 gün kalmanız yeterlidir.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">İşe ne zaman dönebilirim?</div>
+          <div class="faq-a">Çoğu hastamız 3-5 gün içinde ofis işlerine dönebilmektedir. Ağır fiziksel aktivite için 2-3 hafta beklemeniz önerilir.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">altınsoy<span>.</span></div>
+        <p class="footer-desc">İstanbul merkezli saç restorasyon cerrahisi kliniği. 15 yıllık deneyim, 42 ülkeden hasta.</p>
+      </div>
+      <div>
+        <h4 class="footer-heading">Teknikler</h4>
+        <ul class="footer-links">
+          <li><a href="#">FUE Saç Ekimi</a></li>
+          <li><a href="#">DHI Saç Ekimi</a></li>
+          <li><a href="#">Sapphire FUE</a></li>
+          <li><a href="#">Sakal Ekimi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-heading">Bilgi</h4>
+        <ul class="footer-links">
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">Doktorumuz</a></li>
+          <li><a href="#">Sonuçlar</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-heading">İletişim</h4>
+        <ul class="footer-links">
+          <li><a href="#">WhatsApp</a></li>
+          <li><a href="#">+90 XXX XXX XX XX</a></li>
+          <li><a href="#">info@altinsoy.com</a></li>
+          <li><a href="#">İstanbul, Türkiye</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Altınsoy Saç Ekim Merkezi. Tüm hakları saklıdır.</span>
+      <span><a href="#" style="color:var(--text-on-dark-muted);text-decoration:none;">Gizlilik Politikası</a> · <a href="#" style="color:var(--text-on-dark-muted);text-decoration:none;">KVKK</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<div class="whatsapp-float" title="WhatsApp ile yazın">💬</div>
+
+<script>
+// FAQ toggle
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.querySelector('.faq-q').addEventListener('click', () => {
+    document.querySelectorAll('.faq-item').forEach(i => { if(i !== item) i.classList.remove('open'); });
+    item.classList.toggle('open');
+  });
+});
+</script>
+
+</body>
+</html>

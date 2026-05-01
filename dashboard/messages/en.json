@@ -1,0 +1,2563 @@
+{
+  "meta": {
+    "site": {
+      "siteName": "Altınsoy Hair Restoration"
+    },
+    "home": {
+      "title": "Altınsoy Hair Clinic | Hair Transplant in Istanbul",
+      "description": "FUE, DHI and Sapphire hair transplantation in Istanbul. 15 years of surgical experience, 10,000+ successful procedures. ISHRS-affiliated specialist team."
+    },
+    "sacEkimi": {
+      "title": "Hair Transplant | FUE, DHI and Sapphire Techniques | Altınsoy",
+      "description": "Modern hair transplant techniques. FUE, DHI and Sapphire methods, natural hairline design, lasting results. Specialist surgical team in Istanbul."
+    },
+    "fue": {
+      "title": "FUE Hair Transplant | Altınsoy",
+      "description": "Scarless hair transplantation with the FUE (Follicular Unit Extraction) technique. Ideal for larger areas, fast recovery."
+    },
+    "dhi": {
+      "title": "DHI Hair Transplant | Choi Implanter Technique | Altınsoy",
+      "description": "High density and natural angle with the DHI (Direct Hair Implantation) technique. Simultaneous extraction and implantation with the Choi pen."
+    },
+    "sapphire": {
+      "title": "Sapphire FUE Hair Transplant | Altınsoy",
+      "description": "Faster healing and a more natural hairline thanks to channels opened with sapphire-tipped blades."
+    },
+    "sakal": {
+      "title": "Beard Transplant | Tailored to Your Facial Structure | Altınsoy",
+      "description": "Beard transplantation fills sparse areas with natural density. Designed for your facial features, with permanent results."
+    },
+    "kas": {
+      "title": "Eyebrow Transplant | Fine-Detail Surgery | Altınsoy",
+      "description": "Eyebrow transplantation restores thin, lost or sparse brows. Natural angle and direction with micro-graft technique."
+    },
+    "fueVsDhi": {
+      "title": "FUE vs DHI: Which Is Right for You? | Altınsoy",
+      "description": "A detailed comparison of the FUE and DHI techniques. Which technique for whom, when, and why? A guide from our specialist surgeon."
+    },
+    "sacAnalizi": {
+      "title": "Free Hair Analysis | Altınsoy",
+      "description": "A free hair analysis in 3 steps. Personalised plan and price quote from our specialist team within 24 hours."
+    },
+    "fiyat": {
+      "title": "Hair Transplant Pricing | Transparent Packages | Altınsoy",
+      "description": "Our hair transplant pricing: FUE, DHI and Sapphire packages. Transparent pricing, no hidden costs. European quality at Istanbul prices."
+    },
+    "fiyatHesaplama": {
+      "title": "Hair Transplant Price Calculator | Altınsoy",
+      "description": "Get an instant hair transplant price estimate based on graft count and your preferred technique."
+    },
+    "greftHesaplama": {
+      "title": "Graft Count Calculator | Norwood Scale | Altınsoy",
+      "description": "Estimate how many grafts you need based on the Norwood scale. Graft estimate aligned to your hair-loss stage."
+    },
+    "oncesiSonrasi": {
+      "title": "Hair Transplant Before & After | Our Cases | Altınsoy",
+      "description": "Before-and-after images of real patients. FUE, DHI and Sapphire cases."
+    },
+    "iletisim": {
+      "title": "Contact | Appointment and Free Consultation | Altınsoy",
+      "description": "Get in touch with our Istanbul clinic. Reply within 24 hours via WhatsApp, phone, or email."
+    },
+    "uygunDegil": {
+      "title": "Are You Not a Candidate for Hair Transplantation? | Altınsoy",
+      "description": "Conditions that may rule out hair transplantation, and alternative solutions. Honest assessment."
+    },
+    "vakaDhiSakal": {
+      "title": "DHI Beard Case — 1,800 Grafts | Altınsoy",
+      "description": "Beard transplant case: 1,800 grafts with the DHI technique. Detailed process, before & after, and results."
+    },
+    "vakaFue": {
+      "title": "FUE Hair Transplant Case — 3,200 Grafts | Altınsoy",
+      "description": "Hair transplant case: 3,200 grafts with the FUE technique. Full transformation of a Norwood 4 patient."
+    },
+    "vakaKas": {
+      "title": "Eyebrow Restoration Case — 400 Grafts | Altınsoy",
+      "description": "Micro-graft eyebrow restoration case. Natural direction, fine craftsmanship, lasting result."
+    },
+    "kvkk": {
+      "title": "Data Protection Disclosure | Altınsoy",
+      "description": "Disclosure on the protection and processing of personal data."
+    },
+    "gizlilik": {
+      "title": "Privacy Policy | Altınsoy",
+      "description": "Our privacy policy and approach to data protection."
+    },
+    "cerez": {
+      "title": "Cookie Policy | Altınsoy",
+      "description": "Cookies used on our website and your preferences."
+    }
+  },
+  "nav": {
+    "expertise": "Expertise",
+    "techniques": "Techniques",
+    "results": "Results",
+    "price": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Free Analysis",
+    "menu": "Menu",
+    "close": "Close",
+    "switchLocale": "Switch language"
+  },
+  "footer": {
+    "brand": {
+      "name": "Altınsoy",
+      "tagline": "Natural Results, Lasting Confidence.",
+      "blurb": "Istanbul-based hair, beard and eyebrow restoration surgery clinic. Fifteen years of experience, patients from forty-two countries."
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Türkiye —\nIstanbul, European Side",
+      "whatsapp": "WhatsApp"
+    },
+    "links": {
+      "title": "Links",
+      "home": "Home",
+      "hairTransplant": "Hair Transplant",
+      "beardTransplant": "Beard Transplant",
+      "browTransplant": "Eyebrow Transplant",
+      "results": "Before & After",
+      "contact": "Contact",
+      "techniques": "FUE & DHI Techniques",
+      "pricing": "Pricing",
+      "faq": "FAQ"
+    },
+    "social": {
+      "title": "Follow Us",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "x": "X (Twitter)",
+      "gmail": "Email",
+      "whatsapp": "WhatsApp",
+      "googleMaps": "Location"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "kvkk": "Data Protection Disclosure",
+      "rights": "All rights reserved.",
+      "disclaimer": "The content on this website is for general informational purposes only and does not constitute medical advice. An assessment specific to your situation can only be made by consulting a qualified physician. Individual results may vary."
+    },
+    "copyrightLine": "© {year} Altınsoy Hair Restoration. All rights reserved.",
+    "location": "Istanbul, Türkiye"
+  },
+  "common": {
+    "freeAnalysis": "Free Hair Analysis",
+    "whatsapp": "WhatsApp",
+    "bookConsultation": "Book Consultation",
+    "learnMore": "Learn More",
+    "free": "Free",
+    "nonBinding": "Non-binding",
+    "replyIn24h": "Reply within 24h",
+    "loading": "Loading...",
+    "sending": "Sending...",
+    "send": "Send",
+    "name": "Your Name",
+    "phone": "Phone",
+    "email": "Email",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No",
+    "disclaimer": "This page is for general informational purposes only and does not constitute medical advice. Individual results may vary."
+  },
+  "hero": {
+    "badge": "ISTANBUL'S TRUSTED HAIR CLINIC",
+    "headline1": "Natural",
+    "headline2": "Results.",
+    "subheadline": "The pinnacle of hair transplant technology. With proven FUE & DHI techniques, every hairline is designed for you.",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "Your phone number",
+    "ctaPrimary": "Get Free Analysis",
+    "trustLine": "Free · Non-binding · Reply within 24 hours"
+  },
+  "whatsappFloat": {
+    "title": "Message us on WhatsApp",
+    "ariaLabel": "Contact us on WhatsApp",
+    "defaultMessage": "Hello, I'd like information about hair transplantation."
+  },
+  "cookieBanner": {
+    "text": "This website uses cookies to improve your experience. For details, see our",
+    "policyLink": "Cookie Policy",
+    "policyLinkSuffix": ".",
+    "decline": "Decline",
+    "accept": "Accept"
+  },
+  "chat": {
+    "openLabel": "Open chat",
+    "closeLabel": "Close",
+    "dialogLabel": "Altınsoy chat assistant",
+    "headerTitle": "Altınsoy Assistant",
+    "online": "Online",
+    "disclaimer": "This assistant is for general information only. It does not replace medical diagnosis or treatment recommendations.",
+    "greeting": "Hello 👋 I'm the Altınsoy Hair Clinic assistant. I'll do my best to help with your questions about hair, beard or eyebrow restoration. For a <strong>definitive medical assessment</strong> you can book a free consultation.",
+    "greetingFollowup": "How can I help?",
+    "inputPlaceholder": "Type your message...",
+    "sendLabel": "Send",
+    "footerText": "Altınsoy Hair Clinic · GDPR-compliant",
+    "defaultResponse": "I didn't quite catch your question. For more detailed help:<br>• <a href=\"https://wa.me/905539784242\" style=\"color:#e9c176;text-decoration:underline\">Message us on WhatsApp</a><br>• <a href=\"{analysisUrl}\" style=\"color:#e9c176;text-decoration:underline\">Fill out the free analysis form</a><br>• Try the quick-question buttons above",
+    "quickReplies": {
+      "price": "What are the hair transplant prices?",
+      "fueDhi": "What is the difference between FUE and DHI?",
+      "pain": "Is the hair transplant painful?",
+      "results": "When do results become visible?",
+      "analysis": "How does the free analysis start?"
+    },
+    "responses": {
+      "price": "At Altınsoy, hair transplant packages range from <strong>€2,500 — €5,000</strong>. The price depends on the technique, graft count and package. For details, see our <a href=\"{priceUrl}\" style=\"color:#e9c176;text-decoration:underline\">pricing page</a> or request a free consultation.",
+      "fueDhi": "<strong>Short answer:</strong> neither is \"better\" — each is ideal for different situations.<br><br>FUE: Larger areas (3,000–5,000 grafts), 4–6 hours<br>DHI: Precise angle, high density (2,000–3,500 grafts), 5–7 hours<br><br>For a detailed comparison, see <a href=\"{compareUrl}\" style=\"color:#e9c176;text-decoration:underline\">this page</a>.",
+      "pain": "The procedure is performed under <strong>local anaesthesia</strong>. You may feel brief discomfort while the anaesthetic is administered, but you will not feel pain during the procedure itself. Mild post-operative tightness is managed with prescribed medication.",
+      "results": "<strong>Timeline:</strong><br>• First 2–4 weeks: shock loss (normal)<br>• Months 3–4: first new growth<br>• Months 6–8: noticeable thickening<br>• Months 12–18: final result<br><br>Individual results may vary.",
+      "analysis": "A simple 3-step process:<br>1. Choose your area of interest (hair / beard / brow)<br>2. Mark your hair-loss level<br>3. Leave your contact details<br><br>Our specialist team will get back to you with a personalised plan within 24 hours. <a href=\"{analysisUrl}\" style=\"color:#e9c176;text-decoration:underline\">Start the analysis →</a>"
+    }
+  },
+  "siteBanner": {
+    "closeLabel": "Close"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "fallbackEyebrow": "Mastery in Hair, Beard & Eyebrow Restoration",
+        "fallbackHeadline": "The Art of",
+        "fallbackHeadlineItalic": "Invisibility.",
+        "fallbackBody": "Hair restoration surgery in Istanbul. We don't just transplant follicles; we design the natural flow of your identity, ensuring every strand belongs precisely where it grows.",
+        "fallbackCta": "Begin Your Analysis",
+        "imageAlt": "Altinsoy hair restoration centre, professional environment",
+        "establishedLine": "Est. Istanbul"
+      },
+      "trust": {
+        "operations": "Successful\nProcedures",
+        "rating": "Google\nRating",
+        "countries": "Countries\nServed",
+        "experience": "Years\nExperience",
+        "ishrs": "Certified\nClinic"
+      },
+      "process": {
+        "eyebrow": "How It Works",
+        "title": "Step by Step,",
+        "titleAccent": "Your Journey",
+        "subtitle": "From your first message to the final result, every stage is managed with full transparency.",
+        "steps": {
+          "s1": {
+            "title": "Free Analysis",
+            "desc": "Send us your photos and our specialist will prepare a personal assessment within 24 hours. Online or in person."
+          },
+          "s2": {
+            "title": "Personal Planning",
+            "desc": "Graft count, technique selection and hairline design are decided together. Nothing is off-the-shelf."
+          },
+          "s3": {
+            "title": "Procedure Day",
+            "desc": "Four to seven hours under local anaesthesia. You arrive at the clinic in the morning and return home the same evening."
+          },
+          "s4": {
+            "title": "Follow-Up & Results",
+            "desc": "Regular check-ins over twelve to eighteen months. The final result is fully dense and entirely natural."
+          }
+        },
+        "cta": "Begin Your Analysis"
+      },
+      "empathy": {
+        "titleAccent": "Artificial",
+        "titleRest": "looks, no more.",
+        "p1": "Many clinics focus only on volume. They promise thousands of strands, but the result is often harsh, linear and unmistakably artificial.",
+        "p2Lead": "At Altinsoy we focus on",
+        "p2Underlined": "Organic Realism",
+        "p2Trail": ". Whether it's a beard or an eyebrow, we faithfully replicate nature's unique and subtle growth patterns.",
+        "imageAlt": "Macro photograph of hair texture, golden light detail",
+        "quote": "The greatest restoration is the one no one notices."
+      },
+      "techniques": {
+        "eyebrow": "Techniques",
+        "title": "Hair Transplant",
+        "titleAccent": "Techniques",
+        "subtitle": "We choose the technique that fits your hair type, hair-loss pattern and expectations together with you.",
+        "fue": {
+          "badge": "Most Chosen",
+          "title": "FUE",
+          "desc": "Microsurgical technique that extracts follicles individually with no linear scar. Ideal for larger areas and high graft counts.",
+          "duration": "4–6 hours",
+          "recovery": "7–10 days",
+          "result": "12–18 months"
+        },
+        "dhi": {
+          "badge": "Precise Angle Control",
+          "title": "DHI",
+          "desc": "Direct implantation with the Choi pen. Ideal for placement among existing hair and zones that demand high density.",
+          "duration": "5–7 hours",
+          "recovery": "7–10 days",
+          "result": "12–18 months"
+        },
+        "sapphire": {
+          "badge": "Minimal Incisions",
+          "title": "Sapphire FUE",
+          "desc": "Sapphire-tipped blades create smaller incisions and shorter recovery. The refined evolution of FUE.",
+          "duration": "4–6 hours",
+          "recovery": "5–7 days",
+          "result": "12–18 months"
+        },
+        "labels": {
+          "duration": "Procedure",
+          "recovery": "Recovery",
+          "result": "Full result"
+        }
+      },
+      "recovery": {
+        "eyebrow": "Recovery Process",
+        "title": "What to Expect",
+        "titleAccent": "After Surgery",
+        "subtitle": "Each phase is normal and predictable. Know what the journey looks like before it begins.",
+        "phases": {
+          "p1": {
+            "period": "Days 1–3",
+            "badge": "Initial Phase",
+            "desc": "Bandaging and rest. Mild swelling and tenderness are normal. Avoid direct contact with water."
+          },
+          "p2": {
+            "period": "Days 3–14",
+            "badge": "Scabbing",
+            "desc": "Small scabs form and shed. Gentle washing can begin from day three."
+          },
+          "p3": {
+            "period": "Weeks 2–4",
+            "badge": "Shock Loss",
+            "desc": "Transplanted strands shed — this is entirely normal. The roots remain healthy and prepare for new growth."
+          },
+          "p4": {
+            "period": "Months 3–6",
+            "badge": "New Growth",
+            "desc": "The first new strands emerge. They may be fine and slightly curly at first; they strengthen over time."
+          },
+          "p5": {
+            "period": "Months 12–18",
+            "badge": "Final Result",
+            "desc": "Full density and natural appearance. The result is lasting; the transplanted roots remain for life."
+          }
+        },
+        "footnote": "Individual recovery may vary. A consultation is required for a precise assessment."
+      },
+      "surgeon": {
+        "imageAlt": "Altinsoy lead surgeon, professional portrait",
+        "eyebrow": "Founding Team",
+        "title1": "Altinsoy",
+        "title2": "Clinical Team",
+        "subtitle": "ISHRS member specialists and a surgical team with fifteen years of experience.",
+        "stats": {
+          "experienceValue": "15+",
+          "experienceLabel": "Years of Experience",
+          "operationsValue": "10,000+",
+          "operationsLabel": "Successful Procedures"
+        },
+        "quote": "Hair restoration is millimetric surgery as much as it is the art of light and shadow. We follow not only the hairline but the story of the face.",
+        "phoneCta": "Contact: +90 553 978 42 42"
+      },
+      "cases": {
+        "eyebrow": "Results",
+        "title": "Hair Transplant",
+        "titleAccent": "Results",
+        "subtitle": "A selection of hair, beard and eyebrow restoration cases. Scroll through to witness the transformation.",
+        "disclaimer": "All images are shared with patient consent. Individual results may vary.",
+        "navPrev": "View previous cases",
+        "navNext": "View next cases",
+        "viewAll": "All Cases",
+        "card": {
+          "before": "BEFORE",
+          "after": "AFTER",
+          "tapToBefore": "View before",
+          "tapToAfter": "View after",
+          "beforeAlt": "Before",
+          "afterAlt": "After",
+          "ageSuffix": "yrs",
+          "graftsSuffix": "grafts",
+          "imagePlaceholder": "Image Coming Soon",
+          "categoryHair": "Hair",
+          "categoryBeard": "Beard",
+          "categoryBrow": "Eyebrow"
+        }
+      },
+      "international": {
+        "eyebrow": "Patients from 42 Countries",
+        "titleLine1": "If you're",
+        "titleAccent": "travelling in,",
+        "titleLine2": "everything is ready.",
+        "body": "Istanbul is one of the most established hair restoration hubs in the world. Just arrive — we manage every step from airport to clinic, accommodation to follow-up.",
+        "languageLabel": "Language support",
+        "cta": "Get Information",
+        "services": {
+          "consult": {
+            "title": "Online Consultation",
+            "desc": "Every detail is clarified before you travel. Photo analysis plus a graft plan."
+          },
+          "transfer": {
+            "title": "Airport Transfer",
+            "desc": "A clinic vehicle meets you on arrival. No extra coordination needed."
+          },
+          "hotel": {
+            "title": "Accommodation Support",
+            "desc": "Partner hotels or curated Airbnb suggestions, close to the clinic and comfortable."
+          },
+          "duration": {
+            "title": "2–3 Days Is Enough",
+            "desc": "Consultation, procedure and the first check-up. A long weekend can cover it."
+          },
+          "support": {
+            "title": "24/7 Support",
+            "desc": "Our WhatsApp line stays open for any question after the procedure."
+          },
+          "remote": {
+            "title": "Remote Follow-Up",
+            "desc": "Send photos once you're home — we conduct the check-ins remotely."
+          }
+        }
+      },
+      "testimonial": {
+        "quote": "The result looks far more natural than I expected. Everything was handled with great professionalism, including the day of surgery. The team genuinely listens.",
+        "attribution": "Julian W. — London, United Kingdom · Google Reviews"
+      },
+      "faq": {
+        "eyebrow": "FAQ",
+        "title": "Frequently Asked",
+        "titleAccent": "Questions",
+        "intro": "If you have other questions, please reach out to us directly.",
+        "q1": {
+          "question": "Is the hair transplant procedure painful?",
+          "answer": "The procedure is performed under local anaesthesia. You may feel a brief discomfort while the anaesthesia is administered, but you do not feel pain during the operation. Mild tightness afterwards is normal and settles within a few days."
+        },
+        "q2": {
+          "question": "When do hair transplant results become visible?",
+          "answer": "Transplanted hairs shed in the first 2–4 weeks — this is shock loss and is entirely normal. New hairs begin to emerge in months 3–4. The final result is visible at 12–18 months. Individual results may vary."
+        },
+        "q3": {
+          "question": "How many grafts do I need?",
+          "answer": "The graft count depends on your hair-loss level, donor area capacity and personal expectations. A graft plan tailored to you is prepared during the free hair analysis."
+        },
+        "q4": {
+          "question": "What is the difference between FUE and DHI?",
+          "answer": "With FUE, grafts are extracted one by one, channels are opened and the grafts are then placed. With DHI, the Choi pen extracts and implants the graft in a single step — improving angle and direction control. Which technique suits you is decided in the free consultation."
+        },
+        "q5": {
+          "question": "I'm travelling from abroad — how does the process work?",
+          "answer": "Packages including airport transfers, hotel accommodation and clinic transport are available. A pre-assessment is carried out online, and a stay of two to three days in Istanbul is sufficient."
+        },
+        "q6": {
+          "question": "When can I wash my hair normally again?",
+          "answer": "Gentle washing begins from day three. Once the grafts have settled, you can return to normal shower pressure and massage techniques from day fourteen. Avoid direct water pressure in the first week and pat dry with sterile gauze."
+        },
+        "q7": {
+          "question": "Is shock loss normal — should I be worried?",
+          "answer": "Shock loss is entirely normal and is a sign of a healthy follicular cycle. The transplanted strands shed 2–4 weeks after the operation, but the living roots remain in place and continue to produce lasting, stronger hair. New growth typically begins around months 3–4."
+        },
+        "q8": {
+          "question": "When can I return to intense exercise?",
+          "answer": "Light cardio can begin after 14 days. However, heavy lifting and contact sports should be avoided for 4 weeks — spikes in blood pressure can affect graft health. Return to your previous routine gradually."
+        }
+      },
+      "cta": {
+        "eyebrow": "Free Consultation",
+        "title": "Begin your personal",
+        "titleAccent": "hair analysis.",
+        "body": "Leave your name and number and our specialist team will contact you within twenty-four hours.",
+        "namePlaceholder": "Your name",
+        "phonePlaceholder": "Phone / WhatsApp",
+        "submit": "Send",
+        "submitting": "Sending…",
+        "trust": {
+          "free": "Free",
+          "nonBinding": "No obligation",
+          "reply24": "Reply within 24 hours"
+        },
+        "consentLead": "I consent to my personal data being processed for consultation purposes.",
+        "consentKvkk": "Data Protection Notice",
+        "consentAnd": "and",
+        "consentPrivacy": "Privacy Policy",
+        "consentTrail": "; I have read and understood them.",
+        "footnote": "By submitting this form, your personal data is processed solely for consultation purposes and is not shared with third parties. See the policies above for full details.",
+        "successMessage": "Your request has been received. Our specialist will contact you within 24 hours.",
+        "errorMessage": "An error occurred. Please reach out to us via WhatsApp or phone."
+      }
+    },
+    "contact": {
+      "hero": {
+        "eyebrow": "APPOINTMENT & CONTACT",
+        "title": "Contact & Appointment",
+        "subtitle": "WhatsApp, phone, email or form. Reach us anytime — we typically reply within 24 hours."
+      },
+      "channels": {
+        "whatsapp": {
+          "title": "WhatsApp",
+          "desc": "Fastest way to reach us",
+          "detail": "+90 553 978 42 42"
+        },
+        "phone": {
+          "title": "Phone",
+          "desc": "Monday–Saturday 09:00–18:00",
+          "detail": "+90 553 978 42 42"
+        },
+        "email": {
+          "title": "Email",
+          "desc": "Reply within 24 hours",
+          "detail": "info@altinsoy.com"
+        },
+        "address": {
+          "title": "Clinic Address",
+          "desc": "Istanbul, Türkiye"
+        }
+      },
+      "form": {
+        "title": "Send a Message",
+        "subtitle": "Your form will be answered within 24 hours. For an instant reply, message us on WhatsApp.",
+        "successTitle": "Your message has been received.",
+        "successText": "Our specialist will get in touch within 24 hours at the latest.",
+        "newMessage": "Send a new message",
+        "nameLabel": "Full Name *",
+        "namePlaceholder": "Your full name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "you@example.com",
+        "phoneLabel": "Phone *",
+        "phonePlaceholder": "+1 555 555 5555",
+        "areaLabel": "Area of Interest",
+        "areaHair": "Hair Restoration",
+        "areaBeard": "Beard Transplant",
+        "areaBrow": "Eyebrow Restoration",
+        "messageLabel": "Your Message",
+        "messagePlaceholder": "Write your questions or notes here.",
+        "consentText": "I consent to my personal data being processed under the",
+        "consentLink": "data protection policy",
+        "consentSuffix": ".",
+        "submit": "Send Message",
+        "submitting": "Sending…",
+        "errorPrefix": "Something went wrong. Please reach us via",
+        "errorLink": "WhatsApp",
+        "errorSuffix": "."
+        ,
+        "replyNote": "Your form will be answered within 24 hours."
+      },
+      "social": {
+        "title": "Follow Us on Social Media",
+        "subtitle": "Stay up to date with new content, patient stories and announcements.",
+        "labels": {
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "x": "X",
+          "gmail": "Email",
+          "whatsapp": "WhatsApp",
+          "googleMaps": "Google Maps"
+        }
+      },
+      "trust": {
+        "ssl": "SSL encrypted",
+        "kvkk": "GDPR-aligned",
+        "noSale": "Data is never sold"
+      }
+    },
+    "analysis": {
+      "hero": {
+        "stepLabel": "Step 0{step} / 03",
+        "titlePart1": "Start your personal",
+        "titleAccent": "hair analysis.",
+        "subtitle": "A free online hair analysis in 60 seconds. Identify your hair-loss stage and receive a personalised treatment plan.",
+        "tags": {
+          "free": "Free",
+          "nonBinding": "Non-binding",
+          "reply24h": "Reply within 24h"
+        }
+      },
+      "steps": {
+        "s1": "Area of Interest",
+        "s2": "Hair-Loss Profile",
+        "s3": "Contact & Photo"
+      },
+      "trust": {
+        "ssl": "SSL encrypted",
+        "kvkk": "GDPR-aligned",
+        "noSale": "Data is never sold"
+      },
+      "areas": {
+        "hair": "Hair Restoration",
+        "beard": "Beard Transplant",
+        "brow": "Eyebrow Restoration"
+      },
+      "profiles": {
+        "hair": {
+          "p1": { "label": "Mild Thinning", "sub": "Norwood I–II" },
+          "p2": { "label": "Receding Hairline", "sub": "Norwood III" },
+          "p3": { "label": "Crown Area", "sub": "Norwood III–IV" },
+          "p4": { "label": "Advanced Stage", "sub": "Norwood V+" }
+        },
+        "beard": {
+          "p1": { "label": "Densification", "sub": "" },
+          "p2": { "label": "Patchy Areas", "sub": "" },
+          "p3": { "label": "Full Beard", "sub": "" }
+        },
+        "brow": {
+          "p1": { "label": "Thinning", "sub": "" },
+          "p2": { "label": "Shape Correction", "sub": "" },
+          "p3": { "label": "Full Restoration", "sub": "" }
+        }
+      },
+      "step1": {
+        "title": "Choose Your Area of Interest",
+        "subtitle": "Which area would you like to be analysed?",
+        "next": "Continue"
+      },
+      "step2": {
+        "title": "Identify Your Hair-Loss Profile",
+        "subtitle": "Select the option closest to your situation.",
+        "back": "Back",
+        "next": "Continue"
+      },
+      "step3": {
+        "title": "Enter Your Contact Details",
+        "subtitle": "Our specialist team will get back to you within 24 hours.",
+        "fullNameLabel": "Full Name",
+        "fullNamePlaceholder": "Your full name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "you@example.com",
+        "phoneLabel": "Phone",
+        "phonePlaceholder": "+1 555 555 5555",
+        "photoLabel": "Upload a Photo",
+        "photoHint": "Optional — speeds up your analysis",
+        "consentText": "I consent to my personal data being processed under the",
+        "consentLink": "data protection policy",
+        "consentSuffix": ".",
+        "successText": "Your analysis has been received. Our specialist will reach out within 24 hours.",
+        "back": "Back",
+        "submit": "Complete & Send Analysis",
+        "uploading": "Uploading photo…",
+        "saving": "Saving…",
+        "errorText": "Something went wrong. Please reach us via WhatsApp."
+      }
+    },
+    "pricing": {
+      "breadcrumb": {
+        "home": "Home",
+        "pricing": "Pricing"
+      },
+      "hero": {
+        "eyebrow": "TRANSPARENT PRICING",
+        "titlePart1": "Transparent pricing,",
+        "titleAccent": "no surprises.",
+        "subtitle": "Hair transplant pricing varies by technique, graft count and chosen package. Below you can review the package contents and price ranges. Personalised pricing is shared in writing after your free consultation."
+      },
+      "shortAnswer": {
+        "title": "Quick answer",
+        "body": "At Altınsoy Hair Clinic, hair transplant packages range from <strong>€2,500 to €5,000</strong>. The price depends on the technique applied (FUE, DHI, Sapphire), the graft count and the package add-ons (accommodation, transfer, translation). Each package contents are listed transparently on the page — your individual quote is provided in writing during the consultation."
+      },
+      "packages": {
+        "eyebrow": "PACKAGES",
+        "title": "The right package for you",
+        "subtitle": "Three different packages for different needs. We choose the one that fits you together during the consultation.",
+        "labels": {
+          "priceRange": "Price range",
+          "rangeNote": "Varies by technique and graft count",
+          "rangeNoteFull": "All services included",
+          "includedTitle": "Included:",
+          "includedAddOn": "Included (in addition to the Standard package):",
+          "includedAddOnPremium": "Included (in addition to the Premium package):",
+          "popularBadge": "Most Popular",
+          "moreInfo": "Get Detailed Information"
+        },
+        "standard": {
+          "tag": "Package 01",
+          "title": "Standard",
+          "subtitle": "Procedure-focused — ideal for domestic patients",
+          "range": "€2,500 — €3,500",
+          "items": {
+            "i1": "Procedure (FUE or DHI)",
+            "i2": "Local anaesthesia",
+            "i3": "First post-op wash",
+            "i4": "Aftercare kit (shampoo, spray)",
+            "i5": "Prescribed medication",
+            "i6": "Follow-up appointment (1)",
+            "i7": "WhatsApp support (12 months)"
+          }
+        },
+        "premium": {
+          "tag": "Package 02",
+          "title": "Premium",
+          "subtitle": "Accommodation + transfer included",
+          "range": "€3,500 — €4,500",
+          "items": {
+            "i1": "4-star hotel stay (2 nights)",
+            "i2": "Airport — hotel — clinic transfers",
+            "i3": "Sapphire FUE or DHI technique",
+            "i4": "PRP support (1 session)",
+            "i5": "Follow-up appointments (2)",
+            "i6": "Priority WhatsApp support"
+          }
+        },
+        "international": {
+          "tag": "Package 03",
+          "title": "International",
+          "subtitle": "Full package for international patients",
+          "range": "€4,500 — €5,000",
+          "items": {
+            "i1": "5 nights in a 4-star hotel",
+            "i2": "VIP airport welcome",
+            "i3": "Translation service (EN/AR/DE/RU)",
+            "i4": "Online video consultation",
+            "i5": "Extended aftercare follow-up (18 months)",
+            "i6": "Istanbul tour guide (optional)"
+          }
+        },
+        "footnote": "Prices are for informational purposes. The exact price is determined after a personal assessment during your free consultation and shared as a written quote."
+      },
+      "notIncluded": {
+        "eyebrow": "TRANSPARENCY",
+        "title": "What is not included in the packages",
+        "subtitle": "We don't like surprises. Here's what is not included by default:",
+        "items": {
+          "flight": {
+            "title": "Flight ticket",
+            "desc": "International flight tickets are the patient's responsibility."
+          },
+          "visa": {
+            "title": "Visa",
+            "desc": "An entry visa to Türkiye (if required) is obtained by the patient."
+          },
+          "extraStay": {
+            "title": "Extra accommodation",
+            "desc": "Nights beyond the package duration are charged separately."
+          },
+          "extraTreatment": {
+            "title": "Additional PRP / Mesotherapy",
+            "desc": "Extra sessions outside the standard inclusions are billed separately."
+          }
+        }
+      },
+      "payment": {
+        "eyebrow": "PAYMENT",
+        "title": "Payment options",
+        "cash": {
+          "title": "Cash",
+          "desc": "Accepted in EUR, USD or TL at the clinic."
+        },
+        "card": {
+          "title": "Credit Card",
+          "desc": "Instalment options available. Details discussed in consultation."
+        },
+        "transfer": {
+          "title": "International Transfer",
+          "desc": "SWIFT transfer with deposit and balance options."
+        }
+      },
+      "faq": {
+        "eyebrow": "FREQUENTLY ASKED",
+        "title": "Pricing questions",
+        "items": {
+          "q1": {
+            "q": "How much does a hair transplant cost?",
+            "a": "The price is determined by the technique (FUE/DHI/Sapphire), the graft count and the chosen package. Our packages range between €2,500 and €5,000. Personalised pricing is shared in writing after your free consultation."
+          },
+          "q2": {
+            "q": "What is included in the price?",
+            "a": "Each package's inclusions are listed on the package cards above. The Standard package covers the procedure, anaesthesia, first wash, aftercare kit and a follow-up; Premium adds accommodation and transfers; International adds translation and VIP services."
+          },
+          "q3": {
+            "q": "Will there be additional charges after the written quote?",
+            "a": "No. There are no surprise charges after the written quote provided post-consultation. All services and the price stated in the quote are final. Any additional services requested by the patient (extra session, extended stay, etc.) are agreed upon and confirmed in writing in advance."
+          },
+          "q4": {
+            "q": "Are there instalment options?",
+            "a": "Credit-card instalment options are available. The number of instalments and conditions depend on bank policies. Details are discussed during the consultation."
+          },
+          "q5": {
+            "q": "Is the consultation paid?",
+            "a": "No. The first consultation and pre-assessment are completely free. They can be online or in-person. The consultation is non-binding — the decision is yours."
+          }
+        }
+      },
+      "cta": {
+        "title": "Find the package that suits you",
+        "subtitle": "Receive your personalised treatment plan and price quote with our free hair analysis.",
+        "primary": "Free Hair Analysis",
+        "calculator": "Calculate Price",
+        "whatsapp": "WhatsApp",
+        "tags": {
+          "freeConsult": "Free consultation",
+          "nonBinding": "Non-binding",
+          "writtenQuote": "Written quote"
+        }
+      },
+      "disclaimer": "The price ranges shown on this page are for general information. The final price is determined after a specialist consultation that takes into account the patient's medical situation, graft requirement, chosen technique and service package, and is shared in writing. A hair transplant is a medical surgical procedure; please consult a qualified physician before deciding."
+    },
+    "priceCalc": {
+      "breadcrumb": {
+        "home": "Home",
+        "pricing": "Pricing",
+        "calc": "Calculator"
+      },
+      "hero": {
+        "eyebrow": "INTERACTIVE TOOL",
+        "titlePart1": "Your price estimate",
+        "titleAccent": "in 4 steps.",
+        "subtitle": "Get your estimated price range based on technique, graft count and package level. This tool offers a rough estimate; the exact price is shared as a <strong>written quote</strong> after your free consultation.",
+        "tipPrefix": "If you don't yet know how many grafts you need, try the",
+        "tipLink": "Graft Calculator",
+        "tipSuffix": "first."
+      },
+      "progress": "Step {step}/4",
+      "step1": {
+        "title": "Which technique?",
+        "subtitlePrefix": "Choose the technique you think suits you best. If you're not sure, see the",
+        "subtitleLink": "comparison page",
+        "subtitleSuffix": ".",
+        "options": {
+          "fue": {
+            "title": "FUE",
+            "sub": "Follicular Unit Extraction",
+            "desc": "The most preferred technique with the broadest range of use."
+          },
+          "sapphire": {
+            "title": "Sapphire FUE",
+            "sub": "Sapphire-tipped blade",
+            "desc": "Smaller incisions and faster healing."
+          },
+          "dhi": {
+            "title": "DHI",
+            "sub": "Direct implantation with the Choi pen",
+            "desc": "Precise angle control and high density."
+          }
+        },
+        "next": "Continue →"
+      },
+      "step2": {
+        "title": "Your estimated graft range?",
+        "subtitlePrefix": "Choose the range closest to your graft need.",
+        "subtitleLink": "the graft calculator",
+        "subtitleSuffix": "can help if you're not sure.",
+        "options": {
+          "small": { "title": "1,500 – 2,500 grafts", "sub": "Norwood II, mild thinning, small area" },
+          "medium": { "title": "2,500 – 3,500 grafts", "sub": "Norwood III, defined recession" },
+          "large": { "title": "3,500 – 4,500 grafts", "sub": "Norwood IV, crown + front together" },
+          "xlarge": { "title": "4,500+ grafts", "sub": "Norwood V+, large area or multi-session" }
+        },
+        "back": "Previous",
+        "next": "Continue →"
+      },
+      "step3": {
+        "title": "Which package?",
+        "subtitlePrefix": "You can review all package contents on the",
+        "subtitleLink": "pricing page",
+        "subtitleSuffix": ".",
+        "popular": "Most Popular",
+        "options": {
+          "standart": {
+            "title": "Standard Package",
+            "desc": "Procedure, anaesthesia, first wash, aftercare kit, follow-up appointment, 12 months of WhatsApp support.",
+            "tag1": "Domestic-focused",
+            "tag2": "Accommodation excluded"
+          },
+          "premium": {
+            "title": "Premium Package",
+            "desc": "On top of Standard: 2 nights in a 4-star hotel, transfers, PRP support, priority support.",
+            "tag1": "Accommodation included",
+            "tag2": "Transfer included"
+          },
+          "uluslararasi": {
+            "title": "International Package",
+            "desc": "On top of Premium: 5 nights of accommodation, VIP welcome, translation service, extended 18-month follow-up.",
+            "tag1": "Full coverage",
+            "tag2": "Multilingual support"
+          }
+        },
+        "back": "Previous",
+        "calculate": "Calculate →"
+      },
+      "step4": {
+        "title": "Your estimated price range",
+        "subtitle": "Approximate price based on your selections. The exact price is provided as a written quote after the consultation.",
+        "rangeLabel": "Estimated Range",
+        "forSelection": "for your selected package and technique",
+        "summary": {
+          "tech": "Technique",
+          "graft": "Grafts",
+          "package": "Package"
+        },
+        "includedTitle": "Package includes",
+        "payments": {
+          "cash": { "title": "Cash", "sub": "EUR, USD, TL" },
+          "card": { "title": "Credit Card", "sub": "Instalment available" },
+          "transfer": { "title": "Transfer", "sub": "International SWIFT" }
+        },
+        "noteTitle": "Important",
+        "noteText": "The above range is an estimate based on technique, graft count and package level. The exact price is delivered as a <strong>written quote</strong> after a medical assessment of your graft requirement and package scope. All services in the quote are included; no additional fees appear later.",
+        "ctaWrittenQuote": "Get a Written Quote",
+        "ctaWhatsapp": "Ask on WhatsApp",
+        "recalc": "Recalculate"
+      },
+      "techNames": {
+        "fue": "FUE",
+        "sapphire": "Sapphire FUE",
+        "dhi": "DHI"
+      },
+      "graftNames": {
+        "small": "1,500–2,500",
+        "medium": "2,500–3,500",
+        "large": "3,500–4,500",
+        "xlarge": "4,500+"
+      },
+      "packageNames": {
+        "standart": "Standard",
+        "premium": "Premium",
+        "uluslararasi": "International"
+      },
+      "scaleSuffix": {
+        "graft": "grafts",
+        "package": "Package"
+      },
+      "packages": {
+        "standart": {
+          "items": {
+            "i1": "Procedure",
+            "i2": "Local anaesthesia",
+            "i3": "First wash",
+            "i4": "Aftercare kit",
+            "i5": "Prescribed medication",
+            "i6": "Follow-up appointment",
+            "i7": "12 months of WhatsApp support"
+          }
+        },
+        "premium": {
+          "items": {
+            "i1": "Everything in the Standard package",
+            "i2": "2 nights in a 4-star hotel",
+            "i3": "Airport-hotel-clinic transfers",
+            "i4": "PRP support (1 session)",
+            "i5": "2 follow-up appointments",
+            "i6": "Priority WhatsApp support"
+          }
+        },
+        "uluslararasi": {
+          "items": {
+            "i1": "Everything in the Premium package",
+            "i2": "5 nights in a 4-star hotel",
+            "i3": "VIP airport welcome",
+            "i4": "Translation service (EN/AR/DE/RU)",
+            "i5": "Online video consultation",
+            "i6": "Extended 18-month aftercare follow-up"
+          }
+        }
+      },
+      "info": {
+        "title": "How is the price determined?",
+        "diffTitle": "What is the price difference between FUE, DHI and Sapphire?",
+        "diffIntro": "The difference comes mostly from equipment, duration and precision requirements:",
+        "table": {
+          "techCol": "Technique",
+          "levelCol": "Price Level",
+          "reasonCol": "Reason for Difference",
+          "rows": {
+            "fue": { "tech": "FUE", "level": "Standard", "reason": "Reference technique" },
+            "sapphire": { "tech": "Sapphire FUE", "level": "FUE + ~10%", "reason": "Sapphire blade equipment" },
+            "dhi": { "tech": "DHI", "level": "FUE + ~20%", "reason": "Choi pen + duration" }
+          }
+        }
+      },
+      "faq": {
+        "items": {
+          "q1": {
+            "q": "What does the written quote include?",
+            "a": "The written quote provided after your consultation specifies the technique, the estimated graft count, all services included in the package, the total price and the validity period. No charges appear beyond what's listed."
+          },
+          "q2": {
+            "q": "Why are prices given as a range?",
+            "a": "The price varies from person to person, since it depends on graft count, the technique applied and the chosen package. That's why information pages display ranges. Your individual price is finalised after the consultation."
+          },
+          "q3": {
+            "q": "Are there instalment options?",
+            "a": "Credit-card instalment options are available. The number of instalments and conditions depend on bank policies. Details are discussed during the consultation."
+          }
+        }
+      },
+      "disclaimer": "This tool is for informational purposes. Price ranges are estimates based on general packages. Your personalised price is determined as a written quote after a specialist assessment of your graft requirement and chosen package."
+    },
+    "graftCalc": {
+      "breadcrumb": {
+        "home": "Home",
+        "hairTransplant": "Hair Transplant",
+        "graftCalc": "Graft Calculator"
+      },
+      "hero": {
+        "eyebrow": "INTERACTIVE TOOL",
+        "titlePart1": "How many grafts?",
+        "titleAccent": "Get an estimate.",
+        "subtitle": "Estimate your graft range in 4 steps based on your hair-loss stage. This tool offers a rough estimate; the exact figure is determined only after a specialist physician's assessment."
+      },
+      "progress": "Step {step}/4",
+      "step1": {
+        "title": "Which area shall we calculate for?",
+        "subtitle": "Choose the region to be calculated.",
+        "options": {
+          "sac": { "title": "Hair", "sub": "Hairline, crown, general thinning" },
+          "sakal": { "title": "Beard", "sub": "Chin, cheek, moustache densification" },
+          "kas": { "title": "Eyebrow", "sub": "Arch, symmetry, density" }
+        },
+        "next": "Continue →"
+      },
+      "step2": {
+        "hair": {
+          "title": "Choose your hair-loss stage",
+          "subtitlePrefix": "Pick the closest match.",
+          "scaleMale": "Norwood (Male)",
+          "scaleFemale": "Ludwig (Female)",
+          "scaleSuffix": "scale is used.",
+          "male": "Male (Norwood)",
+          "female": "Female (Ludwig)"
+        },
+        "beard": {
+          "title": "Which beard area?",
+          "subtitle": "Select the target region."
+        },
+        "brow": {
+          "title": "Which eyebrow level?",
+          "subtitle": "Select the target region."
+        },
+        "norwood": {
+          "n2": { "label": "Norwood II", "title": "Early Recession", "sub": "Hairline slightly receded" },
+          "n3": { "label": "Norwood III", "title": "Defined Temples", "sub": "M-shaped recession on both sides" },
+          "n4": { "label": "Norwood IV", "title": "Crown Loss Onset", "sub": "Front + crown nearly merging" },
+          "n5": { "label": "Norwood V", "title": "Wide Loss Area", "sub": "Thin strip between front and crown" },
+          "n6": { "label": "Norwood VI", "title": "Advanced Loss", "sub": "Only the side bands remain" },
+          "n7": { "label": "Norwood VII", "title": "Maximum Loss", "sub": "Donor area must be evaluated" }
+        },
+        "ludwig": {
+          "l1": { "label": "Ludwig I", "title": "Mild Thinning", "sub": "The parting has widened" },
+          "l2": { "label": "Ludwig II", "title": "Visible Thinning", "sub": "The crown area is visible" },
+          "l3": { "label": "Ludwig III", "title": "Advanced Thinning", "sub": "Visibly broad, sparse area" }
+        },
+        "sakal": {
+          "sakal_cene": { "title": "Chin Area", "sub": "Densifying the jawline" },
+          "sakal_yanak": { "title": "Cheek", "sub": "Filling out the cheeks" },
+          "sakal_biyik": { "title": "Moustache", "sub": "Moustache region" },
+          "sakal_full": { "title": "Full Beard", "sub": "Chin + cheek + moustache" }
+        },
+        "kas": {
+          "kas_tam": { "title": "Full Restoration (Both)", "sub": "Significant loss on both eyebrows" },
+          "kas_simetri": { "title": "Symmetry / Shape Correction", "sub": "Filling gaps, refining the line" }
+        },
+        "back": "Previous",
+        "next": "Continue →"
+      },
+      "step3": {
+        "title": "What is your target density?",
+        "subtitle": "Your desired density level. Higher density requires more grafts and donor capacity.",
+        "options": {
+          "natural": { "title": "Natural", "sub": "~40 follicles/cm²", "desc": "Natural look, covers the loss. Donor-area conserving." },
+          "medium": { "title": "Medium", "sub": "~50 follicles/cm²", "desc": "Fuller appearance. The most common preference." },
+          "high": { "title": "High", "sub": "~60+ follicles/cm²", "desc": "Maximum density. Requires a generous donor area." }
+        },
+        "back": "Previous",
+        "calculate": "Calculate →"
+      },
+      "step4": {
+        "title": "Your estimated graft range",
+        "subtitle": "An approximate calculation based on your selections. The exact figure is determined during the consultation.",
+        "rangeLabel": "Estimated Graft Count",
+        "unit": "follicular units",
+        "summary": {
+          "area": "Area",
+          "level": "Level",
+          "density": "Density"
+        },
+        "packageLabel": "Suggested Package",
+        "noteTitle": "Important",
+        "noteText": "This calculation is a rough estimate referencing your hair-loss stage, area size and target density. Your exact graft requirement is determined by a specialist physician after assessing donor capacity, hair calibre, scalp structure and a personal evaluation. <strong>This is not a medical diagnosis.</strong>",
+        "ctaConsult": "Free Specialist Assessment",
+        "ctaPriceCalc": "Calculate Price",
+        "ctaWhatsapp": "WhatsApp",
+        "recalc": "Recalculate"
+      },
+      "labels": {
+        "areas": {
+          "sac": "Hair",
+          "sakal": "Beard",
+          "kas": "Eyebrow"
+        },
+        "density": {
+          "natural": "Natural",
+          "medium": "Medium",
+          "high": "High",
+          "regional": "Region-specific"
+        },
+        "packages": {
+          "standardName": "Standard Package",
+          "standardDesc": "Your estimated graft requirement falls within the Standard package. The procedure, anaesthesia, first wash, aftercare kit and follow-up appointment are included.",
+          "premiumName": "Premium Package",
+          "premiumDesc": "Your estimated graft requirement aligns with the Premium package. In addition to the procedure, accommodation, transfer and PRP support are included.",
+          "internationalName": "International Package or Multi-Session",
+          "internationalDesc": "A high graft requirement can be planned in a single session or in two sessions 6–12 months apart. The International package offers full coverage. The exact plan is set during the consultation."
+        },
+        "estimates": {
+          "n2": "Norwood II — Early Recession",
+          "n3": "Norwood III — Defined Temples",
+          "n4": "Norwood IV — Crown Loss Onset",
+          "n5": "Norwood V — Wide Loss Area",
+          "n6": "Norwood VI — Advanced Loss",
+          "n7": "Norwood VII — Maximum",
+          "l1": "Ludwig I — Mild Thinning",
+          "l2": "Ludwig II — Visible Thinning",
+          "l3": "Ludwig III — Advanced Thinning",
+          "sakal_cene": "Beard — Chin Area",
+          "sakal_yanak": "Beard — Cheek",
+          "sakal_full": "Beard — Full Beard",
+          "sakal_biyik": "Beard — Moustache",
+          "kas_tam": "Eyebrow — Full Restoration (Both)",
+          "kas_simetri": "Eyebrow — Symmetry Correction"
+        }
+      },
+      "info": {
+        "title": "How is the graft count calculated?",
+        "howManyTitle": "How many grafts are needed?",
+        "howManyText": "The graft requirement depends on three main factors: <strong>the size of the loss area</strong>, <strong>the target density</strong> and <strong>donor-area capacity</strong>. As a general rule, 40–60 follicular units (grafts) are used per cm².",
+        "table": {
+          "levelCol": "Norwood Level",
+          "areaCol": "Area (~cm²)",
+          "graftCol": "Estimated Grafts",
+          "rows": {
+            "n2": { "level": "Norwood II", "area": "20-30 cm²", "graft": "1,500 – 2,500" },
+            "n3": { "level": "Norwood III", "area": "40-60 cm²", "graft": "2,500 – 3,500" },
+            "n4": { "level": "Norwood IV", "area": "60-85 cm²", "graft": "3,500 – 4,500" },
+            "n5": { "level": "Norwood V", "area": "85-110 cm²", "graft": "4,500 – 5,500" },
+            "n6": { "level": "Norwood VI", "area": "110-140 cm²", "graft": "5,500 – 7,000" },
+            "n7": { "level": "Norwood VII", "area": "150+ cm²", "graft": "7,000+ *" }
+          },
+          "footnote": "* At Norwood VII, donor capacity may become the limiting factor."
+        }
+      },
+      "faq": {
+        "items": {
+          "q1": {
+            "q": "How many hairs does one graft contain?",
+            "a": "One graft (follicular unit) contains an average of 2–3 hairs. So 3,000 grafts equate to roughly 6,000–9,000 hairs. This ratio can vary with individual follicle structure."
+          },
+          "q2": {
+            "q": "What is the maximum number of grafts in a single session?",
+            "a": "The safe upper limit is around 4,500–5,500 grafts. More than this can reduce graft survival rates. For larger needs, two sessions are recommended (6–12 months apart)."
+          },
+          "q3": {
+            "q": "Why is the donor area limited?",
+            "a": "Hair transplantation works on the principle of moving existing follicles from the genetically loss-resistant occipital area to the lost regions. New hair is not produced — it is redistributed. The lifetime harvestable graft count is around 8,000–10,000."
+          }
+        }
+      },
+      "disclaimer": "This tool is for informational purposes and does not replace a medical diagnosis. A reliable, definitive assessment requires a specialist physician consultation. Individual results may vary."
+    },
+    "hairTransplant": {
+      "breadcrumb": {
+        "home": "Home",
+        "current": "Hair Transplant"
+      },
+      "hero": {
+        "eyebrow": "TECHNIQUES & PROCESS",
+        "title": "What is a Hair Transplant?",
+        "titleItalic": "Techniques and Outcomes",
+        "lede": "A hair transplant moves follicles taken from a genetically resistant donor area to thinning or balding zones using microsurgical techniques. With the right method and an experienced team, the result is permanent, natural-looking restoration."
+      },
+      "candidates": {
+        "title": "Who Is a Suitable Candidate?",
+        "suitableTitle": "Suitable Candidates",
+        "suitable": [
+          "Male-pattern hair loss (Norwood II–VI)",
+          "Female-pattern thinning (Ludwig I–III)",
+          "Hair loss after trauma or burns",
+          "Patients with adequate donor area",
+          "Patients with realistic expectations"
+        ],
+        "notSuitableTitle": "May Not Be Suitable",
+        "notSuitable": [
+          "Active alopecia areata (patchy loss)",
+          "Insufficient donor area capacity",
+          "Patients with bleeding disorders",
+          "Under 18 (loss pattern not yet stable)"
+        ],
+        "footer": "Suitability is determined individually during the free consultation.",
+        "footerLink": "Detailed eligibility criteria →"
+      },
+      "techniques": {
+        "title": "Hair Transplant Techniques",
+        "lede": "Each technique is ideal for different cases. There is no \"best technique\" — only the one best suited to you.",
+        "fue": {
+          "tag": "Most Frequently Chosen",
+          "title": "FUE — Follicular Unit Extraction",
+          "desc": "Follicles are extracted one by one and implanted through micro-channels. Ideal for larger areas and high graft counts. Leaves no visible linear scar in the donor area.",
+          "duration": "4–6 hours",
+          "durationLabel": "procedure",
+          "recovery": "7–10 days",
+          "recoveryLabel": "recovery",
+          "result": "12–18 months",
+          "resultLabel": "full result",
+          "cta": "Learn More →"
+        },
+        "dhi": {
+          "tag": "Precise Angle Control",
+          "title": "DHI — Direct Hair Implantation",
+          "desc": "With the Choi pen, extraction and placement happen in a single step. Ideal for implantation among existing hair and zones requiring high density. Superior angle and direction control.",
+          "duration": "5–7 hours",
+          "durationLabel": "procedure",
+          "recovery": "7–10 days",
+          "recoveryLabel": "recovery",
+          "result": "12–18 months",
+          "resultLabel": "full result",
+          "cta": "Learn More →"
+        },
+        "sapphire": {
+          "tag": "Minimal Incision",
+          "title": "Sapphire FUE — Sapphire-Tipped Technique",
+          "desc": "A variation of FUE using sapphire-tipped blades. Smaller incision area and slightly faster recovery. Core principles are the same as FUE.",
+          "duration": "4–6 hours",
+          "durationLabel": "procedure",
+          "recovery": "5–7 days",
+          "recoveryLabel": "recovery",
+          "result": "12–18 months",
+          "resultLabel": "full result",
+          "cta": "Learn More →"
+        }
+      },
+      "process": {
+        "title": "The Hair Transplant Journey",
+        "steps": [
+          { "title": "Free Consultation", "text": "We assess your hair loss, identify the appropriate technique, and build a personalised plan. Online or in-person." },
+          { "title": "Planning", "text": "Hairline design, graft count calculation, and technique selection. Every detail is shared with you before surgery." },
+          { "title": "Procedure", "text": "Performed under local anaesthesia using the chosen technique. Procedure time varies between 4–7 hours depending on technique and graft count. You go home the same day." },
+          { "title": "Recovery", "text": "First 7–10 days are the recovery window. Shock loss in weeks 2–4 (this is normal). Our clinic team supports you throughout." },
+          { "title": "Result", "text": "First new hairs appear at month 3–4. Significant thickening at month 6–8. Final, permanent result at 12–18 months." }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "Is a hair transplant permanent?", "a": "Yes. Implanted follicles come from a genetically loss-resistant donor area (usually the back of the neck). They retain that genetic property in their new location and remain for life. Typically 85–95% of grafts take and produce new hair." },
+          { "q": "How long does a hair transplant take?", "a": "It varies by technique and graft count. FUE usually takes 4–6 hours; DHI 5–7 hours. Larger sessions (4000+ grafts) can take longer. Breaks are taken throughout to keep you comfortable." },
+          { "q": "Is a hair transplant painful?", "a": "The procedure is done under local anaesthesia. You may feel brief discomfort during anaesthesia injection, but you will not feel pain during the procedure. Mild post-op tightness is normal and managed with prescribed medication." },
+          { "q": "When are results visible?", "a": "In the first 2–4 weeks, shock loss occurs — this is entirely normal. New hair growth begins at month 3–4. Visible thickening appears at month 6–8. Final results are seen at 12–18 months. Individual results may vary." }
+        ]
+      },
+      "cta": {
+        "title": "Which Technique Is Right for You?",
+        "lede": "Let us build your personal treatment plan with a free hair analysis. Send your photos and our specialist team will reply within 24 hours.",
+        "primary": "Free Hair Analysis",
+        "secondary": "Graft Calculator",
+        "whatsapp": "WhatsApp",
+        "trustFree": "Free",
+        "trustNonBinding": "Non-binding",
+        "trust24h": "Reply within 24 hours"
+      },
+      "disclaimer": "This page is for general information and is not a substitute for medical advice. Individual results may vary. Always consult a qualified specialist before deciding on any treatment.",
+      "schema": {
+        "procedureName": "Hair Transplantation",
+        "procedureDescription": "Permanent hair restoration surgery using FUE, DHI and Sapphire techniques",
+        "howPerformed": "Under local anaesthesia, by follicular unit transplantation",
+        "bodyName": "Scalp",
+        "followup": "12–18 months to full result"
+      }
+    },
+    "fue": {
+      "breadcrumb": {
+        "home": "Home",
+        "parent": "Hair Transplant",
+        "current": "FUE"
+      },
+      "hero": {
+        "eyebrow": "FUE TECHNIQUE",
+        "title": "FUE Hair Transplant:",
+        "titleItalic": "How It's Done, Outcomes and Realistic Expectations",
+        "lede": "FUE (Follicular Unit Extraction) is the most widely used hair transplant technique worldwide. Follicles are extracted from the donor area one by one with a fine micro-punch and implanted into thinning zones. Its scar-free design and large graft capacity make it effective even for advanced hair loss."
+      },
+      "what": {
+        "title": "What is FUE?",
+        "p1": "FUE stands for \"Follicular Unit Extraction\". Follicles in the donor area (typically the back and sides of the head) are extracted one at a time using micro-punches measuring 0.7–1.0 mm in diameter. This allows thousands of grafts to be harvested without a wide incision.",
+        "p2": "While the harvested grafts rest in a special preservation solution, the surgeon opens micro-channels in the recipient zone. Grafts are placed into those channels following the natural growth direction; this delivers both a natural look and a lasting result.",
+        "p3": "One of FUE's key advantages is that it leaves no linear scar in the donor area. The tiny dot-shaped marks from the micro-punch heal quickly and become invisible once the hair grows out.",
+        "factsTitle": "Key Facts",
+        "facts": [
+          { "label": "Procedure Time", "value": "4–6 hours" },
+          { "label": "Graft Capacity", "value": "3000–5000+ grafts/session" },
+          { "label": "Recovery", "value": "7–10 days" },
+          { "label": "Permanence", "value": "Lifelong" },
+          { "label": "Final Result", "value": "Month 12–18" }
+        ]
+      },
+      "how": {
+        "title": "How is FUE Performed?",
+        "lede": "The procedure has five core stages. All steps are done under local anaesthesia; general anaesthesia is not required.",
+        "highlightLabel": "(Core step)",
+        "steps": [
+          { "title": "Consultation and Planning", "body": "Hair-loss severity is assessed (Norwood scale), graft count is calculated, and a natural hairline is designed. Donor density is reviewed to decide whether a single or multiple sessions are needed." },
+          { "title": "Donor Area Preparation", "body": "The donor area (typically nape and temples) is trimmed and local anaesthesia is administered. You may feel brief discomfort during the anaesthesia injection; no pain is felt during the procedure." },
+          { "title": "Graft Extraction — with Micro-Punch", "body": "A 0.7–1.0 mm micro-punch removes follicles one by one without harming surrounding tissue. Each graft can contain 1–4 hairs. Harvested grafts are kept in a special nourishing solution." },
+          { "title": "Channel Opening and Placement", "body": "The surgeon opens micro-channels in the recipient area following the natural growth direction and angle. Grafts are then placed into those channels one by one. This step directly determines the final look — experience is critical here." },
+          { "title": "Recovery and Follow-up", "body": "You go home the same day. The first 7–10 days are a sensitive care period. Crusting is normal and falls off by day 10. The first hairs emerge at month 3; final density is reached at month 12–18." }
+        ]
+      },
+      "prosCons": {
+        "title": "Advantages and Limitations",
+        "lede": "FUE suits a wide range of patients, but it may not be ideal for every case. Here are its strengths and limits, transparently.",
+        "prosTitle": "Advantages",
+        "pros": [
+          { "title": "Efficient on Large Areas", "desc": "Can cover high graft requirements over wide loss zones in a single session." },
+          { "title": "3000–5000+ Grafts/Session", "desc": "Comprehensive coverage even in advanced hair loss thanks to its high graft capacity." },
+          { "title": "Minimal Scarring", "desc": "Leaves no linear scar. The micro dot-marks are barely noticeable, even on short hair." },
+          { "title": "Natural Appearance", "desc": "Through angle and direction control of grafts, a natural line that blends with surrounding hair is achieved." },
+          { "title": "Unshaven FUE Option", "desc": "For limited graft requirements (1500–2500), the procedure can also be done without shaving." }
+        ],
+        "consTitle": "Limitations",
+        "cons": [
+          { "title": "Channel Opening as a Separate Step", "desc": "In FUE, graft extraction and channel opening are separate stages. Grafts wait outside the body until channels are ready." },
+          { "title": "Similar Recovery Time", "desc": "Compared to the Sapphire variant, recovery may take 7–10 days; careful aftercare is needed during this period." },
+          { "title": "Surgeon Experience Is Decisive", "desc": "Outcome depends as much on surgeon experience as on the technique. Channel angle and graft placement precision are critical." },
+          { "title": "Implantation Among Existing Hair", "desc": "Precise placement within dense existing hair is not as easy as with DHI." }
+        ]
+      },
+      "timeline": {
+        "title": "FUE Outcomes — Timeline",
+        "lede": "Hair transplant results are not visible immediately. Reaching the final appearance takes 12–18 months due to the hair-growth cycle.",
+        "items": [
+          { "period": "0–4 Weeks", "body": "Shock loss. Most of the implanted hair may shed — this is normal and expected." },
+          { "period": "Month 3–4", "body": "First new hairs begin to emerge. A fine, fuzzy appearance starts to form." },
+          { "period": "Month 6–8", "body": "Hairs thicken and strengthen. Results begin to become visible." },
+          { "period": "Month 12–18", "body": "Final result. Full density and a permanent appearance. Best evaluated in this window." },
+          { "period": "Lifelong", "body": "Thanks to the genetic resistance of donor follicles, implanted hair remains resistant to loss for life." }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "Is FUE permanent?", "a": "Yes. Follicles harvested from the donor area (typically the nape) are genetically resistant to DHT. Once placed, they continue to grow healthily for life. However, the loss in your remaining native hair may continue per its genetic programming, so long-term planning matters." },
+          { "q": "How long does FUE take?", "a": "It depends on the graft count. Around 5–6 hours for 3000–4000 grafts and 6–7 hours for 4000–5000 grafts. The procedure is completed in a single session and you go home the same day." },
+          { "q": "Is unshaven FUE possible?", "a": "Yes, but only for a limited number of grafts. Unshaven FUE is typically considered for cases requiring 1500–2500 grafts. If more grafts are needed, the donor area must be trimmed. Your case is assessed individually during the consultation." },
+          { "q": "How many grafts can FUE deliver?", "a": "Typically 3000–5000+ grafts per session. The exact number depends on donor density, the size of the loss area, and your hair characteristics, determined by individual evaluation. More may be possible for some patients." },
+          { "q": "When can I return to work after FUE?", "a": "For desk-based work, returning after 3–5 days is feasible. For heavy physical activity and sport, 10–14 days is recommended. Avoid sun exposure and dusty environments in the first week." }
+        ]
+      },
+      "cta": {
+        "title": "Is FUE Right for You?",
+        "lede": "Let us decide together which technique fits your case best. With a free hair analysis we will build your personalised plan.",
+        "primary": "Free Hair Analysis",
+        "whatsapp": "Ask on WhatsApp",
+        "trustFree": "Free",
+        "trustNonBinding": "Non-binding",
+        "trust24h": "Reply within 24 hours"
+      },
+      "disclaimer": "This page is for general information and is not a substitute for medical advice. Individual results may vary. No hair transplant technique, including FUE, can guarantee a specific outcome. Always consult a qualified specialist before deciding on any treatment. Images are illustrative.",
+      "schema": {
+        "procedureName": "FUE Hair Transplant",
+        "procedureDescription": "Permanent hair restoration surgery with the Follicular Unit Extraction technique",
+        "howPerformed": "Under local anaesthesia, follicular unit extraction with a micro-punch"
+      }
+    },
+    "dhi": {
+      "breadcrumb": {
+        "home": "Home",
+        "parent": "Hair Transplant",
+        "current": "DHI"
+      },
+      "hero": {
+        "eyebrow": "DIRECT IMPLANTATION TECHNIQUE",
+        "title": "DHI Hair Transplant:",
+        "titleItalic": "Choi Pen Technique, Advantages and Outcomes",
+        "lede": "DHI (Direct Hair Implantation) is the technique in which follicles are placed directly into the recipient area using a special implanter known as the Choi pen. The key difference from FUE is that channel opening and graft placement happen in a single step. The result is superior angle control and precise implantation among existing hair."
+      },
+      "what": {
+        "title": "What is DHI?",
+        "p1": "DHI stands for \"Direct Hair Implantation\". The Choi pen is at the heart of the method: each graft is loaded into this purpose-built implanter, and as the tip touches the skin, both a channel is opened and the graft is placed at the same time.",
+        "p2": "This single-step process minimises the time grafts spend outside the body. More importantly, it increases the surgeon's control over angle, depth and direction. DHI offers a clear advantage in zones where implantation must happen between existing hair strands.",
+        "p3": "Graft extraction uses the same method as FUE: each follicle is harvested individually with a micro-punch. The difference lies in how those grafts are then placed.",
+        "choiTitle": "How Does the Choi Pen Work?",
+        "choiSteps": [
+          "A single follicle (graft) is loaded into the Choi pen's tube.",
+          "The surgeon positions the pen on the skin at the desired angle and direction.",
+          "The trigger mechanism opens a channel and places the graft at the same time — both actions completed in one move.",
+          "The pen tube is cleaned, the next graft is loaded and the process repeats."
+        ]
+      },
+      "how": {
+        "title": "How is DHI Performed?",
+        "lede": "The procedure is carried out in six stages. All steps are done under local anaesthesia; general anaesthesia is not required.",
+        "highlightLabel": "(The essence of DHI)",
+        "steps": [
+          { "title": "Consultation and Planning", "body": "Hair loss is evaluated, graft count is calculated, the hairline is designed. Whether DHI is the right technique for you is decided here." },
+          { "title": "Local Anaesthesia", "body": "Local anaesthesia is administered to both donor and recipient zones. You may feel brief discomfort during the injection; no pain is felt during the procedure thereafter." },
+          { "title": "Graft Harvesting", "body": "Follicles in the donor area are extracted one by one with a micro-punch. This step is identical to FUE. Harvested grafts are kept briefly in a special nourishing solution." },
+          { "title": "Loading the Choi Pen and Direct Implantation", "body": "Grafts are loaded one by one into the Choi pen's tube. The surgeon applies the pen to the skin at the planned angle and direction, completing channel opening and graft placement in a single move. This step distinguishes DHI from other techniques." },
+          { "title": "Check and Dressing", "body": "Once implantation is complete, both donor and recipient areas are inspected and dressings are applied. Verbal and written aftercare instructions are provided." },
+          { "title": "Closure and Follow-up", "body": "You go home the same day. A day-1 check-up is scheduled. Regular follow-up visits track healing and hair growth." }
+        ]
+      },
+      "prosCons": {
+        "title": "Advantages and Limitations",
+        "lede": "DHI delivers superior outcomes for specific patient profiles, but it is not ideal in every case. Here are its strengths and limits, transparently.",
+        "prosTitle": "Advantages",
+        "pros": [
+          { "title": "Superior Angle and Direction Control", "desc": "The Choi pen places each graft at the desired angle and direction. Excellent harmony with the natural hair flow is achieved." },
+          { "title": "Implantation Among Existing Hair", "desc": "Because channels are not opened in advance, dense areas can be augmented without harming existing hair strands." },
+          { "title": "High Density", "desc": "Closer graft placement allows higher density per cm²." },
+          { "title": "Reduced Bleeding", "desc": "With no pre-opened channels, bleeding in the recipient area is reduced." },
+          { "title": "Shorter Out-of-Body Time", "desc": "Direct implantation shortens the time grafts wait outside the body, which can favourably affect viability." }
+        ],
+        "consTitle": "Limitations",
+        "cons": [
+          { "title": "Slower in Large Areas", "desc": "Because the Choi pen requires loading one by one, DHI takes longer than FUE in wide zones requiring many grafts." },
+          { "title": "More Expensive Than FUE", "desc": "DHI is generally priced higher than FUE due to additional equipment cost and procedure time." },
+          { "title": "Fewer Grafts per Session", "desc": "Limited by loading time, DHI typically allows 2000–3500 grafts in a single session." },
+          { "title": "Requires an Experienced Team", "desc": "The Choi pen technique requires specialist training and experience. Outcome quality is directly tied to the team's competence." }
+        ]
+      },
+      "candidates": {
+        "title": "Who is DHI Suited To?",
+        "lede": "DHI delivers stronger outcomes for specific patient profiles rather than for everyone. The lists below are a general guide; the final decision is made during consultation.",
+        "idealTitle": "Ideal Candidates for DHI",
+        "ideal": [
+          "Patients seeking density among existing hair",
+          "Those targeting precise, natural placement at the hairline",
+          "Patients with moderate hair loss (1500–3500 grafts)",
+          "Those for whom high density is a priority",
+          "Patients with hair characteristics suitable for DHI (per surgeon assessment)"
+        ],
+        "fueBetterTitle": "FUE May Be More Suitable",
+        "fueBetter": [
+          "Very wide loss areas (5000+ grafts needed)",
+          "Patients with budget constraints",
+          "Those targeting maximum graft count in a single session",
+          "Patients with limited donor density",
+          "Those preferring a shorter procedure time"
+        ]
+      },
+      "compare": {
+        "title": "DHI vs FUE Comparison",
+        "lede": "We compare the differences and similarities between the two techniques transparently. Which technique suits you depends on individual evaluation.",
+        "headers": { "feature": "Feature", "dhi": "DHI", "fue": "FUE" },
+        "rows": [
+          { "feature": "Placement Method", "dhi": "Choi pen — single step", "fue": "Open channel + place — two steps" },
+          { "feature": "Angle Control", "dhi": "Superior", "fue": "Good" },
+          { "feature": "Among Existing Hair", "dhi": "Ideal", "fue": "Difficult" },
+          { "feature": "Grafts per Session", "dhi": "2000–3500", "fue": "3000–5000+" },
+          { "feature": "Procedure Time", "dhi": "5–7 hours", "fue": "4–6 hours" },
+          { "feature": "Recovery", "dhi": "7–10 days", "fue": "7–10 days" },
+          { "feature": "Cost", "dhi": "Higher", "fue": "Standard" }
+        ],
+        "finalRow": { "feature": "Final Result", "value": "Both techniques yield a permanent and natural appearance at 12–18 months. Surgeon experience is what determines the outcome." },
+        "footer": "This table is for general comparison. Individual results may vary.",
+        "footerLink": "Click for the detailed FUE vs DHI comparison."
+      },
+      "summary": {
+        "title": "DHI Process Snapshot",
+        "items": [
+          { "value": "5–7 Hours", "label": "Procedure Time" },
+          { "value": "7–10 Days", "label": "Recovery Window" },
+          { "value": "3–4 Months", "label": "First New Hair" },
+          { "value": "6–8 Months", "label": "Thickening" },
+          { "value": "12–18 Months", "label": "Final Result" }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "What is the key difference between DHI and FUE?", "a": "In DHI, the Choi pen lets channel opening and graft placement happen in one step. In FUE, channels are opened first and grafts are placed afterwards. DHI therefore offers more precise angle and direction control, especially in zones requiring implantation among existing hair. FUE, on the other hand, has the advantage of more grafts per session and shorter procedure time in wide areas." },
+          { "q": "How long does DHI take?", "a": "Because DHI requires loading the Choi pen one graft at a time, it takes a little longer than FUE. A typical session is 5–7 hours. Time can vary with graft count and the scope of the procedure." },
+          { "q": "Is DHI painful?", "a": "The procedure is performed under local anaesthesia. You may feel brief discomfort during the injection; afterwards no pain is felt during the procedure. Mild discomfort during recovery is easily managed with prescribed medication." },
+          { "q": "Are DHI results permanent?", "a": "Yes. Follicles harvested from the same donor area as in FUE are genetically resistant to DHT. Implanted hair continues to grow at its new site for life. Loss in your remaining native hair may continue according to its genetic pattern." },
+          { "q": "Who is DHI suitable for?", "a": "DHI is ideal for those seeking density among existing hair, precise placement at the hairline, patients with moderate loss (1500–3500 grafts), and those prioritising high density. FUE may be more suitable for very wide loss areas. The final decision is made through individual evaluation." }
+        ]
+      },
+      "cta": {
+        "title": "Is DHI Right for You?",
+        "lede": "DHI or FUE — let us identify together which technique fits your case best. With a free hair analysis we will build your personalised plan.",
+        "primary": "Free Hair Analysis",
+        "whatsapp": "Ask on WhatsApp",
+        "trustFree": "Free",
+        "trustNonBinding": "Non-binding",
+        "trust24h": "Reply within 24 hours"
+      },
+      "disclaimer": "This page is for general information and is not a substitute for medical advice. Individual results may vary. No hair transplant technique, including DHI, can guarantee a specific outcome. Always consult a qualified specialist before deciding on any treatment. Images are illustrative.",
+      "schema": {
+        "procedureName": "DHI Hair Transplant",
+        "procedureDescription": "Hair transplantation with precise angle control via the Choi pen (Direct Hair Implantation) technique",
+        "howPerformed": "Under local anaesthesia, direct implantation with the Choi pen"
+      }
+    },
+    "sapphire": {
+      "breadcrumb": {
+        "home": "Home",
+        "parent": "Hair Transplant",
+        "current": "Sapphire FUE"
+      },
+      "hero": {
+        "eyebrow": "FUE VARIATION",
+        "title": "Sapphire FUE:",
+        "titleItalic": "Sapphire-Tipped Hair Transplant Technique",
+        "lede": "Sapphire FUE is a variant of standard FUE performed with sapphire-crystal-tipped blades. The core principle is the same: the difference lies in the blade material used during channel opening. It can deliver smaller incisions, less tissue trauma and slightly faster recovery."
+      },
+      "what": {
+        "title": "What is Sapphire FUE?",
+        "p1": "Sapphire FUE is a variant of FUE (Follicular Unit Extraction) that uses sapphire-crystal-tipped blades instead of steel blades during channel opening. It is not a \"new technique\" — it is an enhancement of the existing FUE method.",
+        "p2": "The core steps of the procedure are identical to standard FUE: graft harvesting from the donor area one by one, channel opening, and graft placement. The only difference is the blade material used in step three.",
+        "p3": "Sapphire crystal belongs to the corundum family, the second-hardest mineral after diamond. This hardness keeps the blade tip sharper for longer and allows finer incisions.",
+        "factsTitle": "Key Facts",
+        "facts": [
+          { "label": "Technique", "value": "Sapphire-tipped variant of FUE" },
+          { "label": "Procedure Time", "value": "4–6 hours" },
+          { "label": "Recovery", "value": "5–7 days" },
+          { "label": "First New Hair", "value": "Month 3–4" },
+          { "label": "Final Result", "value": "12–18 months" }
+        ]
+      },
+      "diff": {
+        "title": "What Makes Sapphire Different?",
+        "lede": "It is important to know the truth about Sapphire FUE. We share its real advantages and limits openly.",
+        "advantageTitle": "The Real Advantage",
+        "advantageIntro": "Sapphire crystal is sharper than steel and creates a smoother incision surface. This means:",
+        "advantageItems": [
+          "Smaller incision area — less tissue trauma",
+          "More precise channel opening — easier directional control",
+          "Faster recovery — 5–7 days (vs 7–10 days with standard FUE)",
+          "Less crusting — better post-operative comfort"
+        ],
+        "limitsTitle": "The Real Limits",
+        "limitsIntro": "Per our honesty policy we must note:",
+        "limitsItems": [
+          "There is no dramatic difference from standard FUE — the core principle is the same",
+          "What determines the final result is not the blade material but the surgeon's experience",
+          "There may be a cost difference — sapphire-tipped blades are more expensive",
+          "Graft survival rate is similar with both methods"
+        ],
+        "limitsFooter": "Some clinics market Sapphire FUE as \"next-generation technology\". In reality, only the blade material differs. It is important you know this."
+      },
+      "how": {
+        "title": "How is Sapphire FUE Performed?",
+        "lede": "The procedure steps are identical to standard FUE. The only difference is in step 3 (channel opening), where sapphire-tipped blades are used.",
+        "step1": { "title": "Consultation and Planning", "body": "Hair-loss assessment, graft count calculation, hairline design. Whether Sapphire FUE is right for you is decided here. The most appropriate technique for each patient is selected through individual evaluation." },
+        "step2": { "title": "Graft Harvesting (Same)", "body": "Local anaesthesia is administered. Follicles are harvested one by one from the donor area (typically the nape) with a micro-punch. This step is exactly the same as standard FUE. Harvested grafts are kept in a special solution." },
+        "step3": { "title": "Channel Opening — Sapphire Blade", "highlight": "(The difference is here)", "body": "The micro-channels for graft placement are opened with sapphire-crystal-tipped blades instead of steel. The sharper, smoother sapphire tip enables smaller channel openings. Channel angle, depth and direction are precisely set by the surgeon." },
+        "step4": { "title": "Graft Placement (Same)", "body": "Harvested grafts are placed one by one into the opened channels. This step is the same as standard FUE. The procedure totals 4–6 hours. You go home the same day." }
+      },
+      "prosCons": {
+        "title": "Advantages and Limitations",
+        "lede": "When choosing Sapphire FUE, having realistic expectations matters. We share its advantages and limits transparently.",
+        "prosTitle": "Advantages",
+        "pros": [
+          { "title": "Smaller Incision Area", "desc": "The sharpness of the sapphire tip enables finer incisions, reducing damage to surrounding tissue." },
+          { "title": "Faster Recovery", "desc": "Smaller incisions close faster. Recovery is around 5–7 days (vs 7–10 days with standard FUE)." },
+          { "title": "Precise Channel Opening", "desc": "The smooth incision surface of the sapphire tip allows more precise channel opening." },
+          { "title": "Less Crusting", "desc": "The smaller incision area helps reduce post-op crusting and redness." }
+        ],
+        "consTitle": "Limitations",
+        "cons": [
+          { "title": "No Dramatic Difference", "desc": "Compared with standard FUE, the difference in outcome is minimal for most patients. The core principle is the same." },
+          { "title": "Surgeon Experience Decisive", "desc": "The most important factor in the final outcome is not the blade material but the surgeon's experience and technical skill." },
+          { "title": "Cost Difference", "desc": "Sapphire-tipped blades are more expensive than steel blades. This cost may be reflected in the procedure price." },
+          { "title": "Similar Graft Survival", "desc": "Studies show that graft survival rates are similar with both methods." }
+        ]
+      },
+      "compare": {
+        "title": "Sapphire FUE vs Standard FUE",
+        "lede": "We compare the differences and similarities between the two methods transparently.",
+        "headers": { "feature": "Feature", "sapphire": "Sapphire FUE", "standard": "Standard FUE" },
+        "rows": [
+          { "feature": "Blade Material", "sapphire": "Sapphire crystal", "standard": "Steel" },
+          { "feature": "Incision Size", "sapphire": "Slightly smaller", "standard": "Standard" },
+          { "feature": "Recovery Time", "sapphire": "5–7 days", "standard": "7–10 days" },
+          { "feature": "Procedure Time", "sapphire": "4–6 hours", "standard": "4–6 hours" },
+          { "feature": "Anaesthesia", "sapphire": "Local anaesthesia", "standard": "Local anaesthesia" },
+          { "feature": "Graft Harvesting", "sapphire": "Same (micro-punch)", "standard": "Micro-punch" },
+          { "feature": "Graft Survival Rate", "sapphire": "Similar (85–95%)", "standard": "85–95%" },
+          { "feature": "Final Result", "sapphire": "12–18 months", "standard": "12–18 months" }
+        ],
+        "finalRow": { "feature": "What Determines Outcome", "value": "In both methods, surgeon experience and patient compliance determine the result" },
+        "footer": "This table is for general comparison. Individual results may vary."
+      },
+      "recovery": {
+        "title": "Recovery Process",
+        "items": [
+          { "title": "Procedure Day", "body": "4–6 hour procedure. Discharged the same day." },
+          { "title": "Days 5–7", "body": "Recovery period. Crusts shed. Sensitive aftercare." },
+          { "title": "Month 3–4", "body": "First new hairs begin to emerge. Shock loss is normal." },
+          { "title": "12–18 Months", "body": "Final, permanent result. Full density and natural appearance." }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "What is the difference between Sapphire FUE and regular FUE?", "a": "The core difference is the blade material. In Sapphire FUE, sapphire-crystal-tipped blades replace steel blades during channel opening, allowing smaller and more precise incisions. The fundamental steps — graft harvesting, channel opening and placement — are identical to standard FUE. It is not \"a completely different technique\" but a variant of FUE." },
+          { "q": "Is Sapphire FUE less painful?", "a": "The same local anaesthesia is used in both techniques; you do not feel pain during the procedure. Recovery discomfort may be slightly less because the sapphire blade creates smaller incisions. The intra-operative experience is virtually the same in both methods. \"Painless procedure\" is not medically accurate — brief discomfort during anaesthesia injection is possible." },
+          { "q": "Is Sapphire FUE more expensive?", "a": "Because sapphire-tipped blades cost more than steel blades, Sapphire FUE may be priced slightly higher than standard FUE. The difference varies by clinic. Our free consultation provides a personalised assessment and price tailored to your hair-loss situation." },
+          { "q": "Are results better than standard FUE?", "a": "Sapphire FUE may offer a slight advantage in recovery time. However, the final result — density, naturalness and durability — depends largely on the surgeon's experience, technical skill, and your post-op compliance. Blade material alone is not the determining factor. Standard FUE performed by an experienced surgeon may yield better outcomes than Sapphire FUE performed by an inexperienced one." }
+        ]
+      },
+      "cta": {
+        "title": "Is Sapphire FUE Right for You?",
+        "lede": "Let us decide together which technique is best suited to your case. With a free hair analysis we will build your personalised plan.",
+        "primary": "Free Hair Analysis",
+        "whatsapp": "Ask on WhatsApp",
+        "trustFree": "Free",
+        "trustNonBinding": "Non-binding",
+        "trust24h": "Reply within 24 hours"
+      },
+      "disclaimer": "This page is for general information and is not a substitute for medical advice. Individual results may vary. No hair transplant technique, including Sapphire FUE, can guarantee a specific outcome. Always consult a qualified specialist before deciding on any treatment. Images are illustrative."
+    },
+    "beard": {
+      "breadcrumb": {
+        "home": "Home",
+        "current": "Beard Transplant"
+      },
+      "hero": {
+        "eyebrow": "FACIAL CONTOUR RESTORATION",
+        "title": "Beard Transplant Istanbul",
+        "titleItalic": "Natural, Full, Permanent",
+        "lede": "A beard transplant is a permanent restoration procedure that moves follicles from the donor area at the back of the neck to the face — chin, cheeks, or moustache zones — using microsurgical methods. With DHI's precise angle control, a full appearance aligned with the natural growth direction is achieved.",
+        "stat1": { "value": "3–5 hours", "label": "procedure" },
+        "stat2": { "value": "7–10 days", "label": "recovery" },
+        "stat3": { "value": "10–12 months", "label": "final result" }
+      },
+      "shortAnswer": {
+        "title": "Short answer",
+        "body": "A beard transplant is a permanent microsurgical procedure that thickens sparse, patchy or gappy beards using follicles harvested from the nape. With the DHI Choi pen, each graft is placed at <strong>30–45 degrees flat</strong> — the natural beard growth angle. The procedure takes 3–5 hours under local anaesthesia. Most patients receive between <strong>1,500–2,500 grafts</strong>. Final results appear at 10–12 months."
+      },
+      "areas": {
+        "title": "Beard Transplant Zones",
+        "lede": "Each zone has different requirements. Your tailored plan is set during the consultation.",
+        "items": [
+          { "title": "Chin Area", "tag": "Most preferred", "body": "Defining the jawline. Typically 800–1500 grafts." },
+          { "title": "Cheeks", "tag": "Fullness", "body": "Filling sparse zones on the cheeks. Typically 400–800 grafts." },
+          { "title": "Moustache", "tag": "Precision work", "body": "The moustache requires the most precise angle control. 300–600 grafts." },
+          { "title": "Full Beard", "tag": "Comprehensive restoration", "body": "Combination of chin + cheeks + moustache. 1,500–2,500 grafts." }
+        ]
+      },
+      "candidates": {
+        "title": "Who Is a Suitable Candidate?",
+        "suitableTitle": "Suitable Cases",
+        "suitable": [
+          "Naturally sparse beard or empty zones",
+          "Loss after trauma or burns",
+          "Need to cover scars",
+          "Symmetry correction",
+          "Aesthetic search for fullness"
+        ],
+        "carefulTitle": "Assessed With Care",
+        "careful": [
+          "Insufficient donor area (nape)",
+          "Active skin disease (face area)",
+          "Tendency to keloid scarring",
+          "Under 18 (development not yet complete)"
+        ],
+        "footerLink": "Detailed eligibility criteria →"
+      },
+      "how": {
+        "title": "How is a Beard Transplant Performed?",
+        "steps": [
+          { "title": "Planning and Design", "text": "The beard line, density map and angles are drawn on the skin. Facial asymmetry and natural growth direction are analysed." },
+          { "title": "Local Anaesthesia", "text": "Local anaesthesia is administered to both donor (nape) and recipient (face) zones. No pain is felt during the procedure; you remain conscious." },
+          { "title": "Graft Harvesting (FUE)", "text": "Follicular units are harvested individually from the nape with a micro-punch. Mainly single-hair grafts are preferred for beard transplants — critical for a natural look." },
+          { "title": "DHI Implantation", "text": "Using the Choi pen, each graft is placed on the face at a 30–45° flat angle. The angle must align with the natural beard growth direction — otherwise the new hairs look vertical and unnatural." },
+          { "title": "Closure and Aftercare", "text": "No sutures are required on the face. Brief redness and crusting are normal. You receive a post-op care kit and instructions." }
+        ]
+      },
+      "process": {
+        "title": "Process Details",
+        "headers": { "stage": "Stage", "detail": "Time / Detail" },
+        "rows": [
+          { "stage": "Procedure time", "detail": "3–5 hours (depending on graft count)" },
+          { "stage": "Redness / swelling", "detail": "First 3–5 days" },
+          { "stage": "Crusting", "detail": "Falls off naturally within 7–10 days" },
+          { "stage": "Shock loss", "detail": "Weeks 2–4 (normal process)" },
+          { "stage": "First new hairs", "detail": "Month 3–4" },
+          { "stage": "Visible thickening", "detail": "Month 6–8" },
+          { "stage": "Final result", "detail": "10–12 months" },
+          { "stage": "Graft survival rate", "detail": "~85–90%" }
+        ]
+      },
+      "case": {
+        "title": "A Real Outcome Example",
+        "tag": "Case Study",
+        "caseTitle": "DHI Beard Transplant — 1,800 Grafts, 10 Months",
+        "caseSubtitle": "Male, 29 years old · Chin + cheek densification",
+        "linkText": "Detail →",
+        "footnote": "Individual results may vary. All images are shared with patient consent."
+      },
+      "faq": {
+        "eyebrow": "FAQ",
+        "title": "Questions about beard transplants",
+        "items": [
+          { "q": "How long does a beard transplant take?", "a": "It takes 3–5 hours. A full beard transplant (1500–2500 grafts) takes 4–5 hours; localised densification takes 2–3 hours. The procedure is under local anaesthesia and completed in a single session." },
+          { "q": "How many grafts are used?", "a": "Chin 800–1500, cheeks 400–800, moustache 300–600, full beard 1500–2500 grafts. The exact number is determined during consultation based on existing beard density, target fullness and donor capacity." },
+          { "q": "Does a beard transplant leave scars?", "a": "With DHI, both the face and donor zone show micro dot-marks invisible to the eye. They fade with time and become almost imperceptible. \"No scars at all\" is not medically accurate — micro-marks are always present." },
+          { "q": "Is a beard transplant permanent?", "a": "Yes. Follicles harvested from the nape are genetically resistant to loss. They retain that property when transplanted to the face. Roughly 85–90% of grafts take and become permanent." },
+          { "q": "When can I shave?", "a": "No shaving in the first 15 days. After day 15 an electric shaver may be used. Wait 30 days for a razor blade. Returning to a regular shaving routine is safe from month 6 onwards." }
+        ]
+      },
+      "cta": {
+        "title": "Is a beard transplant right for you?",
+        "lede": "Get your personalised treatment plan with a free hair analysis. Send your photos and our specialist team will return within 24 hours with a tailored plan.",
+        "primary": "Free Analysis",
+        "secondary": "Graft Calculator",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "brow": {
+      "breadcrumb": {
+        "home": "Home",
+        "current": "Eyebrow Transplant"
+      },
+      "hero": {
+        "eyebrow": "PRECISION MICROSURGERY",
+        "title": "Eyebrow Transplant Istanbul",
+        "titleItalic": "Natural Arch, Clear Symmetry",
+        "lede": "An eyebrow transplant is a precise microsurgical procedure that restores brows that are naturally sparse, thinned by over-plucking, or lost after trauma or burns, using single-hair grafts. The most critical detail: each graft is placed at a <strong>10–15 degree flat</strong> angle — the natural growth direction of brow hair.",
+        "stat1": { "value": "2–3 hours", "label": "procedure" },
+        "stat2": { "value": "5–7 days", "label": "recovery" },
+        "stat3": { "value": "8–12 months", "label": "final result" }
+      },
+      "shortAnswer": {
+        "title": "Short answer",
+        "body": "An eyebrow transplant is a permanent procedure where <strong>single-hair grafts</strong> harvested from the nape are placed in the brow area using a combination of FUE+DHI. Its most critical feature is <strong>angle control</strong>: a 10–15° flat angle. The procedure takes 2–3 hours. A full pair uses 300–500 grafts; symmetry correction uses 150–300 grafts. Final results appear at 8–12 months."
+      },
+      "candidates": {
+        "title": "Who Is a Suitable Candidate?",
+        "suitableTitle": "Suitable Cases",
+        "suitable": [
+          "Permanent thinning from over-plucking",
+          "Naturally sparse or empty brows",
+          "Covering burn or scar marks",
+          "Alopecia areata (stable phase, relative)",
+          "Asymmetry or shape distortion",
+          "Stable phase after trichotillomania"
+        ],
+        "carefulTitle": "Assessed With Care",
+        "careful": [
+          "Active alopecia areata",
+          "Active hair-pulling disorder",
+          "Skin disease in the face area",
+          "Tendency to keloid scarring",
+          "Unrealistic expectations"
+        ],
+        "footerLink": "Detailed eligibility criteria →"
+      },
+      "angle": {
+        "eyebrow": "THE MOST CRITICAL DETAIL",
+        "title": "Why is the angle so critical?",
+        "p1": "Brow hair naturally grows at a <strong>10–15 degree flat angle</strong> to the skin surface. This angle gives the brow its natural \"laid-down\" appearance.",
+        "p2": "If grafts are placed vertically or at 30°+, the new hair looks <strong>like vertical scalp hair</strong> — a completely unnatural result.",
+        "p3": "Eyebrow transplants therefore require greater angle precision and experience than beard or scalp transplants.",
+        "compareTitle": "Angle Comparison",
+        "row1Title": "Brow: 10–15° flat",
+        "row1Sub": "Natural horizontal growth",
+        "row2Title": "Beard: 30–45° flat",
+        "row2Sub": "Outward from the face",
+        "row3Title": "Scalp: 45–90° upright",
+        "row3Sub": "Vertical growth"
+      },
+      "how": {
+        "title": "How is an Eyebrow Transplant Performed?",
+        "steps": [
+          { "title": "Brow Design", "text": "Facial anatomy, inter-eye distance and personal preference are considered. Symmetry and natural arch are drawn with a pencil. The design is approved by the patient." },
+          { "title": "Local Anaesthesia", "text": "Local anaesthesia is administered to both donor (nape) and recipient (brow) zones. The anaesthesia process is short due to the small area." },
+          { "title": "Single-Hair Graft Harvesting", "text": "Single-hair follicular units are selected and harvested from the nape with a micro-punch. Multi-hair grafts are not used for the brow — critical for a natural look." },
+          { "title": "Precise Placement", "text": "Each graft is placed at a 10–15° flat angle aligned with the brow's natural growth direction, in a specific sequence. Microscope assistance ensures precision." },
+          { "title": "Check and Closure", "text": "Each hair direction is checked individually. Symmetry is compared. Aside from very mild redness, there are no visible signs of healing." }
+        ]
+      },
+      "process": {
+        "title": "Process Details",
+        "headers": { "stage": "Stage", "detail": "Time / Detail" },
+        "rows": [
+          { "stage": "Procedure time", "detail": "2–3 hours" },
+          { "stage": "Mild redness", "detail": "First 2–3 days" },
+          { "stage": "Crusting", "detail": "5–7 days (falls off naturally)" },
+          { "stage": "Shock loss", "detail": "Weeks 2–4" },
+          { "stage": "First new hairs", "detail": "Month 3–4" },
+          { "stage": "Visible thickening", "detail": "Month 6–8" },
+          { "stage": "Final result", "detail": "8–12 months" },
+          { "stage": "Graft survival rate", "detail": "~85–90%" }
+        ]
+      },
+      "trim": {
+        "title": "Important: implanted brows need trimming",
+        "body": "Because implanted hairs come from the nape, they keep growing like scalp hair. In the early period, <strong>trimming 1–2 times per week</strong> is required. Over time, the hairs adapt to the brow rhythm and the trimming frequency decreases — but it does not stop entirely. This is a different aftercare requirement from a scalp transplant."
+      },
+      "case": {
+        "title": "A Real Outcome Example",
+        "tag": "Case Study",
+        "caseTitle": "Eyebrow Restoration — 400 Grafts, 8 Months",
+        "caseSubtitle": "Female, 38 years old · Symmetry correction + natural arch",
+        "linkText": "Detail →",
+        "footnote": "Individual results may vary. All images are shared with patient consent."
+      },
+      "faq": {
+        "eyebrow": "FAQ",
+        "title": "Questions about eyebrow transplants",
+        "items": [
+          { "q": "How long does an eyebrow transplant take?", "a": "2–3 hours. Although the area is small, most of the time is spent on placement due to angle precision. Each graft must be placed individually with the correct direction." },
+          { "q": "How many grafts are used?", "a": "300–500 grafts for a full pair; 150–300 grafts for symmetry/local densification. The exact number is determined during consultation based on existing brow density, target shape and the size of the gap." },
+          { "q": "Does an eyebrow transplant look natural?", "a": "In experienced hands the results are highly natural. Critical points: single-hair grafts + a 10–15° flat angle. The wrong angle or multi-hair grafts produce vertical, scalp-like hairs that do not look natural." },
+          { "q": "Do implanted brows need trimming?", "a": "Yes. Because implanted hairs come from the nape, they continue to grow like scalp hair. In the early period, trimming 1–2 times per week is required. Over time they adapt to the brow rhythm but trimming does not stop entirely." },
+          { "q": "Can I wear makeup after an eyebrow transplant?", "a": "No makeup on the brow area for the first 10 days. After day 10, light pencil shaping may be used. Full makeup (heavy products like pomade or tint) should wait 1 month." }
+        ]
+      },
+      "cta": {
+        "title": "Is an eyebrow transplant right for you?",
+        "lede": "Personalised assessment with a free hair analysis. Send your photos and a specialist will return within 24 hours.",
+        "primary": "Free Analysis",
+        "secondary": "Graft Calculator",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "fueVsDhi": {
+      "breadcrumb": {
+        "home": "Home",
+        "current": "FUE vs DHI"
+      },
+      "hero": {
+        "eyebrow": "AN UNBIASED COMPARISON",
+        "title": "FUE or DHI?",
+        "titleItalic": "An honest comparison.",
+        "lede": "Which is better? The honest answer: both are good, for different cases. The technique that suits you depends on your individual situation."
+      },
+      "shortAnswer": {
+        "label": "Short Answer",
+        "body": "Both techniques are modern, safe and effective. FUE delivers speed and efficiency in wide areas (3000–5000+ grafts); DHI offers densification and precise angle control. There is no \"best technique\" — only the one best suited to you."
+      },
+      "table": {
+        "eyebrow": "TECHNICAL DIFFERENCES",
+        "title": "FUE and DHI Comparison",
+        "lede": "No technique is universally superior. The table summarises general differences.",
+        "headers": { "feature": "Feature", "fue": "FUE", "dhi": "DHI" },
+        "rows": [
+          { "feature": "Method", "fue": "Channels first, placement after", "dhi": "Simultaneous via Choi pen" },
+          { "feature": "Grafts per Session", "fue": "3000–5000+", "dhi": "2000–3500" },
+          { "feature": "Procedure Time", "fue": "4–6 hours", "dhi": "5–7 hours" },
+          { "feature": "Among Existing Hair", "fue": "Possible", "dhi": "More advantageous" },
+          { "feature": "Angle Control", "fue": "Depends on channel angle", "dhi": "Independent per graft" },
+          { "feature": "Recovery Time", "fue": "7–10 days", "dhi": "7–10 days" },
+          { "feature": "Cost", "fue": "Relatively more affordable", "dhi": "Relatively higher" },
+          { "feature": "Final Result", "fue": "12–18 months", "dhi": "12–18 months" }
+        ]
+      },
+      "ideal": {
+        "eyebrow": "PATIENT PROFILE",
+        "title": "Which Technique Suits Whom?",
+        "fueTitle": "Who is FUE Ideal For?",
+        "fueItems": [
+          "Norwood IV–VI wide loss areas",
+          "Cases requiring 3000+ grafts",
+          "Patients with budget sensitivity",
+          "Those wanting the unshaven FUE option"
+        ],
+        "dhiTitle": "Who is DHI Ideal For?",
+        "dhiItems": [
+          "Densification among existing hair",
+          "Cases requiring precise frontal hairline design",
+          "2000–3500 graft range",
+          "Female-pattern thinning (Ludwig)"
+        ],
+        "footer": "Individual suitability is determined during the free consultation.",
+        "footerLink": "Eligibility criteria →"
+      },
+      "myths": {
+        "eyebrow": "COMMON MISCONCEPTIONS",
+        "title": "Myth and Fact",
+        "mythLabel": "Myth",
+        "factLabel": "Fact",
+        "items": [
+          { "myth": "DHI is a newer technique", "fact": "DHI is a variant of FUE. The instrument used (the Choi pen) is different; the core principle is the same. It is not a 'new' but a 'different' approach." },
+          { "myth": "FUE leaves scars", "fact": "FUE harvests grafts with a micro-punch (typically 0.8–1mm). Very small, scattered marks may form over time. They are hard to spot even on short hair." },
+          { "myth": "One is definitively better", "fact": "The right technique is patient-specific. Loss stage, graft count, budget and existing hair density are decisive. A specialist assessment is essential." }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "Is FUE or DHI better?", "a": "Neither is universally better. Each technique is ideal for different cases. FUE provides speed and efficiency over wide areas, while DHI is more advantageous in cases needing densification among existing hair and precise angle control. The right technique is determined through individual assessment." },
+          { "q": "What is the key difference between FUE and DHI?", "a": "In FUE, after harvesting, channels are first opened in the recipient area and grafts are placed afterwards. In DHI, the Choi pen lets channel opening and placement happen at the same time. This gives DHI an edge in angle and direction control." },
+          { "q": "Is DHI more expensive?", "a": "Generally yes. The consumable cost of Choi pens used in DHI and the additional labour involved make the procedure relatively more expensive. The difference varies by clinic." },
+          { "q": "Which technique is better for large areas?", "a": "In wide loss areas (e.g. Norwood IV–VI requiring 4000+ grafts), FUE is generally faster and more efficient. The graft capacity DHI can deliver in a single session is relatively more limited compared to FUE." }
+        ]
+      },
+      "cta": {
+        "title": "Which technique is right for you?",
+        "lede": "With a free hair analysis, let us identify which technique is right for you.",
+        "primary": "Free Hair Analysis",
+        "secondary": "View Outcomes",
+        "trustFree": "Free",
+        "trustNonBinding": "Non-binding",
+        "trust24h": "Reply within 24 hours"
+      },
+      "disclaimer": "This page is for general information and is not a substitute for medical advice. Individual results may vary. Always consult a qualified specialist before deciding on any treatment.",
+      "schema": {
+        "articleName": "FUE vs DHI Comparison",
+        "articleHeadline": "FUE or DHI? An Honest Comparison",
+        "articleDescription": "The real differences between FUE and DHI hair transplant techniques. Which technique is ideal in which case?"
+      }
+    },
+    "beforeAfter": {
+      "breadcrumb": {
+        "home": "Home",
+        "current": "Before & After"
+      },
+      "hero": {
+        "eyebrow": "REAL OUTCOMES",
+        "title": "Let our results",
+        "titleItalic": "speak for themselves.",
+        "consent": "All cases shown in the gallery are published with patients' written consent. Images have not been manipulated. Individual results may vary."
+      },
+      "filter": {
+        "all": "all",
+        "ageSuffix": "years",
+        "graftsSuffix": "grafts",
+        "noResults": "No cases have been added in this category yet."
+      },
+      "card": {
+        "before": "Before",
+        "after": "After",
+        "beforeLabel": "BEFORE",
+        "afterLabel": "AFTER",
+        "tapBefore": "Show before",
+        "tapAfter": "Show after",
+        "missingImage": "Image coming soon"
+      },
+      "categoryLabels": {
+        "hair": "Hair",
+        "beard": "Beard",
+        "brow": "Brow"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "Are these results real?", "a": "Yes. All cases shown in the gallery are published with patients' written consent. Images are unedited, with no filters or retouching. Individual results may vary." },
+          { "q": "How long until results appear?", "a": "First new hairs appear at month 3–4. Visible thickening at month 6–8. Final results at 12–18 months. Each case in the gallery indicates the time elapsed." },
+          { "q": "Can I expect a similar result?", "a": "Each patient is unique. Results depend on donor density, loss stage, technique and your personal recovery. We recommend a free consultation for an individual assessment." }
+        ]
+      },
+      "cta": {
+        "title": "Want a similar outcome?",
+        "lede": "Let us build your personalised treatment plan with a free hair analysis. Send your photos and our specialist team will reply within 24 hours.",
+        "primary": "Free Hair Analysis",
+        "whatsapp": "WhatsApp",
+        "trustFree": "Free",
+        "trustNonBinding": "Non-binding",
+        "trust24h": "Reply within 24 hours"
+      },
+      "disclaimer": "This page is for general information and is not a substitute for medical advice. All gallery images are published with patients' written consent. Individual results may vary.",
+      "schema": {
+        "procedureName": "Hair, Beard and Brow Restoration Outcomes",
+        "procedureDescription": "Documented results from hair, beard and brow restoration cases performed with FUE and DHI techniques",
+        "followup": "12–18 months to full result",
+        "galleryName": "Altınsoy Hair Clinic Before & After Gallery",
+        "galleryDescription": "A transparent case gallery published with patient written consent, including technique and graft information"
+      }
+    },
+    "notEligible": {
+      "breadcrumb": {
+        "home": "Home",
+        "parent": "Hair Transplant",
+        "current": "Eligibility Criteria"
+      },
+      "hero": {
+        "eyebrow": "HONEST INFORMATION",
+        "titlePart1": "A hair transplant",
+        "titleItalic": "is not suitable for everyone.",
+        "lede": "Most clinics only describe \"suitable\" patients. We choose honesty: we openly share the situations in which a hair transplant is not appropriate."
+      },
+      "shortAnswer": {
+        "label": "Short Answer",
+        "body": "A hair transplant is not appropriate in cases of active alopecia areata, insufficient donor area, age under 18, uncontrolled chronic illness, bleeding disorders, and active skin disease."
+      },
+      "absolute": {
+        "eyebrow": "ABSOLUTE CRITERIA",
+        "title": "In which medical conditions is it not performed?",
+        "lede": "When the situations below are present, a hair transplant is not performed or is not recommended.",
+        "items": [
+          { "title": "Active Alopecia Areata", "desc": "An autoimmune reaction can also affect the implanted follicles. Graft survival drops in the active phase.", "icon": "warning" },
+          { "title": "Insufficient Donor Area", "desc": "If enough grafts cannot be harvested, the result will not be satisfactory. Donor capacity is measured during consultation.", "icon": "warning" },
+          { "title": "Bleeding Disorder", "desc": "Bleeding risk increases and wound healing is impaired. Patients on anticoagulants require special evaluation.", "icon": "warning" },
+          { "title": "Active Skin Diseases", "desc": "If active lesions such as psoriasis or eczema are present in the recipient or donor area, the procedure cannot be performed.", "icon": "warning" },
+          { "title": "Uncontrolled Chronic Illness", "desc": "Uncontrolled diabetes, heart disease or immune issues can endanger the recovery process.", "icon": "warning" },
+          { "title": "Certain Cancer Treatments", "desc": "During chemotherapy, the chance of graft survival is very low. Reassessment after treatment completion is possible.", "icon": "warning" },
+          { "title": "Unrealistic Expectations", "desc": "To prevent disappointment, sound expectation management is essential. The consultation includes this assessment.", "icon": "info" },
+          { "title": "Under 18", "desc": "The hair-loss pattern has not yet stabilised. Early implantation may produce results that need correction later.", "icon": "info" }
+        ]
+      },
+      "relative": {
+        "eyebrow": "RELATIVE CRITERIA",
+        "title": "In which situations is careful evaluation needed?",
+        "lede": "These are not absolute contraindications; with individual evaluation and additional conditions, a hair transplant may be possible.",
+        "items": [
+          { "title": "Controlled Diabetes", "desc": "If blood sugar is well controlled and you have a doctor's clearance, individual evaluation may be possible. Wound healing is monitored closely." },
+          { "title": "Young Age (18–24)", "desc": "Loss progression may continue. Decisions are made considering genetic risk and projected future loss." },
+          { "title": "Diffuse Loss (in Women)", "desc": "Diffuse thinning may have an underlying cause (hormonal, nutritional). The cause should be investigated and treated first." }
+        ]
+      },
+      "age": {
+        "eyebrow": "AGE AND HAIR TRANSPLANT",
+        "title": "Age and Hair Transplant",
+        "items": [
+          { "range": "Under 18", "status": "Not performed", "detail": "Loss pattern is uncertain; early implantation may require additional procedures later." },
+          { "range": "18–24", "status": "Careful evaluation", "detail": "Genetic risk and progression matter. May be performed in selected cases." },
+          { "range": "25 and above", "status": "Generally suitable", "detail": "Loss is more stable; planning is more reliable. Ideal if donor area and general health are appropriate." },
+          { "range": "Older age", "status": "No upper limit", "detail": "If donor capacity and general health are sufficient, age is not an upper barrier." }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          { "q": "Who is not suitable for a hair transplant?", "a": "Active alopecia areata, insufficient donor area, age under 18, uncontrolled chronic illnesses (diabetes, heart disease), bleeding disorders, active skin diseases, and individuals with unrealistic expectations may not be suitable for a hair transplant. The final decision is made by a specialist." },
+          { "q": "Is there an age limit for a hair transplant?", "a": "It is not performed under age 18 because the loss pattern is not yet stable. Age 25+ is generally considered the ideal starting point. There is no upper limit; donor capacity and general health are decisive." },
+          { "q": "Can people with diabetes have a hair transplant?", "a": "Patients with controlled diabetes, with a doctor's clearance and appropriate blood-sugar levels, may be evaluated. Uncontrolled diabetes adversely affects wound healing and may make a hair transplant unsuitable." },
+          { "q": "Can women have a hair transplant?", "a": "Yes. Women with Ludwig-pattern thinning or hair loss after trauma or burns can be suitable candidates. In diffuse loss, the underlying cause should be identified and treated first." },
+          { "q": "Can people with alopecia areata have a hair transplant?", "a": "A hair transplant is not advised in active alopecia areata, since the autoimmune reaction can also affect the implanted grafts. In long-term stable cases, individual evaluation may be possible." }
+        ]
+      },
+      "cta": {
+        "title": "Find out if you are eligible",
+        "lede": "Let us evaluate your eligibility with a free hair analysis. Send your photos and our specialist team will return within 24 hours.",
+        "primary": "Free Hair Analysis",
+        "secondary": "About Hair Transplant",
+        "trustFree": "Free",
+        "trustNonBinding": "Non-binding",
+        "trust24h": "Reply within 24 hours"
+      },
+      "disclaimer": "This page is for general information and is not a substitute for medical advice. Eligibility must be assessed in a specialist physician consultation. Individual results may vary.",
+      "schema": {
+        "name": "Hair Transplant Contraindications",
+        "description": "Medical situations in which a hair transplant is not appropriate, age limits and expectation assessment"
+      }
+    },
+    "caseDhiBeard": {
+      "breadcrumb": {
+        "home": "Home",
+        "results": "Before & After",
+        "current": "DHI Beard 1,800 Grafts"
+      },
+      "hero": {
+        "eyebrow": "CASE STUDY",
+        "title": "DHI Beard Transplant —",
+        "titleAccent": "1,800 Grafts Beard Densification",
+        "subtitle": "Male patient, 29 years old. Chin and cheek area. 10-month follow-up."
+      },
+      "profile": {
+        "title": "Patient Profile",
+        "ageLabel": "Age",
+        "ageValue": "29",
+        "genderLabel": "Gender",
+        "genderValue": "Male",
+        "procedureLabel": "Procedure",
+        "procedureValue": "Beard Densification",
+        "techniqueLabel": "Technique",
+        "techniqueValue": "DHI (Choi Pen)",
+        "graftsLabel": "Grafts",
+        "graftsValue": "1,800",
+        "followUpLabel": "Follow-up",
+        "followUpValue": "10 Months"
+      },
+      "media": {
+        "title": "Before & After Imagery",
+        "placeholder": "Patient Photograph — Pending Consent for Publication",
+        "consent": "All images are published with the patient's written consent."
+      },
+      "recovery": {
+        "title": "Recovery Process",
+        "s1": {
+          "title": "Procedure",
+          "desc": "3–5 hour DHI procedure under local anaesthesia. Discharged the same day."
+        },
+        "s2": {
+          "title": "1–2 Weeks",
+          "desc": "Small scabbing and mild redness. The expected recovery course."
+        },
+        "s3": {
+          "title": "3 Months",
+          "desc": "New beard strands begin to emerge. Fine and downy at first."
+        },
+        "s4": {
+          "title": "10 Months",
+          "desc": "Final result. A natural-looking, dense beard line."
+        }
+      },
+      "result": {
+        "title": "10-Month Result",
+        "body": "At the end of the 10-month follow-up, the patient achieved a natural-looking, homogeneous beard density across the chin and cheek area. DHI with the Choi pen allowed the grafts to be placed in line with the natural beard growth direction, meeting expectations for natural appearance. Individual results may vary.",
+        "disclaimer": "This case study is for general information only and does not replace medical advice. Individual results may vary."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How long does a DHI beard transplant take?",
+          "answer": "A DHI beard transplant at the 1,800-graft scale generally takes 3 to 5 hours. With the Choi pen, graft extraction and implantation are completed in the same session. The procedure is performed under local anaesthesia and the patient is discharged the same day."
+        },
+        "q2": {
+          "question": "How many grafts are needed for a beard transplant?",
+          "answer": "For densification, beard transplants typically require 1,000–2,500 grafts. Building a full beard from a bare area can require 3,000–4,000 grafts. The exact number is determined individually based on existing beard density, the desired appearance and donor area capacity."
+        },
+        "q3": {
+          "question": "Do beard transplant results look natural?",
+          "answer": "Yes. With DHI, the Choi pen allows grafts to be placed at a 30–45 degree angle and in the natural beard growth direction. This precision delivers a natural appearance consistent with the surrounding texture. In experienced hands, the result can be indistinguishable from a natural beard."
+        }
+      },
+      "cta": {
+        "title": "Would You Like a Similar Result?",
+        "body": "Book a free analysis appointment for beard transplantation and we will draw up a personal treatment plan.",
+        "primary": "Free Analysis",
+        "secondary": "All Cases"
+      },
+      "schema": {
+        "procedureName": "DHI Beard Transplant — 1,800 Grafts Beard Densification",
+        "procedureDescription": "A 29-year-old male patient underwent DHI-technique beard densification with 1,800 grafts in the chin and cheek area.",
+        "howPerformed": "Under local anaesthesia using DHI technique with the Choi pen"
+      }
+    },
+    "caseFue": {
+      "breadcrumb": {
+        "home": "Home",
+        "results": "Before & After",
+        "current": "FUE 3,200 Grafts"
+      },
+      "hero": {
+        "eyebrow": "CASE STUDY",
+        "title": "FUE Hair Transplant —",
+        "titleAccent": "3,200 Grafts Hairline Restoration",
+        "subtitle": "Male patient, 34 years old. Norwood III. 12-month follow-up."
+      },
+      "profile": {
+        "title": "Patient Profile",
+        "ageLabel": "Age",
+        "ageValue": "34",
+        "genderLabel": "Gender",
+        "genderValue": "Male",
+        "norwoodLabel": "Norwood Stage",
+        "norwoodValue": "III",
+        "techniqueLabel": "Technique",
+        "techniqueValue": "FUE",
+        "graftsLabel": "Graft Count",
+        "graftsValue": "3,200",
+        "followUpLabel": "Follow-up Period",
+        "followUpValue": "12 Months"
+      },
+      "media": {
+        "title": "Before & After Imagery",
+        "placeholder": "Patient Photograph — Pending Consent for Publication",
+        "consent": "All images are published with the patient's written consent."
+      },
+      "recovery": {
+        "title": "Recovery Process",
+        "s1": {
+          "title": "Procedure Day",
+          "desc": "5–6 hour procedure under local anaesthesia. Discharged the same day."
+        },
+        "s2": {
+          "title": "1–2 Weeks",
+          "desc": "Shock loss begins. This is normal and not a cause for concern."
+        },
+        "s3": {
+          "title": "3–4 Months",
+          "desc": "First new hair growth. Fine, downy strands appear."
+        },
+        "s4": {
+          "title": "12 Months",
+          "desc": "Final, lasting result. Full density and natural appearance."
+        }
+      },
+      "result": {
+        "title": "12-Month Result",
+        "body": "At the end of the 12-month follow-up, the patient achieved a natural-looking, dense hairline at the front. The 3,200 grafts planned for the Norwood III stage were applied in full alignment with donor area capacity, and the recovery progressed within expectations. Individual results may vary.",
+        "disclaimer": "This case study is for general information only and does not replace medical advice. Individual results may vary."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How long does a 3,200-graft FUE procedure take?",
+          "answer": "A FUE procedure at the 3,200-graft scale generally takes 5 to 6 hours. This covers donor extraction, channel opening and graft placement. The procedure is performed under local anaesthesia and the patient is discharged the same day."
+        },
+        "q2": {
+          "question": "How many grafts are needed at Norwood III?",
+          "answer": "Norwood III hair loss typically requires 2,500–3,500 grafts. The exact number depends on the extent of hair loss, the density the patient is aiming for and donor area capacity. An individual consultation is therefore essential for every patient."
+        },
+        "q3": {
+          "question": "When do FUE results become visible?",
+          "answer": "After the FUE procedure, the first new hair growth appears around months 3–4 as fine, downy strands. Visible thickening is felt by month 6. The final, lasting result is reached at 12–18 months. Shock loss is normal and does not require concern."
+        }
+      },
+      "cta": {
+        "title": "Would You Like a Similar Result?",
+        "body": "Let us assess your hair-loss situation in a free analysis and prepare a personal treatment plan.",
+        "primary": "Free Hair Analysis",
+        "secondary": "All Cases"
+      },
+      "schema": {
+        "procedureName": "FUE Hair Transplant — 3,200 Grafts Hairline Restoration",
+        "procedureDescription": "A 34-year-old male patient with Norwood III hair loss underwent FUE-technique hairline restoration with 3,200 grafts.",
+        "howPerformed": "Under local anaesthesia using FUE technique"
+      }
+    },
+    "caseBrow": {
+      "breadcrumb": {
+        "home": "Home",
+        "results": "Before & After",
+        "current": "Eyebrow Restoration 400 Grafts"
+      },
+      "hero": {
+        "eyebrow": "CASE STUDY",
+        "title": "Eyebrow Transplant —",
+        "titleAccent": "400 Grafts Eyebrow Restoration",
+        "subtitle": "Female patient, 38 years old. Symmetry correction and natural arch design. 8-month follow-up."
+      },
+      "profile": {
+        "title": "Patient Profile",
+        "ageLabel": "Age",
+        "ageValue": "38",
+        "genderLabel": "Gender",
+        "genderValue": "Female",
+        "procedureLabel": "Procedure",
+        "procedureValue": "Eyebrow Restoration",
+        "techniqueLabel": "Technique",
+        "techniqueValue": "Micro Graft",
+        "graftsLabel": "Grafts",
+        "graftsValue": "400 (200+200)",
+        "followUpLabel": "Follow-up",
+        "followUpValue": "8 Months"
+      },
+      "media": {
+        "title": "Before & After Imagery",
+        "placeholder": "Patient Photograph — Pending Consent for Publication",
+        "consent": "All images are published with the patient's written consent."
+      },
+      "recovery": {
+        "title": "Recovery Process",
+        "s1": {
+          "title": "Procedure",
+          "desc": "2–3 hour procedure under local anaesthesia. Discharged the same day."
+        },
+        "s2": {
+          "title": "1–2 Weeks",
+          "desc": "Mild redness and scabbing. Normal recovery in the eyebrow area."
+        },
+        "s3": {
+          "title": "2–3 Months",
+          "desc": "Following shock loss, the first new eyebrow strands begin to emerge."
+        },
+        "s4": {
+          "title": "8 Months",
+          "desc": "Final result. Natural arch and symmetry are complete."
+        }
+      },
+      "result": {
+        "title": "8-Month Result",
+        "body": "At the end of the 8-month follow-up, the patient achieved balanced distribution, a natural arch and symmetry across both eyebrows. With 200 grafts placed in each eyebrow, the planned shape was preserved and the recovery progressed within expectations. Individual results may vary.",
+        "disclaimer": "This case study is for general information only and does not replace medical advice. Individual results may vary."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "q1": {
+          "question": "How long does an eyebrow transplant take?",
+          "answer": "An eyebrow transplant at the 400-graft scale generally takes 2 to 3 hours. The procedure is performed under local anaesthesia with grafts distributed evenly between both eyebrows, and the patient is discharged the same day."
+        },
+        "q2": {
+          "question": "How many grafts are needed for an eyebrow transplant?",
+          "answer": "Restoration of a single eyebrow typically requires 150–350 grafts. Both eyebrows together can require 300–700 grafts. The exact number is determined individually based on existing eyebrow density, the area to be restored and the desired arch shape."
+        },
+        "q3": {
+          "question": "Do eyebrow transplant results look natural?",
+          "answer": "Yes. In an eyebrow transplant, grafts are placed at a 10–15 degree angle in the natural eyebrow growth direction. This precise angulation makes the new eyebrows visually indistinguishable from natural eyebrows in texture and direction. Experienced application delivers satisfying symmetry and arch."
+        }
+      },
+      "cta": {
+        "title": "Would You Like a Similar Result?",
+        "body": "Book a free analysis appointment for eyebrow transplantation and we will draw up a personal treatment plan.",
+        "primary": "Free Analysis",
+        "secondary": "All Cases"
+      },
+      "schema": {
+        "procedureName": "Eyebrow Restoration — 400 Grafts",
+        "procedureDescription": "A 38-year-old female patient underwent eyebrow restoration with 400 grafts using micro graft technique to correct symmetry and create a natural arch.",
+        "howPerformed": "Under local anaesthesia using micro graft technique"
+      }
+    },
+    "kvkk": {
+      "header": {
+        "eyebrow": "LEGAL",
+        "title": "Data Protection Disclosure",
+        "regulationLine": "Issued under applicable data protection laws, including the Turkish Personal Data Protection Law No. 6698 (\"KVKK\") and the EU General Data Protection Regulation (GDPR) where applicable",
+        "date": "14 April 2026",
+        "backHome": "Home"
+      },
+      "controller": {
+        "title": "1. Data Controller",
+        "bodyBefore": "In accordance with applicable data protection laws — including the Turkish Personal Data Protection Law No. 6698 (\"KVKK\") and the EU General Data Protection Regulation (GDPR) where applicable to EU/EEA users — your personal data is processed by ",
+        "company": "Altınsoy Hair Clinic",
+        "bodyAfter": " as the data controller, within the scope set out below."
+      },
+      "purposes": {
+        "title": "2. Purposes of Processing",
+        "intro": "Your personal data is processed for the following purposes:",
+        "list": [
+          "Providing the hair transplant consultation service",
+          "Preparing a personalised treatment plan",
+          "Managing appointments and patient communications",
+          "Coordinating pre-operative and post-operative processes",
+          "Complying with legal obligations"
+        ]
+      },
+      "dataTypes": {
+        "title": "3. Categories of Personal Data Processed",
+        "identity": {
+          "label": "Identity Data",
+          "body": "First name and last name."
+        },
+        "contact": {
+          "label": "Contact Data",
+          "body": "Email address and phone number."
+        },
+        "health": {
+          "label": "Health Data (Special Category)",
+          "body": "Hair loss profile and stage; photographs (only when submitted for analysis purposes). Health data is treated as a special category of personal data and is processed solely on the basis of your explicit consent."
+        }
+      },
+      "transfer": {
+        "title": "4. Transfer of Personal Data",
+        "body": "Your personal data may be disclosed to competent public authorities to the extent required by applicable law. We do not transfer personal data outside Türkiye. Where third-party service providers are engaged, data is shared only with vendors that are subject to a data processing agreement and meet the standards of applicable data protection laws."
+      },
+      "collection": {
+        "title": "5. Method of Collection and Legal Basis",
+        "method": {
+          "label": "Method of Collection",
+          "body": "Your personal data is collected through the consultation and contact forms on our website, via WhatsApp messaging, and by email — by automated or manual means."
+        },
+        "legalBasis": {
+          "label": "Legal Basis",
+          "bodyParts": [
+            "Processing is based on ",
+            "explicit consent",
+            " (KVKK art. 5/2(a); GDPR art. 6(1)(a) and 9(2)(a)) and on the ",
+            "performance of a contract",
+            " (KVKK art. 5/2(c); GDPR art. 6(1)(b)). Special-category health data is processed solely on the basis of your explicit consent."
+          ]
+        }
+      },
+      "rights": {
+        "title": "6. Your Rights as a Data Subject",
+        "intro": "Under applicable data protection laws (including KVKK art. 11 and the GDPR where applicable), you have the following rights:",
+        "list": [
+          "To learn whether your personal data is being processed",
+          "To request information regarding the processing, where it takes place",
+          "To learn the purpose of the processing and whether the data is used in line with that purpose",
+          "To know the third parties to whom data is disclosed, in Türkiye or abroad",
+          "To request the rectification of incomplete or inaccurate data",
+          "To request the erasure or destruction of data under the conditions provided by law",
+          "To request that any rectification, erasure or destruction be notified to third parties to whom the data was disclosed",
+          "To object to a decision based solely on automated processing that produces an adverse effect for you",
+          "To claim compensation for damages arising from unlawful processing",
+          "To withdraw your consent at any time, without affecting the lawfulness of processing carried out before withdrawal",
+          "Where applicable under the GDPR, the right to data portability and to lodge a complaint with a competent supervisory authority"
+        ]
+      },
+      "application": {
+        "title": "7. How to Exercise Your Rights",
+        "intro": "To exercise the rights set out above, you may contact us through the following channels:",
+        "emailLabel": "Email:",
+        "emailValue": "info@altinsoy.com",
+        "mailLabel": "Postal mail:",
+        "mailValue": "A signed written request addressed to Altınsoy Hair Clinic",
+        "noteParts": [
+          "Requests will be answered within ",
+          "30 days",
+          " at the latest, depending on their nature."
+        ]
+      },
+      "footerLinks": {
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie Policy"
+      }
+    },
+    "privacy": {
+      "header": {
+        "eyebrow": "LEGAL",
+        "title": "Privacy Policy",
+        "updated": "Last updated: 14 April 2026",
+        "backHome": "Home"
+      },
+      "controller": {
+        "title": "1. Data Controller",
+        "companyLabel": "Trade name:",
+        "companyValue": "Altınsoy Hair Clinic",
+        "emailLabel": "Email:",
+        "emailValue": "info@altinsoy.com",
+        "phoneLabel": "Phone:",
+        "phoneValue": "+90 553 978 42 42"
+      },
+      "dataCollected": {
+        "title": "2. Personal Data We Collect",
+        "intro": "Through our website, we may collect the following categories of personal data:",
+        "list": [
+          "First and last name",
+          "Email address",
+          "Phone number",
+          "Photographs (optional — only if submitted for analysis)",
+          "Hair-loss status and profile (via the consultation form)"
+        ]
+      },
+      "purposes": {
+        "title": "3. Purposes of Processing",
+        "intro": "The personal data collected is processed for the following purposes:",
+        "list": [
+          "Reviewing and responding to consultation requests",
+          "Preparing a personalised hair transplant treatment plan",
+          "Appointment and communication management",
+          "Patient information and follow-up processes",
+          "Compliance with legal obligations"
+        ]
+      },
+      "legalBasis": {
+        "title": "4. Legal Basis for Processing",
+        "consent": {
+          "label": "Explicit Consent (KVKK art. 5/2(a); GDPR art. 6(1)(a) and 9(2)(a)):",
+          "body": "Special-category personal data, such as patient photographs and health-related information, is processed solely on the basis of the data subject's explicit consent."
+        },
+        "contract": {
+          "label": "Performance of a Contract (KVKK art. 5/2(c); GDPR art. 6(1)(b)):",
+          "body": "Data relating to the consultation and treatment process is processed only to the extent necessary for the performance of the service contract."
+        }
+      },
+      "sharing": {
+        "title": "5. Data Sharing",
+        "body": "We do not sell, rent or share your personal data with third parties for commercial purposes. Your data may be shared only with competent public authorities to the extent required by law, and with our service providers where you have given your explicit consent."
+      },
+      "retention": {
+        "title": "6. Retention Period",
+        "bodyParts": [
+          "Your personal data is retained for the duration of the active patient relationship and, after that relationship ends, for an additional ",
+          "10 years",
+          " in accordance with applicable legal retention obligations. Once that period expires, the data is securely destroyed."
+        ]
+      },
+      "rights": {
+        "title": "7. Your Rights",
+        "intro": "Under applicable data protection laws, you have the following rights:",
+        "list": [
+          "To learn whether your personal data is being processed",
+          "To request information about how it is processed",
+          "To request the rectification of inaccurate or incomplete data",
+          "To request the erasure of your data under certain conditions",
+          "To object to the processing",
+          "To exercise the right to data portability where applicable"
+        ]
+      },
+      "contact": {
+        "title": "8. Contact",
+        "body": "For any question regarding this privacy policy or your personal data:",
+        "email": "info@altinsoy.com"
+      },
+      "footerLinks": {
+        "cookies": "Cookie Policy",
+        "kvkk": "Data Protection Disclosure"
+      }
+    },
+    "cookies": {
+      "header": {
+        "eyebrow": "LEGAL",
+        "title": "Cookie Policy",
+        "updated": "Last updated: 14 April 2026",
+        "backHome": "Home"
+      },
+      "what": {
+        "title": "1. What Is a Cookie?",
+        "body": "Cookies are small text files that are stored on your device by your browser when you visit a website. They are used to make the site work properly, to remember your preferences and to improve your browsing experience. Cookies do not directly collect your personal information; they may only contain anonymous data based on browser and device identifiers."
+      },
+      "types": {
+        "title": "2. Types of Cookies We Use",
+        "table": {
+          "headers": {
+            "cookie": "Cookie",
+            "provider": "Provider",
+            "purpose": "Purpose",
+            "duration": "Duration"
+          },
+          "rows": [
+            {
+              "name": "cookie-consent",
+              "provider": "altinsoy.com",
+              "purpose": "Stores your cookie consent preference",
+              "duration": "1 year"
+            },
+            {
+              "name": "_ga",
+              "provider": "Google Analytics",
+              "purpose": "Anonymous usage analytics (visitor identification)",
+              "duration": "2 years"
+            },
+            {
+              "name": "_gid",
+              "provider": "Google Analytics",
+              "purpose": "Anonymous usage analytics (session-based)",
+              "duration": "1 day"
+            },
+            {
+              "name": "Performance cookies",
+              "provider": "altinsoy.com",
+              "purpose": "Page load speed measurement",
+              "duration": "Session"
+            }
+          ]
+        },
+        "categories": {
+          "essential": {
+            "title": "Strictly Necessary Cookies",
+            "bodyParts": [
+              "Required for the basic functions of the website. Your cookie consent preference (",
+              "cookie-consent",
+              ") falls in this category. These cookies cannot be disabled."
+            ]
+          },
+          "analytics": {
+            "title": "Analytics Cookies",
+            "bodyParts": [
+              "The ",
+              "_ga",
+              " and ",
+              "_gid",
+              " cookies provided by Google Analytics measure, on an anonymous basis, which pages are visited and how the site is used. They do not contain personally identifying information. Analytics cookies are set only after you give your consent."
+            ]
+          },
+          "performance": {
+            "title": "Performance Cookies",
+            "body": "Used to measure page load times and technical performance. The data collected is used to improve the speed of the website and does not contain personal data."
+          }
+        }
+      },
+      "control": {
+        "title": "3. How You Can Control Cookies",
+        "p1": "When you first visit our site, a notice is displayed offering cookie consent options. You can change your preferences at any time. You can also reject all cookies, or delete existing cookies, through your browser settings.",
+        "p2": "Refusing cookies will not prevent the basic functions of the site from working; however, analytics and performance measurement will not operate."
+      },
+      "disable": {
+        "title": "4. Disabling Cookies",
+        "intro": "You can manage cookies from your browser's settings menu:",
+        "browsers": {
+          "chrome": {
+            "label": "Google Chrome:",
+            "body": "Settings → Privacy and security → Cookies and other site data"
+          },
+          "firefox": {
+            "label": "Mozilla Firefox:",
+            "body": "Settings → Privacy & Security → Cookies and Site Data"
+          },
+          "safari": {
+            "label": "Safari:",
+            "body": "Preferences → Privacy → Manage Website Data"
+          }
+        },
+        "note": "If you disable cookies entirely, some site features may not work as expected."
+      },
+      "contact": {
+        "title": "5. Contact",
+        "body": "For any question regarding this cookie policy:",
+        "email": "info@altinsoy.com"
+      },
+      "footerLinks": {
+        "privacy": "Privacy Policy",
+        "kvkk": "Data Protection Disclosure"
+      }
+    }
+  }
+}

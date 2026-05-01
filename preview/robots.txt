@@ -1,0 +1,29 @@
+# robots.txt — Altınsoy Hair Clinic
+
+User-agent: *
+Allow: /
+
+# Eski sayfayı engelle (deprecated)
+Disallow: /altinsoy.html
+
+# AI tarama botları — izin ver (GEO/AEO stratejisi)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemap
+Sitemap: https://altinsoy.com/sitemap.xml

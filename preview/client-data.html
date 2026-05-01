@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="dark" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Danışan Bilgileri | Altınsoy Hair Clinic</title>
+<meta name="description" content="Altınsoy Hair Clinic danışan bilgi formu. Ad, soyad, e-posta ve telefon bilgilerinizi girerek kayıt oluşturun."/>
+<link rel="canonical" href="https://altinsoy.com/client-data/"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<link rel="apple-touch-icon" href="favicon.svg"/>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200;300;400;500;600;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "outline-variant": "#4e4639",
+        "surface-variant": "#353534",
+        "surface-container": "#201f1f",
+        "surface-container-low": "#1c1b1b",
+        "surface-container-high": "#2a2a2a",
+        "surface-container-highest": "#353534",
+        "surface-container-lowest": "#0e0e0e",
+        "on-background": "#e5e2e1",
+        "on-primary": "#412d00",
+        "background": "#131313",
+        "primary": "#e9c176",
+        "primary-container": "#c5a059",
+        "surface": "#131313",
+        "on-surface": "#e5e2e1",
+        "on-surface-variant": "#d1c5b4",
+      },
+      fontFamily: { "headline": ["Noto Serif"], "body": ["Manrope"], "label": ["Manrope"] }
+    }
+  }
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+h1, h2, h3, h4 { font-family: 'Noto Serif', serif; }
+body { font-family: 'Manrope', sans-serif; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24; }
+input { background-color: transparent; }
+.input-field {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(78,70,57,0.3);
+  padding: 10px 0;
+  font-size: 0.875rem;
+  color: #e5e2e1;
+  outline: none;
+  transition: border-color 0.2s;
+  background: transparent;
+}
+.input-field:focus { border-color: #e9c176; }
+.input-field::placeholder { color: rgba(209,197,180,0.35); }
+.field-error { border-color: #e0704f !important; }
+.error-msg { color: #e0704f; font-size: 0.7rem; margin-top: 4px; display: none; }
+.error-msg.show { display: block; }
+</style>
+</head>
+
+<body class="bg-background text-on-surface font-body">
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-outline-variant/10">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 py-5">
+  <a href="index.html" class="text-xl font-headline tracking-tighter text-primary">ALTINSOY</a>
+  <div class="hidden md:flex items-center gap-8 text-sm font-body">
+    <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary transition-colors">Saç Ekimi</a>
+    <a href="sac-ekimi-fue.html" class="text-on-surface-variant hover:text-primary transition-colors">FUE</a>
+    <a href="sac-ekimi-dhi.html" class="text-on-surface-variant hover:text-primary transition-colors">DHI</a>
+    <a href="sac-ekimi-sapphire.html" class="text-on-surface-variant hover:text-primary transition-colors">Sapphire</a>
+    <a href="iletisim.html" class="text-on-surface-variant hover:text-primary transition-colors">İletişim</a>
+  </div>
+  <button onclick="const m=document.getElementById('mobile-menu');m.classList.toggle('hidden');m.classList.toggle('flex');" class="md:hidden text-primary p-2 flex items-center justify-center" aria-label="Menü">
+    <span class="material-symbols-outlined">menu</span>
+  </button>
+  <a href="iletisim.html" class="hidden md:block bg-primary text-on-primary px-6 py-2.5 text-xs font-label uppercase tracking-widest rounded-sm hover:bg-primary-container transition-all">Randevu Al</a>
+</div>
+<div id="mobile-menu" class="md:hidden hidden flex-col bg-background/95 backdrop-blur-xl border-t border-outline-variant/10 absolute top-full left-0 right-0 p-6 gap-4 text-sm">
+  <a href="index.html" class="text-on-surface-variant hover:text-primary py-2">Ana Sayfa</a>
+  <a href="sac-ekimi.html" class="text-on-surface-variant hover:text-primary py-2">Teknikler</a>
+  <a href="oncesi-sonrasi.html" class="text-on-surface-variant hover:text-primary py-2">Sonuçlar</a>
+  <a href="fiyat.html" class="text-on-surface-variant hover:text-primary py-2">Fiyat</a>
+  <a href="iletisim.html" class="text-on-surface-variant hover:text-primary py-2">İletişim</a>
+</div>
+</nav>
+
+<main class="pt-28 min-h-screen">
+
+<!-- HERO -->
+<section class="py-16 px-6">
+<div class="max-w-4xl mx-auto">
+  <nav class="text-xs text-on-surface-variant mb-8 tracking-wider">
+    <a href="index.html" class="hover:text-primary transition-colors">Ana Sayfa</a>
+    <span class="mx-2">›</span>
+    <span class="text-on-surface">Danışan Kaydı</span>
+  </nav>
+  <span class="text-primary font-label text-[11px] tracking-[0.3em] uppercase block mb-4">DANIŞAN FORMU</span>
+  <h1 class="font-headline text-4xl md:text-5xl leading-tight mb-6">Bilgilerinizi<br/><span class="italic text-primary/80">kaydedin</span></h1>
+  <p class="text-on-surface/70 text-base leading-relaxed max-w-xl">Formu doldurun, uzman ekibimiz en kısa sürede sizinle iletişime geçsin.</p>
+</div>
+</section>
+
+<!-- FORM -->
+<section class="py-10 px-6 bg-surface-container-low">
+<div class="max-w-2xl mx-auto">
+
+  <!-- Success State -->
+  <div id="successMsg" class="hidden bg-surface-container-high border border-primary/30 rounded p-10 text-center">
+    <span class="material-symbols-outlined text-primary text-5xl mb-4 block" style="font-variation-settings:'FILL' 1,'wght' 200,'GRAD' 0,'opsz' 48">check_circle</span>
+    <h2 class="font-headline text-2xl mb-3">Bilgileriniz Alındı</h2>
+    <p class="text-on-surface/70 text-sm leading-relaxed mb-8">Ekibimiz en kısa sürede sizinle iletişime geçecek.</p>
+    <a href="index.html" class="inline-block bg-primary text-on-primary px-8 py-3 text-xs font-label uppercase tracking-widest rounded-sm hover:bg-primary-container transition-all">Ana Sayfaya Dön</a>
+  </div>
+
+  <!-- Form -->
+  <form id="clientForm" class="space-y-8" novalidate>
+
+    <!-- Ad -->
+    <div>
+      <label for="firstName" class="block text-[10px] uppercase tracking-[0.25em] text-on-surface-variant mb-3">Ad <span class="text-primary">*</span></label>
+      <input id="firstName" name="firstName" type="text" autocomplete="given-name" placeholder="Adınız" class="input-field"/>
+      <p class="error-msg" id="firstNameError">Ad alanı zorunludur.</p>
+    </div>
+
+    <!-- Soyad -->
+    <div>
+      <label for="lastName" class="block text-[10px] uppercase tracking-[0.25em] text-on-surface-variant mb-3">Soyad <span class="text-primary">*</span></label>
+      <input id="lastName" name="lastName" type="text" autocomplete="family-name" placeholder="Soyadınız" class="input-field"/>
+      <p class="error-msg" id="lastNameError">Soyad alanı zorunludur.</p>
+    </div>
+
+    <!-- E-posta -->
+    <div>
+      <label for="email" class="block text-[10px] uppercase tracking-[0.25em] text-on-surface-variant mb-3">E-posta <span class="text-primary">*</span></label>
+      <input id="email" name="email" type="email" autocomplete="email" placeholder="ornek@email.com" class="input-field"/>
+      <p class="error-msg" id="emailError">Geçerli bir e-posta adresi girin.</p>
+    </div>
+
+    <!-- Telefon -->
+    <div>
+      <label for="phone" class="block text-[10px] uppercase tracking-[0.25em] text-on-surface-variant mb-3">Telefon <span class="text-primary">*</span></label>
+      <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+90 5XX XXX XX XX" class="input-field"/>
+      <p class="error-msg" id="phoneError">Geçerli bir telefon numarası girin.</p>
+    </div>
+
+    <!-- Submit -->
+    <div class="pt-4">
+      <button type="submit" id="submitBtn" class="w-full bg-primary text-on-primary py-4 text-xs font-label uppercase tracking-[0.2em] rounded-sm hover:bg-primary-container transition-all flex items-center justify-center gap-2">
+        <span id="btnText">Bilgilerimi Gönder</span>
+        <span id="btnSpinner" class="hidden material-symbols-outlined text-base animate-spin">progress_activity</span>
+      </button>
+      <p class="text-[10px] text-on-surface/40 text-center mt-4 leading-relaxed">
+        Bilgileriniz gizlilik politikamız kapsamında korunur.
+        <a href="gizlilik-politikasi.html" class="text-primary/70 hover:text-primary underline">Gizlilik Politikası</a>
+      </p>
+    </div>
+
+  </form>
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="border-t border-outline-variant/10 py-12 px-6 mt-20">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+  <span class="font-headline text-lg text-primary tracking-tighter">ALTINSOY</span>
+  <p class="text-xs text-on-surface/40 text-center">© 2024 Altınsoy Hair Clinic. Tüm hakları saklıdır.</p>
+  <div class="flex gap-6 text-xs text-on-surface-variant">
+    <a href="kvkk-aydinlatma.html" class="hover:text-primary transition-colors">KVKK</a>
+    <a href="gizlilik-politikasi.html" class="hover:text-primary transition-colors">Gizlilik</a>
+    <a href="iletisim.html" class="hover:text-primary transition-colors">İletişim</a>
+  </div>
+</div>
+</footer>
+
+<script>
+const form = document.getElementById('clientForm');
+const successMsg = document.getElementById('successMsg');
+
+function validateEmail(v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+function validatePhone(v) { return /^[\d\s\+\-\(\)]{7,20}$/.test(v.trim()); }
+
+function setError(fieldId, errorId, show) {
+  const field = document.getElementById(fieldId);
+  const err = document.getElementById(errorId);
+  if (show) {
+    field.classList.add('field-error');
+    err.classList.add('show');
+  } else {
+    field.classList.remove('field-error');
+    err.classList.remove('show');
+  }
+  return !show;
+}
+
+function validate() {
+  const fn = document.getElementById('firstName').value.trim();
+  const ln = document.getElementById('lastName').value.trim();
+  const em = document.getElementById('email').value.trim();
+  const ph = document.getElementById('phone').value.trim();
+
+  const v1 = setError('firstName', 'firstNameError', fn.length < 2);
+  const v2 = setError('lastName', 'lastNameError', ln.length < 2);
+  const v3 = setError('email', 'emailError', !validateEmail(em));
+  const v4 = setError('phone', 'phoneError', !validatePhone(ph));
+
+  return v1 && v2 && v3 && v4;
+}
+
+['firstName','lastName','email','phone'].forEach(id => {
+  document.getElementById(id).addEventListener('input', () => validate());
+});
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  if (!validate()) return;
+
+  const btn = document.getElementById('submitBtn');
+  const btnText = document.getElementById('btnText');
+  const spinner = document.getElementById('btnSpinner');
+
+  btn.disabled = true;
+  btnText.textContent = 'Gönderiliyor...';
+  spinner.classList.remove('hidden');
+
+  setTimeout(() => {
+    form.classList.add('hidden');
+    successMsg.classList.remove('hidden');
+    successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 1200);
+});
+</script>
+
+</body>
+</html>

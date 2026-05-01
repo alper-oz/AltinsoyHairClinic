@@ -1,0 +1,2560 @@
+{
+  "meta": {
+    "site": {
+      "siteName": "Altınsoy Saç Ekim Merkezi"
+    },
+    "home": {
+      "title": "Altınsoy Hair Clinic | Saç Ekimi İstanbul",
+      "description": "İstanbul'da FUE, DHI ve Sapphire saç ekimi. 15 yıllık cerrahi deneyim, 10.000+ başarılı operasyon. ISHRS sertifikalı uzman ekip."
+    },
+    "sacEkimi": {
+      "title": "Saç Ekimi | FUE, DHI ve Sapphire Teknikleri | Altınsoy",
+      "description": "Modern saç ekimi teknikleri. FUE, DHI ve Sapphire yöntemleri, doğal saç çizgisi tasarımı, kalıcı sonuçlar. İstanbul'da uzman cerrahi ekip."
+    },
+    "fue": {
+      "title": "FUE Saç Ekimi | Altınsoy",
+      "description": "FUE (Folliküler Ünite Ekstraksiyonu) tekniğiyle iz bırakmadan saç ekimi. Geniş alanlar için ideal, hızlı iyileşme süreci."
+    },
+    "dhi": {
+      "title": "DHI Saç Ekimi | Choi Implanter Tekniği | Altınsoy",
+      "description": "DHI (Direct Hair Implantation) tekniğiyle yüksek yoğunluk ve doğal açı. Choi kalemiyle eş zamanlı alım ve yerleştirme."
+    },
+    "sapphire": {
+      "title": "Sapphire FUE Saç Ekimi | Altınsoy",
+      "description": "Safir uçlu özel bıçaklarla açılan kanallar sayesinde daha hızlı iyileşme ve daha doğal saç çizgisi."
+    },
+    "sakal": {
+      "title": "Sakal Ekimi | Yüz Hatlarınıza Özel Tasarım | Altınsoy",
+      "description": "Sakal ekimi ile boş alanlar doğal yoğunlukla kapatılır. Yüz hatlarınıza uygun tasarım, kalıcı sonuçlar."
+    },
+    "kas": {
+      "title": "Kaş Ekimi | İnce Detay Cerrahisi | Altınsoy",
+      "description": "Kaş ekimi ile zayıf, dökülmüş veya boşalan kaşlar geri kazanılır. Mikro greft tekniği ile doğal yön ve açı."
+    },
+    "fueVsDhi": {
+      "title": "FUE vs DHI: Hangisi Sizin İçin Doğru? | Altınsoy",
+      "description": "FUE ve DHI tekniklerinin detaylı karşılaştırması. Hangi teknik kim için, ne zaman, neden? Uzman cerrahımızdan rehber."
+    },
+    "sacAnalizi": {
+      "title": "Ücretsiz Saç Analizi | Altınsoy",
+      "description": "3 adımda ücretsiz saç analizi. 24 saat içinde uzman ekibimizden kişisel plan ve fiyat teklifi."
+    },
+    "fiyat": {
+      "title": "Saç Ekimi Fiyatları | Şeffaf Paketler | Altınsoy",
+      "description": "Saç ekimi fiyatlarımız: FUE, DHI ve Sapphire paketleri. Şeffaf fiyatlandırma, gizli maliyet yok. Avrupa standartlarında kalite, İstanbul fiyatı."
+    },
+    "fiyatHesaplama": {
+      "title": "Saç Ekimi Fiyat Hesaplama | Altınsoy",
+      "description": "Greft sayısı ve teknik tercihinize göre saç ekimi fiyat tahminini anında hesaplayın."
+    },
+    "greftHesaplama": {
+      "title": "Greft Sayısı Hesaplama | Norwood Skalası | Altınsoy",
+      "description": "Norwood skalasına göre kaç greft gerektiğini hesaplayın. Saç dökülme seviyenize uygun greft tahmini."
+    },
+    "oncesiSonrasi": {
+      "title": "Saç Ekimi Öncesi & Sonrası | Vakalarımız | Altınsoy",
+      "description": "Gerçek hastalarımızın saç ekimi öncesi ve sonrası görüntüleri. FUE, DHI, Sapphire vakaları."
+    },
+    "iletisim": {
+      "title": "İletişim | Randevu ve Ücretsiz Konsültasyon | Altınsoy",
+      "description": "İstanbul'daki kliniğimizle iletişime geçin. WhatsApp, telefon, e-posta ile 24 saat içinde dönüş."
+    },
+    "uygunDegil": {
+      "title": "Saç Ekimine Uygun Değil Misiniz? | Altınsoy",
+      "description": "Saç ekimine uygun olmayan durumlar ve alternatif çözümler. Dürüst değerlendirme."
+    },
+    "vakaDhiSakal": {
+      "title": "DHI Sakal Vakası — 1.800 Greft | Altınsoy",
+      "description": "DHI tekniğiyle 1.800 greft sakal ekimi vakası. Detaylı süreç, öncesi-sonrası ve sonuçlar."
+    },
+    "vakaFue": {
+      "title": "FUE Saç Ekimi Vakası — 3.200 Greft | Altınsoy",
+      "description": "FUE tekniğiyle 3.200 greft saç ekimi vakası. Norwood 4 hastanın tam dönüşümü."
+    },
+    "vakaKas": {
+      "title": "Kaş Restorasyonu Vakası — 400 Greft | Altınsoy",
+      "description": "Mikro greft kaş restorasyonu vakası. Doğal yön, ince işçilik, kalıcı sonuç."
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni | Altınsoy",
+      "description": "Kişisel verilerin korunması ve işlenmesi hakkında aydınlatma metni."
+    },
+    "gizlilik": {
+      "title": "Gizlilik Politikası | Altınsoy",
+      "description": "Gizlilik politikamız ve veri koruma yaklaşımımız."
+    },
+    "cerez": {
+      "title": "Çerez Politikası | Altınsoy",
+      "description": "Web sitemizde kullanılan çerezler ve tercihleriniz."
+    }
+  },
+  "nav": {
+    "expertise": "Uzmanlık",
+    "techniques": "Teknikler",
+    "results": "Dönüşümler",
+    "price": "Fiyat",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "cta": "Ücretsiz Analiz",
+    "menu": "Menü",
+    "close": "Kapat",
+    "switchLocale": "Dil değiştir"
+  },
+  "footer": {
+    "brand": {
+      "name": "Altınsoy",
+      "tagline": "Doğal Sonuçlar, Kalıcı Güven.",
+      "blurb": "İstanbul merkezli saç, sakal ve kaş restorasyon cerrahisi kliniği. On beş yıllık deneyim, kırk iki ülkeden hasta."
+    },
+    "contact": {
+      "title": "İletişim",
+      "address": "Türkiye —\nİstanbul, Avrupa Yakası",
+      "whatsapp": "WhatsApp"
+    },
+    "links": {
+      "title": "Bağlantılar",
+      "home": "Anasayfa",
+      "hairTransplant": "Saç Ekimi",
+      "beardTransplant": "Sakal Ekimi",
+      "browTransplant": "Kaş Ekimi",
+      "results": "Öncesi & Sonrası",
+      "contact": "İletişim",
+      "techniques": "FUE & DHI Teknikler",
+      "pricing": "Fiyatlar",
+      "faq": "SSS"
+    },
+    "social": {
+      "title": "Bizi Takip Edin",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "x": "X (Twitter)",
+      "gmail": "E-posta",
+      "whatsapp": "WhatsApp",
+      "googleMaps": "Konum"
+    },
+    "legal": {
+      "privacy": "Gizlilik Politikası",
+      "cookies": "Çerez Politikası",
+      "kvkk": "KVKK Aydınlatma",
+      "rights": "Tüm hakları saklıdır.",
+      "disclaimer": "Bu web sitesindeki içerik genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Kişisel durumunuza uygun değerlendirme ancak uzman hekim konsültasyonu ile yapılabilir. Bireysel sonuçlar değişkenlik gösterebilir."
+    },
+    "copyrightLine": "© {year} Altınsoy Saç Ekim Merkezi. Tüm hakları saklıdır.",
+    "location": "İstanbul, Türkiye"
+  },
+  "common": {
+    "freeAnalysis": "Ücretsiz Saç Analizi",
+    "whatsapp": "WhatsApp",
+    "bookConsultation": "Randevu Al",
+    "learnMore": "Daha Fazla",
+    "free": "Ücretsiz",
+    "nonBinding": "Bağlayıcı değil",
+    "replyIn24h": "24 saat içinde dönüş",
+    "loading": "Yükleniyor...",
+    "sending": "Gönderiliyor...",
+    "send": "Gönder",
+    "name": "Adınız",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "submit": "Gönder",
+    "back": "Geri",
+    "next": "İleri",
+    "close": "Kapat",
+    "open": "Aç",
+    "yes": "Evet",
+    "no": "Hayır",
+    "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir."
+  },
+  "hero": {
+    "badge": "İSTANBUL'UN GÜVEN VERDİĞİ KLİNİK",
+    "headline1": "Doğal",
+    "headline2": "Sonuçlar.",
+    "subheadline": "Saç ekimi teknolojisinin geldiği son nokta. Kanıtlanmış FUE & DHI tekniklerle, her çizgi sizin için çizilir.",
+    "namePlaceholder": "Adınız",
+    "phonePlaceholder": "Telefon numaranız",
+    "ctaPrimary": "Ücretsiz Analiz Al",
+    "trustLine": "Ücretsiz · Bağlayıcı değil · 24 saat içinde yanıt"
+  },
+  "whatsappFloat": {
+    "title": "WhatsApp ile yazın",
+    "ariaLabel": "WhatsApp ile iletişime geçin",
+    "defaultMessage": "Merhaba, saç ekimi hakkında bilgi almak istiyorum."
+  },
+  "cookieBanner": {
+    "text": "Bu web sitesi deneyiminizi iyileştirmek için çerezler kullanmaktadır. Detaylar için",
+    "policyLink": "Çerez Politikamızı",
+    "policyLinkSuffix": "inceleyebilirsiniz.",
+    "decline": "Reddet",
+    "accept": "Kabul Et"
+  },
+  "chat": {
+    "openLabel": "Sohbet aç",
+    "closeLabel": "Kapat",
+    "dialogLabel": "Altınsoy sohbet asistanı",
+    "headerTitle": "Altınsoy Asistan",
+    "online": "Çevrimiçi",
+    "disclaimer": "Bu asistan genel bilgi amaçlıdır. Tıbbi teşhis veya tedavi önerisi yerine geçmez.",
+    "greeting": "Merhaba 👋 Altınsoy Hair Clinic asistanıyım. Saç, sakal veya kaş restorasyonu hakkında sorularınıza yardımcı olmaya çalışacağım. <strong>Tıbbi kesin değerlendirme</strong> için ücretsiz konsültasyonunuzu yapabilirsiniz.",
+    "greetingFollowup": "Size nasıl yardımcı olabilirim?",
+    "inputPlaceholder": "Mesajınızı yazın...",
+    "sendLabel": "Gönder",
+    "footerText": "Altınsoy Hair Clinic · KVKK Uyumlu",
+    "defaultResponse": "Sorunuzu tam anlayamadım. Daha ayrıntılı yardım için:<br>• <a href=\"https://wa.me/905539784242\" style=\"color:#e9c176;text-decoration:underline\">WhatsApp'tan yazın</a><br>• <a href=\"{analysisUrl}\" style=\"color:#e9c176;text-decoration:underline\">Ücretsiz analiz formunu doldurun</a><br>• Üstteki hızlı soru butonlarını deneyin",
+    "quickReplies": {
+      "price": "Saç ekimi fiyatları nedir?",
+      "fueDhi": "FUE ve DHI arasındaki fark nedir?",
+      "pain": "Saç ekimi ağrılı mıdır?",
+      "results": "Sonuçlar ne zaman görünür?",
+      "analysis": "Ücretsiz analiz nasıl başlar?"
+    },
+    "responses": {
+      "price": "Altınsoy'da saç ekimi paketleri <strong>€2.500 — €5.000</strong> arasında yer alır. Fiyat teknik, greft sayısı ve pakete göre değişir. Detaylı bilgi için <a href=\"{priceUrl}\" style=\"color:#e9c176;text-decoration:underline\">fiyat sayfamızı</a> inceleyebilir veya ücretsiz konsültasyon talep edebilirsiniz.",
+      "fueDhi": "<strong>Kısa cevap:</strong> Hiçbiri \"daha iyi\" değil — her biri farklı durumlar için idealdir.<br><br>FUE: Geniş alanlar (3000–5000 greft), 4–6 saat<br>DHI: Hassas açı, yüksek yoğunluk (2000–3500 greft), 5–7 saat<br><br>Detaylı karşılaştırma için <a href=\"{compareUrl}\" style=\"color:#e9c176;text-decoration:underline\">bu sayfayı</a> inceleyebilirsiniz.",
+      "pain": "İşlem <strong>lokal anestezi</strong> altında yapılır. Anestezi uygulaması sırasında kısa süreli bir rahatsızlık hissedilir, ancak işlem boyunca ağrı hissetmezsiniz. Operasyon sonrası hafif gerginlik reçeteli ilaçlarla yönetilir.",
+      "results": "<strong>Zaman çizelgesi:</strong><br>• İlk 2–4 hafta: şok dökülme (normal)<br>• 3–4. ay: ilk yeni çıkışlar<br>• 6–8. ay: belirgin yoğunlaşma<br>• 12–18. ay: nihai sonuç<br><br>Bireysel sonuçlar değişkenlik gösterebilir.",
+      "analysis": "3 adımlık basit bir süreç:<br>1. İlgi alanınızı seçin (saç/sakal/kaş)<br>2. Dökülme seviyenizi işaretleyin<br>3. İletişim bilgilerinizi bırakın<br><br>24 saat içinde uzman ekibimiz kişisel planınızla döner. <a href=\"{analysisUrl}\" style=\"color:#e9c176;text-decoration:underline\">Analizi başlat →</a>"
+    }
+  },
+  "siteBanner": {
+    "closeLabel": "Kapat"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "fallbackEyebrow": "Saç, Sakal & Kaş Restorasyonunda Ustalık",
+        "fallbackHeadline": "Görünmezlik",
+        "fallbackHeadlineItalic": "Sanatı.",
+        "fallbackBody": "İstanbul'da saç ekimi cerrahisi. Sadece kök nakli yapmıyoruz; kimliğinizin doğal akışını tasarlıyor, her bir telin oraya kusursuzca ait olmasını sağlıyoruz.",
+        "fallbackCta": "Analize Başlayın",
+        "imageAlt": "Altınsoy saç ekim merkezi profesyonel ortam",
+        "establishedLine": "Est. İstanbul"
+      },
+      "trust": {
+        "operations": "Başarılı\nOperasyon",
+        "rating": "Google\nRating",
+        "countries": "Ülkeden\nHasta",
+        "experience": "Yıl\nDeneyim",
+        "ishrs": "Sertifikalı\nKlinik"
+      },
+      "process": {
+        "eyebrow": "Nasıl Çalışır",
+        "title": "Adım Adım",
+        "titleAccent": "Süreciniz",
+        "subtitle": "İlk mesajınızdan nihai sonuca kadar her aşamayı şeffaf biçimde yönetiyoruz.",
+        "steps": {
+          "s1": {
+            "title": "Ücretsiz Analiz",
+            "desc": "Fotoğraflarınızı gönderin, uzmanımız 24 saat içinde kişisel değerlendirmenizi hazırlasın. Online veya yüz yüze."
+          },
+          "s2": {
+            "title": "Kişisel Planlama",
+            "desc": "Greft sayısı, teknik seçimi ve saç çizgisi tasarımı birlikte belirlenir. Hiçbir şey standart değil."
+          },
+          "s3": {
+            "title": "Operasyon Günü",
+            "desc": "Lokal anestezi altında 4–7 saat. İşlem günü kliniğe gelinir, akşam eve dönülür."
+          },
+          "s4": {
+            "title": "Takip & Sonuç",
+            "desc": "12–18 ay boyunca düzenli kontrol. Nihai sonuç tam yoğunlukta ve tamamen doğal."
+          }
+        },
+        "cta": "Analize Başlayın"
+      },
+      "empathy": {
+        "titleAccent": "Yapaylık",
+        "titleRest": "korkusuna son.",
+        "p1": "Pek çok klinik sadece miktara odaklanır. Binlerce tel sözü verirler ancak sonuç genellikle sert, doğrusal ve inkar edilemez şekilde sahte duran bir etkidir.",
+        "p2Lead": "Altınsoy'da biz",
+        "p2Underlined": "Organik Gerçekçiliğe",
+        "p2Trail": "odaklanıyoruz. İster sakal ister kaş olsun, doğanın o eşsiz ve süptil büyüme paternlerini ustalıkla taklit ediyoruz.",
+        "imageAlt": "Saç dokusu makro fotoğraf, altın ışık detayları",
+        "quote": "En büyük restorasyon, kimsenin fark etmediğidir."
+      },
+      "techniques": {
+        "eyebrow": "Teknikler",
+        "title": "Saç Ekimi",
+        "titleAccent": "Teknikleri",
+        "subtitle": "Saç tipinize, dökülme seviyenize ve beklentilerinize göre en uygun tekniği birlikte belirliyoruz.",
+        "fue": {
+          "badge": "En Çok Tercih Edilen",
+          "title": "FUE",
+          "desc": "Tek tek follikül alımıyla iz bırakmayan mikro cerrahi teknik. Geniş alanlar ve yüksek greft sayıları için ideal.",
+          "duration": "4–6 saat",
+          "recovery": "7–10 gün",
+          "result": "12–18 ay"
+        },
+        "dhi": {
+          "badge": "Hassas Açı Kontrolü",
+          "title": "DHI",
+          "desc": "Choi kalemiyle direkt implantasyon. Mevcut saçlar arasına ekim ve yüksek yoğunluk gereken bölgeler için ideal.",
+          "duration": "5–7 saat",
+          "recovery": "7–10 gün",
+          "result": "12–18 ay"
+        },
+        "sapphire": {
+          "badge": "Minimal Kesi",
+          "title": "Sapphire FUE",
+          "desc": "Safir uçlu bıçakla daha küçük kesi alanı ve daha hızlı iyileşme. FUE'nin geliştirilmiş versiyonu.",
+          "duration": "4–6 saat",
+          "recovery": "5–7 gün",
+          "result": "12–18 ay"
+        },
+        "labels": {
+          "duration": "İşlem",
+          "recovery": "İyileşme",
+          "result": "Tam sonuç"
+        }
+      },
+      "recovery": {
+        "eyebrow": "İyileşme Süreci",
+        "title": "Operasyon Sonrası",
+        "titleAccent": "Ne Beklenir?",
+        "subtitle": "Her aşama normaldir ve öngörülebilir. Sürecin neye benzeyeceğini önceden bilin.",
+        "phases": {
+          "p1": {
+            "period": "1–3 Gün",
+            "badge": "İlk Süreç",
+            "desc": "Sargı ve dinlenme. Hafif şişlik ve hassasiyet normaldir. Doğrudan su temasından kaçının."
+          },
+          "p2": {
+            "period": "3–14 Gün",
+            "badge": "Kabuklanma",
+            "desc": "Küçük kabuklar oluşur ve dökülür. 3. günden itibaren nazik yıkamaya başlanabilir."
+          },
+          "p3": {
+            "period": "2–4 Hafta",
+            "badge": "Şok Dökülme",
+            "desc": "Ekilen teller dökülür — bu tamamen normaldir. Kökler sağlıklı, büyüme hazırlığında."
+          },
+          "p4": {
+            "period": "3–6 Ay",
+            "badge": "Yeni Büyüme",
+            "desc": "İlk yeni teller çıkmaya başlar. İnce ve hafif kıvrımlı olabilir; zamanla güçlenir."
+          },
+          "p5": {
+            "period": "12–18 Ay",
+            "badge": "Nihai Sonuç",
+            "desc": "Tam yoğunluk ve doğallık. Sonuç kalıcıdır; ekilen kökler ömür boyu dökülmez."
+          }
+        },
+        "footnote": "Bireysel iyileşme süreci değişkenlik gösterebilir. Kesin bilgi için konsültasyon gereklidir."
+      },
+      "surgeon": {
+        "imageAlt": "Altınsoy baş cerrahı profesyonel portre",
+        "eyebrow": "Kurucu Ekip",
+        "title1": "Altınsoy",
+        "title2": "Klinik Ekibi",
+        "subtitle": "ISHRS üyesi uzman hekimler ve 15 yıllık deneyimli cerrahi ekip.",
+        "stats": {
+          "experienceValue": "15+",
+          "experienceLabel": "Yıllık Deneyim",
+          "operationsValue": "10.000+",
+          "operationsLabel": "Başarılı Operasyon"
+        },
+        "quote": "Saç restorasyonu milimetrik bir cerrahi olduğu kadar gölge ve ışık sanatıdır. Sadece saç çizgisini değil, yüzün hikâyesini takip ediyoruz.",
+        "phoneCta": "İletişim: +90 553 978 42 42"
+      },
+      "cases": {
+        "eyebrow": "Sonuçlar",
+        "title": "Saç Ekimi",
+        "titleAccent": "Sonuçları",
+        "subtitle": "Saç, sakal ve kaş restorasyonlarından seçilmiş vakalar. Değişime tanık olmak için kaydırın.",
+        "disclaimer": "Tüm görseller hasta onayıyla paylaşılmaktadır. Bireysel sonuçlar değişkenlik gösterebilir.",
+        "navPrev": "Önceki vakaları gör",
+        "navNext": "Sonraki vakaları gör",
+        "viewAll": "Tüm Vakalar",
+        "card": {
+          "before": "ÖNCE",
+          "after": "SONRA",
+          "tapToBefore": "Öncesini gör",
+          "tapToAfter": "Sonrasını gör",
+          "beforeAlt": "Öncesi",
+          "afterAlt": "Sonrası",
+          "ageSuffix": "yaş",
+          "graftsSuffix": "greft",
+          "imagePlaceholder": "Görsel Ekleniyor",
+          "categoryHair": "Saç",
+          "categoryBeard": "Sakal",
+          "categoryBrow": "Kaş"
+        }
+      },
+      "international": {
+        "eyebrow": "42 Ülkeden Hasta",
+        "titleLine1": "Yurt dışından",
+        "titleAccent": "geliyorsanız,",
+        "titleLine2": "her şey hazır.",
+        "body": "İstanbul, dünyanın en köklü saç ekimi merkezlerinden biri. Siz sadece gelin; havalimanından kliniğe, konaklamadan takibe kadar her adımı biz yönetiyoruz.",
+        "languageLabel": "Dil desteği",
+        "cta": "Bilgi Alın",
+        "services": {
+          "consult": {
+            "title": "Online Konsültasyon",
+            "desc": "Gelmeden önce tüm detaylar netleşir. Fotoğraf analizi + greft planı."
+          },
+          "transfer": {
+            "title": "Havalimanı Transferi",
+            "desc": "Klinik aracı sizi karşılar. Ekstra koordinasyon gerekmez."
+          },
+          "hotel": {
+            "title": "Konaklama Desteği",
+            "desc": "Partner oteller veya Airbnb önerileri. Kliniğe yakın, konforlu."
+          },
+          "duration": {
+            "title": "2–3 Gün Yeterli",
+            "desc": "Konsültasyon + operasyon + ilk kontrol. Hafta sonu bile planlanabilir."
+          },
+          "support": {
+            "title": "7/24 Destek",
+            "desc": "Operasyon sonrası sorularınız için WhatsApp hattımız her zaman açık."
+          },
+          "remote": {
+            "title": "Uzaktan Takip",
+            "desc": "Yurda dönünce fotoğraf gönderin, uzaktan kontrol yapılır."
+          }
+        }
+      },
+      "testimonial": {
+        "quote": "Sonuç beklediğimden çok daha doğal görünüyor. Ameliyat günü dahil her şey son derece profesyoneldi. Ekip sizi gerçekten dinliyor.",
+        "attribution": "Julian W. — Londra, İngiltere · Google Reviews"
+      },
+      "faq": {
+        "eyebrow": "SSS",
+        "title": "Sıkça Sorulan",
+        "titleAccent": "Sorular",
+        "intro": "Aklınıza takılan başka sorular için bize doğrudan ulaşabilirsiniz.",
+        "q1": {
+          "question": "Saç ekimi operasyonu ağrılı mı?",
+          "answer": "Operasyon lokal anestezi altında yapılır. Anestezi uygulaması sırasında kısa süreli bir rahatsızlık hissedilebilir, ancak işlem boyunca ağrı hissetmezsiniz. Operasyon sonrası hafif bir gerginlik hissi normal olup birkaç gün içinde geçer."
+        },
+        "q2": {
+          "question": "Saç ekimi sonuçları ne zaman görülür?",
+          "answer": "Ekilen saçlar ilk 2–4 haftada dökülür — bu şok dökülmesi olarak adlandırılır ve tamamen normaldir. Yeni saçlar 3–4 ayda çıkmaya başlar. Nihai sonuç 12–18 ayda görülür. Bireysel sonuçlar değişkenlik gösterebilir."
+        },
+        "q3": {
+          "question": "Kaç greft gerekli?",
+          "answer": "Greft sayısı dökülme seviyenize, donor alanınızın kapasitesine ve beklentilerinize göre belirlenir. Ücretsiz saç analizimizde size özel greft planı çıkarılır."
+        },
+        "q4": {
+          "question": "FUE ve DHI arasındaki fark nedir?",
+          "answer": "FUE'de greftler tek tek alınıp kanal açıldıktan sonra yerleştirilir. DHI'da ise Choi kalemiyle alım ve yerleştirme eş zamanlı yapılır — bu da açı ve yön kontrolünü artırır. Hangi tekniğin sizin için uygun olduğu ücretsiz konsültasyonda belirlenir."
+        },
+        "q5": {
+          "question": "Yurt dışından geliyorum, süreç nasıl işliyor?",
+          "answer": "Havalimanı transferi, otel konaklaması ve klinik ulaşımı dahil paketlerimiz mevcuttur. Online konsültasyonla ön değerlendirme yapılır, İstanbul'da iki–üç gün kalmanız yeterlidir."
+        },
+        "q6": {
+          "question": "Saçımı ne zaman normal şekilde yıkayabilirim?",
+          "answer": "Nazik yıkama 3. günden itibaren başlar. Greftler yerleştikten sonra, 14. günden itibaren normal duş basıncı ve masaj tekniklerine dönebilirsiniz. İlk hafta doğrudan su basıncından kaçının ve steril gazlı bezle hafifçe kurulayın."
+        },
+        "q7": {
+          "question": "Şok dökülme normal mi, endişelenmeli miyim?",
+          "answer": "Şok dökülme tamamen normaldir ve sağlıklı bir foliküler döngünün işaretidir. Operasyondan 2–4 hafta sonra ekilen saç telleri dökülür, ancak canlı kökler yerindedir ve kalıcı, daha güçlü saçlar üretmek üzere çalışmaya devam eder. Yeni çıkışlar genellikle 3–4. ayda başlar."
+        },
+        "q8": {
+          "question": "Ağır egzersizlere ne zaman başlayabilirim?",
+          "answer": "Hafif kardiyo 14 gün sonra başlanabilir. Ancak ağır ağırlık kaldırma ve temas sporlarından 4 hafta kaçınılmalıdır — kan basıncı artışları greft sağlığını olumsuz etkileyebilir. Kademeli olarak eski rutininize dönebilirsiniz."
+        }
+      },
+      "cta": {
+        "eyebrow": "Ücretsiz Konsültasyon",
+        "title": "Kişisel saç analizinizi",
+        "titleAccent": "başlatın.",
+        "body": "Adınızı ve numaranızı bırakın, uzman ekibimiz yirmi dört saat içinde sizinle iletişime geçsin.",
+        "namePlaceholder": "Adınız",
+        "phonePlaceholder": "Telefon / WhatsApp",
+        "submit": "Gönder",
+        "submitting": "Gönderiliyor…",
+        "trust": {
+          "free": "Ücretsiz",
+          "nonBinding": "Bağlayıcı değil",
+          "reply24": "24 saat içinde dönüş"
+        },
+        "consentLead": "Kişisel verilerimin konsültasyon amacıyla işlenmesini kabul ediyorum.",
+        "consentKvkk": "KVKK Aydınlatma Metni",
+        "consentAnd": "ve",
+        "consentPrivacy": "Gizlilik Politikası",
+        "consentTrail": "'nı okudum, anladım.",
+        "footnote": "Formun gönderilmesiyle kişisel verileriniz yalnızca konsültasyon amacıyla işlenir, üçüncü taraflarla paylaşılmaz. Detaylı bilgi için yukarıdaki politikalara bakınız.",
+        "successMessage": "Talebiniz alındı. Uzmanımız en geç 24 saat içinde sizinle iletişime geçecek.",
+        "errorMessage": "Bir hata oluştu. Lütfen WhatsApp veya telefon ile bize ulaşın."
+      }
+    },
+    "contact": {
+      "hero": {
+        "eyebrow": "RANDEVU & İLETİŞİM",
+        "title": "İletişim & Randevu",
+        "subtitle": "WhatsApp, telefon, e-posta veya form. 7/24 ulaşabilir, 24 saat içinde dönüş yapabiliriz."
+      },
+      "channels": {
+        "whatsapp": {
+          "title": "WhatsApp",
+          "desc": "En hızlı yanıt yolu",
+          "detail": "+90 553 978 42 42"
+        },
+        "phone": {
+          "title": "Telefon",
+          "desc": "Pazartesi–Cumartesi 09:00–18:00",
+          "detail": "+90 553 978 42 42"
+        },
+        "email": {
+          "title": "E-posta",
+          "desc": "24 saat içinde yanıt",
+          "detail": "info@altinsoy.com"
+        },
+        "address": {
+          "title": "Klinik Adresi",
+          "desc": "İstanbul, Türkiye"
+        }
+      },
+      "form": {
+        "title": "Mesaj Gönderin",
+        "subtitle": "Formunuz 24 saat içinde yanıtlanacaktır. WhatsApp için anında yanıt alabilirsiniz.",
+        "successTitle": "Mesajınız alındı!",
+        "successText": "Uzmanımız en geç 24 saat içinde sizinle iletişime geçecek.",
+        "newMessage": "Yeni mesaj gönder",
+        "nameLabel": "Ad Soyad *",
+        "namePlaceholder": "Adınız Soyadınız",
+        "emailLabel": "E-posta",
+        "emailPlaceholder": "ornek@email.com",
+        "phoneLabel": "Telefon *",
+        "phonePlaceholder": "+90 5XX XXX XX XX",
+        "areaLabel": "İlgi Alanı",
+        "areaHair": "Saç Restorasyonu",
+        "areaBeard": "Sakal Ekimi",
+        "areaBrow": "Kaş Restorasyonu",
+        "messageLabel": "Mesajınız",
+        "messagePlaceholder": "Sorularınızı veya notlarınızı buraya yazabilirsiniz.",
+        "consentText": "Kişisel verilerimin",
+        "consentLink": "KVKK",
+        "consentSuffix": "kapsamında işlenmesini kabul ediyorum.",
+        "submit": "Mesajı Gönder",
+        "submitting": "Gönderiliyor…",
+        "errorPrefix": "Bir hata oluştu. Lütfen",
+        "errorLink": "WhatsApp",
+        "errorSuffix": "ile bize ulaşın.",
+        "replyNote": "Formunuz 24 saat içinde yanıtlanacaktır."
+      },
+      "social": {
+        "title": "Sosyal Medyada Takip Edin",
+        "subtitle": "Güncel içerikler, hasta hikayeleri ve duyurular için bizi takip edin.",
+        "labels": {
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "x": "X",
+          "gmail": "E-posta",
+          "whatsapp": "WhatsApp",
+          "googleMaps": "Google Maps"
+        }
+      },
+      "trust": {
+        "ssl": "SSL şifreli",
+        "kvkk": "KVKK uyumlu",
+        "noSale": "Veriler satılmaz"
+      }
+    },
+    "analysis": {
+      "hero": {
+        "stepLabel": "Adım 0{step} / 03",
+        "titlePart1": "Kişisel saç analizinizi",
+        "titleAccent": "başlatın.",
+        "subtitle": "60 saniyede ücretsiz online saç analizi. Dökülme seviyenizi belirleyin, kişisel tedavi planınızı alın.",
+        "tags": {
+          "free": "Ücretsiz",
+          "nonBinding": "Bağlayıcı değil",
+          "reply24h": "24 saat dönüş"
+        }
+      },
+      "steps": {
+        "s1": "İlgi Alanı",
+        "s2": "Dökülme Profili",
+        "s3": "İletişim & Fotoğraf"
+      },
+      "trust": {
+        "ssl": "SSL şifreli",
+        "kvkk": "KVKK uyumlu",
+        "noSale": "Veriler satılmaz"
+      },
+      "areas": {
+        "hair": "Saç Restorasyonu",
+        "beard": "Sakal Ekimi",
+        "brow": "Kaş Restorasyonu"
+      },
+      "profiles": {
+        "hair": {
+          "p1": { "label": "Hafif Seyrelme", "sub": "Norwood I–II" },
+          "p2": { "label": "Ön Hat Çekilmesi", "sub": "Norwood III" },
+          "p3": { "label": "Tepe Bölgesi", "sub": "Norwood III–IV" },
+          "p4": { "label": "İleri Evre", "sub": "Norwood V+" }
+        },
+        "beard": {
+          "p1": { "label": "Yoğunlaştırma", "sub": "" },
+          "p2": { "label": "Eksik Bölge", "sub": "" },
+          "p3": { "label": "Tam Sakal", "sub": "" }
+        },
+        "brow": {
+          "p1": { "label": "Seyrelme", "sub": "" },
+          "p2": { "label": "Şekil Düzeltme", "sub": "" },
+          "p3": { "label": "Tam Restorasyon", "sub": "" }
+        }
+      },
+      "step1": {
+        "title": "İlgi Alanınızı Seçin",
+        "subtitle": "Hangi bölge için analiz yaptırmak istiyorsunuz?",
+        "next": "Devam"
+      },
+      "step2": {
+        "title": "Dökülme Profilinizi Belirleyin",
+        "subtitle": "Size en yakın durumu seçin.",
+        "back": "Geri",
+        "next": "Devam"
+      },
+      "step3": {
+        "title": "İletişim Bilgilerinizi Girin",
+        "subtitle": "Uzman ekibimiz 24 saat içinde size dönüş yapacak.",
+        "fullNameLabel": "Ad Soyad",
+        "fullNamePlaceholder": "Adınız Soyadınız",
+        "emailLabel": "E-posta",
+        "emailPlaceholder": "ornek@email.com",
+        "phoneLabel": "Telefon",
+        "phonePlaceholder": "+90 5XX XXX XX XX",
+        "photoLabel": "Fotoğraf Yükle",
+        "photoHint": "Opsiyonel — analizinizi hızlandırır",
+        "consentText": "Kişisel verilerimin",
+        "consentLink": "KVKK",
+        "consentSuffix": "kapsamında işlenmesini kabul ediyorum.",
+        "successText": "Analiziniz alındı! Uzmanımız 24 saat içinde sizinle iletişime geçecek.",
+        "back": "Geri",
+        "submit": "Analizi Tamamla & Gönder",
+        "uploading": "Fotoğraf yükleniyor…",
+        "saving": "Kaydediliyor…",
+        "errorText": "Bir hata oluştu. Lütfen WhatsApp ile bize ulaşın."
+      }
+    },
+    "pricing": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "pricing": "Fiyat"
+      },
+      "hero": {
+        "eyebrow": "ŞEFFAF FİYATLANDIRMA",
+        "titlePart1": "Şeffaf fiyat,",
+        "titleAccent": "sürprizsiz süreç.",
+        "subtitle": "Saç ekimi fiyatları teknik, greft sayısı ve seçilen pakete göre değişir. Bu sayfada paket içeriklerini ve fiyat aralıklarını görebilirsiniz. Kişisel fiyat, ücretsiz konsültasyon sonrasında yazılı olarak paylaşılır."
+      },
+      "shortAnswer": {
+        "title": "Kısa cevap",
+        "body": "Altınsoy Hair Clinic'te saç ekimi paketleri <strong>€2.500 ile €5.000</strong> arasında yer alır. Fiyat; uygulanan teknik (FUE, DHI, Sapphire), greft sayısı ve pakete dahil ek hizmetlere (konaklama, transfer, çeviri) göre belirlenir. Her pakette ne olduğu sayfada şeffaflıkla listelenmiştir — hesap konsültasyonda yazılı teklif olarak verilir."
+      },
+      "packages": {
+        "eyebrow": "PAKETLER",
+        "title": "Size uygun paket",
+        "subtitle": "3 farklı paket, farklı ihtiyaçlar. Konsültasyonda size uygun olanı birlikte belirleriz.",
+        "labels": {
+          "priceRange": "Fiyat aralığı",
+          "rangeNote": "Teknik ve greft sayısına göre değişir",
+          "rangeNoteFull": "Tüm hizmetler dahil",
+          "includedTitle": "Dahil:",
+          "includedAddOn": "Dahil (Standart pakete ek olarak):",
+          "includedAddOnPremium": "Dahil (Premium pakete ek olarak):",
+          "popularBadge": "En Çok Tercih Edilen",
+          "moreInfo": "Detaylı Bilgi Al"
+        },
+        "standard": {
+          "tag": "Paket 01",
+          "title": "Standart",
+          "subtitle": "Operasyon odaklı — yurt içi hastalar için ideal",
+          "range": "€2.500 — €3.500",
+          "items": {
+            "i1": "Operasyon (FUE veya DHI)",
+            "i2": "Lokal anestezi",
+            "i3": "Operasyon sonrası ilk yıkama",
+            "i4": "Bakım seti (şampuan, sprey)",
+            "i5": "Reçeteli ilaçlar",
+            "i6": "Kontrol randevusu (1 adet)",
+            "i7": "WhatsApp destek (12 ay)"
+          }
+        },
+        "premium": {
+          "tag": "Paket 02",
+          "title": "Premium",
+          "subtitle": "Konaklama + transfer dahil",
+          "range": "€3.500 — €4.500",
+          "items": {
+            "i1": "4* otel konaklama (2 gece)",
+            "i2": "Havalimanı - otel - klinik transferleri",
+            "i3": "Sapphire FUE veya DHI tekniği",
+            "i4": "PRP takviyesi (1 seans)",
+            "i5": "Kontrol randevuları (2 adet)",
+            "i6": "Öncelikli WhatsApp destek"
+          }
+        },
+        "international": {
+          "tag": "Paket 03",
+          "title": "Uluslararası",
+          "subtitle": "Yurt dışı hastaları için tam paket",
+          "range": "€4.500 — €5.000",
+          "items": {
+            "i1": "5 gece 4* konaklama",
+            "i2": "VIP havalimanı karşılama",
+            "i3": "Çeviri hizmeti (İng/Ar/De/Ru)",
+            "i4": "Online video konsültasyon",
+            "i5": "Uzatılmış bakım takibi (18 ay)",
+            "i6": "İstanbul tur rehberi (opsiyonel)"
+          }
+        },
+        "footnote": "Fiyatlar bilgilendirme amaçlıdır. Kesin fiyat, ücretsiz konsültasyon sonrası kişisel değerlendirme ile belirlenir ve yazılı teklif olarak paylaşılır."
+      },
+      "notIncluded": {
+        "eyebrow": "ŞEFFAFLIK",
+        "title": "Paketlere dahil olmayanlar",
+        "subtitle": "Sürpriz istemeyiz. Paketlere standart olarak dahil olmayan hizmetleri de net listeliyoruz:",
+        "items": {
+          "flight": {
+            "title": "Uçuş bileti",
+            "desc": "Uluslararası hastalar için uçuş bileti hastanın sorumluluğundadır."
+          },
+          "visa": {
+            "title": "Vize işlemleri",
+            "desc": "Türkiye'ye giriş vizesi (gerekiyorsa) hasta tarafından alınır."
+          },
+          "extraStay": {
+            "title": "Ekstra konaklama",
+            "desc": "Paket süresini aşan günler için konaklama ek ücretlidir."
+          },
+          "extraTreatment": {
+            "title": "İleri PRP/Mesoterapi",
+            "desc": "Standart paketteki ek tedaviler dışında ayrı seans ücretleri farklıdır."
+          }
+        }
+      },
+      "payment": {
+        "eyebrow": "ÖDEME",
+        "title": "Ödeme seçenekleri",
+        "cash": {
+          "title": "Nakit",
+          "desc": "EUR, USD veya TL olarak klinikte kabul edilir."
+        },
+        "card": {
+          "title": "Kredi Kartı",
+          "desc": "Taksit seçenekleri mevcuttur. Detaylar konsültasyonda."
+        },
+        "transfer": {
+          "title": "Uluslararası Transfer",
+          "desc": "SWIFT transferi ile ön ödeme ve bakiye seçenekleri."
+        }
+      },
+      "faq": {
+        "eyebrow": "SIKÇA SORULAN",
+        "title": "Fiyat hakkında sorular",
+        "items": {
+          "q1": {
+            "q": "Saç ekimi fiyatı ne kadar?",
+            "a": "Fiyat uygulanan teknik (FUE/DHI/Sapphire), greft sayısı ve seçilen pakete göre belirlenir. Paketlerimiz €2.500 ile €5.000 arasında yer alır. Kişisel fiyat, ücretsiz konsültasyon sonrası yazılı teklif olarak paylaşılır."
+          },
+          "q2": {
+            "q": "Fiyata neler dahil?",
+            "a": "Her pakette dahil olanlar sayfadaki paket kartlarında liste halinde belirtilmiştir. Standart pakette operasyon, anestezi, ilk yıkama, bakım seti ve kontrol randevusu; Premium pakette konaklama ve transfer; Uluslararası pakette çeviri ve VIP hizmetler eklenir."
+          },
+          "q3": {
+            "q": "Yazılı teklif sonrası ek ücret çıkar mı?",
+            "a": "Hayır. Konsültasyon sonrası verilen yazılı fiyat teklifinden sonra ek ücret çıkmaz. Teklifte belirtilen tüm hizmetler ve fiyat nettir. Hastanın talep edeceği ek hizmetler (ek seans, uzun konaklama vb.) varsa önceden konuşulur ve yazılı teyit alınır."
+          },
+          "q4": {
+            "q": "Taksit seçeneği var mı?",
+            "a": "Kredi kartı ile taksit seçenekleri mevcuttur. Taksit sayısı ve koşulları banka politikalarına bağlı olarak değişir. Detaylar konsültasyon aşamasında görüşülür."
+          },
+          "q5": {
+            "q": "Konsültasyon ücretli mi?",
+            "a": "Hayır. İlk konsültasyon ve ön değerlendirme tamamen ücretsizdir. Online veya yüz yüze olabilir. Konsültasyon size bağlayıcı değildir — karar size aittir."
+          }
+        }
+      },
+      "cta": {
+        "title": "Size uygun paketi öğrenin",
+        "subtitle": "Ücretsiz saç analizi ile kişisel tedavi planınızı ve fiyat teklifinizi alın.",
+        "primary": "Ücretsiz Saç Analizi",
+        "calculator": "Fiyat Hesapla",
+        "whatsapp": "WhatsApp",
+        "tags": {
+          "freeConsult": "Ücretsiz konsültasyon",
+          "nonBinding": "Bağlayıcı değil",
+          "writtenQuote": "Yazılı teklif"
+        }
+      },
+      "disclaimer": "Bu sayfada belirtilen fiyat aralıkları genel bilgilendirme amaçlıdır. Kesin fiyat; hastanın tıbbi durumu, greft ihtiyacı, seçilen teknik ve hizmet paketi göz önüne alınarak uzman hekim konsültasyonu sonrasında belirlenir ve yazılı teklif olarak paylaşılır. Saç ekimi tıbbi bir cerrahi işlemdir; karar vermeden önce uzman hekim görüşü alınız."
+    },
+    "priceCalc": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "pricing": "Fiyat",
+        "calc": "Hesaplama"
+      },
+      "hero": {
+        "eyebrow": "İNTERAKTİF ARAÇ",
+        "titlePart1": "Fiyat tahmininiz",
+        "titleAccent": "4 adımda.",
+        "subtitle": "Teknik, greft sayısı ve paket seviyesine göre tahmini fiyat aralığınızı öğrenin. Bu araç kaba bir tahmin sunar; kesin fiyat ücretsiz konsültasyon sonrası <strong>yazılı teklif</strong> olarak paylaşılır.",
+        "tipPrefix": "Greft ihtiyacınızı henüz bilmiyorsanız önce",
+        "tipLink": "Greft Hesaplama Aracı'nı",
+        "tipSuffix": "kullanabilirsiniz."
+      },
+      "progress": "Adım {step}/4",
+      "step1": {
+        "title": "Hangi teknik?",
+        "subtitlePrefix": "Size uygun olduğunu düşündüğünüz tekniği seçin. Bilmiyorsanız",
+        "subtitleLink": "karşılaştırma sayfasına",
+        "subtitleSuffix": "bakabilirsiniz.",
+        "options": {
+          "fue": {
+            "title": "FUE",
+            "sub": "Folliküler Ünite Ekstraksiyonu",
+            "desc": "En çok tercih edilen, en geniş uygulama alanı."
+          },
+          "sapphire": {
+            "title": "Sapphire FUE",
+            "sub": "Safir uçlu bıçak",
+            "desc": "Daha küçük kesi, daha hızlı iyileşme."
+          },
+          "dhi": {
+            "title": "DHI",
+            "sub": "Choi kalemi ile direkt ekim",
+            "desc": "Hassas açı kontrolü, yüksek yoğunluk."
+          }
+        },
+        "next": "Devam Et →"
+      },
+      "step2": {
+        "title": "Tahmini greft aralığınız?",
+        "subtitlePrefix": "Greft ihtiyacınıza en yakın aralığı seçin.",
+        "subtitleLink": "Greft hesaplama aracını",
+        "subtitleSuffix": "kullanarak öğrenebilirsiniz.",
+        "options": {
+          "small": { "title": "1.500 – 2.500 greft", "sub": "Norwood II, hafif seyrelme, küçük alan" },
+          "medium": { "title": "2.500 – 3.500 greft", "sub": "Norwood III, belirgin körfez" },
+          "large": { "title": "3.500 – 4.500 greft", "sub": "Norwood IV, tepe + ön birlikte" },
+          "xlarge": { "title": "4.500+ greft", "sub": "Norwood V+, geniş alan veya çoklu seans" }
+        },
+        "back": "Önceki",
+        "next": "Devam Et →"
+      },
+      "step3": {
+        "title": "Hangi paket?",
+        "subtitlePrefix": "Paket içeriklerinin tümünü",
+        "subtitleLink": "fiyat sayfasında",
+        "subtitleSuffix": "inceleyebilirsiniz.",
+        "popular": "En Çok Tercih Edilen",
+        "options": {
+          "standart": {
+            "title": "Standart Paket",
+            "desc": "Operasyon, anestezi, ilk yıkama, bakım seti, kontrol randevusu, 12 ay WhatsApp destek.",
+            "tag1": "Yurt İçi Odaklı",
+            "tag2": "Konaklama Hariç"
+          },
+          "premium": {
+            "title": "Premium Paket",
+            "desc": "Standart pakete ek olarak: 2 gece 4* konaklama, transfer, PRP takviyesi, öncelikli destek.",
+            "tag1": "Konaklama Dahil",
+            "tag2": "Transfer Dahil"
+          },
+          "uluslararasi": {
+            "title": "Uluslararası Paket",
+            "desc": "Premium pakete ek olarak: 5 gece konaklama, VIP karşılama, çeviri hizmeti, uzatılmış 18 ay takip.",
+            "tag1": "Tam Kapsam",
+            "tag2": "Çok Dilli Destek"
+          }
+        },
+        "back": "Önceki",
+        "calculate": "Hesapla →"
+      },
+      "step4": {
+        "title": "Tahmini fiyat aralığınız",
+        "subtitle": "Seçimlerinize göre yaklaşık fiyat. Kesin fiyat konsültasyon sonrası yazılı teklif olarak verilir.",
+        "rangeLabel": "Tahmini Aralık",
+        "forSelection": "seçtiğiniz paket ve teknik için",
+        "summary": {
+          "tech": "Teknik",
+          "graft": "Greft",
+          "package": "Paket"
+        },
+        "includedTitle": "Pakete dahil",
+        "payments": {
+          "cash": { "title": "Nakit", "sub": "EUR, USD, TL" },
+          "card": { "title": "Kredi Kartı", "sub": "Taksit seçenekli" },
+          "transfer": { "title": "Transfer", "sub": "Uluslararası SWIFT" }
+        },
+        "noteTitle": "Önemli",
+        "noteText": "Yukarıdaki aralık; teknik, greft sayısı ve paket seviyesi esas alınarak oluşturulmuş bir tahmindir. Kesin fiyat; tıbbi değerlendirme, greft ihtiyacı ve paket kapsamı sonrasında <strong>yazılı teklif</strong> olarak sunulur. Teklifte belirtilen tüm hizmetler dahildir; sonradan ek ücret çıkmaz.",
+        "ctaWrittenQuote": "Yazılı Teklif Al",
+        "ctaWhatsapp": "WhatsApp'tan Sor",
+        "recalc": "Yeniden Hesapla"
+      },
+      "techNames": {
+        "fue": "FUE",
+        "sapphire": "Sapphire FUE",
+        "dhi": "DHI"
+      },
+      "graftNames": {
+        "small": "1.500–2.500",
+        "medium": "2.500–3.500",
+        "large": "3.500–4.500",
+        "xlarge": "4.500+"
+      },
+      "packageNames": {
+        "standart": "Standart",
+        "premium": "Premium",
+        "uluslararasi": "Uluslararası"
+      },
+      "scaleSuffix": {
+        "graft": "greft",
+        "package": "Paket"
+      },
+      "packages": {
+        "standart": {
+          "items": {
+            "i1": "Operasyon",
+            "i2": "Lokal anestezi",
+            "i3": "İlk yıkama",
+            "i4": "Bakım seti",
+            "i5": "Reçeteli ilaçlar",
+            "i6": "Kontrol randevusu",
+            "i7": "12 ay WhatsApp destek"
+          }
+        },
+        "premium": {
+          "items": {
+            "i1": "Standart paketteki her şey",
+            "i2": "2 gece 4* otel konaklama",
+            "i3": "Havalimanı-otel-klinik transferleri",
+            "i4": "PRP takviyesi (1 seans)",
+            "i5": "2 kontrol randevusu",
+            "i6": "Öncelikli WhatsApp destek"
+          }
+        },
+        "uluslararasi": {
+          "items": {
+            "i1": "Premium paketteki her şey",
+            "i2": "5 gece 4* konaklama",
+            "i3": "VIP havalimanı karşılama",
+            "i4": "Çeviri hizmeti (İng/Ar/De/Ru)",
+            "i5": "Online video konsültasyon",
+            "i6": "Uzatılmış 18 ay bakım takibi"
+          }
+        }
+      },
+      "info": {
+        "title": "Fiyat nasıl belirlenir?",
+        "diffTitle": "FUE, DHI ve Sapphire fiyat farkı nedir?",
+        "diffIntro": "Fiyat farkı temelde ekipman, süre ve hassasiyet gereksiniminden kaynaklanır:",
+        "table": {
+          "techCol": "Teknik",
+          "levelCol": "Fiyat Seviyesi",
+          "reasonCol": "Fark Nedeni",
+          "rows": {
+            "fue": { "tech": "FUE", "level": "Standart", "reason": "Referans teknik" },
+            "sapphire": { "tech": "Sapphire FUE", "level": "FUE + ~%10", "reason": "Safir bıçak ekipmanı" },
+            "dhi": { "tech": "DHI", "level": "FUE + ~%20", "reason": "Choi kalemi + süre" }
+          }
+        }
+      },
+      "faq": {
+        "items": {
+          "q1": {
+            "q": "Yazılı teklifte neler yer alır?",
+            "a": "Konsültasyon sonrası verilen yazılı teklifte: uygulanacak teknik, tahmini greft sayısı, pakete dahil tüm hizmetler, toplam fiyat ve geçerlilik süresi net olarak belirtilir. Teklifte belirtilen dışında ek ücret çıkmaz."
+          },
+          "q2": {
+            "q": "Fiyatlar neden aralık olarak verilir?",
+            "a": "Saç ekimi fiyatı; greft sayısına, uygulanan tekniğe ve seçilen paket kapsamına göre belirlendiği için kişiden kişiye değişir. Bu nedenle bilgi amaçlı sayfalarda aralık sunulur. Kişisel fiyat konsültasyon sonrası kesinleşir."
+          },
+          "q3": {
+            "q": "Taksit seçeneği var mı?",
+            "a": "Kredi kartı ile taksit seçenekleri mevcuttur. Taksit sayısı ve koşulları banka politikalarına bağlı olarak değişir. Detaylar konsültasyon aşamasında görüşülür."
+          }
+        }
+      },
+      "disclaimer": "Bu araç bilgilendirme amaçlıdır. Fiyat aralıkları genel pakete dayalı tahminlerdir. Kişisel fiyat; uzman değerlendirmesi, greft ihtiyacı ve paket kapsamı sonrasında yazılı teklif olarak belirlenir."
+    },
+    "graftCalc": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "hairTransplant": "Saç Ekimi",
+        "graftCalc": "Greft Hesaplama"
+      },
+      "hero": {
+        "eyebrow": "İNTERAKTİF ARAÇ",
+        "titlePart1": "Kaç greft gerekli?",
+        "titleAccent": "Tahmini öğrenin.",
+        "subtitle": "Dökülme seviyenize göre tahmini greft aralığını 4 adımda hesaplayın. Bu araç kaba bir tahmin sunar; kesin sayı yalnızca uzman hekim değerlendirmesi ile belirlenir."
+      },
+      "progress": "Adım {step}/4",
+      "step1": {
+        "title": "Hangi alan için hesaplama yapalım?",
+        "subtitle": "Hesap yapılacak bölgeyi seçin.",
+        "options": {
+          "sac": { "title": "Saç", "sub": "Saç çizgisi, tepe bölgesi, genel seyrelme" },
+          "sakal": { "title": "Sakal", "sub": "Çene, yanak, bıyık yoğunlaştırma" },
+          "kas": { "title": "Kaş", "sub": "Kavis, simetri, yoğunluk artırma" }
+        },
+        "next": "Devam Et →"
+      },
+      "step2": {
+        "hair": {
+          "title": "Dökülme seviyenizi seçin",
+          "subtitlePrefix": "Size en yakın görseli seçin.",
+          "scaleMale": "Norwood (Erkek)",
+          "scaleFemale": "Ludwig (Kadın)",
+          "scaleSuffix": "skalası kullanılıyor.",
+          "male": "Erkek (Norwood)",
+          "female": "Kadın (Ludwig)"
+        },
+        "beard": {
+          "title": "Sakal için hangi alan?",
+          "subtitle": "Hedef bölgeyi seçin."
+        },
+        "brow": {
+          "title": "Kaş için hangi seviye?",
+          "subtitle": "Hedef bölgeyi seçin."
+        },
+        "norwood": {
+          "n2": { "label": "Norwood II", "title": "Erken Geri Çekilme", "sub": "Saç çizgisi hafif geri çekilmiş" },
+          "n3": { "label": "Norwood III", "title": "Belirgin Körfez", "sub": "İki yandan M şeklinde çekilme" },
+          "n4": { "label": "Norwood IV", "title": "Tepe Kaybı Başlangıç", "sub": "Ön + tepe birleşmeye yakın" },
+          "n5": { "label": "Norwood V", "title": "Geniş Alan Kaybı", "sub": "Ön ve tepe arası ince şerit" },
+          "n6": { "label": "Norwood VI", "title": "İleri Dökülme", "sub": "Sadece yan bantlar kaldı" },
+          "n7": { "label": "Norwood VII", "title": "Maksimum Dökülme", "sub": "Donor alanı değerlendirilmeli" }
+        },
+        "ludwig": {
+          "l1": { "label": "Ludwig I", "title": "Hafif Seyrelme", "sub": "Saç ayrımı genişlemiş" },
+          "l2": { "label": "Ludwig II", "title": "Belirgin Seyrelme", "sub": "Tepe alanı görünür" },
+          "l3": { "label": "Ludwig III", "title": "İleri Seyrelme", "sub": "Görünür geniş seyrek alan" }
+        },
+        "sakal": {
+          "sakal_cene": { "title": "Çene Bölgesi", "sub": "Çene hattı yoğunlaştırma" },
+          "sakal_yanak": { "title": "Yanak", "sub": "Yanak dolgunlaştırma" },
+          "sakal_biyik": { "title": "Bıyık", "sub": "Bıyık bölgesi" },
+          "sakal_full": { "title": "Tam Sakal", "sub": "Çene + yanak + bıyık" }
+        },
+        "kas": {
+          "kas_tam": { "title": "Tam Restorasyon (Çift)", "sub": "Her iki kaşta belirgin eksiklik" },
+          "kas_simetri": { "title": "Simetri / Şekil Düzeltme", "sub": "Boşluk doldurma, hat düzeltme" }
+        },
+        "back": "Önceki",
+        "next": "Devam Et →"
+      },
+      "step3": {
+        "title": "Hedef yoğunluk nedir?",
+        "subtitle": "İstediğiniz yoğunluk seviyesi. Yüksek yoğunluk daha fazla greft ve donor kapasitesi gerektirir.",
+        "options": {
+          "natural": { "title": "Doğal", "sub": "~40 folikül/cm²", "desc": "Doğal görünüm, dökülmeyi kapatır. Donor alanı koruyucu." },
+          "medium": { "title": "Orta Yoğunluk", "sub": "~50 folikül/cm²", "desc": "Dolgun görünüm. En çok tercih edilen seviye." },
+          "high": { "title": "Yüksek", "sub": "~60+ folikül/cm²", "desc": "Maksimum yoğunluk. Geniş donor alanı gerekir." }
+        },
+        "back": "Önceki",
+        "calculate": "Hesapla →"
+      },
+      "step4": {
+        "title": "Tahmini greft aralığınız",
+        "subtitle": "Aşağıda seçimlerinize göre yaklaşık hesap. Kesin sayı konsültasyonda belirlenir.",
+        "rangeLabel": "Tahmini Greft Sayısı",
+        "unit": "follikül ünitesi",
+        "summary": {
+          "area": "Alan",
+          "level": "Seviye",
+          "density": "Yoğunluk"
+        },
+        "packageLabel": "Önerilen Paket",
+        "noteTitle": "Önemli",
+        "noteText": "Bu hesap; dökülme seviyenizi, alan büyüklüğünü ve hedef yoğunluğu referans alan kaba bir tahmindir. Kesin greft ihtiyacınız; donor alan kapasitesi, saç kalınlığı, cilt yapısı ve kişisel değerlendirme sonrası uzman hekim tarafından belirlenir. <strong>Bu bir tıbbi teşhis değildir.</strong>",
+        "ctaConsult": "Ücretsiz Uzman Değerlendirmesi",
+        "ctaPriceCalc": "Fiyat Hesapla",
+        "ctaWhatsapp": "WhatsApp",
+        "recalc": "Yeniden Hesapla"
+      },
+      "labels": {
+        "areas": {
+          "sac": "Saç",
+          "sakal": "Sakal",
+          "kas": "Kaş"
+        },
+        "density": {
+          "natural": "Doğal",
+          "medium": "Orta",
+          "high": "Yüksek",
+          "regional": "Bölgeye özel"
+        },
+        "packages": {
+          "standardName": "Standart Paket",
+          "standardDesc": "Tahmini greft ihtiyacınız standart paket kapsamında yer alır. Operasyon, anestezi, ilk yıkama, bakım seti ve kontrol randevusu dahildir.",
+          "premiumName": "Premium Paket",
+          "premiumDesc": "Tahmini greft ihtiyacınız premium paket ile uyumludur. Operasyona ek olarak konaklama, transfer ve PRP takviyesi dahildir.",
+          "internationalName": "Uluslararası Paket veya Çoklu Seans",
+          "internationalDesc": "Yüksek greft ihtiyacı; tek seansla ya da 6-12 ay ara ile iki seansla planlanabilir. Uluslararası paket tam kapsam sunar. Kesin plan konsültasyonda belirlenir."
+        },
+        "estimates": {
+          "n2": "Norwood II — Erken Geri Çekilme",
+          "n3": "Norwood III — Belirgin Körfez",
+          "n4": "Norwood IV — Tepe Kaybı Başlangıç",
+          "n5": "Norwood V — Geniş Alan Kaybı",
+          "n6": "Norwood VI — İleri Dökülme",
+          "n7": "Norwood VII — Maksimum",
+          "l1": "Ludwig I — Hafif Seyrelme",
+          "l2": "Ludwig II — Belirgin Seyrelme",
+          "l3": "Ludwig III — İleri Seyrelme",
+          "sakal_cene": "Sakal — Çene Bölgesi",
+          "sakal_yanak": "Sakal — Yanak",
+          "sakal_full": "Sakal — Tam Sakal",
+          "sakal_biyik": "Sakal — Bıyık",
+          "kas_tam": "Kaş — Tam Restorasyon (Çift)",
+          "kas_simetri": "Kaş — Simetri Düzeltme"
+        }
+      },
+      "info": {
+        "title": "Greft sayısı nasıl hesaplanır?",
+        "howManyTitle": "Kaç greft gerekli?",
+        "howManyText": "Greft ihtiyacı üç ana faktöre bağlıdır: <strong>kayıp alanın büyüklüğü</strong>, <strong>hedef yoğunluk</strong> ve <strong>donor alan kapasitesi</strong>. Genel olarak bir cm² alan için 40-60 folikül ünit (greft) kullanılır.",
+        "table": {
+          "levelCol": "Norwood Seviyesi",
+          "areaCol": "Alan (~cm²)",
+          "graftCol": "Tahmini Greft",
+          "rows": {
+            "n2": { "level": "Norwood II", "area": "20-30 cm²", "graft": "1.500 – 2.500" },
+            "n3": { "level": "Norwood III", "area": "40-60 cm²", "graft": "2.500 – 3.500" },
+            "n4": { "level": "Norwood IV", "area": "60-85 cm²", "graft": "3.500 – 4.500" },
+            "n5": { "level": "Norwood V", "area": "85-110 cm²", "graft": "4.500 – 5.500" },
+            "n6": { "level": "Norwood VI", "area": "110-140 cm²", "graft": "5.500 – 7.000" },
+            "n7": { "level": "Norwood VII", "area": "150+ cm²", "graft": "7.000+ *" }
+          },
+          "footnote": "* Norwood VII seviyesinde donor kapasitesi sınırlayıcı olabilir."
+        }
+      },
+      "faq": {
+        "items": {
+          "q1": {
+            "q": "Bir greft kaç saç içerir?",
+            "a": "Bir greft (folliküler ünit) ortalama 2-3 saç teli içerir. Yani 3.000 greft yaklaşık 6.000-9.000 saç teli anlamına gelir. Bu oran kişisel folikül yapısına göre değişebilir."
+          },
+          "q2": {
+            "q": "Tek seansta maksimum kaç greft ekilebilir?",
+            "a": "Güvenli üst sınır 4.500-5.500 grefttir. Daha fazlası greft yaşam oranını düşürebilir. Büyük ihtiyaçlarda iki ayrı seans önerilir (6-12 ay ara ile)."
+          },
+          "q3": {
+            "q": "Donor alanı neden sınırlıdır?",
+            "a": "Saç ekimi, genetik olarak dökülmeye dirençli ense bölgesindeki mevcut folikülleri kayıp alanlara taşıma prensibine dayanır. Yeni saç üretilmez, sadece yeniden dağıtılır. Ömür boyu alınabilecek greft 8.000-10.000 civarındadır."
+          }
+        }
+      },
+      "disclaimer": "Bu araç bilgilendirme amaçlıdır ve tıbbi teşhis yerine geçmez. Sağlıklı ve kesin bir değerlendirme için uzman hekim konsültasyonu gereklidir. Bireysel sonuçlar değişkenlik gösterebilir."
+    },
+    "hairTransplant": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "current": "Saç Ekimi"
+      },
+      "hero": {
+        "eyebrow": "TEKNİKLER & SÜREÇ",
+        "title": "Saç Ekimi Nedir?",
+        "titleItalic": "Teknikler ve Sonuçlar",
+        "lede": "Saç ekimi, dökülmeye dirençli donor bölgeden alınan saç köklerinin seyrelmiş veya dökülmüş bölgelere mikrocerrahi yöntemlerle nakledilmesidir. Doğru teknik ve deneyimli ekiple kalıcı, doğal görünümlü sonuçlar elde edilir."
+      },
+      "candidates": {
+        "title": "Saç Ekimi Kimler İçin Uygundur?",
+        "suitableTitle": "Uygun Adaylar",
+        "suitable": [
+          "Erkek tipi saç dökülmesi (Norwood II-VI)",
+          "Kadın tipi saç seyrelmeleri (Ludwig I-III)",
+          "Travma veya yanık sonrası saç kaybı",
+          "Yeterli donor alanı olan kişiler",
+          "Gerçekçi beklentilere sahip kişiler"
+        ],
+        "notSuitableTitle": "Uygun Olmayabilir",
+        "notSuitable": [
+          "Aktif alopesi areata (yama tipi dökülme)",
+          "Yetersiz donor alan kapasitesi",
+          "Kan pıhtılaşma bozukluğu olan kişiler",
+          "18 yaş altı (dökülme henüz stabilize olmamış)"
+        ],
+        "footer": "Uygunluk ücretsiz konsültasyonda kişisel değerlendirme ile belirlenir.",
+        "footerLink": "Detaylı uygunluk kriterleri →"
+      },
+      "techniques": {
+        "title": "Saç Ekimi Teknikleri",
+        "lede": "Her teknik farklı durumlar için idealdir. \"En iyi teknik\" yoktur — size en uygun teknik vardır.",
+        "fue": {
+          "tag": "En Çok Tercih Edilen",
+          "title": "FUE — Folliküler Ünite Ekstraksiyonu",
+          "desc": "Saç kökleri tek tek alınarak mikro kanallar aracılığıyla nakledilir. Geniş alanlar ve yüksek greft sayıları için ideal. Donor bölgede görünür iz bırakmaz.",
+          "duration": "4-6 saat",
+          "durationLabel": "işlem",
+          "recovery": "7-10 gün",
+          "recoveryLabel": "iyileşme",
+          "result": "12-18 ay",
+          "resultLabel": "tam sonuç",
+          "cta": "Detaylı Bilgi →"
+        },
+        "dhi": {
+          "tag": "Hassas Açı Kontrolü",
+          "title": "DHI — Direkt Saç Ekimi",
+          "desc": "Choi kalemi ile alım ve yerleştirme eş zamanlı yapılır. Mevcut saçlar arasına ekim ve yüksek yoğunluk gereken bölgeler için ideal. Açı ve yön kontrolü üstündür.",
+          "duration": "5-7 saat",
+          "durationLabel": "işlem",
+          "recovery": "7-10 gün",
+          "recoveryLabel": "iyileşme",
+          "result": "12-18 ay",
+          "resultLabel": "tam sonuç",
+          "cta": "Detaylı Bilgi →"
+        },
+        "sapphire": {
+          "tag": "Minimal Kesi",
+          "title": "Sapphire FUE — Safir Uçlu Teknik",
+          "desc": "FUE tekniğinin safir uçlu bıçakla uygulanan varyasyonu. Daha küçük kesi alanı ve daha hızlı iyileşme sağlar. Temel prensipleri FUE ile aynıdır.",
+          "duration": "4-6 saat",
+          "durationLabel": "işlem",
+          "recovery": "5-7 gün",
+          "recoveryLabel": "iyileşme",
+          "result": "12-18 ay",
+          "resultLabel": "tam sonuç",
+          "cta": "Detaylı Bilgi →"
+        }
+      },
+      "process": {
+        "title": "Saç Ekimi Süreci",
+        "steps": [
+          { "title": "Ücretsiz Konsültasyon", "text": "Saç dökülmenizin değerlendirilmesi, uygun tekniğin belirlenmesi ve kişisel tedavi planının oluşturulması. Online veya yüz yüze yapılabilir." },
+          { "title": "Planlama", "text": "Saç çizgisi tasarımı, greft sayısı hesabı ve teknik seçimi. Her detay operasyon öncesinde sizinle paylaşılır." },
+          { "title": "Operasyon", "text": "Lokal anestezi altında, seçilen teknikle gerçekleştirilir. İşlem süresi tekniğe ve greft sayısına göre 4-7 saat arasındadır. Aynı gün taburcu olursunuz." },
+          { "title": "İyileşme", "text": "İlk 7-10 gün iyileşme dönemi. 2-4. haftada şok dökülme (normaldir). Klinik ekibimiz tüm süreçte yanınızda." },
+          { "title": "Sonuç", "text": "İlk yeni saçlar 3-4. ayda çıkmaya başlar. 6-8. ayda belirgin yoğunlaşma. 12-18 ayda nihai, kalıcı sonuç." }
+        ]
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+          { "q": "Saç ekimi kalıcı mı?", "a": "Evet. Ekilen saç kökleri genetik olarak dökülmeye dirençli donor bölgeden (genellikle ense) alınır. Bu kökler yeni yerlerinde de aynı genetik özelliği korur ve ömür boyu kalıcıdır. Ekilen greftlerin genellikle %85-95'i tutarak yeni saç üretir." },
+          { "q": "Saç ekimi kaç saat sürer?", "a": "Teknik ve greft sayısına göre değişir. FUE genellikle 4-6 saat, DHI 5-7 saat civarındadır. Büyük seanslar (4000+ greft) daha uzun sürebilir. İşlem boyunca mola verilir ve konforunuz sağlanır." },
+          { "q": "Saç ekimi ağrılı mı?", "a": "İşlem lokal anestezi altında yapılır. Anestezi uygulaması sırasında kısa süreli bir rahatsızlık hissedilebilir, ancak işlem boyunca ağrı hissetmezsiniz. Operasyon sonrası hafif bir gerginlik hissi normal olup reçeteli ilaçlarla yönetilir." },
+          { "q": "Sonuçlar ne zaman görülür?", "a": "İlk 2-4 haftada ekilen saçlarda şok dökülme olur — bu tamamen normaldir. Yeni saç çıkışları 3-4. ayda başlar. Belirgin yoğunlaşma 6-8. ayda görülür. Nihai sonuç 12-18 ayda tamamlanır. Bireysel sonuçlar değişkenlik gösterebilir." }
+        ]
+      },
+      "cta": {
+        "title": "Hangi Teknik Size Uygun?",
+        "lede": "Ücretsiz saç analizinizle kişisel tedavi planınızı oluşturalım. Fotoğrafınızı gönderin, 24 saat içinde uzman ekibimiz size dönüş yapsın.",
+        "primary": "Ücretsiz Saç Analizi",
+        "secondary": "Greft Hesapla",
+        "whatsapp": "WhatsApp",
+        "trustFree": "Ücretsiz",
+        "trustNonBinding": "Bağlayıcı değil",
+        "trust24h": "24 saat içinde dönüş"
+      },
+      "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir. Tedavi kararınız için mutlaka uzman hekim konsültasyonu alınız.",
+      "schema": {
+        "procedureName": "Saç Ekimi",
+        "procedureDescription": "FUE, DHI ve Sapphire teknikleriyle kalıcı saç restorasyon cerrahisi",
+        "howPerformed": "Lokal anestezi altında, folliküler unit transplantasyonu ile",
+        "bodyName": "Saçlı deri",
+        "followup": "12-18 ay tam sonuç süresi"
+      }
+    },
+    "fue": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "parent": "Saç Ekimi",
+        "current": "FUE"
+      },
+      "hero": {
+        "eyebrow": "FUE TEKNİĞİ",
+        "title": "FUE Saç Ekimi:",
+        "titleItalic": "Nasıl Yapılır, Sonuçlar ve Gerçekçi Beklentiler",
+        "lede": "FUE (Folliküler Ünite Ekstraksiyonu), saç köklerinin donor bölgeden mikro punch adı verilen özel aletle tek tek alınarak dökülme bölgesine nakledildiği, dünya genelinde en yaygın uygulanan saç ekimi tekniğidir. İz bırakmayan yapısı ve geniş greft kapasitesiyle ciddi saç kayıplarında dahi etkili sonuçlar sunar."
+      },
+      "what": {
+        "title": "FUE Nedir?",
+        "p1": "FUE, \"Follicular Unit Extraction\" (Folliküler Ünite Ekstraksiyonu) ifadesinin kısaltmasıdır. Yöntemde donor bölgedeki (genellikle ense ve şakak) saç kökleri, 0.7-1.0 mm çapındaki mikro punch aletleri kullanılarak tek tek çıkarılır. Bu sayede geniş bir kesi yapılmaksızın binlerce greft elde edilebilir.",
+        "p2": "Alınan greftler özel muhafaza solüsyonunda bekletilirken cerrah, dökülme bölgesinde mikro kanallar açar. Greftler bu kanallara saç büyüme yönüne göre yerleştirilir; böylece hem doğal görünüm hem de kalıcı sonuç elde edilir.",
+        "p3": "FUE'nin en önemli avantajlarından biri, donor bölgede lineer iz (çizgi şeklinde skar) bırakmamasıdır. Mikro punch'ın bıraktığı küçük noktasal izler kısa sürede iyileşir ve saç uzadığında görünmez hale gelir.",
+        "factsTitle": "Temel Bilgiler",
+        "facts": [
+          { "label": "İşlem Süresi", "value": "4-6 saat" },
+          { "label": "Greft Kapasitesi", "value": "3000-5000+ greft/seans" },
+          { "label": "İyileşme", "value": "7-10 gün" },
+          { "label": "Kalıcılık", "value": "Ömür boyu" },
+          { "label": "Nihai Sonuç", "value": "12-18. ay" }
+        ]
+      },
+      "how": {
+        "title": "FUE Nasıl Yapılır?",
+        "lede": "İşlem beş temel aşamadan oluşur. Tüm adımlar lokal anestezi altında gerçekleştirilir; genel anestezi gerekmez.",
+        "highlightLabel": "(Temel adım)",
+        "steps": [
+          { "title": "Konsültasyon ve Planlama", "body": "Saç dökülmesinin derecesi değerlendirilir (Norwood skalası), greft sayısı hesaplanır ve doğal bir saç çizgisi tasarlanır. Donor alanın yoğunluğu incelenerek tek veya çok seans gerekip gerekmediğine karar verilir." },
+          { "title": "Donor Alan Hazırlığı", "body": "Donor bölge (genellikle ense ve şakaklar) kısaltılır, lokal anestezi uygulanır. Anestezi enjeksiyonu sırasında kısa süreli bir hassasiyet hissedilebilir; işlem boyunca ağrı duyulmaz." },
+          { "title": "Greft Ekstraksiyonu — Mikro Punch ile", "body": "0.7-1.0 mm çapındaki mikro punch aleti, saç köklerini çevre dokuya zarar vermeden tek tek çıkarır. Her greft 1-4 saç teli içerebilir. Alınan greftler özel besleyici solüsyonda muhafaza edilir." },
+          { "title": "Kanal Açma ve Yerleştirme", "body": "Cerrah, alıcı bölgede saçın doğal büyüme yönüne ve açısına göre mikro kanallar açar. Ardından greftler bu kanallara tek tek yerleştirilir. Bu aşama nihai görünümü doğrudan belirler — deneyim burada kritiktir." },
+          { "title": "İyileşme ve Takip", "body": "İşlem günü taburcu olursunuz. İlk 7-10 gün hassas bakım dönemidir. Kabuklanma normaldir ve 10. günde dökülür. 3. ayda ilk saçlar çıkmaya başlar; nihai yoğunluk 12-18. ayda görülür." }
+        ]
+      },
+      "prosCons": {
+        "title": "Avantajlar ve Limitler",
+        "lede": "FUE geniş bir hasta kitlesine uygun olmasına karşın her durum için ideal olmayabilir. Güçlü yönlerini ve sınırlarını şeffafça paylaşıyoruz.",
+        "prosTitle": "Avantajlar",
+        "pros": [
+          { "title": "Geniş Alanlarda Verimli", "desc": "Geniş dökülme bölgelerinde yüksek greft ihtiyacını tek seansta karşılayabilir." },
+          { "title": "3000-5000+ Greft/Seans", "desc": "Yüksek greft kapasitesiyle ileri evre dökülmelerde bile kapsamlı kaplama sağlar." },
+          { "title": "Minimal Skar", "desc": "Lineer iz bırakmaz. Mikro noktasal izler kısa saçta bile belirgin değildir." },
+          { "title": "Doğal Görünüm", "desc": "Greftlerin açı ve yön kontrolüyle çevre saçlarla uyumlu, doğal bir çizgi elde edilir." },
+          { "title": "Tıraşsız FUE Opsiyonu", "desc": "Sınırlı sayıda greft gereksiniminde (1500-2500) tıraş olmadan da uygulanabilir." }
+        ],
+        "consTitle": "Limitler",
+        "cons": [
+          { "title": "Kanal Açma Ayrı Adım", "desc": "FUE'de greft ekstraksiyonu ve kanal açma ayrı aşamalardır. Greftler kanallar hazırlanana kadar dışarıda bekler." },
+          { "title": "İyileşme Süreci Benzer", "desc": "Sapphire varyasyonuna kıyasla iyileşme 7-10 gün sürebilir; bu süreçte hassas bakım gerekir." },
+          { "title": "Deneyim Belirleyicidir", "desc": "Teknik kadar cerrahın deneyimi sonucu belirler. Kanal açma açısı ve greft yerleştirme hassasiyeti kritik öneme sahiptir." },
+          { "title": "Mevcut Saçlar Arası Ekim Zorluğu", "desc": "Mevcut saçların yoğun olduğu alanlarda hassas yerleştirme DHI kadar kolay değildir." }
+        ]
+      },
+      "timeline": {
+        "title": "FUE Sonuçları — Zaman Çizelgesi",
+        "lede": "Saç ekimi sonuçları anında görülmez. Saç büyüme döngüsüne bağlı olarak nihai görünüme ulaşmak 12-18 ay sürer.",
+        "items": [
+          { "period": "0-4 Hafta", "body": "Şok dökülmesi. Ekilen saçların büyük çoğunluğu dökülebilir — bu normaldir ve beklenen bir süreçtir." },
+          { "period": "3-4. Ay", "body": "İlk yeni saç çıkışları başlar. İnce, tüylü bir görünüm oluşmaya başlar." },
+          { "period": "6-8. Ay", "body": "Saçlar yoğunlaşır ve güçlenir. Sonuç belirginleşmeye başlar." },
+          { "period": "12-18. Ay", "body": "Nihai sonuç. Tam yoğunluk ve kalıcı görünüm. En doğal hali bu dönemde değerlendirin." },
+          { "period": "Kalıcı", "body": "Donor köklerin genetik direnci sayesinde ekilen saçlar ömür boyu dökülmeye dirençlidir." }
+        ]
+      },
+      "faq": {
+        "title": "Sık Sorulan Sorular",
+        "items": [
+          { "q": "FUE saç ekimi kalıcı mı?", "a": "Evet. Donor bölgeden (genellikle ense) alınan saç kökleri DHT hormonuna genetik olarak dirençlidir. Ekilen bu kökler yeni yerleştikleri bölgede ömür boyu sağlıklı biçimde büyümeye devam eder. Ancak mevcut saçlarınızdaki dökülme genetik programa göre devam edebilir; bu nedenle uzun vadeli planlama önemlidir." },
+          { "q": "FUE kaç saat sürer?", "a": "Greft sayısına göre değişir. 3000-4000 greft için yaklaşık 5-6 saat, 4000-5000 greft için 6-7 saat sürmektedir. İşlem tek seansta tamamlanır; aynı gün taburcu olursunuz." },
+          { "q": "Tıraşsız FUE mümkün mü?", "a": "Evet, ancak sınırlı greft sayısında uygulanabilir. Genellikle 1500-2500 greft gerektiren durumlarda tıraşsız FUE tercih edilebilir. Daha fazla greft gerekiyorsa donor alanın kısaltılması gerekir. Konsültasyonda durumunuza özel değerlendirme yapılır." },
+          { "q": "FUE ile kaç greft ekilebilir?", "a": "Tek seansta genellikle 3000-5000+ greft ekilebilir. Kesin sayı donor alanın yoğunluğuna, dökülme bölgesinin büyüklüğüne ve saç yapısına göre kişisel değerlendirmeyle belirlenir. Bazı hastalarda daha fazlası da mümkündür." },
+          { "q": "FUE sonrası işe ne zaman dönebilirim?", "a": "Masa başı işler için 3-5 gün sonra dönmek mümkündür. Ağır fiziksel aktivite ve spor için 10-14 gün beklemeniz önerilir. İlk hafta güneş ışığından ve tozlu ortamlardan kaçınılmalıdır." }
+        ]
+      },
+      "cta": {
+        "title": "FUE Size Uygun mu?",
+        "lede": "Hangi tekniğin durumunuza en uygun olduğunu birlikte belirleyelim. Ücretsiz saç analizinizle kişisel tedavi planınızı oluşturalım.",
+        "primary": "Ücretsiz Saç Analizi",
+        "whatsapp": "WhatsApp'tan Sor",
+        "trustFree": "Ücretsiz",
+        "trustNonBinding": "Bağlayıcı değil",
+        "trust24h": "24 saat içinde dönüş"
+      },
+      "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir. FUE dahil hiçbir saç ekimi tekniği belirli bir sonucu garanti edemez. Tedavi kararınız için mutlaka uzman hekim konsültasyonu alınız. Görseller temsilidir.",
+      "schema": {
+        "procedureName": "FUE Saç Ekimi",
+        "procedureDescription": "Folliküler Ünite Ekstraksiyonu tekniğiyle kalıcı saç restorasyon cerrahisi",
+        "howPerformed": "Lokal anestezi altında, mikro punch ile folliküler unit ekstraksiyonu"
+      }
+    },
+    "dhi": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "parent": "Saç Ekimi",
+        "current": "DHI"
+      },
+      "hero": {
+        "eyebrow": "DİREKT İMPLANTASYON TEKNİĞİ",
+        "title": "DHI Saç Ekimi:",
+        "titleItalic": "Choi Kalemi Tekniği, Avantajlar ve Sonuçlar",
+        "lede": "DHI (Direkt Hair Implantation), saç köklerinin Choi kalemi adı verilen özel bir implantör aracılığıyla doğrudan alıcı bölgeye yerleştirildiği tekniğidir. FUE'den temel farkı, kanal açma ve greft yerleştirmenin tek adımda gerçekleşmesidir. Bu sayede üstün açı kontrolü ve mevcut saçlar arasına hassas ekim mümkün olur."
+      },
+      "what": {
+        "title": "DHI Nedir?",
+        "p1": "DHI, \"Direct Hair Implantation\" ifadesinin kısaltmasıdır. Yöntemin merkezinde Choi kalemi yer alır: özel tasarımlı bu implantör alete greft yüklenir ve kalemin ucu deriye batırıldığında hem kanal açılır hem de greft aynı anda yerleştirilir.",
+        "p2": "Bu tek adımlı süreç, greftlerin vücut dışında bekleme süresini minimuma indirir. Daha önemlisi cerrahın açı, derinlik ve yön üzerindeki kontrolü artırır. Özellikle mevcut saç telleri arasına ekim yapılacak alanlarda DHI belirgin biçimde avantaj sağlar.",
+        "p3": "Greft ekstraksiyonu FUE ile aynı yöntemi kullanır: mikro punch aletiyle tek tek alınır. Fark, alınan greftlerin nasıl yerleştirildiğindedir.",
+        "choiTitle": "Choi Kalemi Nasıl Çalışır?",
+        "choiSteps": [
+          "Tek saç kökü (greft) Choi kaleminin tüpüne yüklenir.",
+          "Cerrah kalemi istenilen açı ve yönde deri üzerine konumlar.",
+          "Tetik mekanizmasıyla kanal açılır ve greft aynı anda yerleştirilir — iki işlem tek harekette tamamlanır.",
+          "Kalemin tüpü temizlenir, bir sonraki greft yüklenir ve süreç tekrarlanır."
+        ]
+      },
+      "how": {
+        "title": "DHI Nasıl Yapılır?",
+        "lede": "İşlem altı aşamada gerçekleştirilir. Tüm adımlar lokal anestezi altında yapılır; genel anestezi gerekmez.",
+        "highlightLabel": "(DHI'nın özü)",
+        "steps": [
+          { "title": "Konsültasyon ve Planlama", "body": "Saç dökülmesi değerlendirilir, greft sayısı hesaplanır, saç çizgisi tasarlanır. DHI'nın sizin için doğru teknik olup olmadığı bu aşamada belirlenir." },
+          { "title": "Lokal Anestezi", "body": "Hem donor hem alıcı bölgeye lokal anestezi uygulanır. Anestezi enjeksiyonunda kısa süreli hassasiyet hissedilebilir; sonrasında işlem boyunca ağrı duyulmaz." },
+          { "title": "Greft Alımı", "body": "Donor bölgedeki saç kökleri mikro punch aletiyle tek tek çıkarılır. Bu adım FUE ile aynıdır. Alınan greftler özel besleyici solüsyonda kısa süre muhafaza edilir." },
+          { "title": "Choi Kalemine Yükleme ve Direkt İmplantasyon", "body": "Greftler Choi kaleminin tüpüne tek tek yüklenir. Cerrah kalemi belirlenen açı ve yönde deri üzerine tatbik ederek kanal açma ve greft yerleştirmeyi tek harekette gerçekleştirir. Bu aşama DHI'yı diğer tekniklerden ayıran temel adımdır." },
+          { "title": "Kontrol ve Pansuman", "body": "İmplantasyon tamamlandıktan sonra donor ve alıcı bölgeler kontrol edilir, pansumanlar yapılır. Bakım talimatları sözlü ve yazılı olarak verilir." },
+          { "title": "Kapanış ve Takip", "body": "Aynı gün taburcu olursunuz. 1. gün kontrol randevusu planlanır. Düzenli takip seanslarıyla iyileşme ve saç çıkışı izlenir." }
+        ]
+      },
+      "prosCons": {
+        "title": "Avantajlar ve Limitler",
+        "lede": "DHI belirli hasta profilleri için üstün sonuçlar sunar; ancak her durum için ideal değildir. Güçlü yönlerini ve sınırlarını şeffafça paylaşıyoruz.",
+        "prosTitle": "Avantajlar",
+        "pros": [
+          { "title": "Üstün Açı ve Yön Kontrolü", "desc": "Choi kalemi, greftlerin tam istenilen açı ve yönde yerleştirilmesini sağlar. Doğal saç akışıyla mükemmel uyum elde edilir." },
+          { "title": "Mevcut Saçlar Arasına Ekim", "desc": "Kanallar önceden açılmadığından mevcut saç tellerine zarar vermeden yoğun alanlara ekim yapılabilir." },
+          { "title": "Yüksek Yoğunluk", "desc": "Birbirine yakın greft yerleştirme imkânıyla cm² başına daha yüksek yoğunluk sağlanabilir." },
+          { "title": "Daha Az Kanama", "desc": "Önceden kanal açılmadığından alıcı bölgedeki kanama miktarı azalır." },
+          { "title": "Greft Dışarıda Kalma Süresi Kısalır", "desc": "Direkt implantasyon sayesinde greftler daha kısa süre bekler; bu canlılık oranını olumlu etkileyebilir." }
+        ],
+        "consTitle": "Limitler",
+        "cons": [
+          { "title": "Geniş Alanlarda Yavaş", "desc": "Choi kalemi tek tek yükleme gerektirdiğinden çok sayıda greft gereken geniş alanlarda FUE'ye kıyasla daha uzun sürer." },
+          { "title": "FUE'ye Göre Daha Pahalı", "desc": "Ekstra ekipman maliyeti ve işlem süresi nedeniyle DHI genellikle FUE'den daha yüksek fiyatlıdır." },
+          { "title": "Tek Seansta Daha Az Greft", "desc": "Yükleme süreciyle sınırlı olan DHI, tek seansta genellikle 2000-3500 greft ekilebilmesine olanak tanır." },
+          { "title": "Deneyimli Ekip Gerektirir", "desc": "Choi kalemi tekniği özel eğitim ve deneyim gerektirir. Uygulamanın kalitesi ekibin yetkinliğine doğrudan bağlıdır." }
+        ]
+      },
+      "candidates": {
+        "title": "DHI Kimlere Uygun?",
+        "lede": "DHI herkese değil, belirli hasta profillerine daha verimli sonuçlar sunar. Aşağıdaki listeler genel kılavuz niteliğindedir; kesin karar konsültasyonda verilir.",
+        "idealTitle": "DHI İçin İdeal Adaylar",
+        "ideal": [
+          "Mevcut saçlar arasına yoğunluk katmak isteyenler",
+          "Saç çizgisi bölgesine hassas, doğal ekim hedefleyenler",
+          "Orta düzey dökülmesi olanlar (1500-3500 greft)",
+          "Yüksek yoğunluk önceliği olan hastalar",
+          "Saç yapısı DHI için uygun olanlar (cerrah değerlendirmesiyle)"
+        ],
+        "fueBetterTitle": "FUE Daha Uygun Olabilir",
+        "fueBetter": [
+          "Çok geniş dökülme alanları (5000+ greft gereksinimi)",
+          "Bütçe kısıtı olan hastalar",
+          "Tek seansta maksimum greft sayısı hedefleyenler",
+          "Donor alan yoğunluğu sınırlı olanlar",
+          "Daha kısa işlem süresi tercih edenler"
+        ]
+      },
+      "compare": {
+        "title": "DHI ve FUE Karşılaştırması",
+        "lede": "İki teknik arasındaki farkları ve benzerlikleri şeffaf biçimde karşılaştırıyoruz. Hangi tekniğin sizin için doğru olduğu kişisel değerlendirmeye bağlıdır.",
+        "headers": { "feature": "Özellik", "dhi": "DHI", "fue": "FUE" },
+        "rows": [
+          { "feature": "Yerleştirme Yöntemi", "dhi": "Choi kalemi — tek adım", "fue": "Kanal aç + yerleştir — iki adım" },
+          { "feature": "Açı Kontrolü", "dhi": "Üstün", "fue": "İyi" },
+          { "feature": "Mevcut Saçlar Arası", "dhi": "İdeal", "fue": "Zor" },
+          { "feature": "Tek Seans Greft", "dhi": "2000-3500", "fue": "3000-5000+" },
+          { "feature": "İşlem Süresi", "dhi": "5-7 saat", "fue": "4-6 saat" },
+          { "feature": "İyileşme", "dhi": "7-10 gün", "fue": "7-10 gün" },
+          { "feature": "Maliyet", "dhi": "Daha yüksek", "fue": "Standart" }
+        ],
+        "finalRow": { "feature": "Nihai Sonuç", "value": "Her iki teknikte de 12-18 ayda kalıcı ve doğal görünüm elde edilir. Sonucu belirleyen cerrah deneyimidir." },
+        "footer": "Bu tablo genel karşılaştırma amaçlıdır. Bireysel sonuçlar değişkenlik gösterebilir.",
+        "footerLink": "Detaylı FUE vs DHI karşılaştırması için tıklayın."
+      },
+      "summary": {
+        "title": "DHI Süreç Özeti",
+        "items": [
+          { "value": "5-7 Saat", "label": "İşlem Süresi" },
+          { "value": "7-10 Gün", "label": "İyileşme Dönemi" },
+          { "value": "3-4 Ay", "label": "İlk Saç Çıkışı" },
+          { "value": "6-8 Ay", "label": "Yoğunlaşma" },
+          { "value": "12-18 Ay", "label": "Nihai Sonuç" }
+        ]
+      },
+      "faq": {
+        "title": "Sık Sorulan Sorular",
+        "items": [
+          { "q": "DHI ve FUE arasındaki temel fark nedir?", "a": "DHI'da Choi kalemi sayesinde kanal açma ve greft yerleştirme tek adımda gerçekleşir. FUE'de ise önce kanallar açılır, ardından greftler yerleştirilir. DHI bu sayede daha hassas açı ve yön kontrolü sağlar; özellikle mevcut saçlar arasına ekim gereken alanlarda üstün sonuç verir. FUE ise tek seansta daha fazla greft kapasitesi ve daha kısa işlem süresiyle geniş alanlarda avantajlıdır." },
+          { "q": "DHI saç ekimi ne kadar sürer?", "a": "DHI, Choi kalemine tek tek yükleme gerektirdiğinden FUE'ye kıyasla biraz daha uzun sürer. Tipik bir seans 5-7 saat arasında tamamlanır. Greft sayısı ve işlem kapsamına göre süre değişkenlik gösterebilir." },
+          { "q": "DHI ağrılı mı?", "a": "İşlem lokal anestezi altında yapılır. Anestezi enjeksiyonu sırasında kısa süreli bir his yaşanabilir; sonrasında işlem boyunca ağrı duyulmaz. İyileşme döneminde hafif rahatsızlık hissedilebilir; bu reçete edilen ilaçlarla kolaylıkla yönetilir." },
+          { "q": "DHI sonuçları kalıcı mı?", "a": "Evet. FUE ile aynı donor bölgeden alınan kökler DHT hormonuna genetik olarak dirençlidir. Ekilen saçlar yeni yerleştikleri bölgede ömür boyu büyümeye devam eder. Mevcut saçlarınızdaki dökülme ise genetik programa göre devam edebilir." },
+          { "q": "DHI kimler için uygundur?", "a": "DHI; mevcut saçlar arasına yoğunluk katmak isteyenler, saç çizgisi bölgesine hassas ekim hedefleyenler, orta düzey dökülmesi olanlar (1500-3500 greft) ve yüksek yoğunluk önceliği olan hastalar için idealdir. Geniş dökülme alanlarında FUE daha uygun olabilir. Kesin karar, kişisel değerlendirmeyle verilir." }
+        ]
+      },
+      "cta": {
+        "title": "DHI Size Uygun mu?",
+        "lede": "DHI mi yoksa FUE mi — hangi tekniğin durumunuza daha uygun olduğunu birlikte belirleyelim. Ücretsiz saç analizinizle kişisel tedavi planınızı oluşturalım.",
+        "primary": "Ücretsiz Saç Analizi",
+        "whatsapp": "WhatsApp'tan Sor",
+        "trustFree": "Ücretsiz",
+        "trustNonBinding": "Bağlayıcı değil",
+        "trust24h": "24 saat içinde dönüş"
+      },
+      "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir. DHI dahil hiçbir saç ekimi tekniği belirli bir sonucu garanti edemez. Tedavi kararınız için mutlaka uzman hekim konsültasyonu alınız. Görseller temsilidir.",
+      "schema": {
+        "procedureName": "DHI Saç Ekimi",
+        "procedureDescription": "Choi kalemi (Direkt Hair Implantation) tekniğiyle hassas açı kontrolü ile saç ekimi",
+        "howPerformed": "Lokal anestezi altında, Choi kalemi ile direkt implantasyon"
+      }
+    },
+    "sapphire": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "parent": "Saç Ekimi",
+        "current": "Sapphire FUE"
+      },
+      "hero": {
+        "eyebrow": "FUE VARYASYONU",
+        "title": "Sapphire FUE:",
+        "titleItalic": "Safir Uçlu Saç Ekimi Tekniği",
+        "lede": "Sapphire FUE, standart FUE tekniğinin safir kristal uçlu bıçakla uygulanan versiyonudur. Temel prensip aynıdır: fark, kanal açma aşamasında kullanılan bıçak materyalindedir. Daha küçük kesiler, daha az doku hasarı ve biraz daha hızlı iyileşme sağlayabilir."
+      },
+      "what": {
+        "title": "Sapphire FUE Nedir?",
+        "p1": "Sapphire FUE, FUE (Folliküler Ünite Ekstraksiyonu) tekniğinin kanal açma aşamasında çelik bıçak yerine safir kristal uçlu bıçak kullanan bir varyasyondur. \"Yeni bir teknik\" değil, mevcut FUE yönteminin bir geliştirmesidir.",
+        "p2": "İşlemin temel adımları standart FUE ile birebir aynıdır: donor bölgeden tek tek greft alımı, kanal açma ve greftlerin yerleştirmesi. Tek fark üçüncü adımda kullanılan bıçak materyalidir.",
+        "p3": "Safir kristal, doğada elmastan sonra en sert ikinci mineral olan korundum ailesine aittir. Bu sertlik sayesinde bıçak ucu daha uzun süre keskin kalır ve daha ince kesiler yapılabilir.",
+        "factsTitle": "Temel Bilgiler",
+        "facts": [
+          { "label": "Teknik", "value": "FUE'nin safir uçlu varyasyonu" },
+          { "label": "İşlem Süresi", "value": "4-6 saat" },
+          { "label": "İyileşme", "value": "5-7 gün" },
+          { "label": "İlk Çıkış", "value": "3-4. ay" },
+          { "label": "Nihai Sonuç", "value": "12-18 ay" }
+        ]
+      },
+      "diff": {
+        "title": "Sapphire Farkı Nedir?",
+        "lede": "Sapphire FUE hakkında doğruyu bilmeniz önemli. Gerçek avantajlarını ve sınırlarını açıkça paylaşıyoruz.",
+        "advantageTitle": "Gerçek Avantaj",
+        "advantageIntro": "Safir kristal bıçak, çelik bıçağa kıyasla daha keskindir ve daha düzgün bir kesi yüzeyi oluşturur. Bu da şu anlama gelir:",
+        "advantageItems": [
+          "Daha küçük kesi alanı — doku hasarı azalır",
+          "Daha hassas kanal açma — yönlendirme kolaylığı",
+          "Daha hızlı iyileşme süresi — 5-7 gün (standart FUE'de 7-10 gün)",
+          "Daha az kabuklanma — operasyon sonrası konfor"
+        ],
+        "limitsTitle": "Gerçek Sınırlar",
+        "limitsIntro": "Dürüstlük politikamız gereği belirtmeliyiz:",
+        "limitsItems": [
+          "Standart FUE'den dramatik bir fark yoktur — temel prensip aynıdır",
+          "Nihai sonucu belirleyen bıçak materyali değil, cerrahın deneyimidir",
+          "Maliyet farkı olabilir — safir uçlu bıçaklar daha pahalıdır",
+          "Greft tutma oranı her iki yöntemde de benzerdir"
+        ],
+        "limitsFooter": "Bazı klinikler Sapphire FUE'yi \"yeni nesil teknoloji\" olarak pazarlar. Gerçekte sadece bıçak materyali farklıdır. Bunu bilmeniz önemli."
+      },
+      "how": {
+        "title": "Sapphire FUE Nasıl Yapılır?",
+        "lede": "İşlem adımları standart FUE ile aynıdır. Tek fark 3. adımda (kanal açma) safir uçlu bıçak kullanılmasıdır.",
+        "step1": { "title": "Konsültasyon ve Planlama", "body": "Saç dökülmesinin değerlendirilmesi, greft sayısı hesabı, saç çizgisi tasarımı. Sapphire FUE'nin sizin için uygun olup olmadığı bu aşamada belirlenir. Her hasta için en uygun teknik kişisel değerlendirmeyle seçilir." },
+        "step2": { "title": "Greft Alımı (Aynı)", "body": "Lokal anestezi uygulanır. Donor bölgeden (genellikle ense) saç kökleri mikro punch ile tek tek alınır. Bu adım standart FUE ile tamamen aynıdır. Alınan greftler özel solüsyonda muhafaza edilir." },
+        "step3": { "title": "Kanal Açma — Safir Bıçak", "highlight": "(Fark burada)", "body": "Greftlerin yerleştirileceği mikro kanallar, çelik bıçak yerine safir kristal uçlu bıçakla açılır. Safir ucun daha keskin ve düzgün kesi yapması, daha küçük kanal açıklarının oluşmasını sağlar. Kanal açısı, derinliği ve yönü cerrah tarafından hassas şekilde ayarlanır." },
+        "step4": { "title": "Greft Yerleştirme (Aynı)", "body": "Alınan greftler açılan kanallara tek tek yerleştirilir. Bu adım da standart FUE ile aynıdır. İşlem toplam 4-6 saat sürer. Aynı gün taburcu olursunuz." }
+      },
+      "prosCons": {
+        "title": "Avantajlar ve Limitler",
+        "lede": "Sapphire FUE seçerken gerçekçi beklentilere sahip olmak önemlidir. Avantajlarını ve sınırlarını şeffaf şekilde paylaşıyoruz.",
+        "prosTitle": "Avantajlar",
+        "pros": [
+          { "title": "Daha Küçük Kesi Alanı", "desc": "Safir ucun keskinliği sayesinde daha ince kesiler yapılır, çevre dokuya verilen hasar azalır." },
+          { "title": "Daha Hızlı İyileşme", "desc": "Küçük kesiler daha hızlı kapanır. İyileşme süresi yaklaşık 5-7 gündür (standart FUE'de 7-10 gün)." },
+          { "title": "Hassas Kanal Açma", "desc": "Safir ucun düzgün kesi yüzeyi, kanalların daha hassas açılmasına olanak tanır." },
+          { "title": "Daha Az Kabuklanma", "desc": "Küçük kesi alanı, operasyon sonrası kabuklanma ve kızarıklığın azalmasını sağlar." }
+        ],
+        "consTitle": "Limitler",
+        "cons": [
+          { "title": "Dramatik Fark Yok", "desc": "Standart FUE ile karşılaştırıldığında sonuçlardaki fark çoğu hastada minimal düzeydedir. Temel prensip aynıdır." },
+          { "title": "Cerrah Deneyimi Belirleyici", "desc": "Nihai sonucu belirleyen en önemli faktör bıçak materyali değil, cerrahın deneyimi ve teknik becerisidir." },
+          { "title": "Maliyet Farkı", "desc": "Safir uçlu bıçaklar çelik bıçaklara göre daha pahalıdır. Bu maliyet farkı işleme yansıyabilir." },
+          { "title": "Greft Tutma Oranı Benzer", "desc": "Araştırmalar, her iki yöntemde de greft tutma oranının benzer olduğunu göstermektedir." }
+        ]
+      },
+      "compare": {
+        "title": "Sapphire FUE vs Standart FUE",
+        "lede": "İki yöntem arasındaki farkları ve benzerlikleri şeffaf bir şekilde karşılaştırıyoruz.",
+        "headers": { "feature": "Özellik", "sapphire": "Sapphire FUE", "standard": "Standart FUE" },
+        "rows": [
+          { "feature": "Bıçak Materyali", "sapphire": "Safir kristal", "standard": "Çelik" },
+          { "feature": "Kesi Boyutu", "sapphire": "Biraz daha küçük", "standard": "Standart" },
+          { "feature": "İyileşme Süresi", "sapphire": "5-7 gün", "standard": "7-10 gün" },
+          { "feature": "İşlem Süresi", "sapphire": "4-6 saat", "standard": "4-6 saat" },
+          { "feature": "Anestezi", "sapphire": "Lokal anestezi", "standard": "Lokal anestezi" },
+          { "feature": "Greft Alım Yöntemi", "sapphire": "Aynı (mikro punch)", "standard": "Mikro punch" },
+          { "feature": "Greft Tutma Oranı", "sapphire": "Benzer (%85-95)", "standard": "%85-95" },
+          { "feature": "Nihai Sonuç", "sapphire": "12-18 ay", "standard": "12-18 ay" }
+        ],
+        "finalRow": { "feature": "Sonucu Belirleyen", "value": "Her iki yöntemde de cerrahın deneyimi ve hasta uyumu belirleyicidir" },
+        "footer": "Bu tablo genel karşılaştırma amaçlıdır. Bireysel sonuçlar değişkenlik gösterebilir."
+      },
+      "recovery": {
+        "title": "İyileşme Süreci",
+        "items": [
+          { "title": "İşlem Günü", "body": "4-6 saat işlem. Aynı gün taburcu." },
+          { "title": "5-7 Gün", "body": "İyileşme dönemi. Kabuklar dökülüyor. Hassas bakım." },
+          { "title": "3-4. Ay", "body": "İlk yeni saç çıkışları başlar. Şok dökülmesi normaldir." },
+          { "title": "12-18 Ay", "body": "Nihai, kalıcı sonuç. Tam yoğunluk ve doğal görünüm." }
+        ]
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+          { "q": "Sapphire FUE ile normal FUE arasındaki fark nedir?", "a": "Temel fark bıçak materyalidir. Sapphire FUE'de kanal açma aşamasında çelik bıçak yerine safir kristal uçlu bıçak kullanılır. Bu sayede daha küçük ve daha hassas kesiler yapılabilir. Ancak işlemin temel adımları — greft alımı, kanal açma ve yerleştirme — standart FUE ile aynıdır. \"Tamamen farklı bir teknik\" değil, FUE'nin bir varyasyonudur." },
+          { "q": "Sapphire FUE daha ağrısız mı?", "a": "Her iki teknikte de aynı lokal anestezi uygulanır; işlem sırasında ağrı hissedilmez. Sapphire bıçağın daha küçük kesi yapması nedeniyle iyileşme dönemindeki rahatsızlık biraz daha az olabilir. Ancak işlem sırasındaki deneyim her iki yöntemde de hemen hemen aynıdır. \"Ağrısız işlem\" ifadesi tıbbi olarak doğru değildir — anestezi uygulamasında kısa süreli rahatsızlık hissedilebilir." },
+          { "q": "Sapphire FUE daha pahalı mı?", "a": "Safir uçlu bıçaklar çelik bıçaklara göre daha maliyetli olduğundan, Sapphire FUE'nin ücreti standart FUE'ye kıyasla biraz daha yüksek olabilir. Ancak bu fark klinikten kliniğe değişir. Ücretsiz konsültasyonumuzda saç dökülme durumunuza özel değerlendirme ve fiyatlandırma sunulur." },
+          { "q": "Sonuçlar standart FUE'den daha iyi mi?", "a": "Sapphire FUE, iyileşme süresinde hafif bir avantaj sağlayabilir. Ancak nihai sonuç — saçların yoğunluğu, doğallığı ve kalıcılığı — büyük ölçüde cerrahın deneyimine, teknik becerisine ve hastanın operasyon sonrası bakıma uyumuna bağlıdır. Bıçak materyali tek başına sonucu belirleyen faktör değildir. Deneyimli bir cerrahla yapılan standart FUE, deneyimsiz bir cerrahla yapılan Sapphire FUE'den daha iyi sonuç verebilir." }
+        ]
+      },
+      "cta": {
+        "title": "Sapphire FUE Size Uygun mu?",
+        "lede": "Hangi tekniğin sizin için en uygun olduğunu birlikte belirleyelim. Ücretsiz saç analizinizle kişisel tedavi planınızı oluşturalım.",
+        "primary": "Ücretsiz Saç Analizi",
+        "whatsapp": "WhatsApp'tan Sor",
+        "trustFree": "Ücretsiz",
+        "trustNonBinding": "Bağlayıcı değil",
+        "trust24h": "24 saat içinde dönüş"
+      },
+      "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir. Sapphire FUE dahil hiçbir saç ekimi tekniği belirli bir sonucu garanti edemez. Tedavi kararınız için mutlaka uzman hekim konsültasyonu alınız. Görseller temsilidir."
+    },
+    "beard": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "current": "Sakal Ekimi"
+      },
+      "hero": {
+        "eyebrow": "YÜZ HATLARI RESTORASYONU",
+        "title": "Sakal Ekimi İstanbul",
+        "titleItalic": "Doğal, Dolgun, Kalıcı",
+        "lede": "Sakal ekimi, ense bölgesinden alınan kıl köklerinin yüz bölgesine — çene, yanak veya bıyık bölgesine — mikrocerrahi yöntemle nakledildiği kalıcı bir restorasyon işlemidir. DHI tekniğinin hassas açı kontrolü sayesinde doğal büyüme yönüne uygun, dolgun bir görünüm elde edilir.",
+        "stat1": { "value": "3-5 saat", "label": "işlem" },
+        "stat2": { "value": "7-10 gün", "label": "iyileşme" },
+        "stat3": { "value": "10-12 ay", "label": "nihai sonuç" }
+      },
+      "shortAnswer": {
+        "title": "Kısa cevap",
+        "body": "Sakal ekimi; seyrek, lekeli veya boşluklu sakalları ense bölgesinden alınan kıl kökleriyle yoğunlaştırmaya yarayan kalıcı bir mikrocerrahi işlemdir. DHI Choi kalemi ile her greft <strong>30-45 derece yatık</strong> yerleştirilir — bu doğal sakal büyüme açısıdır. İşlem 3-5 saat sürer, lokal anestezi altında yapılır. Çoğu hastada <strong>1.500-2.500 greft</strong> arasında ekim yapılır. Nihai sonuç 10-12 ayda görülür."
+      },
+      "areas": {
+        "title": "Sakal Ekimi Bölgeleri",
+        "lede": "Her bölgenin farklı gereksinimi vardır. Size uygun plan konsültasyonda çıkarılır.",
+        "items": [
+          { "title": "Çene Bölgesi", "tag": "En sık tercih edilen", "body": "Çene hattının belirgin hale getirilmesi. Genellikle 800-1500 greft." },
+          { "title": "Yanak", "tag": "Dolgunluk", "body": "Yanak kısmında seyrekliği kapatma. Genellikle 400-800 greft." },
+          { "title": "Bıyık", "tag": "Hassas çalışma", "body": "Bıyık bölgesi, en hassas açı kontrolü gerektirir. 300-600 greft." },
+          { "title": "Tam Sakal", "tag": "Kapsamlı restorasyon", "body": "Çene + yanak + bıyık kombinasyonu. 1.500-2.500 greft." }
+        ]
+      },
+      "candidates": {
+        "title": "Sakal Ekimi Kimler İçin Uygundur?",
+        "suitableTitle": "Uygun Durumlar",
+        "suitable": [
+          "Doğuştan seyrek sakal veya boş bölgeler",
+          "Travma veya yanık sonrası kayıp",
+          "Yara izi kapatma ihtiyacı",
+          "Simetri düzeltme",
+          "Estetik dolgunluk arayışı"
+        ],
+        "carefulTitle": "Dikkatli Değerlendirilir",
+        "careful": [
+          "Yetersiz donor alanı (ense)",
+          "Aktif cilt hastalığı (yüz bölgesi)",
+          "Keloid eğilimi",
+          "18 yaş altı (olgunlaşma tamamlanmamış)"
+        ],
+        "footerLink": "Detaylı uygunluk kriterleri →"
+      },
+      "how": {
+        "title": "Sakal Ekimi Nasıl Yapılır?",
+        "steps": [
+          { "title": "Planlama ve Tasarım", "text": "Sakal hattı, yoğunluk haritası ve açılar cilt üzerine çizilir. Yüz asimetrisi ve doğal büyüme yönü analiz edilir." },
+          { "title": "Lokal Anestezi", "text": "Hem donor (ense) hem alıcı (yüz) bölgeye lokal anestezi uygulanır. İşlem boyunca ağrı hissedilmez, bilinç açık kalır." },
+          { "title": "Greft Alımı (FUE)", "text": "Ense bölgesinden mikro punch ile folliküler üniteler tek tek alınır. Sakal ekimi için ağırlıklı tek köklü greftler tercih edilir — doğal görünüm için kritik." },
+          { "title": "DHI İmplantasyon", "text": "Choi kalemiyle her greft 30-45° yatık açıyla yüz bölgesine yerleştirilir. Açı sakalın doğal büyüme yönüne uygun olmalı — yoksa çıkan kıllar dikey görünür, doğal durmaz." },
+          { "title": "Kapanış ve Bakım", "text": "Yüz bölgesinde herhangi bir dikiş gerekmez. Kısa süreli kızarıklık ve kabuklanma normal. Post-op bakım kitiniz ve talimatlarınız verilir." }
+        ]
+      },
+      "process": {
+        "title": "Süreç Bilgileri",
+        "headers": { "stage": "Aşama", "detail": "Süre / Detay" },
+        "rows": [
+          { "stage": "İşlem süresi", "detail": "3-5 saat (greft sayısına göre)" },
+          { "stage": "Kızarıklık / şişlik", "detail": "İlk 3-5 gün" },
+          { "stage": "Kabuklanma", "detail": "7-10 gün içinde kendiliğinden dökülür" },
+          { "stage": "Şok dökülme", "detail": "2-4. hafta (normal süreç)" },
+          { "stage": "İlk yeni çıkışlar", "detail": "3-4. ay" },
+          { "stage": "Belirgin yoğunlaşma", "detail": "6-8. ay" },
+          { "stage": "Nihai sonuç", "detail": "10-12 ay" },
+          { "stage": "Greft tutma oranı", "detail": "~%85-90" }
+        ]
+      },
+      "case": {
+        "title": "Gerçek Sonuç Örneği",
+        "tag": "Vaka Çalışması",
+        "caseTitle": "DHI Sakal Ekimi — 1.800 Greft, 10 Ay",
+        "caseSubtitle": "Erkek, 29 yaş · Çene + yanak yoğunlaştırma",
+        "linkText": "Detay →",
+        "footnote": "Bireysel sonuçlar değişkenlik gösterebilir. Tüm görseller hasta onamıyla paylaşılmaktadır."
+      },
+      "faq": {
+        "eyebrow": "SIKÇA SORULAN",
+        "title": "Sakal ekimi hakkında sorular",
+        "items": [
+          { "q": "Sakal ekimi ne kadar sürer?", "a": "3-5 saat sürer. Tam sakal ekimi (1500-2500 greft) 4-5 saat, bölgesel yoğunlaştırma 2-3 saattir. İşlem lokal anestezi altındadır, tek seansta tamamlanır." },
+          { "q": "Kaç greft kullanılır?", "a": "Çene 800-1500, yanak 400-800, bıyık 300-600, tam sakal 1500-2500 greft. Kesin sayı mevcut sakal yoğunluğu, hedef dolgunluk ve donor alan kapasitesine göre konsültasyonda belirlenir." },
+          { "q": "Sakal ekimi iz bırakır mı?", "a": "DHI tekniğinde hem yüz hem donor bölgede gözle görünmez mikro noktalar kalır. Zamanla solarak neredeyse fark edilmez hale gelir. \"Hiç iz kalmaz\" demek tıbbi olarak doğru değildir — mikro izler daima vardır." },
+          { "q": "Sakal ekimi kalıcı mı?", "a": "Evet. Ense bölgesinden alınan kıl kökleri genetik olarak dökülmeye dirençlidir. Yüz bölgesine nakledildiklerinde bu özelliklerini korurlar. Ekilen greftlerin yaklaşık %85-90'ı tutar ve kalıcı olur." },
+          { "q": "Ne zaman tıraş olabilirim?", "a": "İlk 15 gün kesinlikle tıraş yapılmaz. 15. günden sonra elektrikli tıraş makinesi kullanılabilir. Jilet ile tıraş için 30 gün beklenmesi gerekir. Düzenli tıraş rutinine geri dönüş 6. aydan itibaren güvenlidir." }
+        ]
+      },
+      "cta": {
+        "title": "Sakal ekimi size uygun mu?",
+        "lede": "Ücretsiz saç analizi ile kişisel tedavi planınızı alın. Fotoğrafınızı gönderin, 24 saat içinde uzman ekibimiz size özel plan çıkarsın.",
+        "primary": "Ücretsiz Analiz",
+        "secondary": "Greft Hesapla",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "brow": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "current": "Kaş Ekimi"
+      },
+      "hero": {
+        "eyebrow": "HASSAS MİKROCERRAHİ",
+        "title": "Kaş Ekimi İstanbul",
+        "titleItalic": "Doğal Kavis, Net Simetri",
+        "lede": "Kaş ekimi, doğuştan seyrek, aşırı tüy alma nedeniyle incelmiş veya travma/yanık sonrası kayıp yaşanan kaşları tek köklü greftlerle restore eden hassas bir mikrocerrahi işlemdir. En kritik detay: her greftin <strong>10-15 derece yatık</strong> açıyla yerleştirilmesi — bu kaşın doğal büyüme yönüdür.",
+        "stat1": { "value": "2-3 saat", "label": "işlem" },
+        "stat2": { "value": "5-7 gün", "label": "iyileşme" },
+        "stat3": { "value": "8-12 ay", "label": "nihai sonuç" }
+      },
+      "shortAnswer": {
+        "title": "Kısa cevap",
+        "body": "Kaş ekimi; ense bölgesinden alınan <strong>tek köklü greftlerin</strong> kaş bölgesine FUE+DHI kombinasyonu ile yerleştirildiği kalıcı bir işlemdir. En kritik özelliği <strong>açı kontrolü</strong>: 10-15° yatık açı. İşlem 2-3 saat sürer. Tam çift kaş için 300-500 greft, simetri düzeltme için 150-300 greft kullanılır. Nihai sonuç 8-12 ayda görülür."
+      },
+      "candidates": {
+        "title": "Kimler İçin Uygundur?",
+        "suitableTitle": "Uygun Durumlar",
+        "suitable": [
+          "Aşırı tüy alma (over-plucking) sonucu kalıcı seyrelme",
+          "Doğuştan seyrek veya boş kaşlar",
+          "Yanık, yara izi kapatma",
+          "Alopesi areata (stabil dönem, göreceli)",
+          "Asimetri veya şekil bozukluğu",
+          "Trikotillomani sonrası stabil dönem"
+        ],
+        "carefulTitle": "Dikkatli Değerlendirilir",
+        "careful": [
+          "Aktif alopesi areata",
+          "Aktif saç çekme bozukluğu",
+          "Yüz bölgesi cilt hastalığı",
+          "Keloid eğilimi",
+          "Gerçekçi olmayan beklentiler"
+        ],
+        "footerLink": "Detaylı uygunluk kriterleri →"
+      },
+      "angle": {
+        "eyebrow": "EN KRİTİK DETAY",
+        "title": "Neden açı bu kadar kritik?",
+        "p1": "Kaş kılları doğal olarak cildin yüzeyine <strong>10-15 derece yatık</strong> büyür. Bu açı kaşa doğal \"uzanma\" ve \"yapıştırma\" görünümü verir.",
+        "p2": "Greft dikey veya 30°+ açıyla yerleştirilirse, çıkan kıllar <strong>dikey duran saç gibi</strong> görünür — tamamen doğal olmayan bir sonuç.",
+        "p3": "Bu nedenle kaş ekimi, sakal veya saç ekiminden daha fazla açı hassasiyeti ve deneyim gerektirir.",
+        "compareTitle": "Açı Farkı Karşılaştırması",
+        "row1Title": "Kaş: 10-15° yatık",
+        "row1Sub": "Doğal yatay büyüme",
+        "row2Title": "Sakal: 30-45° yatık",
+        "row2Sub": "Yüzden dışa doğru",
+        "row3Title": "Saç: 45-90° dik",
+        "row3Sub": "Dikey büyüme"
+      },
+      "how": {
+        "title": "Kaş Ekimi Nasıl Yapılır?",
+        "steps": [
+          { "title": "Kaş Tasarımı", "text": "Yüz anatomisi, gözler arası mesafe ve kişisel tercih göz önüne alınır. Simetri ve doğal kavis kalem ile çizilir. Tasarım hasta ile onaylanır." },
+          { "title": "Lokal Anestezi", "text": "Hem donor (ense) hem alıcı (kaş) bölgeye lokal anestezi uygulanır. Küçük alan olduğu için anestezi süreci kısadır." },
+          { "title": "Tek Köklü Greft Alımı", "text": "Ense bölgesinden mikro punch ile tek köklü folliküler üniteler seçilerek alınır. Kaş için çok köklü greftler kullanılmaz — doğal görünüm için kritik." },
+          { "title": "Hassas Yerleştirme", "text": "Her greft, kaşın doğal büyüme yönüne uygun 10-15° yatık açıyla ve belirli bir sırada yerleştirilir. Mikroskop yardımıyla hassasiyet sağlanır." },
+          { "title": "Kontrol ve Kapanış", "text": "Her kıl yönü tek tek kontrol edilir. Simetri karşılaştırılır. Çok hafif kızarıklık dışında görünür iyileşme işareti yoktur." }
+        ]
+      },
+      "process": {
+        "title": "Süreç Bilgileri",
+        "headers": { "stage": "Aşama", "detail": "Süre / Detay" },
+        "rows": [
+          { "stage": "İşlem süresi", "detail": "2-3 saat" },
+          { "stage": "Hafif kızarıklık", "detail": "İlk 2-3 gün" },
+          { "stage": "Kabuklanma", "detail": "5-7 gün (kendiliğinden dökülür)" },
+          { "stage": "Şok dökülme", "detail": "2-4. hafta" },
+          { "stage": "İlk yeni çıkışlar", "detail": "3-4. ay" },
+          { "stage": "Belirgin yoğunlaşma", "detail": "6-8. ay" },
+          { "stage": "Nihai sonuç", "detail": "8-12 ay" },
+          { "stage": "Greft tutma oranı", "detail": "~%85-90" }
+        ]
+      },
+      "trim": {
+        "title": "Önemli: Ekilen kaşları kırpmak gerekir",
+        "body": "Ekilen kıllar ense bölgesinden geldiği için saç gibi uzamaya devam eder. İlk dönemde <strong>haftada 1-2 kez kırpma</strong> gerekir. Zamanla kıllar kaşın doğal ritmine uyum sağlar ve kırpma ihtiyacı azalır — ama tamamen ortadan kalkmaz. Bu saç ekiminden farklı bir bakım gereksinimidir."
+      },
+      "case": {
+        "title": "Gerçek Sonuç Örneği",
+        "tag": "Vaka Çalışması",
+        "caseTitle": "Kaş Restorasyonu — 400 Greft, 8 Ay",
+        "caseSubtitle": "Kadın, 38 yaş · Simetri düzeltme + doğal kavis",
+        "linkText": "Detay →",
+        "footnote": "Bireysel sonuçlar değişkenlik gösterebilir. Tüm görseller hasta onamıyla paylaşılmaktadır."
+      },
+      "faq": {
+        "eyebrow": "SIKÇA SORULAN",
+        "title": "Kaş ekimi hakkında sorular",
+        "items": [
+          { "q": "Kaş ekimi ne kadar sürer?", "a": "2-3 saat. Küçük alan olmasına rağmen, açı hassasiyeti nedeniyle zamanın çoğu yerleştirme aşamasında harcanır. Her greft tek tek doğru yönle yerleştirilmelidir." },
+          { "q": "Kaç greft kullanılır?", "a": "Çift tam kaş için 300-500 greft, simetri/bölgesel yoğunlaştırma için 150-300 greft. Mevcut kaş yoğunluğu, hedef şekil ve boşluk boyutuna göre konsültasyonda belirlenir." },
+          { "q": "Kaş ekimi doğal görünür mü?", "a": "Deneyimli ellerde çok doğal sonuçlar verir. Kritik nokta: tek köklü greftler + 10-15° yatık açı. Yanlış açı veya çok köklü greft = kaş yerine saç gibi dik duran kıllar, doğal görünmez." },
+          { "q": "Ekilen kaşları kırpmak gerekir mi?", "a": "Evet. Ekilen kıllar ense kaynaklı olduğu için saç gibi uzamaya devam eder. İlk dönemde haftada 1-2 kez kırpma gerekir. Zamanla kaş ritmine uyum sağlar ancak kırpma ihtiyacı tamamen bitmez." },
+          { "q": "Kaş ekimi sonrası makyaj yapabilir miyim?", "a": "İlk 10 gün kaş bölgesine makyaj yapılmaz. 10. günden sonra hafif kalem ile şekillendirme uygulanabilir. Tam makyaj (pomade, tint gibi yoğun ürünler) için 1 ay beklenmesi önerilir." }
+        ]
+      },
+      "cta": {
+        "title": "Kaş ekimi size uygun mu?",
+        "lede": "Ücretsiz saç analizi ile kişisel değerlendirme. Fotoğrafınızı gönderin, 24 saat içinde uzman dönüş yapsın.",
+        "primary": "Ücretsiz Analiz",
+        "secondary": "Greft Hesapla",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "fueVsDhi": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "current": "FUE vs DHI"
+      },
+      "hero": {
+        "eyebrow": "TARAFSIZ KARŞILAŞTIRMA",
+        "title": "FUE mi, DHI mi?",
+        "titleItalic": "Dürüst karşılaştırma.",
+        "lede": "Hangisi daha iyi? Dürüst cevap: ikisi de farklı durumlar için iyi. Size en uygun teknik, bireysel durumunuza bağlıdır."
+      },
+      "shortAnswer": {
+        "label": "Kısa Cevap",
+        "body": "Her iki teknik de modern, güvenli ve etkilidir. FUE geniş alanlarda (3000–5000+ greft) hız ve verimlilik, DHI yoğunlaştırma ve hassas açı kontrolü sunar. \"En iyi teknik\" yoktur — size en uygun teknik vardır."
+      },
+      "table": {
+        "eyebrow": "TEKNİK FARKLILIKLARI",
+        "title": "FUE ve DHI Karşılaştırması",
+        "lede": "Hiçbir teknik evrensel olarak üstün değildir. Tablo genel farklılıkları özetler.",
+        "headers": { "feature": "Özellik", "fue": "FUE", "dhi": "DHI" },
+        "rows": [
+          { "feature": "Yöntem", "fue": "Önce kanallar, sonra yerleştirme", "dhi": "Choi kalemi ile eş zamanlı" },
+          { "feature": "Tek Seans Greft", "fue": "3000–5000+", "dhi": "2000–3500" },
+          { "feature": "İşlem Süresi", "fue": "4–6 saat", "dhi": "5–7 saat" },
+          { "feature": "Mevcut Saçlar Arası", "fue": "Mümkün", "dhi": "Daha avantajlı" },
+          { "feature": "Açı Kontrolü", "fue": "Kanal açılış açısına bağlı", "dhi": "Her greft bağımsız" },
+          { "feature": "İyileşme Süresi", "fue": "7–10 gün", "dhi": "7–10 gün" },
+          { "feature": "Maliyet", "fue": "Nispeten daha uygun", "dhi": "Nispeten daha yüksek" },
+          { "feature": "Nihai Sonuç", "fue": "12–18 ay", "dhi": "12–18 ay" }
+        ]
+      },
+      "ideal": {
+        "eyebrow": "HASTA PROFİLİ",
+        "title": "Hangi Teknik Kimin İçin İdeal?",
+        "fueTitle": "FUE Kimin İçin İdeal?",
+        "fueItems": [
+          "Norwood IV–VI geniş dökülme alanları",
+          "3000+ greft gerektiren durumlar",
+          "Bütçe hassasiyeti olan hastalar",
+          "Tıraşsız FUE opsiyonu isteyenler"
+        ],
+        "dhiTitle": "DHI Kimin İçin İdeal?",
+        "dhiItems": [
+          "Mevcut saçlar arası yoğunlaştırma",
+          "Hassas ön hat tasarımı gereken durumlar",
+          "2000–3500 greft aralığı",
+          "Kadın tipi seyrelme (Ludwig)"
+        ],
+        "footer": "Bireysel uygunluk ücretsiz konsültasyonda kişisel değerlendirme ile belirlenir.",
+        "footerLink": "Uygunluk kriterleri →"
+      },
+      "myths": {
+        "eyebrow": "YANLIŞ BİLİNENLER",
+        "title": "Mitos ve Gerçek",
+        "mythLabel": "Mitos",
+        "factLabel": "Gerçek",
+        "items": [
+          { "myth": "DHI daha yeni bir teknik", "fact": "DHI, FUE'nin bir varyasyonudur. Kullanılan alet (Choi kalemi) farklıdır; temel prensip aynıdır. 'Yeni' değil, 'farklı' bir yaklaşımdır." },
+          { "myth": "FUE skar bırakır", "fact": "FUE, mikro punch (genellikle 0.8–1mm) ile greft alır. Zamanla çok küçük, dağınık izler oluşabilir. Kısa saçta bile gözle fark etmek güçtür." },
+          { "myth": "Biri kesinlikle daha iyi", "fact": "Uygun teknik hastaya özgüdür. Dökülme evresi, greft sayısı, bütçe, mevcut saç yoğunluğu gibi faktörler belirleyicidir. Uzman değerlendirmesi şarttır." }
+        ]
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+          { "q": "FUE mi yoksa DHI mi daha iyi?", "a": "Hiçbiri evrensel olarak daha iyi değildir. Her teknik farklı durumlar için idealdir. FUE geniş alanlarda hız ve verimlilik sunarken, DHI mevcut saçlar arasına yoğunlaştırma ve hassas açı kontrolü gerektiren durumlarda daha avantajlıdır. Doğru teknik kişisel değerlendirmeyle belirlenir." },
+          { "q": "FUE ile DHI arasındaki temel fark nedir?", "a": "FUE'de greft alımından sonra önce alıcı bölgede kanallar açılır, ardından greftler yerleştirilir. DHI'da ise Choi kalemi sayesinde kanal açma ve yerleştirme işlemi eş zamanlı gerçekleştirilir. Bu fark DHI'ya açı ve yön kontrolü açısından avantaj sağlar." },
+          { "q": "DHI daha pahalı mı?", "a": "Genellikle evet. DHI'da kullanılan Choi kalemlerinin tüketim maliyeti ve işlemin daha fazla işçilik gerektirmesi nedeniyle maliyet nispeten daha yüksektir. Ancak fark klinikten kliniğe değişir." },
+          { "q": "Büyük alanlarda hangi teknik daha iyi?", "a": "Geniş dökülme alanlarında (4000+ greft gereken Norwood IV-VI gibi durumlarda) FUE genellikle daha hızlı ve verimlidir. DHI'nın tek seansta karşılayabileceği greft kapasitesi FUE'ye kıyasla nispeten daha sınırlıdır." }
+        ]
+      },
+      "cta": {
+        "title": "Hangi teknik size uygun?",
+        "lede": "Ücretsiz saç analizinizle hangi tekniğin sizin için doğru olduğunu belirleyelim.",
+        "primary": "Ücretsiz Saç Analizi",
+        "secondary": "Sonuçları Gör",
+        "trustFree": "Ücretsiz",
+        "trustNonBinding": "Bağlayıcı değil",
+        "trust24h": "24 saat içinde dönüş"
+      },
+      "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir. Tedavi kararınız için mutlaka uzman hekim konsültasyonu alınız.",
+      "schema": {
+        "articleName": "FUE vs DHI Karşılaştırması",
+        "articleHeadline": "FUE mi, DHI mi? Dürüst Karşılaştırma",
+        "articleDescription": "FUE ve DHI saç ekimi teknikleri arasındaki gerçek farklar. Hangi durumda hangi teknik idealdir?"
+      }
+    },
+    "beforeAfter": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "current": "Öncesi Sonrası"
+      },
+      "hero": {
+        "eyebrow": "GERÇEK SONUÇLAR",
+        "title": "Sonuçlarımız",
+        "titleItalic": "konuşsun.",
+        "consent": "Galeride paylaşılan tüm vakalar hasta yazılı onamı ile yayınlanmaktadır. Görseller manipüle edilmemiştir. Bireysel sonuçlar değişkenlik gösterebilir."
+      },
+      "filter": {
+        "all": "tümü",
+        "ageSuffix": "yaş",
+        "graftsSuffix": "greft",
+        "noResults": "Bu kategoride henüz vaka eklenmemiştir."
+      },
+      "card": {
+        "before": "Öncesi",
+        "after": "Sonrası",
+        "beforeLabel": "BEFORE",
+        "afterLabel": "AFTER",
+        "tapBefore": "Öncesini gör",
+        "tapAfter": "Sonrasını gör",
+        "missingImage": "Görsel Ekleniyor"
+      },
+      "categoryLabels": {
+        "hair": "Saç",
+        "beard": "Sakal",
+        "brow": "Kaş"
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+          { "q": "Bu sonuçlar gerçek mi?", "a": "Evet. Galeride paylaşılan tüm vakalar hasta yazılı onamı ile yayınlanmaktadır. Görseller manipüle edilmemiş, filtre veya retuş uygulanmamıştır. Bireysel sonuçlar değişkenlik gösterebilir." },
+          { "q": "Sonuçlar ne kadar sürede çıkıyor?", "a": "İlk yeni saç çıkışları 3-4. ayda başlar. Belirgin yoğunlaşma 6-8. ayda görülür. Nihai sonuç 12-18 ayda tamamlanır. Galerideki her vakada süre bilgisi belirtilmektedir." },
+          { "q": "Benzer sonuç benim için mümkün mü?", "a": "Her hasta benzersizdir. Sonuç; donor alan yoğunluğu, dökülme evresi, uygulanan teknik ve kişisel iyileşme sürecine bağlıdır. Bireysel değerlendirme için ücretsiz konsültasyon almanızı öneririz." }
+        ]
+      },
+      "cta": {
+        "title": "Benzer Sonuç İster Misiniz?",
+        "lede": "Ücretsiz saç analizinizle kişisel tedavi planınızı oluşturalım. Fotoğrafınızı gönderin, 24 saat içinde uzman ekibimiz size dönüş yapsın.",
+        "primary": "Ücretsiz Saç Analizi",
+        "whatsapp": "WhatsApp",
+        "trustFree": "Ücretsiz",
+        "trustNonBinding": "Bağlayıcı değil",
+        "trust24h": "24 saat içinde dönüş"
+      },
+      "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Galerideki tüm görseller hasta yazılı onamı ile yayınlanmaktadır. Bireysel sonuçlar değişkenlik gösterebilir.",
+      "schema": {
+        "procedureName": "Saç, Sakal ve Kaş Restorasyon Sonuçları",
+        "procedureDescription": "FUE ve DHI teknikleriyle gerçekleştirilen saç, sakal ve kaş restorasyon vakalarının belgelenmiş sonuçları",
+        "followup": "12-18 ay tam sonuç süresi",
+        "galleryName": "Altınsoy Hair Clinic Öncesi Sonrası Galeri",
+        "galleryDescription": "Hasta yazılı onamı ile yayınlanan, teknik ve greft bilgisiyle şeffaf vaka galerisi"
+      }
+    },
+    "notEligible": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "parent": "Saç Ekimi",
+        "current": "Uygunluk Kriterleri"
+      },
+      "hero": {
+        "eyebrow": "DÜRÜST BİLGİLENDİRME",
+        "titlePart1": "Saç ekimi",
+        "titleItalic": "herkes için uygun değildir.",
+        "lede": "Çoğu klinik yalnızca \"uygun\" hastaları anlatır. Biz dürüstlüğü tercih ediyoruz: saç ekiminin uygun olmadığı durumları açıkça paylaşıyoruz."
+      },
+      "shortAnswer": {
+        "label": "Kısa Cevap",
+        "body": "Saç ekimi; aktif alopesi areata, yetersiz donor alanı, 18 yaş altı, kontrol edilmemiş kronik hastalık, kan pıhtılaşma bozukluğu ve aktif cilt hastalığı durumlarında uygun değildir."
+      },
+      "absolute": {
+        "eyebrow": "MUTLAK KRİTERLER",
+        "title": "Hangi tıbbi durumlarda yapılmaz?",
+        "lede": "Aşağıdaki durumların varlığında saç ekimi uygulanmaz veya uygulanmaması önerilir.",
+        "items": [
+          { "title": "Aktif Alopesi Areata", "desc": "Otoimmün reaksiyon, ekilen saç köklerini de etkileyebilir. Aktif dönemde greft tutma oranı düşer.", "icon": "warning" },
+          { "title": "Yetersiz Donor Alanı", "desc": "Yeterli sayıda greft alınamıyorsa sonuç tatmin edici olmaz. Donor kapasitesi konsültasyonda ölçülür.", "icon": "warning" },
+          { "title": "Kan Pıhtılaşma Bozukluğu", "desc": "Kanama riski artar, yara iyileşmesi güçleşir. Antikoagülan ilaç kullananlar için özel değerlendirme gerekir.", "icon": "warning" },
+          { "title": "Aktif Cilt Hastalıkları", "desc": "Psoriasis, egzama gibi aktif lezyonlar ekim bölgesinde veya donor bölgede varsa işlem yapılamaz.", "icon": "warning" },
+          { "title": "Kontrolsüz Kronik Hastalıklar", "desc": "Kontrolsüz diyabet, kalp hastalığı veya bağışıklık sorunları iyileşme sürecini tehlikeye atabilir.", "icon": "warning" },
+          { "title": "Belirli Kanser Tedavileri", "desc": "Kemoterapi sürecinde greft tutma şansı çok düşüktür. Tedavi tamamlandıktan sonra değerlendirme yapılabilir.", "icon": "warning" },
+          { "title": "Gerçekçi Olmayan Beklentiler", "desc": "Hayal kırıklığını önlemek için doğru beklenti yönetimi şarttır. Konsültasyon bu değerlendirmeyi içerir.", "icon": "info" },
+          { "title": "18 Yaş Altı", "desc": "Dökülme paterni henüz stabilize olmamıştır. Erken ekim ilerleyen dönemde düzeltme gerektiren sonuçlara yol açabilir.", "icon": "info" }
+        ]
+      },
+      "relative": {
+        "eyebrow": "GÖRELİ KRİTERLER",
+        "title": "Hangi durumlarda dikkatli değerlendirme yapılır?",
+        "lede": "Bu durumlar mutlak kontrendikasyon değildir; bireysel değerlendirme ve ek koşullarla saç ekimi mümkün olabilir.",
+        "items": [
+          { "title": "Kontrollü Diyabet", "desc": "Kan şekeri kontrol altında ve doktor onayı varsa bireysel değerlendirme yapılabilir. Yara iyileşmesi yakından takip edilir." },
+          { "title": "Genç Yaş (18–24)", "desc": "Dökülme progresyonu devam edebilir. Genetik risk ve gelecekteki dökülme projeksiyonu göz önünde bulundurularak karar verilir." },
+          { "title": "Diffüz Dökülme (Kadınlarda)", "desc": "Yaygın seyrelmenin altta yatan bir nedeni (hormonal, nutrisyonel) olabilir. Önce sebep araştırılıp tedavi edilmelidir." }
+        ]
+      },
+      "age": {
+        "eyebrow": "YAŞ VE SAÇ EKİMİ",
+        "title": "Yaş ve Saç Ekimi",
+        "items": [
+          { "range": "18 altı", "status": "Yapılmaz", "detail": "Dökülme paterni belirsiz; erken ekim ilerleyen dönemde ek prosedür gerektirebilir." },
+          { "range": "18–24", "status": "Dikkatli değerlendirme", "detail": "Genetik risk ve dökülme progresyonu önemlidir. Seçici vakalarda yapılabilir." },
+          { "range": "25 ve üzeri", "status": "Genellikle uygun", "detail": "Dökülme stabil, planlama daha güvenilir. Donor alan ve genel sağlık uygunsa idealdir." },
+          { "range": "Üst yaş", "status": "Sınır yok", "detail": "Donor alan yeterliliği ve genel sağlık durumu uygunsa yaş üst sınırı teşkil etmez." }
+        ]
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+          { "q": "Saç ekimi kimler için uygun değildir?", "a": "Aktif alopesi areata, yetersiz donor alanı, 18 yaş altı, kontrolsüz kronik hastalıklar (diyabet, kalp hastalığı), kan pıhtılaşma bozukluğu, aktif cilt hastalıkları ve gerçekçi olmayan beklentiye sahip bireyler için saç ekimi uygun olmayabilir. Kesin karar uzman değerlendirmesiyle verilir." },
+          { "q": "Saç ekiminde yaş sınırı var mıdır?", "a": "18 yaş altında saç ekimi yapılmaz; dökülme paterni henüz stabilize olmamıştır. 25 yaş üzeri genellikle ideal başlangıç kabul edilir. Üst yaş sınırı yoktur; donor alan yeterliliği ve genel sağlık durumu belirleyicidir." },
+          { "q": "Diyabetliler saç ekimi olabilir mi?", "a": "Kontrollü diyabeti olan hastalar, doktor onayı ve uygun kan şekeri düzeyiyle değerlendirilebilir. Kontrolsüz diyabet ise yara iyileşmesini olumsuz etkileyeceğinden saç ekimi uygun olmayabilir." },
+          { "q": "Kadınlar saç ekimi olabilir mi?", "a": "Evet. Ludwig tipi seyrelme, travma veya yanık sonrası saç kaybı yaşayan kadınlar uygun aday olabilir. Diffüz (yaygın) dökülme durumunda ise önce altta yatan nedenin tespit edilip tedavi edilmesi gerekir." },
+          { "q": "Alopesi areata saç ekimi olabilir mi?", "a": "Aktif alopesi areata varlığında saç ekimi önerilmez; otoimmün reaksiyon ekilen greftleri de etkileyebilir. Uzun süreli stabil seyir gösteren vakalarda bireysel değerlendirme yapılabilir." }
+        ]
+      },
+      "cta": {
+        "title": "Size Uygun Olup Olmadığını Öğrenin",
+        "lede": "Ücretsiz saç analizi ile uygunluk durumunuzu değerlendirelim. Fotoğrafınızı gönderin, uzman ekibimiz 24 saat içinde dönüş yapsın.",
+        "primary": "Ücretsiz Saç Analizi",
+        "secondary": "Saç Ekimi Hakkında",
+        "trustFree": "Ücretsiz",
+        "trustNonBinding": "Bağlayıcı değil",
+        "trust24h": "24 saat içinde dönüş"
+      },
+      "disclaimer": "Bu sayfa genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Uygunluk değerlendirmesi için mutlaka uzman hekim konsültasyonu alınız. Bireysel sonuçlar değişkenlik gösterebilir.",
+      "schema": {
+        "name": "Saç Ekimi Kontrendikasyonları",
+        "description": "Saç ekiminin uygun olmadığı tıbbi durumlar, yaş sınırları ve beklenti değerlendirmesi"
+      }
+    },
+    "caseDhiBeard": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "results": "Öncesi Sonrası",
+        "current": "DHI Sakal 1.800 Greft"
+      },
+      "hero": {
+        "eyebrow": "VAKA ÇALIŞMASI",
+        "title": "DHI Sakal Ekimi —",
+        "titleAccent": "1.800 Greft Sakal Yoğunlaştırma",
+        "subtitle": "29 yaşında erkek hasta. Çene ve yanak bölgesi. 10 ay takip."
+      },
+      "profile": {
+        "title": "Hasta Profili",
+        "ageLabel": "Yaş",
+        "ageValue": "29",
+        "genderLabel": "Cinsiyet",
+        "genderValue": "Erkek",
+        "procedureLabel": "Uygulama",
+        "procedureValue": "Sakal Yoğunlaştırma",
+        "techniqueLabel": "Teknik",
+        "techniqueValue": "DHI (Choi Kalemi)",
+        "graftsLabel": "Greft",
+        "graftsValue": "1.800",
+        "followUpLabel": "Takip",
+        "followUpValue": "10 Ay"
+      },
+      "media": {
+        "title": "Öncesi ve Sonrası Görseller",
+        "placeholder": "Hasta Fotoğrafı — İzinle Yayınlanacak",
+        "consent": "Tüm görseller hasta yazılı onamıyla yayınlanmaktadır."
+      },
+      "recovery": {
+        "title": "İyileşme Süreci",
+        "s1": {
+          "title": "Operasyon",
+          "desc": "Lokal anestezi altında 3-5 saat DHI işlemi. Aynı gün taburcu."
+        },
+        "s2": {
+          "title": "1–2 Hafta",
+          "desc": "Küçük kabuklanmalar ve hafif kızarıklık. Beklenen süreç."
+        },
+        "s3": {
+          "title": "3 Ay",
+          "desc": "Yeni sakal telleri çıkmaya başlar. İnce, tüy kıvamında."
+        },
+        "s4": {
+          "title": "10 Ay",
+          "desc": "Nihai sonuç. Doğal görünümlü, yoğun sakal çizgisi."
+        }
+      },
+      "result": {
+        "title": "10 Aylık Sonuç",
+        "body": "Bu vakada hasta, 10 aylık takip süresinin sonunda çene ve yanak bölgesinde doğal görünümlü, homojen bir sakal yoğunluğu elde etmiştir. Choi kalemi ile uygulanan DHI tekniği, greftlerin doğal sakal büyüme yönüne uygun yerleştirilmesini sağlamış ve doğallık açısından beklentileri karşılamıştır. Bireysel sonuçlar değişkenlik gösterebilir.",
+        "disclaimer": "Bu vaka çalışması genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir."
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": {
+          "question": "DHI sakal ekimi kaç saat sürer?",
+          "answer": "1.800 greft ölçeğindeki bir DHI sakal ekimi operasyonu genellikle 3-5 saat sürer. Choi kalemi ile yapılan bu işlemde greft alımı ve yerleştirme aynı seansta tamamlanır. İşlem lokal anestezi altında gerçekleştirilir ve aynı gün taburcu olunur."
+        },
+        "q2": {
+          "question": "Sakal ekiminde kaç greft gerekir?",
+          "answer": "Yoğunlaştırma amacıyla yapılan sakal ekimlerinde tipik olarak 1.000–2.500 greft yeterlidir. Çıplak alandan sıfırdan tam sakal oluşturmak için ise 3.000–4.000 greft gerekebilir. Kesin sayı; mevcut sakal yoğunluğuna, hedeflenen görünüme ve donör bölge kapasitesine göre bireysel olarak belirlenir."
+        },
+        "q3": {
+          "question": "Sakal ekiminde sonuçlar doğal görünür mü?",
+          "answer": "Evet. DHI tekniğinde kullanılan Choi kalemi, greftlerin 30–45 derece açıyla ve doğal sakal büyüme yönünde yerleştirilmesine olanak tanır. Bu hassasiyet, doğal görünümlü ve doku dokusuyla uyumlu bir sonuç elde edilmesini sağlar. Deneyimli ekip uygulamasında sonuçlar doğal sakaldan ayırt edilemez düzeyde olabilir."
+        }
+      },
+      "cta": {
+        "title": "Benzer Sonuç İster Misiniz?",
+        "body": "Sakal ekimi için ücretsiz analiz randevusu alın, size özel tedavi planı oluşturalım.",
+        "primary": "Ücretsiz Analiz",
+        "secondary": "Tüm Vakalar"
+      },
+      "schema": {
+        "procedureName": "DHI Sakal Ekimi — 1.800 Greft Sakal Yoğunlaştırma",
+        "procedureDescription": "29 yaşında erkek hastada çene ve yanak bölgesinde DHI tekniği ile 1.800 greft sakal yoğunlaştırma uygulanmıştır.",
+        "howPerformed": "Lokal anestezi altında DHI tekniği, Choi kalemi ile"
+      }
+    },
+    "caseFue": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "results": "Öncesi Sonrası",
+        "current": "FUE 3.200 Greft"
+      },
+      "hero": {
+        "eyebrow": "VAKA ÇALIŞMASI",
+        "title": "FUE Saç Ekimi —",
+        "titleAccent": "3.200 Greft Ön Hat Restorasyonu",
+        "subtitle": "34 yaşında erkek hasta. Norwood III. 12 ay takip."
+      },
+      "profile": {
+        "title": "Hasta Profili",
+        "ageLabel": "Yaş",
+        "ageValue": "34",
+        "genderLabel": "Cinsiyet",
+        "genderValue": "Erkek",
+        "norwoodLabel": "Norwood Evresi",
+        "norwoodValue": "III",
+        "techniqueLabel": "Teknik",
+        "techniqueValue": "FUE",
+        "graftsLabel": "Greft Sayısı",
+        "graftsValue": "3.200",
+        "followUpLabel": "Takip Süresi",
+        "followUpValue": "12 Ay"
+      },
+      "media": {
+        "title": "Öncesi ve Sonrası Görseller",
+        "placeholder": "Hasta Fotoğrafı — İzinle Yayınlanacak",
+        "consent": "Tüm görseller hasta yazılı onamıyla yayınlanmaktadır."
+      },
+      "recovery": {
+        "title": "İyileşme Süreci",
+        "s1": {
+          "title": "Operasyon Günü",
+          "desc": "Lokal anestezi altında 5-6 saat işlem. Aynı gün taburcu."
+        },
+        "s2": {
+          "title": "1–2 Hafta",
+          "desc": "Şok dökülmesi başlar. Normaldir, endişe gerektirmez."
+        },
+        "s3": {
+          "title": "3–4 Ay",
+          "desc": "İlk yeni saç çıkışları görülür. İnce tüy kıvamında teller."
+        },
+        "s4": {
+          "title": "12 Ay",
+          "desc": "Nihai, kalıcı sonuç. Tam yoğunluk ve doğal görünüm."
+        }
+      },
+      "result": {
+        "title": "12 Aylık Sonuç",
+        "body": "Bu vakada hasta, 12 aylık takip süresinin sonunda ön hat bölgesinde doğal görünümlü, yoğun bir saç çizgisi elde etmiştir. Norwood III evresi için planlanan 3.200 greft, donör bölge kapasitesiyle tam uyum içinde uygulanmış; iyileşme süreci beklentiler dahilinde ilerlemiştir. Bireysel sonuçlar değişkenlik gösterebilir.",
+        "disclaimer": "Bu vaka çalışması genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir."
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": {
+          "question": "FUE ile 3.200 greft kaç saat sürer?",
+          "answer": "3.200 greft ölçeğindeki bir FUE operasyonu genellikle 5-6 saat sürer. Bu süre donör bölgeden greft alımı, kanal açma ve greftlerin yerleştirilmesi aşamalarını kapsar. İşlem lokal anestezi altında gerçekleştirilir ve aynı gün taburcu olunur."
+        },
+        "q2": {
+          "question": "Norwood III'te kaç greft gerekir?",
+          "answer": "Norwood III sınıfı saç dökülmesinde tipik olarak 2.500–3.500 greft gerekir. Kesin sayı; saç dökülmesinin yaygınlığına, kişinin hedeflediği yoğunluğa ve donör bölge kapasitesine göre değişir. Bu nedenle her hasta için bireysel konsültasyon zorunludur."
+        },
+        "q3": {
+          "question": "FUE sonuçları ne zaman görülür?",
+          "answer": "FUE operasyonundan sonra 3-4. ayda ilk yeni saç çıkışları başlar; bu dönemde ince, tüy kıvamında teller görülür. 6. ayda belirgin yoğunlaşma hissedilir. Nihai, kalıcı sonuç 12–18 ayda tamamlanır. Şok dökülmesi yaşanması normaldir ve endişe gerektirmez."
+        }
+      },
+      "cta": {
+        "title": "Benzer Sonuç İster Misiniz?",
+        "body": "Saç dökülme durumunuzu ücretsiz analiz edelim, size özel tedavi planı oluşturalım.",
+        "primary": "Ücretsiz Saç Analizi",
+        "secondary": "Tüm Vakalar"
+      },
+      "schema": {
+        "procedureName": "FUE Saç Ekimi — 3.200 Greft Ön Hat Restorasyonu",
+        "procedureDescription": "34 yaşında erkek hastada Norwood III sınıfı saç dökülmesine FUE tekniği ile 3.200 greft ön hat restorasyonu uygulanmıştır.",
+        "howPerformed": "Lokal anestezi altında FUE tekniği ile"
+      }
+    },
+    "caseBrow": {
+      "breadcrumb": {
+        "home": "Ana Sayfa",
+        "results": "Öncesi Sonrası",
+        "current": "Kaş Restorasyonu 400 Greft"
+      },
+      "hero": {
+        "eyebrow": "VAKA ÇALIŞMASI",
+        "title": "Kaş Ekimi —",
+        "titleAccent": "400 Greft Kaş Restorasyonu",
+        "subtitle": "38 yaşında kadın hasta. Simetri düzeltme ve doğal kavis oluşturma. 8 ay takip."
+      },
+      "profile": {
+        "title": "Hasta Profili",
+        "ageLabel": "Yaş",
+        "ageValue": "38",
+        "genderLabel": "Cinsiyet",
+        "genderValue": "Kadın",
+        "procedureLabel": "Uygulama",
+        "procedureValue": "Kaş Restorasyonu",
+        "techniqueLabel": "Teknik",
+        "techniqueValue": "Mikro Greft",
+        "graftsLabel": "Greft",
+        "graftsValue": "400 (200+200)",
+        "followUpLabel": "Takip",
+        "followUpValue": "8 Ay"
+      },
+      "media": {
+        "title": "Öncesi ve Sonrası Görseller",
+        "placeholder": "Hasta Fotoğrafı — İzinle Yayınlanacak",
+        "consent": "Tüm görseller hasta yazılı onamıyla yayınlanmaktadır."
+      },
+      "recovery": {
+        "title": "İyileşme Süreci",
+        "s1": {
+          "title": "Operasyon",
+          "desc": "Lokal anestezi altında 2-3 saat işlem. Aynı gün taburcu."
+        },
+        "s2": {
+          "title": "1–2 Hafta",
+          "desc": "Hafif kızarıklık ve kabuklanma. Kaş bölgesinde normal iyileşme."
+        },
+        "s3": {
+          "title": "2–3 Ay",
+          "desc": "Şok dökülmesi ardından ilk yeni kaş telleri çıkmaya başlar."
+        },
+        "s4": {
+          "title": "8 Ay",
+          "desc": "Nihai sonuç. Doğal kavis ve simetri tamamlanır."
+        }
+      },
+      "result": {
+        "title": "8 Aylık Sonuç",
+        "body": "Bu vakada hasta, 8 aylık takip süresinin sonunda her iki kaşta dengeli dağılım, doğal kavis ve simetri elde etmiştir. Her kaşa 200'er greft yerleştirilerek planlanan şekil korunmuş, iyileşme süreci beklentiler dahilinde ilerlemiştir. Bireysel sonuçlar değişkenlik gösterebilir.",
+        "disclaimer": "Bu vaka çalışması genel bilgilendirme amaçlıdır ve tıbbi tavsiye yerine geçmez. Bireysel sonuçlar değişkenlik gösterebilir."
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "q1": {
+          "question": "Kaş ekimi kaç saat sürer?",
+          "answer": "400 greft ölçeğindeki bir kaş ekimi operasyonu genellikle 2-3 saat sürer. İşlem, her iki kaşa eşit greft dağılımı planlanarak lokal anestezi altında gerçekleştirilir ve aynı gün taburcu olunur."
+        },
+        "q2": {
+          "question": "Kaş ekiminde kaç greft gerekir?",
+          "answer": "Tek kaş restorasyonunda tipik olarak 150–350 greft yeterlidir. Her iki kaş için toplam 300–700 greft gerekebilir. Kesin sayı; mevcut kaş yoğunluğuna, kaybedilen alanın büyüklüğüne ve istenen kavis şekline göre bireysel olarak belirlenir."
+        },
+        "q3": {
+          "question": "Kaş ekiminde sonuçlar doğal görünür mü?",
+          "answer": "Evet. Kaş ekiminde greftler 10–15 derece açıyla, doğal kaş büyüme yönünde yerleştirilir. Bu hassas açılama, elde edilen kaşların kıl dokusu ve yönüyle doğal kaşlardan ayırt edilemez görünmesini sağlar. Deneyimli uygulamalarda simetri ve kavis tatmin edici sonuçlar verir."
+        }
+      },
+      "cta": {
+        "title": "Benzer Sonuç İster Misiniz?",
+        "body": "Kaş ekimi için ücretsiz analiz randevusu alın, size özel tedavi planı oluşturalım.",
+        "primary": "Ücretsiz Analiz",
+        "secondary": "Tüm Vakalar"
+      },
+      "schema": {
+        "procedureName": "Kaş Restorasyonu — 400 Greft",
+        "procedureDescription": "38 yaşında kadın hastada simetri düzeltme ve doğal kavis oluşturma amacıyla mikro greft tekniği ile 400 greft kaş restorasyonu uygulanmıştır.",
+        "howPerformed": "Lokal anestezi altında mikro greft tekniği"
+      }
+    },
+    "kvkk": {
+      "header": {
+        "eyebrow": "YASAL",
+        "title": "KVKK Aydınlatma Metni",
+        "regulationLine": "6698 Sayılı Kişisel Verilerin Korunması Kanunu Kapsamında",
+        "date": "14 Nisan 2026",
+        "backHome": "Ana Sayfa"
+      },
+      "controller": {
+        "title": "1. Veri Sorumlusu",
+        "bodyBefore": "6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") uyarınca kişisel verileriniz; veri sorumlusu sıfatıyla ",
+        "company": "Altınsoy Hair Clinic",
+        "bodyAfter": " tarafından aşağıda açıklanan kapsamda işlenecektir."
+      },
+      "purposes": {
+        "title": "2. Kişisel Verilerin İşlenme Amacı",
+        "intro": "Kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:",
+        "list": [
+          "Saç ekimi konsültasyonu hizmetinin sunulması",
+          "Kişiye özel tedavi planlamasının yapılması",
+          "Randevu yönetimi ve hasta iletişiminin sağlanması",
+          "Operasyon öncesi ve sonrası süreçlerin yönetilmesi",
+          "Yasal yükümlülüklerin yerine getirilmesi"
+        ]
+      },
+      "dataTypes": {
+        "title": "3. İşlenen Kişisel Veriler",
+        "identity": {
+          "label": "Kimlik Verileri",
+          "body": "Ad, soyad"
+        },
+        "contact": {
+          "label": "İletişim Verileri",
+          "body": "E-posta adresi, telefon numarası"
+        },
+        "health": {
+          "label": "Sağlık Verileri (Özel Nitelikli)",
+          "body": "Saç dökülme profili ve evresi, fotoğraf (analiz amacıyla gönderilmesi halinde). Bu veriler KVKK kapsamında özel nitelikli kişisel veri olup yalnızca açık rızanızla işlenmektedir."
+        }
+      },
+      "transfer": {
+        "title": "4. Kişisel Verilerin Aktarılması",
+        "body": "Kişisel verileriniz, yasal yükümlülükler kapsamında yetkili kamu kurum ve kuruluşlarına aktarılabilir. Yurt dışına veri aktarımı yapılmamaktadır. Üçüncü kişi hizmet tedarikçileriyle paylaşım yalnızca veri işleme sözleşmesi imzalanmış ve KVKK uyumlu tedarikçilerle gerçekleştirilir."
+      },
+      "collection": {
+        "title": "5. Kişisel Veri Toplamanın Yöntemi ve Hukuki Sebebi",
+        "method": {
+          "label": "Toplama Yöntemi",
+          "body": "Kişisel verileriniz; web sitemizdeki konsültasyon ve iletişim formları, WhatsApp iletişimi ve e-posta aracılığıyla otomatik veya manüel yollarla toplanmaktadır."
+        },
+        "legalBasis": {
+          "label": "Hukuki Sebep",
+          "bodyParts": [
+            "KVKK md. 5/2-a kapsamında ",
+            "açık rıza",
+            " ve md. 5/2-c kapsamında ",
+            "sözleşmenin ifası",
+            " hukuki sebeplerine dayanılmaktadır. Özel nitelikli sağlık verileri yalnızca açık rızanızla işlenmektedir."
+          ]
+        }
+      },
+      "rights": {
+        "title": "6. İlgili Kişi Hakları (KVKK md. 11)",
+        "intro": "KVKK'nın 11. maddesi uyarınca aşağıdaki haklara sahipsiniz:",
+        "list": [
+          "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+          "İşlenmişse buna ilişkin bilgi talep etme",
+          "İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme",
+          "Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme",
+          "Eksik veya yanlış işlenmiş verilerin düzeltilmesini isteme",
+          "Kanunda öngörülen koşullar çerçevesinde verilerin silinmesini veya yok edilmesini isteme",
+          "Düzeltme, silme ve yok etme işlemlerinin üçüncü kişilere bildirilmesini isteme",
+          "İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonuç ortaya çıkmasına itiraz etme",
+          "Kanuna aykırı işleme nedeniyle zarara uğramanız halinde zararın giderilmesini talep etme"
+        ]
+      },
+      "application": {
+        "title": "7. Başvuru",
+        "intro": "Yukarıda belirtilen haklarınızı kullanmak için aşağıdaki kanallardan başvurabilirsiniz:",
+        "emailLabel": "E-posta:",
+        "emailValue": "info@altinsoy.com",
+        "mailLabel": "Yazılı posta:",
+        "mailValue": "Altınsoy Hair Clinic adresine ıslak imzalı dilekçe",
+        "noteParts": [
+          "Başvurularınız, niteliğine göre en geç ",
+          "30 gün",
+          " içinde sonuçlandırılacaktır."
+        ]
+      },
+      "footerLinks": {
+        "privacy": "Gizlilik Politikası",
+        "cookies": "Çerez Politikası"
+      }
+    },
+    "privacy": {
+      "header": {
+        "eyebrow": "YASAL",
+        "title": "Gizlilik Politikası",
+        "updated": "Son güncelleme: 14 Nisan 2026",
+        "backHome": "Ana Sayfa"
+      },
+      "controller": {
+        "title": "1. Veri Sorumlusu",
+        "companyLabel": "Ticaret Unvanı:",
+        "companyValue": "Altınsoy Hair Clinic",
+        "emailLabel": "E-posta:",
+        "emailValue": "info@altinsoy.com",
+        "phoneLabel": "Telefon:",
+        "phoneValue": "+90 553 978 42 42"
+      },
+      "dataCollected": {
+        "title": "2. Toplanan Kişisel Veriler",
+        "intro": "Web sitemiz aracılığıyla aşağıdaki kişisel veriler toplanabilir:",
+        "list": [
+          "Ad ve soyad",
+          "E-posta adresi",
+          "Telefon numarası",
+          "Fotoğraf (opsiyonel — analiz için gönderilmesi halinde)",
+          "Saç dökülme durumu ve profili (konsültasyon formu aracılığıyla)"
+        ]
+      },
+      "purposes": {
+        "title": "3. Veri İşleme Amaçları",
+        "intro": "Toplanan kişisel veriler aşağıdaki amaçlarla işlenmektedir:",
+        "list": [
+          "Konsültasyon taleplerinin değerlendirilmesi ve yanıtlanması",
+          "Kişiye özel saç ekimi tedavi planının hazırlanması",
+          "Randevu ve iletişim yönetimi",
+          "Hasta bilgilendirme ve takip süreçleri",
+          "Yasal yükümlülüklerin yerine getirilmesi"
+        ]
+      },
+      "legalBasis": {
+        "title": "4. Hukuki Dayanak",
+        "consent": {
+          "label": "KVKK md. 5/2-a — Açık Rıza:",
+          "body": "Hasta fotoğrafı ve sağlık verisi gibi özel nitelikli kişisel veriler, ilgili kişinin açık rızası ile işlenmektedir."
+        },
+        "contract": {
+          "label": "KVKK md. 5/2-c — Sözleşme:",
+          "body": "Konsültasyon ve tedavi sürecine ilişkin veriler, hizmet sözleşmesinin ifası için zorunlu olduğu ölçüde işlenmektedir."
+        }
+      },
+      "sharing": {
+        "title": "5. Veri Paylaşımı",
+        "body": "Kişisel verileriniz üçüncü taraflara satılmaz, kiralanmaz veya ticari amaçla paylaşılmaz. Verileriniz yalnızca yasal yükümlülük kapsamında yetkili kamu kurumlarıyla ve açık rızanızın bulunduğu durumlarda hizmet tedarikçilerimizle paylaşılabilir."
+      },
+      "retention": {
+        "title": "6. Saklama Süresi",
+        "bodyParts": [
+          "Kişisel verileriniz, aktif hasta ilişkisi süresince ve bu ilişkinin sona ermesinin ardından yasal zorunluluk gereği ",
+          "10 yıl",
+          " daha saklanır. Bu sürenin dolmasının ardından veriler güvenli biçimde imha edilir."
+        ]
+      },
+      "rights": {
+        "title": "7. Haklarınız",
+        "intro": "KVKK kapsamında aşağıdaki haklara sahipsiniz:",
+        "list": [
+          "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+          "İşleniyorsa buna ilişkin bilgi talep etme",
+          "Yanlış veya eksik verilerin düzeltilmesini isteme",
+          "Belirli koşullar altında verilerin silinmesini talep etme",
+          "İşleme itiraz etme",
+          "Veri taşınabilirliği hakkı"
+        ]
+      },
+      "contact": {
+        "title": "8. İletişim",
+        "body": "Gizlilik politikamız veya kişisel verilerinize ilişkin talepleriniz için:",
+        "email": "info@altinsoy.com"
+      },
+      "footerLinks": {
+        "cookies": "Çerez Politikası",
+        "kvkk": "KVKK Aydınlatma Metni"
+      }
+    },
+    "cookies": {
+      "header": {
+        "eyebrow": "YASAL",
+        "title": "Çerez Politikası",
+        "updated": "Son güncelleme: 14 Nisan 2026",
+        "backHome": "Ana Sayfa"
+      },
+      "what": {
+        "title": "1. Çerez Nedir?",
+        "body": "Çerezler, bir web sitesini ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza kaydedilen küçük metin dosyalarıdır. Sitenin düzgün çalışması, tercihlerinizin hatırlanması ve kullanım deneyiminin iyileştirilmesi amacıyla kullanılırlar. Çerezler kişisel bilgilerinizi doğrudan toplamaz; yalnızca tarayıcı ve cihaz kimliğine dayalı anonim veriler içerebilir."
+      },
+      "types": {
+        "title": "2. Kullanılan Çerez Türleri",
+        "table": {
+          "headers": {
+            "cookie": "Çerez",
+            "provider": "Sağlayıcı",
+            "purpose": "Amaç",
+            "duration": "Süre"
+          },
+          "rows": [
+            {
+              "name": "cookie-consent",
+              "provider": "altinsoy.com",
+              "purpose": "Çerez onay tercihini saklar",
+              "duration": "1 yıl"
+            },
+            {
+              "name": "_ga",
+              "provider": "Google Analytics",
+              "purpose": "Anonim kullanım analizi (ziyaretçi ayırt etme)",
+              "duration": "2 yıl"
+            },
+            {
+              "name": "_gid",
+              "provider": "Google Analytics",
+              "purpose": "Anonim kullanım analizi (oturum bazlı)",
+              "duration": "1 gün"
+            },
+            {
+              "name": "Performans çerezleri",
+              "provider": "altinsoy.com",
+              "purpose": "Sayfa yüklenme hızı ölçümü",
+              "duration": "Oturum"
+            }
+          ]
+        },
+        "categories": {
+          "essential": {
+            "title": "Zorunlu Çerezler",
+            "bodyParts": [
+              "Sitenin temel işlevlerinin çalışması için zorunludur. Çerez onayı tercihiniz (",
+              "cookie-consent",
+              ") bu kategoride yer alır. Bu çerezler devre dışı bırakılamaz."
+            ]
+          },
+          "analytics": {
+            "title": "Analitik Çerezler",
+            "bodyParts": [
+              "Google Analytics tarafından sağlanan ",
+              "_ga",
+              " ve ",
+              "_gid",
+              " çerezleri, hangi sayfaların ziyaret edildiğini ve sitenin nasıl kullanıldığını anonim biçimde ölçer. Kişisel kimlik bilgisi içermez."
+            ]
+          },
+          "performance": {
+            "title": "Performans Çerezleri",
+            "body": "Sayfa yüklenme sürelerini ve teknik performansı ölçmek amacıyla kullanılır. Bu veriler sitenin hızını artırmak için kullanılır ve kişisel veri içermez."
+          }
+        }
+      },
+      "control": {
+        "title": "3. Çerezleri Nasıl Kontrol Edebilirsiniz?",
+        "p1": "Sitemizi ilk ziyaret ettiğinizde çerez onay seçeneklerini içeren bir bildirim gösterilir. Tercihlerinizi dilediğiniz zaman değiştirebilirsiniz. Ayrıca tarayıcı ayarlarınız aracılığıyla çerezleri tamamen reddedebilir veya mevcut çerezleri silebilirsiniz.",
+        "p2": "Çerezleri reddetmeniz sitenin temel işlevlerini etkilemeyebilir; ancak analitik ve performans ölçümü çalışmayacaktır."
+      },
+      "disable": {
+        "title": "4. Çerezleri Devre Dışı Bırakma",
+        "intro": "Tarayıcınızın ayarlar menüsünden çerezleri yönetebilirsiniz:",
+        "browsers": {
+          "chrome": {
+            "label": "Google Chrome:",
+            "body": "Ayarlar → Gizlilik ve güvenlik → Çerezler ve diğer site verileri"
+          },
+          "firefox": {
+            "label": "Mozilla Firefox:",
+            "body": "Ayarlar → Gizlilik ve Güvenlik → Çerezler ve Site Verileri"
+          },
+          "safari": {
+            "label": "Safari:",
+            "body": "Tercihler → Gizlilik → Çerezleri ve web sitesi verilerini yönet"
+          }
+        },
+        "note": "Çerezleri tamamen devre dışı bırakmanız durumunda bazı site özellikleri beklendiği gibi çalışmayabilir."
+      },
+      "contact": {
+        "title": "5. İletişim",
+        "body": "Çerez politikamız hakkında sorularınız için:",
+        "email": "info@altinsoy.com"
+      },
+      "footerLinks": {
+        "privacy": "Gizlilik Politikası",
+        "kvkk": "KVKK Aydınlatma Metni"
+      }
+    }
+  }
+}
