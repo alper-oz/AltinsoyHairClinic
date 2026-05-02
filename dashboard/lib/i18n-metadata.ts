@@ -4,7 +4,15 @@ import { routing } from "@/i18n/routing";
 
 type Locale = (typeof routing.locales)[number];
 
-const SITE_URL = "https://altinsoy.com";
+/**
+ * Production canonical URL.
+ * - `NEXT_PUBLIC_SITE_URL` set ise (custom domain bağlandıktan sonra) onu kullan.
+ * - Değilse Vercel'in otomatik enjekte ettiği `VERCEL_URL`'e düş (preview deploy'larda).
+ * - Local development'ta her ikisi de yoksa altinsoy.com placeholder.
+ */
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://altinsoy.com");
 
 /**
  * Locale-aware metadata builder.
