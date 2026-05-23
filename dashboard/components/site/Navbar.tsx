@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, useRouter, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import ThemeToggle from "./ThemeToggle";
 
 type RouteHref = "/sac-ekimi" | "/oncesi-sonrasi" | "/fiyat" | "/iletisim";
 type HashHref = "#teknikler" | "#sss";
@@ -122,7 +121,6 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
-          <ThemeToggle />
           <button
             onClick={() => setMobileOpen((o) => !o)}
             className="md:hidden text-primary p-2 flex items-center justify-center"

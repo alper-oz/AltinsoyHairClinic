@@ -46,12 +46,6 @@ export default async function RootLayout({
       className={`${notoSerif.variable} ${manrope.variable} ${notoSansArabic.variable} h-full`}
     >
       <head>
-        {/* Anti-flash: tema kararı React hidrasyon öncesinde uygulanır */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('altinsoy-theme');if(!t){t=window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark';}if(t==='light'){document.documentElement.setAttribute('data-theme','light');}}catch(e){}})();`,
-          }}
-        />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"

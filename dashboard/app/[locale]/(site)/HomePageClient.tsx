@@ -167,7 +167,7 @@ const RECOVERY_COLORS: Record<typeof RECOVERY_KEYS[number], string> = {
   p2: "#a78bfa",
   p3: "#f59e0b",
   p4: "#34d399",
-  p5: "#e9c176",
+  p5: "#B5654D",
 };
 
 const INTL_SERVICE_KEYS = ["consult", "transfer", "hotel", "duration", "support", "remote"] as const;
@@ -352,7 +352,7 @@ export default function HomePage({ hero, cases = [], faqs = [] }: { hero?: HeroC
                     <div className="flex items-center gap-4 md:flex-col md:items-start md:gap-3">
                       <div className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 relative z-10"
                         style={{ background: "rgba(233,193,118,0.1)", border: "1px solid rgba(233,193,118,0.3)" }}>
-                        <span className="material-symbols-outlined text-[18px]" style={{ color: "#e9c176" }}>{PROCESS_ICONS[stepKey]}</span>
+                        <span className="material-symbols-outlined text-[18px]" style={{ color: "#B5654D" }}>{PROCESS_ICONS[stepKey]}</span>
                       </div>
                       <span className="font-headline text-5xl md:text-6xl" style={{ color: "rgba(233,193,118,0.12)", lineHeight: 1 }}>{num}</span>
                     </div>
@@ -604,7 +604,7 @@ export default function HomePage({ hero, cases = [], faqs = [] }: { hero?: HeroC
       )}
 
       {/* ═══ ULUSLARARASI HASTALAR ═══ */}
-      <section className="py-32 px-6 md:px-12" style={{ background: "#0a0908" }}>
+      <section className="py-32 px-6 md:px-12 bg-[#3A2E28] text-[#F3EBE4]">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-start">
 
@@ -612,19 +612,19 @@ export default function HomePage({ hero, cases = [], faqs = [] }: { hero?: HeroC
             <div className="reveal space-y-8">
               <div>
                 <span className="text-primary font-label tracking-widest uppercase text-sm block mb-4">{t("international.eyebrow")}</span>
-                <h2 className="font-headline text-4xl md:text-5xl leading-tight">
+                <h2 className="font-headline text-4xl md:text-5xl leading-tight text-[#F3EBE4]">
                   {t("international.titleLine1")}<br /><span className="italic">{t("international.titleAccent")}</span><br />{t("international.titleLine2")}
                 </h2>
               </div>
-              <p className="text-on-surface/60 text-sm leading-relaxed max-w-sm">
+              <p className="text-[#F3EBE4]/60 text-sm leading-relaxed max-w-sm">
                 {t("international.body")}
               </p>
               <div className="flex items-center gap-3 pt-2">
-                <span className="text-[10px] font-label tracking-widest uppercase text-on-surface/40">{t("international.languageLabel")}</span>
+                <span className="text-[10px] font-label tracking-widest uppercase text-[#F3EBE4]/40">{t("international.languageLabel")}</span>
                 <div className="flex gap-2">
                   {["TR", "EN", "AR", "DE"].map(lang => (
                     <span key={lang} className="text-[10px] font-label tracking-widest px-2 py-0.5 rounded"
-                      style={{ background: "rgba(233,193,118,0.08)", color: "rgba(233,193,118,0.7)", border: "1px solid rgba(233,193,118,0.15)" }}>
+                      style={{ background: "rgba(181,101,77,0.12)", color: "rgba(243,235,228,0.7)", border: "1px solid rgba(181,101,77,0.25)" }}>
                       {lang}
                     </span>
                   ))}
@@ -642,11 +642,11 @@ export default function HomePage({ hero, cases = [], faqs = [] }: { hero?: HeroC
               {INTL_SERVICE_KEYS.map((serviceKey) => (
                 <div key={serviceKey}
                   className="p-5 rounded-xl flex gap-4 items-start transition-all duration-300"
-                  style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(78,70,57,0.2)" }}>
-                  <span className="material-symbols-outlined text-[22px] flex-shrink-0 mt-0.5" style={{ color: "#e9c176" }}>{INTL_SERVICE_ICONS[serviceKey]}</span>
+                  style={{ background: "rgba(243,235,228,0.06)", border: "1px solid rgba(243,235,228,0.12)" }}>
+                  <span className="material-symbols-outlined text-[22px] flex-shrink-0 mt-0.5 text-primary">{INTL_SERVICE_ICONS[serviceKey]}</span>
                   <div>
-                    <p className="font-headline text-sm mb-1.5 text-on-surface">{t(`international.services.${serviceKey}.title`)}</p>
-                    <p className="text-sm text-on-surface/55 leading-relaxed">{t(`international.services.${serviceKey}.desc`)}</p>
+                    <p className="font-headline text-sm mb-1.5 text-[#F3EBE4]">{t(`international.services.${serviceKey}.title`)}</p>
+                    <p className="text-sm text-[#F3EBE4]/55 leading-relaxed">{t(`international.services.${serviceKey}.desc`)}</p>
                   </div>
                 </div>
               ))}
